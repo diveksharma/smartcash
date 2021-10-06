@@ -1,0 +1,52 @@
+    <div class="relative flex items-top justify-center min-h-screen sm:items-center sm:pt-0">
+        <div v-if="canLogin" class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+            <Link v-if="$page.props.auth.user" href="/dashboard" class="text-sm text-gray-700 underline">
+                Dashboard
+            </Link>
+
+            <template v-else>
+                <Link :href="route('login')" class="text-sm text-gray-700 underline">
+                    Log in
+                </Link>
+
+                <Link v-if="canRegister" :href="route('register')" class="ml-4 text-sm text-gray-700 underline">
+                    Register
+                </Link>
+            </template>
+        </div>
+
+
+
+    <div class="pt-10 bg-gradient-to-b from-indigo-400 to-gray-50 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+        <div class="mx-auto max-w-7xl lg:px-26">
+          <div class="lg:grid lg:grid-cols-2 lg:gap-16">
+            <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
+              <div class="lg:py-24">
+               <div class="text-left leading-3">
+                <h1 class="bg-clip-text lg:text-9xl text-7xl text-transparent font-bold bg-gradient-to-tr from-indigo-600 via-purple-500 to-pink-600">
+                  <span class="block leading-tight">Smart</span><span class="block leading-tight">Cash</span>
+                  <span class="block leading-tight ml-1 lg:text-7xl text-4xl font-semibold"></span>  <span class="block leading-tight ml-1 lg:text-7xl text-4xl font-semibold"></span>
+                </h1>
+               </div>
+<!--                 <div>
+                <h2 class="sr-only">Pris</h2>
+                <p class="mr-6">
+                    <span class="bg-clip-text text-9xl text-transparent font-bold bg-gradient-to-tr from-indigo-600 via-purple-500 to-pink-400">99</span> <span class="bg-clip-text text-5xl text-transparent font-bold bg-gradient-to-tr from-indigo-600 to-pink-400">kr/mån!</span>
+                    <span class="mt-2 text-base font-medium"> </span>
+                </p>
+                </div> -->
+                <!-- <p class="text-left mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.
+                </p> -->
+                <div class="mt-10 sm:mt-12">
+                </div>
+              </div>
+            </div>
+            <div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
+              <div class="mx-auto max-w-sm px-4 sm:max-w-xl sm:px-6 lg:max-w-none lg:px-0">
+                <img class="lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="devices1.png" alt="Devices">
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
