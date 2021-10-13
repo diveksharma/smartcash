@@ -50,3 +50,26 @@
           </div>
         </div>
     </div>
+
+
+
+      <main>
+      <div class="mx-auto lg:relative pt-10 sm:pt-12 lg:pt-0 lg:overflow-hidden">
+          <div class="mx-auto max-w-7xl lg:px-80 ml-12">
+            <div>
+              <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
+              </div>
+<!--               <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
+                <div class="sm:pl-0 md:-mr-auto lg:px-0 lg:m-0 lg:relative lg:h-full">
+                  <img class="transform scale-150 md:ml-7 mt-32" src="smart-cash-text.svg" alt="Smart Cash">
+                </div>
+              </div> -->
+            </div>
+          </div>
+<!--           <div class="mt-12 sm:mt-16 lg:mt-0 w-full">
+              <div class="sm:pl-0 md:-mr-auto lg:px-0 lg:m-0 lg:relative lg:h-full">
+                  <img class="transform rotate-180 mt-0" src="waves.svg" alt="wave">
+              </div>
+          </div> -->
+        </div>
+  </main>

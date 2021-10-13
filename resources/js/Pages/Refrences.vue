@@ -4,7 +4,7 @@
 
 <div class="bg-white">
   <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-    <p class="text-center text-4xl lg:text-6xl font-extra bold uppercase text-gray-900 tracking-wider">
+    <p class="text-center text-4xl lg:text-4xl font-extra bold uppercase text-gray-900 tracking-wider">
       REFERENSER
     </p>
     <div class="mt-6 grid grid-cols-2 gap-5 md:grid-cols-4 lg:mt-8">

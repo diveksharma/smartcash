@@ -3,9 +3,9 @@
   <homepage-layout>
     <div class="bg-white">
       <div class="max-w-7xl mx-auto py-16 px-4 lg:px-8">
-        <div class="text-center">
+        <div class="-ml-2 mt-16 ">
           <p class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">OM OSS</p>
-          <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Ett sympatiskt och kompetent gäng som sätter service till kunden före allt.</p>
+          <p class="max-w-xl ml-2 mt-5 mx-auto text-xl text-gray-500">Ett sympatiskt och kompetent gäng som sätter service till kunden före allt.</p>
         </div>
       </div>
     </div>

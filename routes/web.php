@@ -33,24 +33,30 @@ Route::get('/test', function () {
 })->name('test');
 
 Route::get('/omoss', function () {
-    return Inertia::render('OmOss');
-})->name('omoss');
+    return Inertia::render('Aboutus');
+})->name('aboutus');
 
-Route::get('/inlösenavtal', function () {
-    return Inertia::render ('Inlösenavtal');
-})->name('inlösenavtal');
+Route::get('/inlosenavtal', function () {
+    return Inertia::render ('Agreement');
+})->name('agreement');
 
 Route::get('/refrences', function () {
     return Inertia::render ('Refrences');
 })->name('refrences');
 
 Route::get('/kontakt', function () {
-    return Inertia::render ('Kontakt');
-})->name('kontakt');
+    return Inertia::render ('Contact');
+})->name('contact');
 
 Route::get('/erbjudande', function () {
     return Inertia::render ('Erbjudande');
 })->name('erbjudande');
+
+Route::get('/checkout', function () {
+    return Inertia::render ('Checkout');
+})->name('checkout');
+
+
 
 /* Route::get('/refrences', function () {
     return Inertia::render ('Refrences');
