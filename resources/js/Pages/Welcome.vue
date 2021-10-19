@@ -86,7 +86,7 @@
 
         <div>      
           <div class="ml-80 mt-12 leading-3">
-            <h1 class="lg:text-7xl text-8xl font-bold text-white">
+            <h1 class="lg:text-7xl text-8xl sm:text-left font-bold text-white">
               <span class="block leading-tight">Smarta Betallösningar</span>
               <span class="block leading-tight ml-1 lg:text-4xl text-3xl font-semibold">Semper curabitur</span>  <span class="block leading-tight ml-1 lg:text-4xl text-3xl font-semibold">viverra</span>
             </h1>
@@ -94,7 +94,7 @@
 
           <div class="mt-12 sm:mt-16 lg:mt-0 w-full">
             <div class="sm:pl-0 md:-mr-auto lg:px-0 lg:m-0 lg:relative lg:h-full">
-              <img class="transform rotate-180 mt-8" src="waves.svg" alt="wave">
+              <img class="transform rotate-180 mt-8 sm:-mt-8" src="waves.svg" alt="wave">
             </div>
           </div>
         </div>  
@@ -191,7 +191,7 @@
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-24 lg:col-start-1">
           <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-96">
-            <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="sc-logo-bg.png" alt="Customer profile user interface">
+            <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:-right-8 lg:h-96 lg:w-auto lg:max-w-none" src="sc-logo-bg.png" alt="Customer profile user interface">
           </div>
         </div>
       </div>
@@ -201,7 +201,7 @@
 <div class="bg-white">
   <div class="max-w-7xl mb-24 mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
     <p class="text-center text-4xl lg:text-4xl font-extra bold uppercase text-gray-900 tracking-wider">
-      Några av våra kunder  
+      Några av våra kunder!  
     </p>
     <div class="mt-6 grid grid-cols-2 gap-5 md:grid-cols-4 lg:mt-8">
       <div class="col-span-1 flex justify-center py-8 px-8 bg-white">
@@ -323,11 +323,6 @@
               <p class="mt-4 text-lg text-gray-500">
                 Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
               </p>
-              <div class="mt-6">
-                <a href="#" class="inline-flex px-4 py-2 text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-tr from-indigo-600 to-pink-400">
-                  Kontakta oss!
-                </a>
-              </div>
             </div>
           </div>
           <div class="mt-8 border-t border-gray-200 pt-6">
@@ -370,7 +365,7 @@
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-24 lg:col-start-1">
           <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-96">
-            <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="sc-logo-bg.png" alt="Customer profile user interface">
+            <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:-right-8 lg:h-96 lg:w-auto lg:max-w-none" src="sc-logo-bg.png" alt="Customer profile user interface">
           </div>
         </div>
       </div>

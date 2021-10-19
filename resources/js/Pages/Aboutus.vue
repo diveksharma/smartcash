@@ -11,7 +11,7 @@
     </div>
 
 
-    <div class="sm:relative bg-white overflow-hidden">
+    <div class="sm:relative bg-white">
       <!-- <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48"></div> -->
       <div class="sm:relative bg-white">
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense">

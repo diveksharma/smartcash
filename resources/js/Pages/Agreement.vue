@@ -2,11 +2,11 @@
   <Head title="Inlösenavtal" />
  <homepage-layout>
 
-    <div class="sm:relative pt-32 bg-white overflow-hidden">
+    <div class="sm:relative bg-white">
       <!-- <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48"></div> -->
       <div class="sm:relative bg-white">
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense">
-          <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+          <div class="px-4 text-center max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
               <div class="mt-6">
                 <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
@@ -26,14 +26,41 @@
           </div>
           <div class="mt-12 sm:mt-16 lg:mt-0">
             <div class="sm:pl-6 md:mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-              <img class="mx-auto ml-4 md:ml-11 mt-36 transform scale-75" src="visa1.svg" alt="Visa">
+              <img class="mx-auto md:ml-11 mt-12 sm:mt-28 transform scale-75" src="visa1.svg" alt="Visa">
             </div>
           </div>
         </div>
       </div>
-      <div class="mt-24">
+        <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense">
+          <div class="px-4 text-center max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+            <div>
+              <div class="mt-12">
+                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
+                    Så här fungerar det!
+                </h2>
+                <p class="mt-4 list-decimal text-md text-gray-500">
+                    Vi börjar med att samla in uppgifter om dig och ditt företag.
+                    Vår kompetenta avdelning för inlösenavtal lägger upp en ansökan efter att vi mottagit alla era uppgifter.
+                </p>   
+                <p class="mt-4 list-decimal text-md text-gray-500">   
+                    Ansökan granskas och behöver godkännas av våra samarbetspartners samt er bank
+                    Ni som kund blir tilldelad ett redovisningsnummer som vi sedan kopplar samman med er kortterminal.
+                    Nu är ni igång!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-7 sm:mt-16 lg:mt-0">
+            <div class="sm:pl-6 md:mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+              <img class="mx-auto md:ml-11 -mt-9 transform scale-50" src="mastercard1.svg" alt="Visa">
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!--       <div class="mt-24">
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-36">
-          <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+          <div class="px-4 text-center max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
             <div>
               <div class="mt-6">
                 <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
@@ -58,10 +85,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
-  <div class="bg-white py-24 mt-28 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24">
+  <div class="bg-white -py-12 mt-16 sm:-mt-8 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24">
     <div class="relative py-6 px-6 rounded-2xl transition duration-500 hover:shadow-2xl max-w-xl mx-auto">
       <svg class="absolute left-full transform translate-x-1/2" width="404" height="404" fill="none" viewBox="0 0 404 404" aria-hidden="true">
         <defs>
@@ -88,7 +115,7 @@
         </p>
       </div>
       <div class="mt-12">
-        <form action="#" method="POST" class="grid grid-cols-2 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+        <form action="#" method="POST" class="grid grid-cols-2 gap-y-8 gap-x-6 sm:grid-cols-2 sm:gap-x-8">
           
           <div>
             <label for="first-name" class="block text-sm font-medium text-gray-700">KONTAKTPERSON</label>
@@ -152,7 +179,7 @@
           </div>
 
           <div class="mt-5 px-12 sm:col-span-1">
-            <button type="submit" class="text-base font-semibold w-full inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-xl shadow-md text-white bg-indigo-400 transition duration-500 ease-in-out hover:bg-indigo-500">
+            <button type="submit" class="text-base font-semibold w-full inline-flex items-center justify-center px-12 py-2 xl:px-7 border border-transparent rounded-xl shadow-md text-white bg-indigo-400 transition duration-500 ease-in-out hover:bg-indigo-500">
               SKICKA
             </button>
           </div>
