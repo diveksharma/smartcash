@@ -94,7 +94,7 @@
 
           <div class="mt-12 sm:mt-16 lg:mt-0 w-full">
             <div class="sm:pl-0 md:-mr-auto lg:px-0 lg:m-0 lg:relative lg:h-full">
-              <img class="transform rotate-180 mt-8 sm:-mt-8" src="waves.svg" alt="wave">
+              <img class="transform rotate-180 mt-8 sm:-mt-10" src="waves.svg" alt="wave">
             </div>
           </div>
         </div>  
@@ -127,7 +127,7 @@
   <div class="relative bg-white">
     <div class="relative -mt-96 z-10">
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+        <div class="px-4 mt-24 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
           <div>
             <div>
               <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-t from-indigo-600 to-pink-600">
@@ -144,11 +144,7 @@
               <p class="mt-4 text-lg text-gray-500">
                 Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
               </p>
-              <div class="mt-6">
-                <a href="#" class="inline-flex px-4 py-2 text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-tr from-indigo-600 to-pink-400">
-                  Kontakta oss!
-                </a>
-              </div>
+
             </div>
           </div>
           <div class="mt-8 border-t border-gray-200 pt-6">
@@ -163,7 +159,7 @@
     </div>
     <div class="mt-24 mb-28">
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+        <div class="px-4 mt-20 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
           <div>
             <div>
               <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-t from-pink-600 to-indigo-600">
@@ -181,11 +177,6 @@
               <p class="mt-4 text-lg text-gray-500">
                   Hör av er till oss så hjälper vi till med att räkna fram de absolut bästa priserna för just er verksamhet!
               </p>
-              <div class="mt-6">
-                <a href="#" class="inline-flex px-4 py-2 text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-tl from-indigo-600 to-pink-400">
-                  Kontakta oss!
-                </a>
-              </div>
             </div>
           </div>
         </div>
@@ -306,7 +297,7 @@
   <div class="relative bg-white pt-5 pb-32 overflow-hidden">  
     <div class="relative">
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+        <div class="px-4 mt-24 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
           <div>
             <div>
               <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-tr from-pink-600 via-purple-500 to-indigo-600">
@@ -337,7 +328,7 @@
     </div>
     <div class="mt-24">
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-        <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+        <div class="px-4 mt-2 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
           <div>
             <div>
               <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-tr from-pink-600 via-purple-500 to-indigo-600">
@@ -355,11 +346,6 @@
               <p class="mt-4 text-lg text-gray-500">
                   Hör av er till oss så hjälper vi till med att räkna fram de absolut bästa priserna för just er verksamhet!
               </p>
-              <div class="mt-6">
-                <a href="#" class="inline-flex px-4 py-2 text-base font-medium rounded-lg shadow-md text-white bg-gradient-to-tr from-pink-600 via-purple-500 to-indigo-600">
-                  Kontakta oss!
-                </a>
-              </div>
             </div>
           </div>
         </div>
