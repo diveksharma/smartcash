@@ -201,7 +201,7 @@
 <div class="bg-white">
   <div class="max-w-7xl mb-24 mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
     <p class="text-center text-4xl lg:text-4xl font-extra bold uppercase text-gray-900 tracking-wider">
-      REFERENSER  
+      Några av våra kunder  
     </p>
     <div class="mt-6 grid grid-cols-2 gap-5 md:grid-cols-4 lg:mt-8">
       <div class="col-span-1 flex justify-center py-8 px-8 bg-white">
