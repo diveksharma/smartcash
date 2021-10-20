@@ -2,126 +2,80 @@
     <Head title="Välkommen" />      
 <div>
 
-  <nav class="coloranim py-12">
+  <nav class="relative coloranim">
+        <!-- Navbar -->
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-3">
-          <div class="relative flex items-center justify-between h-16">
-            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-              <!-- Mobile menu button-->
-              <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-white hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <!--
-                  Icon when menu is closed.
-
-                  Heroicon name: outline/menu
-
-                  Menu open: "hidden", Menu closed: "block"
-                -->
-                <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-                <!--
-                  Icon when menu is open.
-
-                  Heroicon name: outline/x
-
-                  Menu open: "block", Menu closed: "hidden"
-                -->
-                <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-            <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-              <Link href="/" class="flex-shrink-0 flex items-center">
-                <img class="block lg:hidden h-8 w-auto" src="/smart-cash-text.svg" alt="Smart Cash"> 
-                <img class="transihidden lg:block h-4 w-auto" src="/smart-cash-text.svg" href="welcome" alt="Smart Cash">
-
-              </Link>
-              <div class="hidden sm:block sm:ml-32">
-                <div class="flex space-x-8">
-                  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <button 
-                @click="productDropdown = !productDropdown;"
-                class="text-white font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm uppercase">
-                  Produkter
-                </button>
-                <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
-              <div v-if="productDropdown" class="absolute z-10 left-0  transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
-                <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                  <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                    <inertia-link v-for="item in products" :key="item.name" :href="route(item.href)" :class="[ currentUrl === item.url ? 'bg-gray-200' : '', '-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150']">
-                      <!-- <icon :name="item.icon" class="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" /> -->
-                      <!-- <img :src="item.icon" :alt="item.icon" class="flex-shrink-0 h-6 w-6" aria-hidden="true"> -->
-                      <div class="ml-4">
-                        <p class="text-base font-medium text-gray-900">
-                          {{ item.name }}
-                        </p>
-                        <p class="mt-1 text-sm text-gray-500">
-                          {{ item.description }}
-                        </p>
-                      </div>
-                    </inertia-link>
-                  </div>
-                  <div class="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-                    <div v-for="item in callsToAction" :key="item.name" class="flow-root">
-                      <!-- <a :href="item.href" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100 transition ease-in-out duration-150">
-                        <icon :name="item.icon" class="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
-                        <span class="ml-3">{{ item.name }}</span>
-                      </a> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </transition>
-
-                <Link v-for="nav in navigation" :key="nav.id" :href="route(nav.href)" class="text-white font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm">
-                  {{ nav.name }}
+            <div class="relative flex items-center justify-between h-16">     
+                <!-- Logo -->
+                <Link href="/" class="flex-shrink-0 flex items-center">
+                    <img class="hidden sm:block h-4 w-auto" src="/smart-cash-text.svg" alt="Smart Cash"> 
                 </Link>
-
+                <!-- Main menu Desktop -->
+                <div class="flex-1 hidden sm:block">
+                    <div class="flex justify-center space-x-8">
+                        <button 
+                            @mouseover="productDropdown = !productDropdown;"
+                            class="text-white font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm uppercase"
+                        >
+                            Produkter
+                        </button>
+                        <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
+                            <div v-if="productDropdown" class="absolute z-10 top-9 left-72  transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
+                                <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+                                    <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                                        <Link v-for="item in products" :key="item.name" :href="route(item.href)" :class="[ currentUrl === item.url ? 'bg-gray-200' : '', '-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150']">
+                                        <div class="ml-4">
+                                            <p class="text-base font-medium text-gray-900">
+                                            {{ item.name }}
+                                            </p>
+                                            <p class="mt-1 text-sm text-gray-500">
+                                            {{ item.description }}
+                                            </p>
+                                        </div>
+                                        </Link>
+                                    </div>
+                                    <div class="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
+                                        <div v-for="item in callsToAction" :key="item.name" class="flow-root">
+                                      
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </transition>
+                        <Link v-for="nav in navigation" :key="nav.id" :href="route(nav.href)" class="text-white font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm">
+                            {{ nav.name }}
+                        </Link>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
 
-        <div>      
-          <div class="ml-80 mt-12 leading-3">
-            <h1 class="lg:text-7xl text-8xl sm:text-left font-bold text-white">
-              <span class="block leading-tight">Smarta Betallösningar</span>
-              <span class="block leading-tight ml-1 lg:text-4xl text-3xl font-semibold">Semper curabitur</span>  <span class="block leading-tight ml-1 lg:text-4xl text-3xl font-semibold">viverra</span>
-            </h1>
-          </div>
-
-          <div class="mt-12 sm:mt-16 lg:mt-0 w-full">
-            <div class="sm:pl-0 md:-mr-auto lg:px-0 lg:m-0 lg:relative lg:h-full">
-              <img class="transform rotate-180 sm:-mt-1" src="waves.svg" alt="wave">
+      
+        <!-- Hero Section -->
+        <div class="relative">
+            <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
+            <div class="mx-auto">
+                <div class="relative sm:overflow-hidden">
+                    <div class="relative max-w-7xl mx-auto px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+                         <h1 class="lg:text-7xl text-8xl sm:text-left font-bold text-white">
+                            <span class="block leading-tight">Smarta Betallösningar</span>
+                            <span class="block leading-tight ml-1 lg:text-4xl text-3xl font-semibold">Semper curabitur</span>  <span class="block leading-tight ml-1 lg:text-4xl text-3xl font-semibold">viverra</span>
+                        </h1>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>  
-        <!-- Mobile menu, show/hide based on menu state. -->
-        <div class="sm:hidden" id="mobile-menu">
-          <div class="px-2 pt-2 pb-3 space-y-1">
-            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                  <a href="#" class="text-gray-600 transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">PRODUKTER</a>
+        </div>    
+        <!-- Wave -->
+        <img class="absolute -bottom-1 transform rotate-180" src="waves.svg" alt="wave">
+        
+       
+    </nav>
 
-                  <a href="#" class="text-gray-600 transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">ERBJUDANDE</a>
-
-                  <a href="#" class="text-gray-600 transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">REFERENSER</a>
-
-                  <a href="#" class="text-gray-600 transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">INLÖSENAVTAL</a>
-
-                  <a href="#" class="text-gray-600 transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">OM OSS</a>
-
-                  <a href="#" class="text-gray-600 transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">KONTAKT</a>
-          </div>
-        </div>
-  </nav>
-
-    <div class="mt-12 sm:mt-16 lg:mt-0 w-full">
-      <div class="sm:pl-0 md:-mr-auto lg:px-0 lg:m-0 lg:relative lg:h-full">
-        <img class="transform rotate-180 mt-60" src="waves.svg" alt="wave">
-      </div>
+  <div class="mt-12 sm:mt-16 lg:mt-0 w-full">
+    <div class="sm:pl-0 md:-mr-auto lg:px-0 lg:m-0 lg:relative lg:h-full">
+      <img class="transform rotate-180 mt-60" src="waves.svg" alt="wave">
     </div>
+  </div>
 
   <!-- content 1 -->
   <div class="relative bg-white">
