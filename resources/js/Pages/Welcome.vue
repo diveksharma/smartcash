@@ -94,7 +94,7 @@
 
           <div class="mt-12 sm:mt-16 lg:mt-0 w-full">
             <div class="sm:pl-0 md:-mr-auto lg:px-0 lg:m-0 lg:relative lg:h-full">
-              <img class="transform rotate-180 mt-8 sm:-mt-10" src="waves.svg" alt="wave">
+              <img class="transform rotate-180 sm:-mt-1" src="waves.svg" alt="wave">
             </div>
           </div>
         </div>  
