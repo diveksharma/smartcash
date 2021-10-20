@@ -14,7 +14,7 @@
                 <div class="flex-1 hidden sm:block">
                     <div class="flex justify-center space-x-8">
                         <button 
-                            @mouseover="productDropdown = !productDropdown;"
+                          @mouseover="productDropdown = !productDropdown" @mouseleave="productdropdown = !productdropdown" 
                             class="text-white font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm uppercase"
                         >
                             Produkter
@@ -46,6 +46,31 @@
                             {{ nav.name }}
                         </Link>
                     </div>
+                    <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                      <!-- Mobile menu button-->
+                      <button @click="dropdownMobile = !dropdownMobile" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-white hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu"> 
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                      </button>
+
+                      <button>
+                        <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                      </button>
+
+                      <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
+                        <div v-if="dropdownMobile" class="absolute z-10 top-9 left-72  transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
+                          <div class="px-2 pt-2 pb-3 space-y-1">
+                            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                                <Link v-for="navmobile in navigationmobile" :key="navmobile.id" :href="route(navmobile.href)" class="text-black font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm">
+                                  {{ navmobile.name }}
+                                </Link>
+                          </div>
+                        </div> 
+                      </transition>
+                    </div>
                 </div>
             </div>
         </div>
@@ -68,7 +93,6 @@
         <!-- Wave -->
         <img class="absolute -bottom-1 transform rotate-180" src="waves.svg" alt="wave">
         
-       
     </nav>
 
   <div class="mt-12 sm:mt-16 lg:mt-0 w-full">
@@ -106,7 +130,7 @@
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-24">
           <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-            <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-96 lg:w-auto lg:max-w-none" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="Inbox user interface">
+            <img class="sm:w-full md:w-1/2 w-1/2 rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-96 lg:w-auto lg:max-w-none" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="Inbox user interface">
           </div>
         </div>
       </div>
@@ -136,7 +160,7 @@
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-24 lg:col-start-1">
           <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-96">
-            <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:-right-8 lg:h-96 lg:w-auto lg:max-w-none" src="sc-logo-bg.png" alt="Customer profile user interface">
+            <img class="sm:w-full md:w-1/2 w-1/2 rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:-right-8 lg:h-96 lg:w-auto lg:max-w-none" src="sc-logo-bg.png" alt="Customer profile user interface">
           </div>
         </div>
       </div>
@@ -275,7 +299,7 @@
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-24">
           <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-            <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-96 lg:w-auto lg:max-w-none" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="Inbox user interface">
+            <img class="sm:w-full md:w-1/2 w-1/2 rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-96 lg:w-auto lg:max-w-none" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="Inbox user interface">
           </div>
         </div>
       </div>
@@ -305,81 +329,15 @@
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-24 lg:col-start-1">
           <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-96">
-            <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:-right-8 lg:h-96 lg:w-auto lg:max-w-none" src="sc-logo-bg.png" alt="Customer profile user interface">
+            <img class="sm:w-full md:w-1/2 w-1/2 rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:-right-8 lg:h-96 lg:w-auto lg:max-w-none" src="sc-logo-bg.png" alt="Customer profile user interface">
           </div>
         </div>
       </div>
     </div>
   </div>
   </div>
-
-        <div class="border-t border-gray-200 py-5 mt-28">
-      </div>
-
-
-  <div class="lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-3 lg:gap-y-5"> 
-    <div>
-        <div class="text-center">
-            <h2 class="text-1xl font-extrabold tracking-tight text-gray-900">
-                INFORMATION
-            </h2>
-            <p class="mt-1 text-md text-gray-500">
-                Boka demo
-            </p>
-        </div>
-    </div>
-
-    <div>
-        <div class="text-center">
-            <h2 class="text-1xl font-extrabold tracking-tight text-gray-900">
-                SUPPORT
-            </h2>
-            <p class="mt-1 text-md text-gray-500">
-                Kassaregister och kortterminaler:
-                011- 470 90 00
-            </p>
-            <p class="mt-1 text-md text-gray-500">
-                PC-Kassor:
-                011-184746
-            </p>
-            <p class="mt-1 text-md text-gray-500">
-                support@smartcash.se
-            </p>
-        </div>
-    </div>
-
-    <div>
-        <div class="text-center">
-            <h2 class="text-1xl font-extrabold tracking-tight text-gray-900">
-                KONTAKT
-            </h2>
-            <p class="mt-1 text-md leading-none text-gray-500">
-                Smart Cash Sverige AB
-            </p>
-            <p class="mt-1 text-md leading-none text-gray-500">
-                Kiselgatan 19
-            </p>
-            <p class="mt-1 text-md leading-none text-gray-500">
-                602 23 Norrköping
-            </p>
-            <p class="mt-1 text-md leading-none text-gray-500">
-                011-470 90 00
-            </p>
-        </div>
-    </div>
-  </div>
-
-
-  <footer class="bg-warm-gray-900" aria-labelledby="footer-heading">
-        <h2 id="footer-heading" class="sr-only">Footer</h2>
-        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-        <div class="mt-12 border-t border-warm-gray-700 pt-8">
-            <p class="text-base text-warm-gray-400 xl:text-center">
-            &copy; 2021 Smart Cash
-            </p>
-        </div>
-        </div>
-  </footer>
+    
+  <Footer />
 </template>
 
 <style scoped>
@@ -474,6 +432,7 @@
 import { Head } from '@inertiajs/inertia-vue3';
 import { Link } from '@inertiajs/inertia-vue3';
 import { ref } from '@vue/reactivity';
+import Footer from '@/Components/Footer';
       
       const navigation = [
       {id: 2, name: 'ERBJUDANDE', href:'erbjudande'},
@@ -491,12 +450,23 @@ import { ref } from '@vue/reactivity';
       {id: 6, name: 'KONTAKT', href:'contact'},
     ];
 
+        const navigationmobile = [
+      {id: 1, name: 'PRODUKTER', href:'products.pc-kassa'},
+      {id: 2, name: 'ERBJUDANDE', href:'erbjudande'},
+      {id: 3, name: 'REFERNSER', href:'refrences'},
+      {id: 4, name: 'INLÖSENAVTAL', href:'agreement'},
+      {id: 5, name: 'OM OSS', href:'aboutus'},
+      {id: 6, name: 'KONTAKT', href:'contact'},
+    ];
+
     const productDropdown = ref((false))
-  
+    const dropdownMobile = ref((false))
+      
   export default {
     components: {
       Head,
       Link,
+      Footer,
     },
 
  
@@ -505,8 +475,12 @@ import { ref } from '@vue/reactivity';
         navigation,
         productDropdown,
         products,
+        navigationmobile,
+        dropdownMobile,
+
       }
-    }, 
+    },
+    
   }
 
 </script>
