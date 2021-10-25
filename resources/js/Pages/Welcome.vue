@@ -14,7 +14,7 @@
                 <div class="flex-1 hidden sm:block">
                     <div class="flex justify-center space-x-8">
                         <button 
-                          @mouseover="productDropdown = !productDropdown" @mouseleave="productdropdown = !productdropdown" 
+                          @click="productDropdown = !productDropdown" 
                             class="text-white font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm uppercase"
                         >
                             Produkter
@@ -22,23 +22,37 @@
                         <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
                             <div v-if="productDropdown" class="absolute z-10 top-9 left-72  transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
                                 <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                                    <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                                        <Link v-for="item in products" :key="item.name" :href="route(item.href)" :class="[ currentUrl === item.url ? 'bg-gray-200' : '', '-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150']">
-                                        <div class="ml-4">
-                                            <p class="text-base font-medium text-gray-900">
-                                            {{ item.name }}
-                                            </p>
-                                            <p class="mt-1 text-sm text-gray-500">
-                                            {{ item.description }}
-                                            </p>
-                                        </div>
+                                  <div class="relative grid grid-cols-2 gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                                      <div v-for="product in productOptions" :key="product.category">
+                                        <div class="flex flex-col">
+                                          <div class="font-medium text-black">
+                                            {{ product.category }}
+                                          </div>
+                                          <Link v-for="option in product.options" :key="option.id" :href="route(option.href)" class="font-normal text-gray-600">
+                                            {{ option.name }}
+                                          </Link>
+                                        </div> 
+                                      </div>
+                                    
+                                  </div>
+                                
+                                    <!-- <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                                        <Link v-for="item in productOptions" :key="item.category" :href="route(item.href)" :class="['-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150']">
+                                          <div class="ml-4">
+                                              <p class="text-base font-medium text-gray-900">
+                                              {{ item.name }}
+                                              </p>
+                                              <p class="mt-1 text-sm text-gray-500">
+                                              {{ item.description }}
+                                              </p>
+                                          </div>
                                         </Link>
                                     </div>
                                     <div class="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
                                         <div v-for="item in callsToAction" :key="item.name" class="flow-root">
                                       
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </transition>
@@ -81,7 +95,7 @@
             <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
             <div class="mx-auto">
                 <div class="relative sm:overflow-hidden">
-                    <div class="relative max-w-7xl mx-auto px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+                    <div class="relative max-w-7xl mx-auto px-4 sm:py-16 -py-24 sm:px-6 lg:py-32 lg:px-auto">
                          <h1 class="lg:text-7xl text-8xl sm:text-left font-bold text-white">
                             <span class="block leading-tight">Smarta Betallösningar</span>
                             <span class="block leading-tight ml-1 lg:text-4xl text-3xl font-semibold">Semper curabitur</span>  <span class="block leading-tight ml-1 lg:text-4xl text-3xl font-semibold">viverra</span>
@@ -105,7 +119,7 @@
   <div class="relative bg-white">
     <div class="relative -mt-96 z-10">
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-        <div class="px-4 mt-24 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+        <div class="px-4 sm:mt-24 mt-40 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
           <div>
             <div>
               <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-t from-indigo-600 to-pink-600">
@@ -129,8 +143,8 @@
           </div>
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-24">
-          <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-            <img class="sm:w-full md:w-1/2 w-1/2 rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-96 lg:w-auto lg:max-w-none" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="Inbox user interface">
+          <div class="pl-14 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+            <img class="sm:w-full md:w-1/2 w-1/2 rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-16 left-96 lg:h-96 lg:w-auto lg:max-w-none" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="Inbox user interface">
           </div>
         </div>
       </div>
@@ -159,8 +173,8 @@
           </div>
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-24 lg:col-start-1">
-          <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-96">
-            <img class="sm:w-full md:w-1/2 w-1/2 rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:-right-8 lg:h-96 lg:w-auto lg:max-w-none" src="sc-logo-bg.png" alt="Customer profile user interface">
+          <div class="pl-48 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-96">
+            <img class="sm:w-full md:w-1/2 w-1/2 mx-auto rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:-right-8 lg:h-96 lg:w-auto lg:max-w-none" src="sc-logo-bg.png" alt="Customer profile user interface">
           </div>
         </div>
       </div>
@@ -298,8 +312,8 @@
           </div>
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-24">
-          <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-            <img class="sm:w-full md:w-1/2 w-1/2 rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-96 lg:w-auto lg:max-w-none" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="Inbox user interface">
+          <div class="pl-14 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+            <img class="sm:w-full md:w-1/2 w-1/2 rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-16 left-96 lg:h-96 lg:w-auto lg:max-w-none" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="Inbox user interface">
           </div>
         </div>
       </div>
@@ -328,8 +342,8 @@
           </div>
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-24 lg:col-start-1">
-          <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-96">
-            <img class="sm:w-full md:w-1/2 w-1/2 rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:-right-8 lg:h-96 lg:w-auto lg:max-w-none" src="sc-logo-bg.png" alt="Customer profile user interface">
+          <div class="pl-48 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-96">
+            <img class="sm:w-full md:w-1/2 w-1/2 mx-auto rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:-right-8 lg:h-96 lg:w-auto lg:max-w-none" src="sc-logo-bg.png" alt="Customer profile user interface">
           </div>
         </div>
       </div>
@@ -459,9 +473,47 @@ import Footer from '@/Components/Footer';
       {id: 6, name: 'KONTAKT', href:'contact'},
     ];
 
+      const names = [
+    {id: 1, name: 'PC-Kassa', href:'products.pc-kassa'}, 
+    {id: 2, name: 'Kortterminal', href:'products.card-terminal'},
+    {id: 3, name: 'Kassaregister', href:'products.kassaregister'},
+    {id: 4, name: 'Enox-kassa', href:'products.enox-kassa'},
+    {id: 5, name: 'Orderplatta (Handy)', href:'products.orderplatta'},
+    {id: 6, name: 'Skanner', href:'products.skanner'},
+    {id: 7, name: 'Vågar', href:'products.vågar'},
+    {id: 8, name: 'Skrivare', href:'products.skrivare'},
+    {id: 9, name: 'Kontrollenheter', href:'products.kontrollenheter'},
+    {id: 10, name: 'Kvittorullar', href:'products.kvittorullar'},
+    {id: 11, name: 'Tillbehör', href:'products.tillbehör'}
+  ];
+
+      const productOptions = [
+        { 
+          category: 'Kassor',
+          options:[
+              {id: 1, name: 'PC-Kassa', href:'products.pc-kassa'},
+              {id: 2, name: 'Kassaregister', href:'products.kassaregister'},
+              {id: 3, name: 'Enox-kassa', href:'products.enox-kassa'},
+            ]
+        },
+
+        { category: 'Tillbehör',
+            options:[ 
+              {id: 1, name: 'Kortterminal', href:'products.card-terminal'},
+              {id: 2, name: 'Orderplatta (Handy)', href:'products.orderplatta'},
+              {id: 3, name: 'Skanner', href:'products.skanner'},
+              {id: 4, name: 'Vågar', href:'products.vågar'},
+              {id: 5, name: 'Skrivare', href:'products.skrivare'},
+              {id: 6, name: 'Kontrollenheter', href:'products.kontrollenheter'},
+              {id: 7, name: 'Kvittorullar', href:'products.kvittorullar'},
+              {id: 8, name: 'Tillbehör', href:'products.tillbehör'}
+            ]
+        },
+      ]
+
     const productDropdown = ref((false))
     const dropdownMobile = ref((false))
-      
+
   export default {
     components: {
       Head,
@@ -477,6 +529,8 @@ import Footer from '@/Components/Footer';
         products,
         navigationmobile,
         dropdownMobile,
+        names,
+        productOptions,
 
       }
     },
