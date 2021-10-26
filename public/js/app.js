@@ -20034,9 +20034,28 @@ var navigation = [{
   id: 1,
   name: 'ERBJUDANDE',
   href: 'erbjudande'
-},
-/*       {id: 2, name: 'REFERNSER', href:'refrences'}, */
-{
+}, {
+  id: 2,
+  name: 'INLÖSENAVTAL',
+  href: 'agreement'
+}, {
+  id: 3,
+  name: 'OM OSS',
+  href: 'aboutus'
+}, {
+  id: 4,
+  name: 'KONTAKT',
+  href: 'contact'
+}];
+var navigationmobile = [{
+  id: 1,
+  name: 'PRODUKTER',
+  href: 'products.pc-kassa'
+}, {
+  id: 2,
+  name: 'ERBJUDANDE',
+  href: 'erbjudande'
+}, {
   id: 3,
   name: 'INLÖSENAVTAL',
   href: 'agreement'
@@ -20046,29 +20065,6 @@ var navigation = [{
   href: 'aboutus'
 }, {
   id: 5,
-  name: 'KONTAKT',
-  href: 'contact'
-}];
-var navigationmobile = [
-  /*       {id: 3, name: 'REFERNSER', href:'refrences'} */
-{
-  id: 1,
-  name: 'PRODUKTER',
-  href: 'products.pc-kassa'
-}, {
-  id: 2,
-  name: 'ERBJUDANDE',
-  href: 'erbjudande'
-},, {
-  id: 4,
-  name: 'INLÖSENAVTAL',
-  href: 'agreement'
-}, {
-  id: 5,
-  name: 'OM OSS',
-  href: 'aboutus'
-}, {
-  id: 6,
   name: 'KONTAKT',
   href: 'contact'
 }];
@@ -21645,7 +21641,7 @@ __webpack_require__.r(__webpack_exports__);
 var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "bg-white"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "max-w-7xl mx-auto py-16 px-4 lg:px-8"
+  "class": "max-w-7xl mx-auto sm:py-16 py-5 px-4 lg:px-8"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "-ml-2 mt-16"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
@@ -22042,7 +22038,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     title: "Inlösenavtal"
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_homepage_layout, null, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("       <div class=\"mt-24\">\r\n        <div class=\"lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-36\">\r\n          <div class=\"px-4 text-center max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2\">\r\n            <div>\r\n              <div class=\"mt-6\">\r\n                <h2 class=\"text-3xl font-extrabold tracking-tight text-gray-900\">\r\n                    Så här fungerar det!\r\n                </h2>\r\n                <p class=\"mt-4 list-decimal text-md text-gray-500\">\r\n                    Vi börjar med att samla in uppgifter om dig och ditt företag.\r\n                    Vår kompetenta avdelning för inlösenavtal lägger upp en ansökan efter att vi mottagit alla era uppgifter.\r\n                </p>   \r\n                <p class=\"mt-4 list-decimal text-md text-gray-500\">   \r\n                    Ansökan granskas och behöver godkännas av våra samarbetspartners samt er bank\r\n                    Ni som kund blir tilldelad ett redovisningsnummer som vi sedan kopplar samman med er kortterminal.\r\n                    Nu är ni igång!\r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"mt-12 sm:mt-16 lg:mt-0 lg:col-start-1\">\r\n            <div class=\"sm:pl-0 md:-mr-auto lg:px-0 lg:m-0 lg:relative lg:h-full\">\r\n              <img class=\"mx-auto ml-18 md:ml-7 mt-16 transform scale-75\" src=\"mastercard1.svg\" alt=\"Mastercard\">\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div> "), _hoisted_2];
+      return [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("       <div class=\"mt-24\">\n        <div class=\"lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-36\">\n          <div class=\"px-4 text-center max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2\">\n            <div>\n              <div class=\"mt-6\">\n                <h2 class=\"text-3xl font-extrabold tracking-tight text-gray-900\">\n                    Så här fungerar det!\n                </h2>\n                <p class=\"mt-4 list-decimal text-md text-gray-500\">\n                    Vi börjar med att samla in uppgifter om dig och ditt företag.\n                    Vår kompetenta avdelning för inlösenavtal lägger upp en ansökan efter att vi mottagit alla era uppgifter.\n                </p>   \n                <p class=\"mt-4 list-decimal text-md text-gray-500\">   \n                    Ansökan granskas och behöver godkännas av våra samarbetspartners samt er bank\n                    Ni som kund blir tilldelad ett redovisningsnummer som vi sedan kopplar samman med er kortterminal.\n                    Nu är ni igång!\n                </p>\n              </div>\n            </div>\n          </div>\n          <div class=\"mt-12 sm:mt-16 lg:mt-0 lg:col-start-1\">\n            <div class=\"sm:pl-0 md:-mr-auto lg:px-0 lg:m-0 lg:relative lg:h-full\">\n              <img class=\"mx-auto ml-18 md:ml-7 mt-16 transform scale-75\" src=\"mastercard1.svg\" alt=\"Mastercard\">\n            </div>\n          </div>\n        </div>\n      </div>\n    </div> "), _hoisted_2];
     }),
     _: 1
     /* STABLE */
@@ -22845,34 +22841,7 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "absolute w-full h-1/2 bg-warm-gray-50",
   "aria-hidden": "true"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Decorative dot pattern "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
-  "class": "absolute z-0 top-0 right-0 transform -translate-y-16 translate-x-1/2 sm:translate-x-1/4 md:-translate-y-24 lg:-translate-y-72",
-  width: "404",
-  height: "384",
-  fill: "none",
-  viewBox: "0 0 404 384",
-  "aria-hidden": "true"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("defs", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("pattern", {
-  id: "64e643ad-2176-4f86-b3d7-f2c5da3b6a6d",
-  x: "0",
-  y: "0",
-  width: "20",
-  height: "20",
-  patternUnits: "userSpaceOnUse"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("rect", {
-  x: "0",
-  y: "0",
-  width: "4",
-  height: "4",
-  "class": "text-indigo-400",
-  fill: "currentColor"
-})])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("rect", {
-  width: "404",
-  height: "384",
-  fill: "url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"
-})])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Decorative dot pattern "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n            <svg class=\"absolute z-0 top-0 right-0 transform -translate-y-16 translate-x-1/2 sm:translate-x-1/4 md:-translate-y-24 lg:-translate-y-72\" width=\"404\" height=\"384\" fill=\"none\" viewBox=\"0 0 404 384\" aria-hidden=\"true\">\n            <defs>\n                <pattern id=\"64e643ad-2176-4f86-b3d7-f2c5da3b6a6d\" x=\"0\" y=\"0\" width=\"20\" height=\"20\" patternUnits=\"userSpaceOnUse\">\n                <rect x=\"0\" y=\"0\" width=\"4\" height=\"4\" class=\"text-indigo-400\" fill=\"currentColor\" />\n                </pattern>\n            </defs>\n            <rect width=\"404\" height=\"384\" fill=\"url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)\" />\n            </svg>\n        </div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "relative mb-20 bg-white transition duration-500 hover:shadow-2xl"
@@ -22940,7 +22909,7 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "stop-color": "#fff",
   "stop-opacity": "0"
 })])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "hidden absolute top-0 right-0 bottom-0 w-1/2 pointer-events-none lg:block",
+  "class": "hidden absolute top-0 right-0 bottom-0 w-1/2 pointer-events-none",
   "aria-hidden": "true"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
   "class": "absolute inset-0 w-full h-full",
@@ -23267,33 +23236,119 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_5 = {
+  "class": "absolute inset-y-0 right-0 flex items-center sm:hidden"
+};
+
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "block h-6 w-6",
+  xmlns: "http://www.w3.org/2000/svg",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  stroke: "currentColor",
+  "aria-hidden": "true"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "2",
+  d: "M4 6h16M4 12h16M4 18h16"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_7 = [_hoisted_6];
+
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "hidden h-6 w-6",
+  xmlns: "http://www.w3.org/2000/svg",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  stroke: "currentColor",
+  "aria-hidden": "true"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "2",
+  d: "M6 18L18 6M6 6l12 12"
+})])], -1
+/* HOISTED */
+);
+
+var _hoisted_9 = {
   "class": "flex-1 hidden sm:block"
 };
-var _hoisted_6 = {
+var _hoisted_10 = {
   "class": "flex justify-center space-x-8"
 };
-var _hoisted_7 = {
+var _hoisted_11 = {
   key: 0,
   "class": "absolute z-10 top-9 left-72 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0"
 };
-var _hoisted_8 = {
+var _hoisted_12 = {
   "class": "rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden"
 };
-var _hoisted_9 = {
+var _hoisted_13 = {
   "class": "relative grid grid-cols-2 gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8"
 };
-var _hoisted_10 = {
+var _hoisted_14 = {
   "class": "flex flex-col"
 };
-var _hoisted_11 = {
+var _hoisted_15 = {
   "class": "font-medium text-black"
+};
+var _hoisted_16 = {
+  "class": "ring-1 ring-white ring-opacity-75 bg-white dark:bg-black divide-y-2 divide-gray-50 rounded-lg shadow-lg"
+};
+var _hoisted_17 = {
+  "class": "pt-5 pb-6 px-5 bg-gray-50"
+};
+var _hoisted_18 = {
+  "class": "flex items-center justify-between"
+};
+
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "h-4 w-auto",
+  src: "/textlogo2.svg",
+  alt: "Smart Cash"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_20 = {
+  "class": "-mr-2"
+};
+
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "sr-only"
+}, "Close menu", -1
+/* HOISTED */
+);
+
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "h-7 w-7 text-gray-800",
+  xmlns: "http://www.w3.org/2000/svg",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  stroke: "currentColor",
+  "aria-hidden": "true"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "2",
+  d: "M6 18L18 6M6 6l12 12"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_23 = [_hoisted_21, _hoisted_22];
+var _hoisted_24 = {
+  "class": "grid grid-cols-3 gap-0 mx-auto"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Link");
 
   var _component_Footer = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Footer");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Navbar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Logo "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Navbar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Logo "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
     href: "/",
     "class": "flex-shrink-0 flex items-center"
   }, {
@@ -23303,8 +23358,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Main menu Desktop "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Mobile menu button"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     onClick: _cache[0] || (_cache[0] = function ($event) {
+      return $setup.dropdownMobile = !$setup.dropdownMobile;
+    }),
+    type: "button",
+    "class": "inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-white hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white",
+    "aria-controls": "mobile-menu"
+  }, _hoisted_7), _hoisted_8]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Main menu Desktop "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    onClick: _cache[1] || (_cache[1] = function ($event) {
       return $setup.productDropdown = !$setup.productDropdown;
     }),
     "class": "text-black font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm uppercase"
@@ -23317,10 +23379,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "leave-to-class": "opacity-0 translate-y-1"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [$setup.productDropdown ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.productOptions, function (product) {
+      return [$setup.productDropdown ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.productOptions, function (product) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
           key: product.category
-        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.category), 1
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.category), 1
         /* TEXT */
         ), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(product.options, function (option) {
           return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
@@ -23344,7 +23406,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         ))])]);
       }), 128
       /* KEYED_FRAGMENT */
-      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8\">\r\n                                        <Link v-for=\"item in productOptions\" :key=\"item.category\" :href=\"route(item.href)\" :class=\"['-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150']\">\r\n                                          <div class=\"ml-4\">\r\n                                              <p class=\"text-base font-medium text-gray-900\">\r\n                                              {{ item.name }}\r\n                                              </p>\r\n                                              <p class=\"mt-1 text-sm text-gray-500\">\r\n                                              {{ item.description }}\r\n                                              </p>\r\n                                          </div>\r\n                                        </Link>\r\n                                    </div>\r\n                                    <div class=\"px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8\">\r\n                                        <div v-for=\"item in callsToAction\" :key=\"item.name\" class=\"flow-root\">\r\n                                      \r\n                                        </div>\r\n                                    </div> ")])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)];
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8\">\n                                        <Link v-for=\"item in productOptions\" :key=\"item.category\" :href=\"route(item.href)\" :class=\"['-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150']\">\n                                          <div class=\"ml-4\">\n                                              <p class=\"text-base font-medium text-gray-900\">\n                                              {{ item.name }}\n                                              </p>\n                                              <p class=\"mt-1 text-sm text-gray-500\">\n                                              {{ item.description }}\n                                              </p>\n                                          </div>\n                                        </Link>\n                                    </div>\n                                    <div class=\"px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8\">\n                                        <div v-for=\"item in callsToAction\" :key=\"item.name\" class=\"flow-root\">\n                                      \n                                        </div>\n                                    </div> ")])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)];
     }),
     _: 1
     /* STABLE */
@@ -23368,7 +23430,55 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     , ["href"]);
   }), 128
   /* KEYED_FRAGMENT */
-  ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)]);
+  ))])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
+    "enter-active-class": "transition ease-out duration-200",
+    "enter-class": "opacity-0 scale-95",
+    "enter-to-class": "opacity-100 scale-100",
+    "leave-active-class": "duration-100 ease-in",
+    "leave-class": "opacity-100 scale-100",
+    "leave-to-class": "opacity-0 scale-95"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+        onClick: _cache[3] || (_cache[3] = function ($event) {
+          return $setup.dropdownMobile = false;
+        }),
+        "class": "absolute top-0 z-10 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [_hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+        type: "button",
+        onClick: _cache[2] || (_cache[2] = function ($event) {
+          return $setup.dropdownMobile = !$setup.dropdownMobile;
+        }),
+        "class": "dark:bg-gray-800 rounded-md p-2 inline-flex items-center bg-gray-50 justify-center text-gray-50 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+      }, _hoisted_23)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.navigationmobile, function (navmobile) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
+          key: navmobile.id,
+          href: _ctx.route(navmobile.href),
+          "class": "text-black font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm"
+        }, {
+          "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(navmobile.name), 1
+            /* TEXT */
+            )];
+          }),
+          _: 2
+          /* DYNAMIC */
+
+        }, 1032
+        /* PROPS, DYNAMIC_SLOTS */
+        , ["href"]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])], 512
+      /* NEED_PATCH */
+      ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $setup.dropdownMobile]])];
+    }),
+    _: 1
+    /* STABLE */
+
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)], 64
+  /* STABLE_FRAGMENT */
+  );
 }
 
 /***/ }),
@@ -23930,7 +24040,7 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "aria-expanded": "false"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "class": "sr-only"
-}, "Open main menu"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("\r\n                    Icon when menu is closed.\r\n\r\n                    Heroicon name: outline/menu\r\n\r\n                    Menu open: \"hidden\", Menu closed: \"block\"\r\n                    "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("\r\n                    Icon when menu is open.\r\n\r\n                    Heroicon name: outline/x\r\n\r\n                    Menu open: \"block\", Menu closed: \"hidden\"\r\n                    ")])], -1
+}, "Open main menu"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("\n                    Icon when menu is closed.\n\n                    Heroicon name: outline/menu\n\n                    Menu open: \"hidden\", Menu closed: \"block\"\n                    "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("\n                    Icon when menu is open.\n\n                    Heroicon name: outline/x\n\n                    Menu open: \"block\", Menu closed: \"hidden\"\n                    ")])], -1
 /* HOISTED */
 );
 
@@ -24666,7 +24776,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         ))])]);
       }), 128
       /* KEYED_FRAGMENT */
-      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8\">\r\n                                        <Link v-for=\"item in productOptions\" :key=\"item.category\" :href=\"route(item.href)\" :class=\"['-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150']\">\r\n                                          <div class=\"ml-4\">\r\n                                              <p class=\"text-base font-medium text-gray-900\">\r\n                                              {{ item.name }}\r\n                                              </p>\r\n                                              <p class=\"mt-1 text-sm text-gray-500\">\r\n                                              {{ item.description }}\r\n                                              </p>\r\n                                          </div>\r\n                                        </Link>\r\n                                    </div>\r\n                                    <div class=\"px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8\">\r\n                                        <div v-for=\"item in callsToAction\" :key=\"item.name\" class=\"flow-root\">\r\n                                      \r\n                                        </div>\r\n                                    </div> ")])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)];
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8\">\n                                        <Link v-for=\"item in productOptions\" :key=\"item.category\" :href=\"route(item.href)\" :class=\"['-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150']\">\n                                          <div class=\"ml-4\">\n                                              <p class=\"text-base font-medium text-gray-900\">\n                                              {{ item.name }}\n                                              </p>\n                                              <p class=\"mt-1 text-sm text-gray-500\">\n                                              {{ item.description }}\n                                              </p>\n                                          </div>\n                                        </Link>\n                                    </div>\n                                    <div class=\"px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8\">\n                                        <div v-for=\"item in callsToAction\" :key=\"item.name\" class=\"flow-root\">\n                                      \n                                        </div>\n                                    </div> ")])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)];
     }),
     _: 1
     /* STABLE */
@@ -24991,7 +25101,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         ))])]);
       }), 128
       /* KEYED_FRAGMENT */
-      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8\">\r\n                                            <Link v-for=\"item in productOptions\" :key=\"item.category\" :href=\"route(item.href)\" :class=\"['-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150']\">\r\n                                            <div class=\"ml-4\">\r\n                                                <p class=\"text-base font-medium text-gray-900\">\r\n                                                {{ item.name }}\r\n                                                </p>\r\n                                                <p class=\"mt-1 text-sm text-gray-500\">\r\n                                                {{ item.description }}\r\n                                                </p>\r\n                                            </div>\r\n                                            </Link>\r\n                                        </div>\r\n                                        <div class=\"px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8\">\r\n                                            <div v-for=\"item in callsToAction\" :key=\"item.name\" class=\"flow-root\">\r\n                                        \r\n                                            </div>\r\n                                        </div> ")])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)];
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8\">\n                                            <Link v-for=\"item in productOptions\" :key=\"item.category\" :href=\"route(item.href)\" :class=\"['-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150']\">\n                                            <div class=\"ml-4\">\n                                                <p class=\"text-base font-medium text-gray-900\">\n                                                {{ item.name }}\n                                                </p>\n                                                <p class=\"mt-1 text-sm text-gray-500\">\n                                                {{ item.description }}\n                                                </p>\n                                            </div>\n                                            </Link>\n                                        </div>\n                                        <div class=\"px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8\">\n                                            <div v-for=\"item in callsToAction\" :key=\"item.name\" class=\"flow-root\">\n                                        \n                                            </div>\n                                        </div> ")])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)];
     }),
     _: 1
     /* STABLE */
@@ -25305,7 +25415,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.bg-gray-100[data-v-317d1a6e] {\r\n        background-color: #f7fafc;\r\n        background-color: rgba(247, 250, 252, var(--tw-bg-opacity));\n}\n.border-gray-200[data-v-317d1a6e] {\r\n        border-color: #edf2f7;\r\n        border-color: rgba(237, 242, 247, var(--tw-border-opacity));\n}\n.text-gray-400[data-v-317d1a6e] {\r\n        color: #cbd5e0;\r\n        color: rgba(203, 213, 224, var(--tw-text-opacity));\n}\n.text-gray-500[data-v-317d1a6e] {\r\n        color: #a0aec0;\r\n        color: rgba(160, 174, 192, var(--tw-text-opacity));\n}\n.text-gray-600[data-v-317d1a6e] {\r\n        color: #718096;\r\n        color: rgba(113, 128, 150, var(--tw-text-opacity));\n}\n.text-gray-700[data-v-317d1a6e] {\r\n        color: #4a5568;\r\n        color: rgba(74, 85, 104, var(--tw-text-opacity));\n}\n.text-gray-900[data-v-317d1a6e] {\r\n        color: #1a202c;\r\n        color: rgba(26, 32, 44, var(--tw-text-opacity));\n}\n@media (prefers-color-scheme: dark) {\n.dark\\:bg-gray-800[data-v-317d1a6e] {\r\n            background-color: #2d3748;\r\n            background-color: rgba(45, 55, 72, var(--tw-bg-opacity));\n}\n.dark\\:bg-gray-900[data-v-317d1a6e] {\r\n            background-color: #1a202c;\r\n            background-color: rgba(26, 32, 44, var(--tw-bg-opacity));\n}\n.dark\\:border-gray-700[data-v-317d1a6e] {\r\n            border-color: #4a5568;\r\n            border-color: rgba(74, 85, 104, var(--tw-border-opacity));\n}\n.dark\\:text-white[data-v-317d1a6e] {\r\n            color: #fff;\r\n            color: rgba(255, 255, 255, var(--tw-text-opacity));\n}\n.dark\\:text-gray-400[data-v-317d1a6e] {\r\n            color: #cbd5e0;\r\n            color: rgba(203, 213, 224, var(--tw-text-opacity));\n}\n}\r\n\r\n/*         coloranimation */\n.coloranim[data-v-317d1a6e] {\r\n        background: linear-gradient(-45deg, #5c21ff, #fc1f74, #a311f8, #ff64b9);\r\n        background-size: 200% 200%;\r\n        -webkit-animation: gradient-317d1a6e 6s ease infinite;\r\n                animation: gradient-317d1a6e 6s ease infinite;\r\n        height: 55vh;\r\n        width: 100%;\n}\r\n\r\n\r\n    /* coloranimation */\n@-webkit-keyframes gradient-317d1a6e {\n0% {\r\n            background-position: 0% 50%;\n}\n50% {\r\n            background-position: 100% 50%;\n}\n100% {\r\n            background-position: 0% 50%;\n}\n}\n@keyframes gradient-317d1a6e {\n0% {\r\n            background-position: 0% 50%;\n}\n50% {\r\n            background-position: 100% 50%;\n}\n100% {\r\n            background-position: 0% 50%;\n}\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.bg-gray-100[data-v-317d1a6e] {\n        background-color: #f7fafc;\n        background-color: rgba(247, 250, 252, var(--tw-bg-opacity));\n}\n.border-gray-200[data-v-317d1a6e] {\n        border-color: #edf2f7;\n        border-color: rgba(237, 242, 247, var(--tw-border-opacity));\n}\n.text-gray-400[data-v-317d1a6e] {\n        color: #cbd5e0;\n        color: rgba(203, 213, 224, var(--tw-text-opacity));\n}\n.text-gray-500[data-v-317d1a6e] {\n        color: #a0aec0;\n        color: rgba(160, 174, 192, var(--tw-text-opacity));\n}\n.text-gray-600[data-v-317d1a6e] {\n        color: #718096;\n        color: rgba(113, 128, 150, var(--tw-text-opacity));\n}\n.text-gray-700[data-v-317d1a6e] {\n        color: #4a5568;\n        color: rgba(74, 85, 104, var(--tw-text-opacity));\n}\n.text-gray-900[data-v-317d1a6e] {\n        color: #1a202c;\n        color: rgba(26, 32, 44, var(--tw-text-opacity));\n}\n@media (prefers-color-scheme: dark) {\n.dark\\:bg-gray-800[data-v-317d1a6e] {\n            background-color: #2d3748;\n            background-color: rgba(45, 55, 72, var(--tw-bg-opacity));\n}\n.dark\\:bg-gray-900[data-v-317d1a6e] {\n            background-color: #1a202c;\n            background-color: rgba(26, 32, 44, var(--tw-bg-opacity));\n}\n.dark\\:border-gray-700[data-v-317d1a6e] {\n            border-color: #4a5568;\n            border-color: rgba(74, 85, 104, var(--tw-border-opacity));\n}\n.dark\\:text-white[data-v-317d1a6e] {\n            color: #fff;\n            color: rgba(255, 255, 255, var(--tw-text-opacity));\n}\n.dark\\:text-gray-400[data-v-317d1a6e] {\n            color: #cbd5e0;\n            color: rgba(203, 213, 224, var(--tw-text-opacity));\n}\n}\n\n/*         coloranimation */\n.coloranim[data-v-317d1a6e] {\n        background: linear-gradient(-45deg, #5c21ff, #fc1f74, #a311f8, #ff64b9);\n        background-size: 200% 200%;\n        -webkit-animation: gradient-317d1a6e 6s ease infinite;\n                animation: gradient-317d1a6e 6s ease infinite;\n        height: 55vh;\n        width: 100%;\n}\n\n\n    /* coloranimation */\n@-webkit-keyframes gradient-317d1a6e {\n0% {\n            background-position: 0% 50%;\n}\n50% {\n            background-position: 100% 50%;\n}\n100% {\n            background-position: 0% 50%;\n}\n}\n@keyframes gradient-317d1a6e {\n0% {\n            background-position: 0% 50%;\n}\n50% {\n            background-position: 100% 50%;\n}\n100% {\n            background-position: 0% 50%;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -25329,7 +25439,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.coloranim[data-v-0dd2ab72] {\r\n    background: linear-gradient(-45deg, #5c21ff, #fc1f74, #a311f8, #ff64b9);\r\n    background-size: 200% 200%;\r\n    -webkit-animation: gradient-0dd2ab72 4s ease infinite;\r\n            animation: gradient-0dd2ab72 4s ease infinite;\r\n    height: 55vh;\r\n    width: 100%;\n}\n@-webkit-keyframes gradient-0dd2ab72 {\n0% {\r\n        background-position: 0% 50%;\n}\n50% {\r\n        background-position: 100% 50%;\n}\n100% {\r\n        background-position: 0% 50%;\n}\n}\n@keyframes gradient-0dd2ab72 {\n0% {\r\n        background-position: 0% 50%;\n}\n50% {\r\n        background-position: 100% 50%;\n}\n100% {\r\n        background-position: 0% 50%;\n}\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.coloranim[data-v-0dd2ab72] {\n    background: linear-gradient(-45deg, #5c21ff, #fc1f74, #a311f8, #ff64b9);\n    background-size: 200% 200%;\n    -webkit-animation: gradient-0dd2ab72 4s ease infinite;\n            animation: gradient-0dd2ab72 4s ease infinite;\n    height: 55vh;\n    width: 100%;\n}\n@-webkit-keyframes gradient-0dd2ab72 {\n0% {\n        background-position: 0% 50%;\n}\n50% {\n        background-position: 100% 50%;\n}\n100% {\n        background-position: 0% 50%;\n}\n}\n@keyframes gradient-0dd2ab72 {\n0% {\n        background-position: 0% 50%;\n}\n50% {\n        background-position: 100% 50%;\n}\n100% {\n        background-position: 0% 50%;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -51914,7 +52024,7 @@ webpackContext.id = "./resources/js/Pages sync recursive ^\\.\\/.*\\.vue$";
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBundle":false,"_integrity":"sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==","_location":"/axios","_phantomChildren":{},"_requested":{"type":"range","registry":true,"raw":"axios@^0.21","name":"axios","escapedName":"axios","rawSpec":"^0.21","saveSpec":null,"fetchSpec":"^0.21"},"_requiredBy":["#DEV:/","/@inertiajs/inertia"],"_resolved":"https://registry.npmjs.org/axios/-/axios-0.21.4.tgz","_shasum":"c67b90dc0568e5c1cf2b0b858c43ba28e2eda575","_spec":"axios@^0.21","_where":"C:\\\\Users\\\\Massi\\\\Desktop\\\\code\\\\smartcash","author":{"name":"Matt Zabriskie"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"bugs":{"url":"https://github.com/axios/axios/issues"},"bundleDependencies":false,"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}],"dependencies":{"follow-redirects":"^1.14.0"},"deprecated":false,"description":"Promise based HTTP client for the browser and node.js","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"homepage":"https://axios-http.com","jsdelivr":"dist/axios.min.js","keywords":["xhr","http","ajax","promise","node"],"license":"MIT","main":"index.js","name":"axios","repository":{"type":"git","url":"git+https://github.com/axios/axios.git"},"scripts":{"build":"NODE_ENV=production grunt build","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","examples":"node ./examples/server.js","fix":"eslint --fix lib/**/*.js","postversion":"git push && git push --tags","preversion":"npm test","start":"node ./sandbox/server.js","test":"grunt test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json"},"typings":"./index.d.ts","unpkg":"dist/axios.min.js","version":"0.21.4"}');
+module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"Promise based HTTP client for the browser and node.js","main":"index.js","scripts":{"test":"grunt test","start":"node ./sandbox/server.js","build":"NODE_ENV=production grunt build","preversion":"npm test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json","postversion":"git push && git push --tags","examples":"node ./examples/server.js","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","fix":"eslint --fix lib/**/*.js"},"repository":{"type":"git","url":"https://github.com/axios/axios.git"},"keywords":["xhr","http","ajax","promise","node"],"author":"Matt Zabriskie","license":"MIT","bugs":{"url":"https://github.com/axios/axios/issues"},"homepage":"https://axios-http.com","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"jsdelivr":"dist/axios.min.js","unpkg":"dist/axios.min.js","typings":"./index.d.ts","dependencies":{"follow-redirects":"^1.14.0"},"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}]}');
 
 /***/ })
 

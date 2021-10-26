@@ -18,7 +18,7 @@
         <section class="relative bg-white" aria-labelledby="contact-heading">
         <div class="absolute w-full h-1/2 bg-warm-gray-50" aria-hidden="true"></div>
         <!-- Decorative dot pattern -->
-        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!--         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <svg class="absolute z-0 top-0 right-0 transform -translate-y-16 translate-x-1/2 sm:translate-x-1/4 md:-translate-y-24 lg:-translate-y-72" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
             <defs>
                 <pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -27,7 +27,7 @@
             </defs>
             <rect width="404" height="384" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
             </svg>
-        </div>
+        </div> -->
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="relative mb-20 bg-white transition duration-500 hover:shadow-2xl">
             <h2 id="contact-heading" class="sr-only">Contact us</h2>
@@ -57,7 +57,7 @@
                     </defs>
                     </svg>
                 </div>
-                <div class="hidden absolute top-0 right-0 bottom-0 w-1/2 pointer-events-none lg:block" aria-hidden="true">
+                <div class="hidden absolute top-0 right-0 bottom-0 w-1/2 pointer-events-none" aria-hidden="true">
                     <svg class="absolute inset-0 w-full h-full" width="160" height="678" viewBox="0 0 160 678" fill="none" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
                     <path d="M-161 679.107L546.107-28l707.103 707.107-707.103 707.103L-161 679.107z" fill="url(#linear3)" fill-opacity=".1" />
                     <defs>
