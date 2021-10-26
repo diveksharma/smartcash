@@ -424,9 +424,9 @@ import Footer from '@/Components/Footer';
 <style scoped>
    
     .coloranim {
-    background: linear-gradient(-45deg, #5c21ff, #fc1f74, #a311f8, #ff64b9);
+    background: linear-gradient(-95deg, #5c21ff, #fc1f74, #a311f8, rgb(227, 67, 255));
     background-size: 200% 200%;
-    animation: gradient 4s ease infinite;
+    animation: gradient 5s ease infinite;
     height: 55vh;
     width: 100%;
     }

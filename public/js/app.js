@@ -22830,7 +22830,7 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "py-3 sm:py-24 lg:py-32"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "relative z-10 max-w-7xl mx-auto pl-4 pr-8 sm:px-6 lg:px-8"
+  "class": "z-10 max-w-7xl mx-auto pl-4 pr-8 sm:px-6 lg:px-8"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
   "class": "text-4xl ml-10 font-extrabold tracking-tight text-warm-gray-900 sm:text-5xl lg:text-6xl"
 }, "Kontakta oss!"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
@@ -25439,7 +25439,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.coloranim[data-v-0dd2ab72] {\n    background: linear-gradient(-45deg, #5c21ff, #fc1f74, #a311f8, #ff64b9);\n    background-size: 200% 200%;\n    -webkit-animation: gradient-0dd2ab72 4s ease infinite;\n            animation: gradient-0dd2ab72 4s ease infinite;\n    height: 55vh;\n    width: 100%;\n}\n@-webkit-keyframes gradient-0dd2ab72 {\n0% {\n        background-position: 0% 50%;\n}\n50% {\n        background-position: 100% 50%;\n}\n100% {\n        background-position: 0% 50%;\n}\n}\n@keyframes gradient-0dd2ab72 {\n0% {\n        background-position: 0% 50%;\n}\n50% {\n        background-position: 100% 50%;\n}\n100% {\n        background-position: 0% 50%;\n}\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.coloranim[data-v-0dd2ab72] {\n    background: linear-gradient(-95deg, #5c21ff, #fc1f74, #a311f8, rgb(227, 67, 255));\n    background-size: 200% 200%;\n    -webkit-animation: gradient-0dd2ab72 5s ease infinite;\n            animation: gradient-0dd2ab72 5s ease infinite;\n    height: 55vh;\n    width: 100%;\n}\n@-webkit-keyframes gradient-0dd2ab72 {\n0% {\n        background-position: 0% 50%;\n}\n50% {\n        background-position: 100% 50%;\n}\n100% {\n        background-position: 0% 50%;\n}\n}\n@keyframes gradient-0dd2ab72 {\n0% {\n        background-position: 0% 50%;\n}\n50% {\n        background-position: 100% 50%;\n}\n100% {\n        background-position: 0% 50%;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
