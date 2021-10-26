@@ -178,7 +178,7 @@
             </div>        
           </div>
 
-          <div class="mt-5 px-12 sm:col-span-1">
+          <div class="py-5 px-4 sm:col-span-1">
             <button type="submit" class="text-base font-semibold w-full inline-flex items-center justify-center px-12 py-2 xl:px-7 border border-transparent rounded-xl shadow-md text-white bg-indigo-400 transition duration-500 ease-in-out hover:bg-indigo-500">
               SKICKA
             </button>

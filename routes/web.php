@@ -20,7 +20,7 @@ if (App::environment('production')) {
 }
 
 Route::get('/', function () {
-    return Inertia::render('Welcome', [
+    return Inertia::render('WelcomeNew', [
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register'),
         'laravelVersion' => Application::VERSION,
