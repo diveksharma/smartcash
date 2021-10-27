@@ -43,7 +43,7 @@
                                             {{ option.name }}
                                           </Link>
                                         </div> 
-                                      </div>
+                                      </div>  
                                     
                                   </div>
                                 

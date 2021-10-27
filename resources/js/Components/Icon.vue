@@ -1,0 +1,43 @@
+
+<template>
+    <svg v-if="name === 'halfwave'" width="1630" height="446" viewBox="0 0 1630 446" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_471:22)"><path d="M0 0H1630L1562.95 305.883C1540.68 407.475 1436.04 468.064 1336.85 436.799L768 257.5L0 0Z" fill="url(#paint0_linear_471:22)"/><path d="M0 0H1630L1568.19 231.43C1544.57 319.835 1457.47 375.669 1367.28 360.211L786.374 260.649C774.143 258.553 762.091 255.519 750.325 251.574L0 0Z" fill="url(#paint1_linear_471:22)"/><path d="M0 0H1630L521.838 233.598C315.647 277.063 104.932 182.737 0 0V0Z" fill="url(#paint2_linear_471:22)"/>
+            <path d="M0 0H1630L641.233 376.022C559.279 407.189 466.876 391.588 399.697 335.242L0 0Z" fill="url(#paint3_linear_471:22)"/>
+            <path d="M0 0H1630L160.408 414.081C105.277 429.615 49.1565 392.764 41.5 336V336L0 0Z" fill="url(#paint4_linear_471:22)"/>
+            </g>
+            <defs>
+            <linearGradient id="paint0_linear_471:22" x1="815" y1="2.10559e-05" x2="795" y2="497.5" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C172FF"/>
+            <stop offset="1" stop-color="#F232F5" stop-opacity="0"/>
+            </linearGradient>
+            <linearGradient id="paint1_linear_471:22" x1="815" y1="2.10559e-05" x2="795" y2="497.5" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#7280FF"/>
+            <stop offset="1" stop-color="#F232F5" stop-opacity="0"/>
+            </linearGradient>
+            <linearGradient id="paint2_linear_471:22" x1="815" y1="4.06918e-06" x2="800" y2="649" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#857AFF"/>
+            <stop offset="1" stop-color="#DC7AFF" stop-opacity="0"/>
+            </linearGradient>
+            <linearGradient id="paint3_linear_471:22" x1="815" y1="1.85774e-05" x2="795" y2="497.5" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C172FF"/>
+            <stop offset="1" stop-color="#F232F5" stop-opacity="0"/>
+            </linearGradient>
+            <linearGradient id="paint4_linear_471:22" x1="815" y1="-8.9046e-06" x2="800" y2="648.999" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#857AFF"/>
+            <stop offset="1" stop-color="#DC7AFF" stop-opacity="0"/>
+            </linearGradient>
+            <clipPath id="clip0_471:22">
+            <rect width="1630" height="446" fill="white"/>
+            </clipPath>
+            </defs>
+            </svg>
+
+    <svg v-else-if="name === 'user-add'" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"></path></svg>
+</template>
+
+<script>
+export default {
+  props: {
+    name: String,
+  },
+}
+</script>
