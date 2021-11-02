@@ -24,6 +24,13 @@
                     -->
                 </button>
                 </div>
+
+                <button type="button" href="/checkout" class="rounded-full shadow-lg">
+                  <svg xmlns="http://www.w3.org/2000/svg" class=" h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                  </svg>
+                </button> 
+
                 <div class="shadow-lg rounded-md flex items-center justify-center mx-auto sm:items-stretch sm:justify-start">
                 <div class="hidden sm:block">
                     <div class="flex space-x-4">
@@ -36,7 +43,6 @@
                 </div>
             </div>
             </div>
-
             <!-- Mobile menu, show/hide based on menu state. -->
  
             <div class="sm:hidden" id="mobile-menu">
@@ -101,6 +107,7 @@ import { Link } from '@inertiajs/inertia-vue3';
 import { ref } from '@vue/reactivity';
 import HomepageLayout from '../HomepageLayout.vue';
 import Icon from '@/Components/Icon';
+import Button from '@/Components/Button.vue';
 
   const products = [
     {id: 1, name: 'ICT250', price: '', img:'/kortterminal1.jpg', href: '#'},
@@ -134,6 +141,7 @@ import Icon from '@/Components/Icon';
         HomepageLayout,
         Link,
         Icon,
+        Button,
     },
 
     setup() {

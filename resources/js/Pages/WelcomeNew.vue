@@ -9,6 +9,7 @@
                     <Link href="/" class="flex-shrink-0 flex items-center">
                         <img class="sm:block h-4 w-auto" src="/smart-cash-text.svg" alt="Smart Cash"> 
                     </Link>
+                    
                     <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
                         <!-- Mobile menu button-->
                         <button @click="dropdownMobile = !dropdownMobile" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu"> 
@@ -131,6 +132,12 @@
         </div>
     </transition>
 
+    <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
+        <div class="flex justify-between items-center">
+            <img class="sm:block h-auto w-auto" src="/gasell-smartcash.png" alt="Gasell">
+            <img class="sm:block h-auto w-auto" src="/UC-dark.png" alt="UC">
+        </div>
+    </div>
     <!-- Get started Section -->
     <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24">

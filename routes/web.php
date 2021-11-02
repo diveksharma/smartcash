@@ -4,16 +4,8 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+use App\Http\Controllers\CartController;
+
 
 if (App::environment('production')) {
     URL::forceScheme('https');
@@ -113,6 +105,10 @@ Route::group(['prefix' => 'produkter', 'as' => 'products.'], function () {
     })  ->name('tillbehör');
 
 });
+
+Route::post('/add-to-shopping-cart', [CartController::class, 'addToShoppingCart']);
+Route::get('/get-cart', [CartController::class, 'showCart']);
+Route::get('/clear-cart', [CartController::class, 'clearShoppingCart']);
 
 
 
