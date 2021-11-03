@@ -20730,7 +20730,7 @@ var products = [{
   price: '1 500',
   currency: 'kr',
   img: '/pc1.png',
-  href: '/checkout',
+  href: '/productinfo',
   info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at congue erat, ac interdum risus.'
 }, {
   id: 2,
@@ -23926,8 +23926,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_product_layout, null, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
-        href: "./PC-Kassa",
-        "class": "flex justify-start transform duration-500 hover:scale-110"
+        href: "/produkter/pc-kassa",
+        "class": "flex justify-start transform duration-500 hover:scale-105"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_2, _hoisted_3];

@@ -31,7 +31,7 @@ import ProductLayout from './ProductLayout.vue';
 import { Head } from '@inertiajs/inertia-vue3';
 
   const products = [
-    {id: 1, name: 'Smart Enox 1 utan kunddisplay', price: '1 500', currency: 'kr', img:'/pc1.png', href:'/checkout', info:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at congue erat, ac interdum risus.'},
+    {id: 1, name: 'Smart Enox 1 utan kunddisplay', price: '1 500', currency: 'kr', img:'/pc1.png', href:'/productinfo', info:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at congue erat, ac interdum risus.'},
     {id: 2, name: 'Smart Enox 2 med liten kunddisplay', price: '1 800', currency: 'kr', img:'/pc2.png', href: '/checkout', info:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at congue erat, ac interdum risus.'},
     {id: 3, name: 'Smart Enox 3 med stor kunddisplay', price: '1 500', currency: 'kr', img:'/pc3.png', href: '/checkout', info:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at congue erat, ac interdum risus.'},
   ];
