@@ -46,11 +46,12 @@ import { Head } from '@inertiajs/inertia-vue3';
         products,
       }
     },
+
     methods: {
       addToShoppingCart(product) {
         axios.post('/add-to-shopping-cart', product)
       }
-    }
+    },
     
   }
 

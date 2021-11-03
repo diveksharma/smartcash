@@ -52,7 +52,9 @@ Route::get('/checkout', function () {
     return Inertia::render ('Checkout');
 })->name('checkout');
 
-
+Route::get('/productinfo', function () {
+    return Inertia::render ('ProductInfo');
+})->name('productinfo');
 
 /* Route::get('/refrences', function () {
     return Inertia::render ('Refrences');

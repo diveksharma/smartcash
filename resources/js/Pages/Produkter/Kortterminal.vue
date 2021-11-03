@@ -8,12 +8,15 @@
       <a v-for="product in products" :key="product.id" :href="product.href" class="group">
           <div class="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg shadow-md transition duration-500 ease-in-out hover:shadow-xl overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
           <img :src="product.img" alt="Product" class="w-full h-full object-center object-cover transition duration-500 group-hover:opacity-80">
+             <button @click="addToShoppingCart(product)" class="mt-2 px-4 py-2 bg-white rounded-full shadow-md text-xs">
+              Lägg till produkt
+            </button>
           </div>
           <h3 class="mt-4 text-sm text-gray-700">
             {{ product.name }}
           </h3>
           <p class="mt-1 text-lg font-medium text-gray-900">
-            {{ product.price }}
+            {{ product.price }} {{ product.currency }}
           </p>
       </a>
     </div>
@@ -25,14 +28,14 @@
 <script>
 import ProductLayout from './ProductLayout';
   const products = [
-    {id: 1, name: 'ICT250', price: '', img:'/kortterminal1.png', href: '#'},
-    {id: 2, name: 'IWL250', price: '', img:'/kortterminal2.png', href: '#'},
-    {id: 3, name: 'T103p', price: '', img:'/kortterminal3.png', href: '#'},
-    {id: 4, name: 'Verifone V400m', price: '', img:'/kortterminal4.png', href: '#'},
-    {id: 5, name: 'West Int 8006', price: '', img:'/kortterminal5.png', href: '#'},
-    {id: 6, name: 'West Int t103', price: '', img:'/kortterminal6.png', href: '#'},
-    {id: 7, name: 'Westpay C-10', price: '', img:'/kortterminal7.png', href: '#'},
-    {id: 8, name: 'Westpay C-100', price: '', img:'/kortterminal8.png', href: '#'},
+    {id: 1, name: 'ICT250', price: '1000', currency:'kr', img:'/kortterminal1.png', href: '#'},
+    {id: 2, name: 'IWL250', price: '1000', currency:'kr', img:'/kortterminal2.png', href: '#'},
+    {id: 3, name: 'T103p', price: '1000', currency:'kr', img:'/kortterminal3.png', href: '#'},
+    {id: 4, name: 'Verifone V400m', price: '1000', currency:'kr', img:'/kortterminal4.png', href: '#'},
+    {id: 5, name: 'West Int 8006', price: '1000', currency:'kr', img:'/kortterminal5.png', href: '#'},
+    {id: 6, name: 'West Int t103', price: '1000', currency:'kr', img:'/kortterminal6.png', href: '#'},
+    {id: 7, name: 'Westpay C-10', price: '1000', currency:'kr', img:'/kortterminal7.png', href: '#'},
+    {id: 8, name: 'Westpay C-100', price: '1000', currency:'kr', img:'/kortterminal8.png', href: '#'},
   ];
 
   const names = [
@@ -58,6 +61,7 @@ import ProductLayout from './ProductLayout';
       return {
         products,
         names,
+        products,
       }
     },
 
@@ -73,6 +77,11 @@ import ProductLayout from './ProductLayout';
       } 
     },
     
+    methods: {
+      addToShoppingCart(product) {
+        axios.post('/add-to-shopping-cart', product)
+      }
+    }
 
   }
 

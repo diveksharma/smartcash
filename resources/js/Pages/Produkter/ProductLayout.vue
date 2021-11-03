@@ -25,13 +25,8 @@
                 </button>
                 </div>
 
-                <button type="button" href="/checkout" class="rounded-full shadow-lg">
-                  <svg xmlns="http://www.w3.org/2000/svg" class=" h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-                  </svg>
-                </button> 
 
-                <div class="shadow-lg rounded-md flex items-center justify-center mx-auto sm:items-stretch sm:justify-start">
+                <div class="transition duration-300 hover:shadow-lg rounded-md flex items-center justify-center mx-auto sm:items-stretch sm:justify-start">
                 <div class="hidden sm:block">
                     <div class="flex space-x-4">
                     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
@@ -41,8 +36,14 @@
                     </div>
                 </div>
                 </div>
+                <Link href="/checkout">
+                  <Icon name="bag" class="h-14 w-14 transition duration-300 hover:shadow-xl rounded-full mx-auto pt-2"></Icon>
+                </Link>
             </div>
             </div>
+
+
+
             <!-- Mobile menu, show/hide based on menu state. -->
  
             <div class="sm:hidden" id="mobile-menu">
