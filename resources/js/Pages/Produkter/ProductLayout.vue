@@ -37,10 +37,10 @@
                 </div>
                 </div>
                 <Link href="/checkout">
-                  <Icon name="bag" class="h-14 w-14 transition duration-300 hover:shadow-xl rounded-full mx-auto pt-2"></Icon>
+                  <Icon name="bag" class="h-14 w-14 transform duration-500 hover:scale-110 rounded-full mx-auto pt-2"></Icon>
                 </Link>
-            </div>
-            </div>
+                </div>
+                </div>
 
 
 
