@@ -4,6 +4,9 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
+/* Models */
+use App\Models\Product;
+/* Controllers */
 use App\Http\Controllers\CartController;
 
 
@@ -63,48 +66,70 @@ Route::get('/productinfo', function () {
 Route::group(['prefix' => 'produkter', 'as' => 'products.'], function () {
     
     Route::get('/pc-kassa', function () {
-        return Inertia::render ('Produkter/PC-Kassa');
+        return Inertia::render('Produkter/PC-Kassa', [
+            'products-pc-kassa' => Product::where('category', 'PC-kassa')->get(),
+        ]);
     }) ->name('pc-kassa');
 
     Route::get('/kortterminal', function () {
-        return Inertia::render ('Produkter/Kortterminal');
+        return Inertia::render('Produkter/Kortterminal', [
+            'products-kortterminal' => Product::where('category', 'Kortterminal')->get(),
+        ]);
     })  ->name('card-terminal');
 
     Route::get('/kassaregister', function () {
-        return Inertia::render ('Produkter/Kassaregister');
+        return Inertia::render('Produkter/Kassaregister', [
+            'products-kassaregister' => Product::where('category', 'Kassaregister')->get(),
+        ]);
     })  ->name('kassaregister');
 
     Route::get('/enox-kassa', function () {
-        return Inertia::render ('Produkter/Enox-kassa');
+        return Inertia::render('Produkter/Enox-kassa', [
+            'products-enox-kassa' => Product::where('category', 'EnoxKassa')->get(),
+        ]);
     })  ->name('enox-kassa');
 
     Route::get('/orderplatta', function () {
-        return Inertia::render ('Produkter/Orderplatta');
+        return Inertia::render('Produkter/Orderplatta',[
+            'products-orderplatta' => Product::where('category', 'Orderplatta')->get(),
+        ]);
     })  ->name('orderplatta');
     
     Route::get('/skanner', function () {
-        return Inertia::render ('Produkter/Skanner');
+        return Inertia::render('Produkter/Skanner',[
+            'products-skanner' => Product::where('category', 'Skanner')->get(),
+        ]);
     })  ->name('skanner');
 
-    Route::get('/vågar', function () {
-        return Inertia::render ('Produkter/Vågar');
-    })  ->name('vågar');
+    Route::get('/vagar', function () {
+        return Inertia::render('Produkter/Vågar',[
+            'products-vagar' => Product::where('category', 'våg')->get(),
+        ]);
+    })  ->name('vagar');
 
     Route::get('/skrivare', function () {
-        return Inertia::render ('Produkter/Skrivare');
+        return Inertia::render('Produkter/Skrivare',[
+            'products-skrivare' => Product::where('category', 'Skrivare')->get(),
+        ]);
     })  ->name('skrivare');
 
     Route::get('/kontrollenheter', function () {
-        return Inertia::render ('Produkter/Kontrollenheter');
+        return Inertia::render('Produkter/Kontrollenheter',[
+            'products-kontrollenheter' => Product::where('category', 'Kontrollenheter')->get(),
+        ]);
     })  ->name('kontrollenheter');
 
     Route::get('/kvittorullar', function () {
-        return Inertia::render ('Produkter/Kvittorullar');
+        return Inertia::render('Produkter/Kvittorullar',[
+            'products-kvittorullar' => Product::where('category', 'Kvittorullar')->get(),
+        ]);
     })  ->name('kvittorullar');
 
-    Route::get('/tillbehör', function () {
-        return Inertia::render ('Produkter/Tillbehör');
-    })  ->name('tillbehör');
+    Route::get('/tillbehor', function () {
+        return Inertia::render('Produkter/Tillbehör',[
+            'products-tillbehor' => Product::where('category', 'Tillbehör')->get(),
+        ]);
+    })  ->name('tillbehor');
 
 });
 

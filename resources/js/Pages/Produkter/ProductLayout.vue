@@ -27,17 +27,23 @@
 
 
                 <div class="transition duration-300 hover:shadow-lg rounded-md flex items-center justify-center mx-auto sm:items-stretch sm:justify-start">
-                <div class="hidden sm:block">
-                    <div class="flex space-x-4">
-                    <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                    <Link v-for="name in names" :key="name.id" :href="route(name.href)" @mouseover="textHover(name.name)" @mouseleave="textHover('')" :class="[hoverText === name.name ? 'transition duration-500 ease-in-out bg-clip-text text-transparent bg-gradient-to-tl from-indigo-600 via-purple-500 to-pink-600' : 'text-gray-600', 'px-3 py-2 rounded-md text-sm font-medium']">
-                        {{ name.name }}
-                    </Link>
-                    </div>
+                  <div class="hidden sm:block">
+                      <div class="flex space-x-4">
+                      <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                      <Link v-for="name in names" :key="name.id" :href="route(name.href)" @mouseover="textHover(name.name)" @mouseleave="textHover('')" :class="[hoverText === name.name ? 'transition duration-500 ease-in-out bg-clip-text text-transparent bg-gradient-to-tl from-indigo-600 via-purple-500 to-pink-600' : '', $page.url === name.url ? 'bg-clip-text text-transparent bg-gradient-to-tl from-indigo-600 via-purple-500 to-pink-600' : 'text-gray-600', 'px-3 py-2 rounded-md text-sm font-medium']">
+                          {{ name.name }} 
+                      </Link>
+                      </div>
+                  </div>
                 </div>
-                </div>
-                <Link href="/checkout">
-                  <Icon name="bag" class="h-14 w-14 transform duration-500 hover:scale-110 rounded-full mx-auto pt-2"></Icon>
+                <Link href="/checkout" class="relative bg-white rounded-full shadow-lg transform duration-500 hover:scale-110 px-2 py-2">
+                  <!-- <Icon name="bag" class="h-14 w-14 transform duration-500 hover:scale-110 rounded-full mx-auto pt-2"></Icon> -->
+                  <div class="absolute -top-3 -right-1 flex items-center justify-center font-medium rounded-full bg-purple-500 text-white w-5 h-5" style="font-size: 10px">
+                    1
+                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
                 </Link>
                 </div>
                 </div>
@@ -54,7 +60,9 @@
                 </svg>
               </button>
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            </div>  
+            </div>
+            <div v-show="dropdownMobile" class="fixed inset-0 z-10" @click="dropdownMobile = false" />
+  
         </nav>
 
       <transition
@@ -83,7 +91,7 @@
                         </div>
                     </div>
                   <div class="grid grid-flow-col grid-cols-3 grid-rows-4 gap-x-5 sm:px-2 sm:pt-2 sm:pb-3 sm:space-y-1 break-normal">
-                    <Link v-for="name in names" :key="name.id" :href="route(name.href)" @mouseover="textHover(name.name)" @mouseleave="textHover('')" :class="[hoverText === name.name ? 'transition duration-500 ease-in-out bg-clip-text text-transparent bg-gradient-to-tl from-indigo-600 via-purple-500 to-pink-600' : 'text-gray-600', 'px-3 py-2 rounded-md text-sm font-medium']">
+                    <Link v-for="name in names" :key="name.id" :href="route(name.href)" @mouseover="textHover(name.name)" @mouseleave="textHover('')" :class="[hoverText === name.name ? 'transition duration-500 ease-in-out bg-clip-text text-transparent bg-gradient-to-tl from-indigo-600 via-purple-500 to-pink-600' : 'text-gray-600', $page.url === name.url ? 'bg-clip-text text-transparent bg-gradient-to-tl from-indigo-600 via-purple-500 to-pink-600' : '', 'px-3 py-2 rounded-md text-sm font-medium']">
                         {{ name.name }}
                     </Link>
                   </div>  
@@ -121,18 +129,19 @@ import Button from '@/Components/Button.vue';
     {id: 8, name: 'Westpay C-100', price: '', img:'/kortterminal8.png', href: '#'},
   ];
 
+  const productUrl = '/produkter';
   const names = [
-    {id: 1, name: 'PC-Kassa', href:'products.pc-kassa'}, 
-    {id: 2, name: 'Kortterminal', href:'products.card-terminal'},
-    {id: 3, name: 'Kassaregister', href:'products.kassaregister'},
-    {id: 4, name: 'EnoxKassa', href:'products.enox-kassa'},
-    {id: 5, name: 'Orderplatta', href:'products.orderplatta'},
-    {id: 6, name: 'Skanner', href:'products.skanner'},
-    {id: 7, name: 'Vågar', href:'products.vågar'},
-    {id: 8, name: 'Skrivare', href:'products.skrivare'},
-    {id: 9, name: 'Kontrollenheter', href:'products.kontrollenheter'},
-    {id: 10, name: 'Kvittorullar', href:'products.kvittorullar'},
-    {id: 11, name: 'Tillbehör', href:'products.tillbehör'}
+    {id: 1, name: 'PC-Kassa', href:'products.pc-kassa', url: productUrl+'/pc-kassa'}, 
+    {id: 2, name: 'Kortterminal', href:'products.card-terminal', url: productUrl+'/kortterminal'},
+    {id: 3, name: 'Kassaregister', href:'products.kassaregister', url: productUrl+'/kassaregister'},
+    {id: 4, name: 'EnoxKassa', href:'products.enox-kassa', url: productUrl+'/enox-kassa'},
+    {id: 5, name: 'Orderplatta', href:'products.orderplatta', url: productUrl+'/orderplatta'},
+    {id: 6, name: 'Skanner', href:'products.skanner', url: productUrl+'/skanner'},
+    {id: 7, name: 'Vågar', href:'products.vagar', url: productUrl+'/vagar'},
+    {id: 8, name: 'Skrivare', href:'products.skrivare', url: productUrl+'/skrivare'},
+    {id: 9, name: 'Kontrollenheter', href:'products.kontrollenheter', url: productUrl+'/kontrollenheter'},
+    {id: 10, name: 'Kvittorullar', href:'products.kvittorullar', url: productUrl+'/kvittorullar'},
+    {id: 11, name: 'Tillbehör', href:'products.tillbehor', url: productUrl+'/tillbehor'}
   ];
 
   const dropdownMobile = ref((false))

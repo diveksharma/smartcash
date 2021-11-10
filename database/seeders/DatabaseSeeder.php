@@ -35,7 +35,7 @@ class DatabaseSeeder extends Seeder
             ],
             [
                 'category' => 'PC-kassa',
-                'name' => 'Smart Enox 2 liten kunddisplay',
+                'name' => 'Smart Enox 2, liten kunddisplay',
                 'price_currency' => [
                     [
                         'price' => '1 800', 
@@ -43,12 +43,12 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/pc2.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
                 'category' => 'PC-kassa',
-                'name' => 'Smart Enox 3 med stor kunddisplay',
+                'name' => 'Smart Enox 3, stor kunddisplay',
                 'price_currency' => [
                     [
                         'price' => '1500', 
@@ -56,7 +56,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/pc3.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -69,7 +69,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kortterminal1.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -82,7 +82,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kortterminal2.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -95,7 +95,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kortterminal3.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -108,7 +108,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kortterminal4.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -121,7 +121,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kortterminal5.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -134,7 +134,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kortterminal6.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -147,7 +147,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kortterminal7.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -160,7 +160,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kortterminal8.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -173,7 +173,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kassaregister1.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -186,7 +186,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kassaregister2.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -199,7 +199,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kassaregister3.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -212,7 +212,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/enoxkassa.jpg',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -225,7 +225,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/orderplatta.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -238,7 +238,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/skanner.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -251,7 +251,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/våg1.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -264,7 +264,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/våg2.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -277,7 +277,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/skrivare.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -290,7 +290,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kontrollenheter1.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -303,7 +303,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kontrollenheter2.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -316,7 +316,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kontrollenheter3.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -329,7 +329,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kontrollenheter4.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -342,7 +342,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kvittorullar1.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -355,7 +355,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kvittorullar2.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -368,7 +368,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kvittorullar3.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -381,7 +381,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kvittorullar4.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -394,7 +394,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kvittorullar5.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -407,7 +407,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kvittorullar6.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -419,13 +419,13 @@ class DatabaseSeeder extends Seeder
                         'currency' => 'SEK'
                     ]
                 ],
-                'image' => '/kvittorullar7.png',
-                'tag' => 'Populär',
+                'image' => '/kvittorullar7.png', 
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
                 'category' => 'Kvittorullar',
-                'name' => 'kvittorullar-thermorulle-57-50-12-25-m',
+                'name' => 'Thermorulle-57-50-12-25-m',
                 'price_currency' => [
                     [
                         'price' => '100', 
@@ -433,7 +433,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/kvittorullar8.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
             [
@@ -446,7 +446,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
                 'image' => '/tillbehör1.png',
-                'tag' => 'Populär',
+                'tag' => null,
                 'recommendation' => null,
             ],
         ];

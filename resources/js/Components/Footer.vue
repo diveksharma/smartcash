@@ -1,7 +1,7 @@
 <template>
   <div class="border-t border-gray-200 py-5 mt-28"></div>
 
-  <div class="lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-3 lg:gap-y-5">
+  <div class="lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-3 lg:gap-y-5 gap-x-7">
     <div>
       <div class="text-center">
         <h2 class="text-1xl font-extrabold tracking-tight text-gray-900">

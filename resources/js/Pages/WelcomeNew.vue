@@ -9,6 +9,7 @@
                     <Link href="/" class="flex-shrink-0 flex items-center">
                         <img class="sm:block h-4 w-auto" src="/smart-cash-text.svg" alt="Smart Cash"> 
                     </Link>
+
                     
                     <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
                         <!-- Mobile menu button-->
@@ -26,13 +27,14 @@
                         </div>
                     <!-- Main menu Desktop -->
                     <div class="flex-1 hidden sm:block">
-                        <div class="flex justify-center space-x-8">
+                        <div class="flex justify-center space-x-12">
                             <button 
                             @click="productDropdown = !productDropdown" 
                                 class="text-white font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm uppercase"
                             >
                                 Produkter
                             </button>
+                            <div v-show="productDropdown" class="fixed inset-0 z-10" @click="productDropdown = false" />
                             <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
                                 <div v-if="productDropdown" class="absolute z-10 top-9 mx-auto transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
                                     <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
@@ -46,6 +48,7 @@
                                                 {{ option.name }}
                                             </Link>
                                             </div> 
+                                            
                                         </div>
                                         
                                     </div>
@@ -70,9 +73,17 @@
                                     </div>
                                 </div>
                             </transition>
-                            <Link v-for="nav in navigation" :key="nav.id" :href="route(nav.href)" class="text-white font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm">
+                            <Link v-for="nav in navigation" :key="nav.id" :href="route(nav.href)" class="text-white flex items-center font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm">
                                 {{ nav.name }}
                             </Link>
+
+                            <div class="py-1 rounded-full shadow-xl px-2 sm:px-6 lg:px-3 sm:block hidden">
+                                <div class="flex justify-between items-center gap-x-3">
+                                    <img class="sm:block h-6 w-16 sm:h-8 sm:w-auto" src="/gasell-logo.png" alt="Gasell">
+                                    <img class="sm:block h-6 w-auto sm:h-12 sm:w-auto" src="/uc-logo.png" alt="UC">
+                                </div>
+                            </div>
+
                         </div>
                         
                     </div>
@@ -84,7 +95,7 @@
             <div class="relative">
                 <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
                 <div class="mx-auto">
-                    <div class="relative sm:overflow-hidden">
+                    <div class="relative py-2 sm:overflow-hidden">
                         <div class="relative max-w-7xl mx-auto px-4 sm:py-16 -py-24 sm:px-6 lg:py-32 lg:px-auto">
                             <h1 class="lg:text-7xl text-5xl pt-16 sm:pt-0 sm:text-left font-bold text-white">
                                 <span class="block leading-tight">Smarta Betallösningar</span>
@@ -126,18 +137,19 @@
                         <Link v-for="navmobile in navigationmobile" :key="navmobile.id" :href="route(navmobile.href)" class="text-black font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm">
                             {{ navmobile.name }}
                         </Link>
-                      </div>  
+                        <div class="py-1 px-2 sm:px-6 lg:px-3">
+                            <div class="flex justify-between items-center gap-x-3">
+                                <img class="sm:block h-6 w-auto sm:h-6 sm:w-auto" src="/gasell-logo.png" alt="Gasell">
+                                <img class="sm:block h-6 w-auto sm:h-9 sm:w-auto" src="/uc-logo.png" alt="UC">
+                            </div>
+                        </div>
+                    </div>  
                 </div>
             </div>
         </div>
     </transition>
+    
 
-    <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
-        <div class="flex justify-between items-center">
-            <img class="sm:block h-auto w-auto" src="/gasell-smartcash.png" alt="Gasell">
-            <img class="sm:block h-auto w-auto" src="/UC-dark.png" alt="UC">
-        </div>
-    </div>
     <!-- Get started Section -->
     <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24">
@@ -190,6 +202,12 @@
         </div>
     </div>
 
+    <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
+        <div class="sm:flex sm:justify-between sm:items-center">
+            <img class="sm:block h-auto w-auto" src="/gasell-smartcash.png" alt="Gasell">
+            <img class="sm:block h-auto w-auto" src="/UC-dark.png" alt="UC">
+        </div>
+    </div>
     <!-- Customers Section -->
     <div class="max-w-7xl mx-auto py-8 sm:py-24 px-2 sm:px-6 lg:px-3">
         <h2 class="text-center text-lg sm:text-3xl uppercase font-extrabold text-gray-900 tracking-tight">
@@ -333,11 +351,11 @@ import Footer from '@/Components/Footer';
         {id: 4, name: 'Enox-kassa', href:'products.enox-kassa'},
         {id: 5, name: 'Orderplatta (Handy)', href:'products.orderplatta'},
         {id: 6, name: 'Skanner', href:'products.skanner'},
-        {id: 7, name: 'Vågar', href:'products.vågar'},
+        {id: 7, name: 'Vågar', href:'products.vagar'},
         {id: 8, name: 'Skrivare', href:'products.skrivare'},
         {id: 9, name: 'Kontrollenheter', href:'products.kontrollenheter'},
         {id: 10, name: 'Kvittorullar', href:'products.kvittorullar'},
-        {id: 11, name: 'Tillbehör', href:'products.tillbehör'}
+        {id: 11, name: 'Tillbehör', href:'products.tillbehor'}
     ];
 
     const productOptions = [
@@ -356,11 +374,11 @@ import Footer from '@/Components/Footer';
                 {id: 1, name: 'Kortterminal', href:'products.card-terminal'},
                 {id: 2, name: 'Orderplatta (Handy)', href:'products.orderplatta'},
                 {id: 3, name: 'Skanner', href:'products.skanner'},
-                {id: 4, name: 'Vågar', href:'products.vågar'},
+                {id: 4, name: 'Vågar', href:'products.vagar'},
                 {id: 5, name: 'Skrivare', href:'products.skrivare'},
                 {id: 6, name: 'Kontrollenheter', href:'products.kontrollenheter'},
                 {id: 7, name: 'Kvittorullar', href:'products.kvittorullar'},
-                {id: 8, name: 'Tillbehör', href:'products.tillbehör'}
+                {id: 8, name: 'Tillbehör', href:'products.tillbehor'}
             ]
         },
     ]

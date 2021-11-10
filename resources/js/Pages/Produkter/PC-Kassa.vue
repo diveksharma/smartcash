@@ -1,63 +1,57 @@
 <template>
+
   <Head title="Produkter - PC-kassa" />
+  
   <product-layout>
-      <h2 class="sr-only">Produkter</h2>
+    <div class="grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
 
-      <div class="grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-
-        <Link v-for="product in products" :key="product.id" :href="product.href" class="">
-          <div class="rounded-md absolute left-0 h-10"></div>
-          <div class="mt-4 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-            <img :src="product.img" alt="Product" class="w-full h-full object-center object-cover transition duration-500 group-hover:opacity-80">
-          <div class="rounded-md shadow-lg px-2 py-3 space-y-2">
-            <div class="flex justify-center">
+      <Link v-for="product in productsPcKassa" :key="product.id" :href="product.href" class="">
+        <div class="rounded-md relative left-0 h-10" />
+        <div class="mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+        <div v-if="product.tag" class="absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1">
+          <span class="text-white text-xs">{{ product.tag }} </span>
+        </div>
+          <img :src="product.image" alt="Product" class="w-full h-full object-center object-cover transition duration-500 group-hover:opacity-80">
+          <div class="rounded-md shadow-lg px-2 py-2 space-y-0">
+            <div class="flex justify-center py-1">
               <div class="text-sm text-center break-words font-bold">
                 {{ product.name }}
               </div>
             </div>
-            <h3 class="text-center text-xs sm:text-sm text-gray-700">
+            <h3 class="text-center text-xs sm:text-sm py-4 text-gray-700">
               {{ product.name }}
             </h3>
-          <div class="flex justify-between">
-            <div @click="addToShoppingCart(product)"  class="rounded-full shadow-md h-10 w-10 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-              </svg>
+            <div class="flex items-center justify-between -gap-x-7 bottom-0">
+              <div @click="addToShoppingCart(product)" class="rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                </svg>
+              </div>
+              <div class="rounded-lg shadow-lg h-7 w-24 flex items-center justify-center">
+                <p class="text-right text-sm sm:text-md font-medium text-black">
+                  {{ product.price_currency[0].price }} {{ product.price_currency[0].currency }}
+                </p>
+              </div>
             </div>
-            <div class="shadow-md rounded-full h-10 w-24 flex items-center justify-center">
-              <p class="text-right text-sm sm:text-lg font-medium text-pink-400">
-                {{ product.price }} {{ product.currency }}
-              </p>
-            </div>
-          </div>
-          </div>
-          </div>
-        </Link>
+          </div>  
+        </div>
+      </Link>
 
-      </div>
+    </div>
   </product-layout>
+
 </template>
 
 <script>
 import ProductLayout from './ProductLayout.vue';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 
-  const products = [
-    {id: 1, name: 'Smart Enox 1 utan kunddisplay', price: '1 500', currency: 'kr', img:'/pc1.png', href:'/productinfo', info:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at congue erat, ac interdum risus.'},
-    {id: 2, name: 'Smart Enox 2 med liten kunddisplay', price: '1 800', currency: 'kr', img:'/pc2.png', info:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at congue erat, ac interdum risus.'},
-    {id: 3, name: 'Smart Enox 3 med stor kunddisplay', price: '1 500', currency: 'kr', img:'/pc3.png', info:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at congue erat, ac interdum risus.'},
-  ];
-
   export default {
+    props: ['products-pc-kassa'],
     components: {
       ProductLayout,
       Head,
       Link
-    },
-    setup() {
-      return {
-        products,
-      }
     },
 
     methods: {

@@ -26,10 +26,11 @@
                     <div class="flex justify-center space-x-8">
                         <button 
                           @click="productDropdown = !productDropdown" 
-                            class="text-black font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm uppercase"
+                          :class="[ '/'+$page.url.split('/')[1] === '/produkter' ? 'bg-gray-300 text-white' : 'text-black hover:bg-gray-300 hover:text-white transition duration-500 ease-in-out', 'font-semibold text-sm px-3 py-2 rounded-md flex items-center']"
                         >
                             Produkter
                         </button>
+                        <div v-show="productDropdown" class="fixed inset-0 z-10" @click="productDropdown = false" />
                         <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
                             <div v-if="productDropdown" class="absolute z-10 top-9 left-72  transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
                                 <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
@@ -67,7 +68,7 @@
                                 </div>
                             </div>
                         </transition>
-                        <Link v-for="nav in navigation" :key="nav.id" :href="route(nav.href)" class="text-black font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm">
+                        <Link v-for="nav in navigation" :key="nav.id" :href="route(nav.href)" :class="[ $page.url === nav.url ? 'bg-gray-300 text-white' : 'text-black hover:bg-gray-300 hover:text-white transition duration-500 ease-in-out', 'font-semibold text-sm px-3 py-2 rounded-md flex items-center']">
                             {{ nav.name }}
                         </Link>
                     </div>
@@ -122,10 +123,10 @@ import { ref } from '@vue/reactivity';
 import Footer from '@/Components/Footer';
 
     const navigation = [
-      {id: 1, name: 'ERBJUDANDE', href:'erbjudande'},
-      {id: 2, name: 'INLÖSENAVTAL', href:'agreement'},
-      {id: 3, name: 'OM OSS', href:'aboutus'},
-      {id: 4, name: 'KONTAKT', href:'contact'},
+      {id: 1, name: 'ERBJUDANDE', href:'erbjudande', url: '/erbjudande'},
+      {id: 2, name: 'INLÖSENAVTAL', href: 'agreement', url: '/inlosenavtal'},
+      {id: 3, name: 'OM OSS', href:'aboutus', url: '/omoss'},
+      {id: 4, name: 'KONTAKT', href:'contact', url: '/kontakt'},
     ];
 
     const navigationmobile = [
@@ -151,11 +152,11 @@ import Footer from '@/Components/Footer';
               {id: 1, name: 'Kortterminal', href:'products.card-terminal'},
               {id: 2, name: 'Orderplatta (Handy)', href:'products.orderplatta'},
               {id: 3, name: 'Skanner', href:'products.skanner'},
-              {id: 4, name: 'Vågar', href:'products.vågar'},
+              {id: 4, name: 'Vågar', href:'products.vagar'},
               {id: 5, name: 'Skrivare', href:'products.skrivare'},
               {id: 6, name: 'Kontrollenheter', href:'products.kontrollenheter'},
               {id: 7, name: 'Kvittorullar', href:'products.kvittorullar'},
-              {id: 8, name: 'Tillbehör', href:'products.tillbehör'}
+              {id: 8, name: 'Tillbehör', href:'products.tillbehor'}
             ]
         },
       ]
