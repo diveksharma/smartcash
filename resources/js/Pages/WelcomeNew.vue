@@ -99,7 +99,7 @@
                         <div class="relative max-w-7xl mx-auto px-4 sm:py-16 -py-24 sm:px-6 lg:py-32 lg:px-auto">
                             <h1 class="lg:text-7xl text-5xl pt-16 sm:pt-0 sm:text-left font-bold text-white">
                                 <span class="block leading-tight">Smarta Betallösningar</span>
-                                <span class="block leading-tight ml-1 lg:text-4xl text-3xl font-semibold">Semper curabitur</span>  <span class="block leading-tight ml-1 lg:text-4xl text-3xl font-semibold">viverra</span>
+                                <span class="block leading-tight ml-1 lg:text-3xl text-3xl font-semibold">Hör av er till oss så hjälper vi till med de absolut bästa priserna för just er verksamhet!</span>  <span class="block leading-tight ml-1 lg:text-3xl text-3xl font-semibold"></span>
                             </h1>
                         </div>
                     </div>
@@ -162,11 +162,11 @@
                     </span>
                 </div>
                 <div class="mt-6">
-                    <h2 class="text-lg sm:text-3xl font-extrabold tracking-tight text-gray-900">
-                        Kom igång samma dag!
+                    <h2 class="text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900">
+                        Smart Cash
                     </h2>
                     <p class="mt-4 text-sm sm:text-lg text-gray-500">
-                        Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
+                        Smart Cash är ett väletablerat bolag i kassabranschen och erbjuder de absolut senaste funktionerna som marknaden efterfrågar. Vi strävar alltid efter att ge våra kunder en unik kundupplevelse med förstklassig service, oavsett företagsstorlek.
                     </p>
                 </div>
             </div>
@@ -175,6 +175,7 @@
             </div>
         </div>
     </div>
+
 
     <!-- Another Section (Give name later!!!!) -->
     <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
@@ -191,7 +192,7 @@
                     </span>
                 </div>
                 <div class="mt-6">
-                    <h2 class="text-lg sm:text-3xl font-extrabold tracking-tight text-gray-900">
+                    <h2 class="text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900">
                         Kom igång samma dag!
                     </h2>
                     <p class="mt-4 text-sm sm:text-lg text-gray-500">
@@ -201,20 +202,20 @@
             </div>
         </div>
     </div>
-
-    <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
+    <Icon name="background4" class="absolute flex items-center w-screen justify-center mx-auto -left-32 p-16"></Icon>
+    <div class="relative max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
         <div class="sm:flex sm:justify-between sm:items-center">
             <img class="sm:block h-auto w-auto" src="/gasell-smartcash.png" alt="Gasell">
             <img class="sm:block h-auto w-auto" src="/UC-dark.png" alt="UC">
         </div>
     </div>
     <!-- Customers Section -->
-    <div class="max-w-7xl mx-auto py-8 sm:py-24 px-2 sm:px-6 lg:px-3">
-        <h2 class="text-center text-lg sm:text-3xl uppercase font-extrabold text-gray-900 tracking-tight">
+    <div class="max-w-7xl mx-auto py-8 sm:py-24 px-2 sm:px-6 lg:px-3 shadow-xl">
+        <h2 class="text-center text-lg sm:text-4xl uppercase font-extrabold text-gray-900 tracking-tight">
             Några av våra kunder
         </h2>
-        <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-5">
-            <div v-for="customer in customers" :key="customer.id" class="col-span-1 flex justify-center py-8 px-8 bg-white">
+        <div class="relative mt-6 grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-5">
+            <div v-for="customer in customers" :key="customer.id" class="col-span-1 flex justify-center py-8 px-8">
                 <img class="max-h-24" :src="customer.logo" :alt="customer.name">
             </div>
         </div>
@@ -228,7 +229,7 @@
                 <div class="absolute inset-0 bg-gradient-to-tr from-pink-600 via-purple-500 to-indigo-600 mix-blend-multiply" aria-hidden="true"></div>
             </div>
             <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-                <h1 class="text-2xl uppercase font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Support</h1>
+                <h1 class="text-2xl uppercase font-bold tracking-tight text-white md:text-5xl lg:text-4xl">Vi hjälper dig</h1>
                 <p class="mt-6 max-w-3xl text-sm sm:text-lg text-gray-300">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.</p>
             </div>
         </div>
@@ -263,24 +264,22 @@
     <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24">
             <div>
-                <div>
-                    <span class="h-8 sm:h-12 w-8 sm:w-12 rounded-md flex items-center justify-center bg-gradient-to-t from-indigo-600 to-pink-600">
-                        <svg class="h-4 sm:h-6 w-4 sm:w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
-                        </svg>
-                    </span>
-                </div>
                 <div class="mt-6">
-                    <h2 class="text-lg sm:text-3xl font-extrabold tracking-tight text-gray-900">
-                        Kom igång samma dag!
+                    <h2 class="text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900">
+                        PC-Kassor
                     </h2>
                     <p class="mt-4 text-sm sm:text-lg text-gray-500">
-                        Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
+                        Behöver du bara kunna ta betalt med kort? Eller söker du en smart mobil terminal som kan integreras med ditt affärssystem?
                     </p>
+                </div>
+                <div class="py-4">
+                    <a href="products.pc-kassa" class="text-base font-medium text-indigo-700 hover:text-indigo-600">
+                        Gå vidare<span aria-hidden="true"> &rarr;</span>
+                    </a>
                 </div>
             </div>
             <div>
-                <img class="rounded-xl shadow-xl ring-1 ring-black ring-opacity-5" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="Get Started">
+                <img class="rounded-xl shadow-xl ring-1 ring-black ring-opacity-5" src="3pckassor.png" alt="Get Started">
             </div>
         </div>
     </div>
@@ -289,23 +288,21 @@
     <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24">
             <div>
-                <img class="rounded-xl shadow-xl ring-1 ring-black ring-opacity-5" src="sc-logo-bg.png" alt="Get Started">
+                <img class="rounded-xl shadow-xl ring-1 ring-black ring-opacity-5" src="3kortterminaler.png" alt="Get Started">
             </div>
             <div>
-                <div>
-                    <span class="h-8 sm:h-12 w-8 sm:w-12 rounded-md flex items-center justify-center bg-gradient-to-t from-indigo-600 to-pink-600">
-                        <svg class="h-4 sm:h-6 w-4 sm:w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
-                        </svg>
-                    </span>
-                </div>
                 <div class="mt-6">
-                    <h2 class="text-lg sm:text-3xl font-extrabold tracking-tight text-gray-900">
-                        Kom igång samma dag!
+                    <h2 class="text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900">
+                        Kortterminaler
                     </h2>
                     <p class="mt-4 text-sm sm:text-lg text-gray-500">
-                        Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
+                        Behöver du bara kunna ta betalt med kort? Eller söker du en smart mobil terminal som kan integreras med ditt affärssystem?
                     </p>
+                </div>
+                <div class="py-4">
+                    <a href="products.kortterminaler" class="text-base font-medium text-indigo-700 hover:text-indigo-600">
+                        Gå vidare<span aria-hidden="true"> &rarr;</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -320,6 +317,7 @@ import { Head } from '@inertiajs/inertia-vue3';
 import { Link } from '@inertiajs/inertia-vue3';
 import { ref } from '@vue/reactivity';
 import Footer from '@/Components/Footer';
+import Icon from '@/Components/Icon.vue';
       
     const navigation = [
         {id: 2, name: 'ERBJUDANDE', href:'erbjudande'},
@@ -399,23 +397,23 @@ import Footer from '@/Components/Footer';
         {
           id: 1, 
           svg: '<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>', 
-          type: 'Sälj',
-          description: 'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
-          href: '#'
+          type: 'Kontakta oss',
+          description: 'Hör av er till oss för en professionell rådgivning över vilka produkter just du behöver i din verksamhet.',
+          href: '/kontakt'
         },
         {
           id: 2, 
-          svg: '<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" /></svg>', 
-          type: 'Teknisk Support',
-          description: 'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
+          svg: '<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>', 
+          type: 'Vi erbjuder',
+          description: 'Flexibelt kassasystem med integrerad kortterminal & inlösenavtal som anpassas efter kundens behov.',
           href: '#'
         },
         {
           id: 3, 
           svg: '<svg class="h-6 w-6 text-white"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" /></svg>', 
-          type: 'Teknisk Support',
-          description: 'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
-          href: '#'
+          type: 'Support',
+          description: 'Support Mån-Sön',
+          href: '/kontakt'
         },   
     ]
 
@@ -427,6 +425,7 @@ import Footer from '@/Components/Footer';
             Head,
             Link,
             Footer,
+            Icon
         },
 
         setup() {
@@ -443,7 +442,7 @@ import Footer from '@/Components/Footer';
             }
         },
     }
-
+    
 </script>
 
 <style scoped>

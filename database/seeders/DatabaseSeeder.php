@@ -51,7 +51,7 @@ class DatabaseSeeder extends Seeder
                 'name' => 'Smart Enox 3, stor kunddisplay',
                 'price_currency' => [
                     [
-                        'price' => '1500', 
+                        'price' => '1 500', 
                         'currency' => 'SEK'
                     ]
                 ],
@@ -448,6 +448,84 @@ class DatabaseSeeder extends Seeder
                 'image' => '/tillbehör1.png',
                 'tag' => null,
                 'recommendation' => null,
+            ],
+            [
+                'category' => 'Package',
+                'name' => 'Paket 1',
+                'price_currency' => [
+                    [
+                        'price' => '249', 
+                        'currency' => 'SEK'
+                    ]
+                ],
+                'image' => '/paket1.png',
+                'tag' => 'populär',
+                'recommendation' => 'Restaurang',
+            ],
+            [
+                'category' => 'Package',
+                'name' => 'Paket 2',
+                'price_currency' => [
+                    [
+                        'price' => '597', 
+                        'currency' => 'SEK'
+                    ]
+                ],
+                'image' => '/paket2.png',
+                'tag' => 'test',
+                'recommendation' => 'Frisör',
+            ],
+            [
+                'category' => 'Package',
+                'name' => 'Paket 3',
+                'price_currency' => [
+                    [
+                        'price' => '639', 
+                        'currency' => 'SEK'
+                    ]
+                ],
+                'image' => '/paket3.png',
+                'tag' => null,
+                'recommendation' => 'Restaurang',
+            ],
+            [
+                'category' => 'Package',
+                'name' => 'Paket 4',
+                'price_currency' => [
+                    [
+                        'price' => '679', 
+                        'currency' => 'SEK'
+                    ]
+                ],
+                'image' => '/paket4.png',
+                'tag' => null,
+                'recommendation' => 'Frisör',
+            ],
+            [
+                'category' => 'Package',
+                'name' => 'Paket 5',
+                'price_currency' => [
+                    [
+                        'price' => '1290', 
+                        'currency' => 'SEK'
+                    ]
+                ],
+                'image' => '/paket3.png',
+                'tag' => null,
+                'recommendation' => 'Restaurang',
+            ],
+            [
+                'category' => 'Package',
+                'name' => 'Paket 6',
+                'price_currency' => [
+                    [
+                        'price' => '1590', 
+                        'currency' => 'SEK'
+                    ]
+                ],
+                'image' => '/paket6.png',
+                'tag' => 'test',
+                'recommendation' => 'Restaurang',
             ],
         ];
 

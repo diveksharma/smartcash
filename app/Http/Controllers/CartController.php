@@ -24,8 +24,26 @@ class CartController extends Controller
 
     public function clearShoppingCart(Request $request) {
         
-        $request->session()->forget('cart');
+        $value = $request->session()->pull('cart', $request->all());
+    }
 
-        return response()->json('Shopping cart cleared.');
+    public function removeItemCart(Request $request) {
+                    
+        $items = $request->session()->get('cart');
+
+        foreach ($items as $key => $value) { 
+            if($value['id'] === $request->id){
+                unset($items[$key]);
+                break;
+            }
+        }
+        $arr = [];
+        foreach($items as $item) {
+            array_push($arr, $item);
+        }
+        session()->put('cart', $arr);
+
+        return response()->json();
+
     }
 }

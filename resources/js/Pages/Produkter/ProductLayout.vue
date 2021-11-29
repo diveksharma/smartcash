@@ -8,20 +8,6 @@
                 <!-- Mobile menu button-->
                 <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-white hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
-                    <!--
-                    Icon when menu is closed.
-
-                    Heroicon name: outline/menu
-
-                    Menu open: "hidden", Menu closed: "block"
-                    -->
-                    <!--
-                    Icon when menu is open.
-
-                    Heroicon name: outline/x
-
-                    Menu open: "block", Menu closed: "hidden"
-                    -->
                 </button>
                 </div>
 
@@ -36,12 +22,12 @@
                       </div>
                   </div>
                 </div>
-                <Link href="/checkout" class="relative bg-white rounded-full shadow-lg transform duration-500 hover:scale-110 px-2 py-2">
+                <Link href="/checkout" class="relative bg-white rounded-full shadow-lg transform duration-500 hover:scale-110 sm:mt-0 mt-10 px-2 py-2">
                   <!-- <Icon name="bag" class="h-14 w-14 transform duration-500 hover:scale-110 rounded-full mx-auto pt-2"></Icon> -->
                   <div class="absolute -top-3 -right-1 flex items-center justify-center font-medium rounded-full bg-purple-500 text-white w-5 h-5" style="font-size: 10px">
-                    1
+                    {{ cart.length }}
                   </div>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" :class="[hasAddedProduct === true ? 'animate-bounce': 'h-6 w-6 text-purple-500']" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
                 </Link>
@@ -107,7 +93,7 @@
             <slot></slot>
         </main>
     
-    </homepage-layout>    
+    </homepage-layout>   
 </template>
 
 
@@ -161,7 +147,7 @@ import Button from '@/Components/Button.vue';
         dropdownMobile,
       }
     },
-
+    props: ['cart'],
     data() {
       return {
         hoverText: '',
@@ -171,11 +157,17 @@ import Button from '@/Components/Button.vue';
     methods: {
       textHover(text) {
         this.hoverText = text;
-      } 
-    },
-    
-    
+      },
 
+      hasAddedProduct(){
+       this.hasAddedProduct = true,
+        setTimeout(() => {this.hasAddedProduct = false}, 2000);
+       
+      }
+
+    },
   }
+
+
 
 </script>
