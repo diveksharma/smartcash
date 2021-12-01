@@ -1,5 +1,5 @@
 <template>
-<div class="bg-gray-50 w-full relative overflow-hidden border-t border-gray-200 py-5 mt-28">
+<div class="bg-white w-full relative overflow-hidden border-t border-gray-200 py-5 mt-28">
   <div class="absolute top-0 right-0">
     <Icon name="group3" class="h-full transform -rotate-45" />
   </div>

@@ -35,49 +35,40 @@
                                 Produkter
                             </button>
                             <div v-show="productDropdown" class="fixed inset-0 z-10" @click="productDropdown = false" />
-                            <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
-                                <div v-if="productDropdown" class="absolute z-10 top-9 mx-auto transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
-                                    <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                                    <div class="relative grid grid-cols-2 gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                                        <div v-for="product in productOptions" :key="product.category">
-                                            <div class="flex flex-col">
-                                            <div class="font-medium text-black">
-                                                {{ product.category }}
-                                            </div>
-                                            <Link v-for="option in product.options" :key="option.id" :href="route(option.href)" class="font-normal text-gray-600">
-                                                {{ option.name }}
-                                            </Link>
-                                            </div> 
-                                            
-                                        </div>
+                        <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
+                            <div v-if="productDropdown" class="absolute z-10 top-9 left-64 transform -translate-x-1/2 mt-6 px-3 w-screen max-w-4xl sm:px-0">
+                                <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+                                  <div class="relative grid grid-cols-3 bg-white sm:p-8">
+                                      
+                                        <div v-for="product in productOptions2" :key="product.category" class="flex flex-col">
+                                          <div class="text-sm font-medium text-gray-400 pt-4">
+                                            {{ product.category }}
+                                          </div>
+                                          <Link v-for="option in product.options" :key="option.id" :href="route(option.href)" class="pt-6 flex items-center gap-4 transition ease-in-out duration-150 hover:animate-bounce hover:text-gray-800 text-sm font-semibold text-gray-700">
+                                            <img class="h-7 w-7" :src="option.image"/>
+                                            {{ option.name }}
+                                          </Link>
+                                        </div> 
                                         
-                                    </div>
-                                    
-                                        <!-- <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                                            <Link v-for="item in productOptions" :key="item.category" :href="route(item.href)" :class="['-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150']">
-                                            <div class="ml-4">
-                                                <p class="text-base font-medium text-gray-900">
-                                                {{ item.name }}
-                                                </p>
-                                                <p class="mt-1 text-sm text-gray-500">
-                                                {{ item.description }}
-                                                </p>
-                                            </div>
-                                            </Link>
+                                    <div>
+                                      <h2 class="text-sm font-medium text-gray-400 pt-4">ALLA PRODUKTER</h2>  
+                                        <div v-for="product in productOptions" :key="product.category" class="grid grid-cols-2 gap-x-6">
+                                          <Link v-for="option in product.options" :key="option.id" :href="route(option.href)" class="pt-6 flex items-center gap-4 transition ease-in-out duration-150 hover:animate-bounce text-sm font-semibold text-gray-700">
+                                            <img class="h-7 w-7" :src="option.image"/>
+                                            {{ option.name }}
+                                          </Link>
                                         </div>
-                                        <div class="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-                                            <div v-for="item in callsToAction" :key="item.name" class="flow-root">
-                                        
-                                            </div>
-                                        </div> -->
-                                    </div>
+                                      </div>     
+                                  </div>
+
                                 </div>
-                            </transition>
+                            </div>
+                        </transition>
                             <Link v-for="nav in navigation" :key="nav.id" :href="route(nav.href)" class="text-white flex items-center font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm">
                                 {{ nav.name }}
                             </Link>
 
-                            <div class="py-1 rounded-full shadow-xl px-2 sm:px-6 lg:px-3 sm:block hidden">
+                            <div class="py-1 rounded-full shadow-xl px-2 sm:px-6 lg:px-3 sm:block">
                                 <div class="flex justify-between items-center gap-x-3">
                                     <img class="sm:block h-6 w-16 sm:h-8 sm:w-auto" src="/gasell-logo.png" alt="Gasell">
                                     <img class="sm:block h-6 w-auto sm:h-12 sm:w-auto" src="/uc-logo.png" alt="UC">
@@ -211,7 +202,7 @@
     </div>
     <!-- Customers Section -->
     <div class="max-w-7xl mx-auto py-8 sm:py-24 px-2 sm:px-6 lg:px-3 shadow-xl">
-        <h2 class="text-center text-lg sm:text-4xl uppercase font-extrabold text-gray-900 tracking-tight">
+        <h2 class="relative text-center text-lg sm:text-4xl uppercase font-extrabold text-gray-900 tracking-tight">
             Några av våra kunder
         </h2>
         <div class="relative mt-6 grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-5">
@@ -356,30 +347,45 @@ import Icon from '@/Components/Icon.vue';
         {id: 11, name: 'Tillbehör', href:'products.tillbehor'}
     ];
 
-    const productOptions = [
-        { 
-            category: 'Kassor',
-            options:[
-                {id: 1, name: 'PC-Kassa', href:'products.pc-kassa'},
-                {id: 2, name: 'Kassaregister', href:'products.kassaregister'},
-                {id: 3, name: 'Enox-kassa', href:'products.enox-kassa'},
+          const productOptions = [
+
+            { 
+              options:[ 
+                  {id: 1, name: 'PC-Kassa', href:'products.pc-kassa', image:'/droppic4.svg'},
+                  {id: 2, name: 'Kassaregister', href:'products.kassaregister', image:'/droppic1.svg'},
+                  {id: 3, name: 'Enox-kassa', href:'products.enox-kassa', image:'/droppic2.svg'},
+                  {id: 1, name: 'Kortterminal', href:'products.card-terminal', image:'/droppic3.svg'},
+                  {id: 2, name: 'Orderplatta', href:'products.orderplatta', image:'/droppic5.svg'},
+                  {id: 3, name: 'Skanner', href:'products.skanner', image:'/droppic6.svg'},
+                  {id: 4, name: 'Vågar', href:'products.vagar', image:'/droppic2.svg'},
+                  {id: 5, name: 'Skrivare', href:'products.skrivare', image:'/droppic1.svg'},
+                  {id: 6, name: 'Kontrollenheter', href:'products.kontrollenheter', image:'/droppic5.svg'},
+                  {id: 7, name: 'Kvittorullar', href:'products.kvittorullar', image:'/droppic4.svg'},
+                  {id: 8, name: 'Tillbehör', href:'products.tillbehor', image:'/droppic3.svg'}
+                ]
+            }, 
+      ]
+
+      const productOptions2 = [
+
+                { 
+          category: 'RESTAURANG & CAFÉ',
+          options:[
+              {id: 1, name: 'PC-Kassa', href:'products.pc-kassa', image:'/droppic4.svg'},
+              {id: 2, name: 'Kassaregister', href:'products.kassaregister', image:'/droppic1.svg'},
+              {id: 3, name: 'Enox-kassa', href:'products.enox-kassa', image:'/droppic5.svg'},
             ]
         },
 
-        { 
-            category: 'Tillbehör',
-            options:[ 
-                {id: 1, name: 'Kortterminal', href:'products.card-terminal'},
-                {id: 2, name: 'Orderplatta (Handy)', href:'products.orderplatta'},
-                {id: 3, name: 'Skanner', href:'products.skanner'},
-                {id: 4, name: 'Vågar', href:'products.vagar'},
-                {id: 5, name: 'Skrivare', href:'products.skrivare'},
-                {id: 6, name: 'Kontrollenheter', href:'products.kontrollenheter'},
-                {id: 7, name: 'Kvittorullar', href:'products.kvittorullar'},
-                {id: 8, name: 'Tillbehör', href:'products.tillbehor'}
-            ]
-        },
-    ]
+                { 
+          category: 'SKÖNHET & HÄLSA',
+          options:[
+                {id: 1, name: 'PC-Kassa', href:'products.pc-kassa', image:'/droppic3.svg'},
+                {id: 2, name: 'Kassaregister', href:'products.kassaregister', image:'/droppic6.svg'},
+                {id: 3, name: 'Enox-kassa', href:'products.enox-kassa', image:'/droppic2.svg'},
+              ]
+        },       
+      ]
 
     const customers = [
         {id: 1, name: 'Panfresco', logo: '/Picture1.jpg'},
@@ -439,6 +445,7 @@ import Icon from '@/Components/Icon.vue';
                 productOptions,
                 customers,
                 contactUs,
+                productOptions2,
             }
         },
     }

@@ -10,7 +10,8 @@
                 <h1
                   class="
                     text-4xl
-                    ml-10
+                    sm:ml-10
+                    ml-5
                     font-extrabold
                     tracking-tight
                     text-warm-gray-900
@@ -20,7 +21,7 @@
                 >
                   Kontakta oss!
                 </h1>
-                <p class="mt-6 ml-11 text-xl text-warm-gray-500 max-w-3xl">
+                <p class="mt-6 sm:ml-11 ml-6 text-xl text-warm-gray-500 max-w-3xl">
                   Vi ser fram emot att höra från dig
                 </p>
               </div>
@@ -507,7 +508,7 @@
                     </form>
                   </div>
                   <div class="col-start-3">
-                    <img class="static transform scale-150" src="contact.svg" />
+                    <img class="static transform sm:scale-150" src="contact.svg" />
                   </div>
                 </div>
               </div>

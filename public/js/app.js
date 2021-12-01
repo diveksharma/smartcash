@@ -20235,47 +20235,58 @@ var productOptions = [{
   options: [{
     id: 1,
     name: 'PC-Kassa',
-    href: 'products.pc-kassa'
+    href: 'products.pc-kassa',
+    image: '/droppic4.svg'
   }, {
     id: 2,
     name: 'Kassaregister',
-    href: 'products.kassaregister'
+    href: 'products.kassaregister',
+    image: '/droppic1.svg'
   }, {
     id: 3,
     name: 'Enox-kassa',
-    href: 'products.enox-kassa'
+    href: 'products.enox-kassa',
+    image: '/droppic2.svg'
   }, {
     id: 1,
     name: 'Kortterminal',
-    href: 'products.card-terminal'
+    href: 'products.card-terminal',
+    image: '/droppic3.svg'
   }, {
     id: 2,
     name: 'Orderplatta',
-    href: 'products.orderplatta'
+    href: 'products.orderplatta',
+    image: '/droppic5.svg'
   }, {
     id: 3,
     name: 'Skanner',
-    href: 'products.skanner'
+    href: 'products.skanner',
+    image: '/droppic6.svg'
   }, {
     id: 4,
     name: 'Vågar',
-    href: 'products.vagar'
+    href: 'products.vagar',
+    image: '/droppic2.svg'
   }, {
     id: 5,
     name: 'Skrivare',
-    href: 'products.skrivare'
+    href: 'products.skrivare',
+    image: '/droppic1.svg'
   }, {
     id: 6,
     name: 'Kontrollenheter',
-    href: 'products.kontrollenheter'
+    href: 'products.kontrollenheter',
+    image: '/droppic5.svg'
   }, {
     id: 7,
     name: 'Kvittorullar',
-    href: 'products.kvittorullar'
+    href: 'products.kvittorullar',
+    image: '/droppic4.svg'
   }, {
     id: 8,
     name: 'Tillbehör',
-    href: 'products.tillbehor'
+    href: 'products.tillbehor',
+    image: '/droppic3.svg'
   }]
 }];
 var productOptions2 = [{
@@ -20283,30 +20294,36 @@ var productOptions2 = [{
   options: [{
     id: 1,
     name: 'PC-Kassa',
-    href: 'products.pc-kassa'
+    href: 'products.pc-kassa',
+    image: '/droppic4.svg'
   }, {
     id: 2,
     name: 'Kassaregister',
-    href: 'products.kassaregister'
+    href: 'products.kassaregister',
+    image: '/droppic1.svg'
   }, {
     id: 3,
     name: 'Enox-kassa',
-    href: 'products.enox-kassa'
+    href: 'products.enox-kassa',
+    image: '/droppic5.svg'
   }]
 }, {
   category: 'SKÖNHET & HÄLSA',
   options: [{
     id: 1,
     name: 'PC-Kassa',
-    href: 'products.pc-kassa'
+    href: 'products.pc-kassa',
+    image: '/droppic3.svg'
   }, {
     id: 2,
     name: 'Kassaregister',
-    href: 'products.kassaregister'
+    href: 'products.kassaregister',
+    image: '/droppic6.svg'
   }, {
     id: 3,
     name: 'Enox-kassa',
-    href: 'products.enox-kassa'
+    href: 'products.enox-kassa',
+    image: '/droppic2.svg'
   }]
 }];
 var dropdownMobile = (0,_vue_reactivity__WEBPACK_IMPORTED_MODULE_2__.ref)(false);
@@ -21226,54 +21243,98 @@ var names = [{
   href: 'products.tillbehor'
 }];
 var productOptions = [{
-  category: 'Kassor',
   options: [{
     id: 1,
     name: 'PC-Kassa',
-    href: 'products.pc-kassa'
+    href: 'products.pc-kassa',
+    image: '/droppic4.svg'
   }, {
     id: 2,
     name: 'Kassaregister',
-    href: 'products.kassaregister'
+    href: 'products.kassaregister',
+    image: '/droppic1.svg'
   }, {
     id: 3,
     name: 'Enox-kassa',
-    href: 'products.enox-kassa'
-  }]
-}, {
-  category: 'Tillbehör',
-  options: [{
+    href: 'products.enox-kassa',
+    image: '/droppic2.svg'
+  }, {
     id: 1,
     name: 'Kortterminal',
-    href: 'products.card-terminal'
+    href: 'products.card-terminal',
+    image: '/droppic3.svg'
   }, {
     id: 2,
-    name: 'Orderplatta (Handy)',
-    href: 'products.orderplatta'
+    name: 'Orderplatta',
+    href: 'products.orderplatta',
+    image: '/droppic5.svg'
   }, {
     id: 3,
     name: 'Skanner',
-    href: 'products.skanner'
+    href: 'products.skanner',
+    image: '/droppic6.svg'
   }, {
     id: 4,
     name: 'Vågar',
-    href: 'products.vagar'
+    href: 'products.vagar',
+    image: '/droppic2.svg'
   }, {
     id: 5,
     name: 'Skrivare',
-    href: 'products.skrivare'
+    href: 'products.skrivare',
+    image: '/droppic1.svg'
   }, {
     id: 6,
     name: 'Kontrollenheter',
-    href: 'products.kontrollenheter'
+    href: 'products.kontrollenheter',
+    image: '/droppic5.svg'
   }, {
     id: 7,
     name: 'Kvittorullar',
-    href: 'products.kvittorullar'
+    href: 'products.kvittorullar',
+    image: '/droppic4.svg'
   }, {
     id: 8,
     name: 'Tillbehör',
-    href: 'products.tillbehor'
+    href: 'products.tillbehor',
+    image: '/droppic3.svg'
+  }]
+}];
+var productOptions2 = [{
+  category: 'RESTAURANG & CAFÉ',
+  options: [{
+    id: 1,
+    name: 'PC-Kassa',
+    href: 'products.pc-kassa',
+    image: '/droppic4.svg'
+  }, {
+    id: 2,
+    name: 'Kassaregister',
+    href: 'products.kassaregister',
+    image: '/droppic1.svg'
+  }, {
+    id: 3,
+    name: 'Enox-kassa',
+    href: 'products.enox-kassa',
+    image: '/droppic5.svg'
+  }]
+}, {
+  category: 'SKÖNHET & HÄLSA',
+  options: [{
+    id: 1,
+    name: 'PC-Kassa',
+    href: 'products.pc-kassa',
+    image: '/droppic3.svg'
+  }, {
+    id: 2,
+    name: 'Kassaregister',
+    href: 'products.kassaregister',
+    image: '/droppic6.svg'
+  }, {
+    id: 3,
+    name: 'Enox-kassa',
+    href: 'products.enox-kassa',
+    image: '/droppic2.svg'
   }]
 }];
 var customers = [{
@@ -21347,7 +21408,8 @@ var dropdownMobile = (0,_vue_reactivity__WEBPACK_IMPORTED_MODULE_3__.ref)(false)
       names: names,
       productOptions: productOptions,
       customers: customers,
-      contactUs: contactUs
+      contactUs: contactUs,
+      productOptions2: productOptions2
     };
   }
 });
@@ -21453,7 +21515,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "bg-gray-50 w-full relative overflow-hidden border-t border-gray-200 py-5 mt-28"
+  "class": "bg-white w-full relative overflow-hidden border-t border-gray-200 py-5 mt-28"
 };
 var _hoisted_2 = {
   "class": "absolute top-0 right-0"
@@ -21929,7 +21991,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "relative bg-gray-50 py-12 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24"
+  "class": "relative bg-white py-12 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24"
 };
 var _hoisted_2 = {
   "class": "relative py-6 px-6 rounded-2xl transition duration-500 hover:shadow-2xl hover:bg-white max-w-xl mx-auto"
@@ -22085,7 +22147,7 @@ var _hoisted_32 = {
 };
 
 var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "sm:relative bg-gray-50"
+  "class": "sm:relative bg-white"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div aria-hidden=\"true\" class=\"absolute inset-x-0 top-0 h-48\"></div> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "sm:relative"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -23229,9 +23291,9 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "z-10 max-w-7xl mx-auto pl-4 pr-8 sm:px-6 lg:px-8"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-  "class": "text-4xl ml-10 font-extrabold tracking-tight text-warm-gray-900 sm:text-4xl lg:text-4xl"
+  "class": "text-4xl sm:ml-10 ml-5 font-extrabold tracking-tight text-warm-gray-900 sm:text-4xl lg:text-4xl"
 }, " Kontakta oss! "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "mt-6 ml-11 text-xl text-warm-gray-500 max-w-3xl"
+  "class": "mt-6 sm:ml-11 ml-6 text-xl text-warm-gray-500 max-w-3xl"
 }, " Vi ser fram emot att höra från dig ")])])], -1
 /* HOISTED */
 );
@@ -23527,7 +23589,7 @@ var _hoisted_24 = {
 var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "col-start-3"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  "class": "static transform scale-150",
+  "class": "static transform sm:scale-150",
   src: "contact.svg"
 })], -1
 /* HOISTED */
@@ -23846,32 +23908,28 @@ var _hoisted_10 = {
 };
 var _hoisted_11 = {
   key: 0,
-  "class": "absolute z-10 top-9 left-64 transform -translate-x-1/2 mt-6 px-3 w-screen max-w-xl sm:px-0"
+  "class": "absolute z-10 top-9 left-64 transform -translate-x-1/2 mt-6 px-3 w-screen max-w-4xl sm:px-0"
 };
 var _hoisted_12 = {
   "class": "rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden"
 };
 var _hoisted_13 = {
-  "class": "relative grid grid-cols-2 gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8"
+  "class": "relative grid grid-cols-3 bg-white sm:p-8"
 };
-
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "font-semibold"
-}, "VI REKOMENDERAR", -1
-/* HOISTED */
-);
-
-var _hoisted_15 = {
+var _hoisted_14 = {
   "class": "text-sm font-medium text-gray-400 pt-4"
 };
+var _hoisted_15 = ["src"];
 
 var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "font-semibold"
+  "class": "text-sm font-medium text-gray-400 pt-4"
 }, "ALLA PRODUKTER", -1
 /* HOISTED */
 );
 
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_17 = ["src"];
+
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "py-1 px-2 sm:px-6 lg:px-3 sm:block hidden"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-between items-center gap-x-3"
@@ -23887,17 +23945,17 @@ var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_18 = {
+var _hoisted_19 = {
   "class": "ring-1 ring-white ring-opacity-75 bg-white dark:bg-black divide-y-2 divide-gray-50 rounded-lg shadow-lg"
 };
-var _hoisted_19 = {
+var _hoisted_20 = {
   "class": "pt-5 pb-6 px-5 bg-gray-50"
 };
-var _hoisted_20 = {
+var _hoisted_21 = {
   "class": "flex items-center justify-between"
 };
 
-var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   "class": "h-4 w-auto",
   src: "/textlogo2.svg",
   alt: "Smart Cash"
@@ -23905,17 +23963,17 @@ var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_22 = {
+var _hoisted_23 = {
   "class": "-mr-2"
 };
 
-var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "class": "sr-only"
 }, "Close menu", -1
 /* HOISTED */
 );
 
-var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
   "class": "h-7 w-7 text-gray-800",
   xmlns: "http://www.w3.org/2000/svg",
   fill: "none",
@@ -23931,8 +23989,8 @@ var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_25 = [_hoisted_23, _hoisted_24];
-var _hoisted_26 = {
+var _hoisted_26 = [_hoisted_24, _hoisted_25];
+var _hoisted_27 = {
   "class": "grid grid-cols-3 gap-0 mx-auto"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -23980,20 +24038,25 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "leave-to-class": "opacity-0 translate-y-1"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [$setup.productDropdown ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_14, ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.productOptions2, function (product) {
+      return [$setup.productDropdown ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.productOptions2, function (product) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
           key: product.category,
           "class": "flex flex-col"
-        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.category), 1
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.category), 1
         /* TEXT */
         ), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(product.options, function (option) {
           return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
             key: option.id,
             href: _ctx.route(option.href),
-            "class": "pt-4 hover:text-gray-800 transition ease-in-out duration-150 text-sm font-semibold text-gray-500"
+            "class": "pt-6 flex items-center gap-4 transition ease-in-out duration-150 hover:animate-bounce hover:text-gray-800 text-sm font-semibold text-gray-700"
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(option.name), 1
+              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+                "class": "h-7 w-7",
+                src: option.image
+              }, null, 8
+              /* PROPS */
+              , _hoisted_15), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(option.name), 1
               /* TEXT */
               )];
             }),
@@ -24008,18 +24071,23 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         ))]);
       }), 128
       /* KEYED_FRAGMENT */
-      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_16, ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.productOptions, function (product) {
+      )), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_16, ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.productOptions, function (product) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
           key: product.category,
-          "class": "grid grid-cols-2 pt-9"
+          "class": "grid grid-cols-2 gap-x-6"
         }, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(product.options, function (option) {
           return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
             key: option.id,
             href: _ctx.route(option.href),
-            "class": "pt-4 hover:text-gray-800 transition ease-in-out duration-150 text-sm font-semibold text-gray-500"
+            "class": "pt-6 flex items-center gap-4 transition ease-in-out duration-150 hover:animate-bounce text-sm font-semibold text-gray-700"
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(option.name), 1
+              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+                "class": "h-7 w-7",
+                src: option.image
+              }, null, 8
+              /* PROPS */
+              , _hoisted_17), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(option.name), 1
               /* TEXT */
               )];
             }),
@@ -24058,7 +24126,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     , ["href", "class"]);
   }), 128
   /* KEYED_FRAGMENT */
-  )), _hoisted_17])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
+  )), _hoisted_18])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
     "enter-active-class": "transition ease-out duration-200",
     "enter-class": "opacity-0 scale-95",
     "enter-to-class": "opacity-100 scale-100",
@@ -24072,13 +24140,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           return $setup.dropdownMobile = false;
         }),
         "class": "absolute top-0 z-10 inset-x-0 p-2 transition transform origin-top-right md:hidden"
-      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [_hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_22, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [_hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
         type: "button",
         onClick: _cache[3] || (_cache[3] = function ($event) {
           return $setup.dropdownMobile = !$setup.dropdownMobile;
         }),
         "class": "dark:bg-gray-800 rounded-md p-2 inline-flex items-center bg-gray-50 justify-center text-gray-50 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-      }, _hoisted_25)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_26, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.navigationmobile, function (navmobile) {
+      }, _hoisted_26)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.navigationmobile, function (navmobile) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
           key: navmobile.id,
           href: _ctx.route(navmobile.href),
@@ -26381,23 +26449,29 @@ var _hoisted_10 = {
 };
 var _hoisted_11 = {
   key: 0,
-  "class": "absolute z-10 top-9 mx-auto transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0"
+  "class": "absolute z-10 top-9 left-64 transform -translate-x-1/2 mt-6 px-3 w-screen max-w-4xl sm:px-0"
 };
 var _hoisted_12 = {
   "class": "rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden"
 };
 var _hoisted_13 = {
-  "class": "relative grid grid-cols-2 gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8"
+  "class": "relative grid grid-cols-3 bg-white sm:p-8"
 };
 var _hoisted_14 = {
-  "class": "flex flex-col"
+  "class": "text-sm font-medium text-gray-400 pt-4"
 };
-var _hoisted_15 = {
-  "class": "font-medium text-black"
-};
+var _hoisted_15 = ["src"];
 
-var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "py-1 rounded-full shadow-xl px-2 sm:px-6 lg:px-3 sm:block hidden"
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "text-sm font-medium text-gray-400 pt-4"
+}, "ALLA PRODUKTER", -1
+/* HOISTED */
+);
+
+var _hoisted_17 = ["src"];
+
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-1 rounded-full shadow-xl px-2 sm:px-6 lg:px-3 sm:block"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-between items-center gap-x-3"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -26412,9 +26486,9 @@ var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative\" data-v-0dd2ab72><div class=\"absolute inset-x-0 bottom-0 h-1/2\" data-v-0dd2ab72></div><div class=\"mx-auto\" data-v-0dd2ab72><div class=\"relative py-2 sm:overflow-hidden\" data-v-0dd2ab72><div class=\"relative max-w-7xl mx-auto px-4 sm:py-16 -py-24 sm:px-6 lg:py-32 lg:px-auto\" data-v-0dd2ab72><h1 class=\"lg:text-7xl text-5xl pt-16 sm:pt-0 sm:text-left font-bold text-white\" data-v-0dd2ab72><span class=\"block leading-tight\" data-v-0dd2ab72>Smarta Betallösningar</span><span class=\"block leading-tight ml-1 lg:text-3xl text-3xl font-semibold\" data-v-0dd2ab72>Hör av er till oss så hjälper vi till med de absolut bästa priserna för just er verksamhet!</span> <span class=\"block leading-tight ml-1 lg:text-3xl text-3xl font-semibold\" data-v-0dd2ab72></span></h1></div></div></div></div>", 1);
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative\" data-v-0dd2ab72><div class=\"absolute inset-x-0 bottom-0 h-1/2\" data-v-0dd2ab72></div><div class=\"mx-auto\" data-v-0dd2ab72><div class=\"relative py-2 sm:overflow-hidden\" data-v-0dd2ab72><div class=\"relative max-w-7xl mx-auto px-4 sm:py-16 -py-24 sm:px-6 lg:py-32 lg:px-auto\" data-v-0dd2ab72><h1 class=\"lg:text-7xl text-5xl pt-16 sm:pt-0 sm:text-left font-bold text-white\" data-v-0dd2ab72><span class=\"block leading-tight\" data-v-0dd2ab72>Smarta Betallösningar</span><span class=\"block leading-tight ml-1 lg:text-3xl text-3xl font-semibold\" data-v-0dd2ab72>Hör av er till oss så hjälper vi till med de absolut bästa priserna för just er verksamhet!</span> <span class=\"block leading-tight ml-1 lg:text-3xl text-3xl font-semibold\" data-v-0dd2ab72></span></h1></div></div></div></div>", 1);
 
-var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   "class": "absolute -bottom-1 transform rotate-180",
   src: "waves.svg",
   alt: "wave"
@@ -26422,17 +26496,17 @@ var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_19 = {
+var _hoisted_21 = {
   "class": "ring-1 ring-white ring-opacity-75 bg-white dark:bg-black divide-y-2 divide-gray-50 rounded-lg shadow-lg"
 };
-var _hoisted_20 = {
+var _hoisted_22 = {
   "class": "pt-5 pb-6 px-5 bg-gray-50"
 };
-var _hoisted_21 = {
+var _hoisted_23 = {
   "class": "flex items-center justify-between"
 };
 
-var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   "class": "h-4 w-auto",
   src: "/textlogo2.svg",
   alt: "Smart Cash"
@@ -26440,17 +26514,17 @@ var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_23 = {
+var _hoisted_25 = {
   "class": "-mr-2"
 };
 
-var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "class": "sr-only"
 }, "Close menu", -1
 /* HOISTED */
 );
 
-var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
   "class": "h-7 w-7 text-gray-800",
   xmlns: "http://www.w3.org/2000/svg",
   fill: "none",
@@ -26466,12 +26540,12 @@ var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_26 = [_hoisted_24, _hoisted_25];
-var _hoisted_27 = {
+var _hoisted_28 = [_hoisted_26, _hoisted_27];
+var _hoisted_29 = {
   "class": "grid grid-cols-3 gap-0 mx-auto"
 };
 
-var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "py-1 px-2 sm:px-6 lg:px-3"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-between items-center gap-x-3"
@@ -26487,11 +26561,11 @@ var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3\" data-v-0dd2ab72><div class=\"grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24\" data-v-0dd2ab72><div data-v-0dd2ab72><div data-v-0dd2ab72><span class=\"h-8 sm:h-12 w-8 sm:w-12 rounded-md flex items-center justify-center bg-gradient-to-t from-indigo-600 to-pink-600\" data-v-0dd2ab72><svg class=\"h-4 sm:h-6 w-4 sm:w-6 text-white\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" aria-hidden=\"true\" data-v-0dd2ab72><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4\" data-v-0dd2ab72></path></svg></span></div><div class=\"mt-6\" data-v-0dd2ab72><h2 class=\"text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900\" data-v-0dd2ab72> Smart Cash </h2><p class=\"mt-4 text-sm sm:text-lg text-gray-500\" data-v-0dd2ab72> Smart Cash är ett väletablerat bolag i kassabranschen och erbjuder de absolut senaste funktionerna som marknaden efterfrågar. Vi strävar alltid efter att ge våra kunder en unik kundupplevelse med förstklassig service, oavsett företagsstorlek. </p></div></div><div data-v-0dd2ab72><img class=\"rounded-xl shadow-xl ring-1 ring-black ring-opacity-5\" src=\"https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80\" alt=\"Get Started\" data-v-0dd2ab72></div></div></div>", 1);
+var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3\" data-v-0dd2ab72><div class=\"grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24\" data-v-0dd2ab72><div data-v-0dd2ab72><div data-v-0dd2ab72><span class=\"h-8 sm:h-12 w-8 sm:w-12 rounded-md flex items-center justify-center bg-gradient-to-t from-indigo-600 to-pink-600\" data-v-0dd2ab72><svg class=\"h-4 sm:h-6 w-4 sm:w-6 text-white\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" aria-hidden=\"true\" data-v-0dd2ab72><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4\" data-v-0dd2ab72></path></svg></span></div><div class=\"mt-6\" data-v-0dd2ab72><h2 class=\"text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900\" data-v-0dd2ab72> Smart Cash </h2><p class=\"mt-4 text-sm sm:text-lg text-gray-500\" data-v-0dd2ab72> Smart Cash är ett väletablerat bolag i kassabranschen och erbjuder de absolut senaste funktionerna som marknaden efterfrågar. Vi strävar alltid efter att ge våra kunder en unik kundupplevelse med förstklassig service, oavsett företagsstorlek. </p></div></div><div data-v-0dd2ab72><img class=\"rounded-xl shadow-xl ring-1 ring-black ring-opacity-5\" src=\"https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80\" alt=\"Get Started\" data-v-0dd2ab72></div></div></div>", 1);
 
-var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3\" data-v-0dd2ab72><div class=\"grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24\" data-v-0dd2ab72><div data-v-0dd2ab72><img class=\"rounded-xl shadow-xl ring-1 ring-black ring-opacity-5\" src=\"sc-logo-bg.png\" alt=\"Get Started\" data-v-0dd2ab72></div><div data-v-0dd2ab72><div data-v-0dd2ab72><span class=\"h-8 sm:h-12 w-8 sm:w-12 rounded-md flex items-center justify-center bg-gradient-to-t from-indigo-600 to-pink-600\" data-v-0dd2ab72><svg class=\"h-4 sm:h-6 w-4 sm:w-6 text-white\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" aria-hidden=\"true\" data-v-0dd2ab72><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4\" data-v-0dd2ab72></path></svg></span></div><div class=\"mt-6\" data-v-0dd2ab72><h2 class=\"text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900\" data-v-0dd2ab72> Kom igång samma dag! </h2><p class=\"mt-4 text-sm sm:text-lg text-gray-500\" data-v-0dd2ab72> Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra. </p></div></div></div></div>", 1);
+var _hoisted_32 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3\" data-v-0dd2ab72><div class=\"grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24\" data-v-0dd2ab72><div data-v-0dd2ab72><img class=\"rounded-xl shadow-xl ring-1 ring-black ring-opacity-5\" src=\"sc-logo-bg.png\" alt=\"Get Started\" data-v-0dd2ab72></div><div data-v-0dd2ab72><div data-v-0dd2ab72><span class=\"h-8 sm:h-12 w-8 sm:w-12 rounded-md flex items-center justify-center bg-gradient-to-t from-indigo-600 to-pink-600\" data-v-0dd2ab72><svg class=\"h-4 sm:h-6 w-4 sm:w-6 text-white\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" aria-hidden=\"true\" data-v-0dd2ab72><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4\" data-v-0dd2ab72></path></svg></span></div><div class=\"mt-6\" data-v-0dd2ab72><h2 class=\"text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900\" data-v-0dd2ab72> Kom igång samma dag! </h2><p class=\"mt-4 text-sm sm:text-lg text-gray-500\" data-v-0dd2ab72> Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra. </p></div></div></div></div>", 1);
 
-var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "relative max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "sm:flex sm:justify-between sm:items-center"
@@ -26507,72 +26581,72 @@ var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_32 = {
+var _hoisted_34 = {
   "class": "max-w-7xl mx-auto py-8 sm:py-24 px-2 sm:px-6 lg:px-3 shadow-xl"
 };
 
-var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "text-center text-lg sm:text-4xl uppercase font-extrabold text-gray-900 tracking-tight"
+var _hoisted_35 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "relative text-center text-lg sm:text-4xl uppercase font-extrabold text-gray-900 tracking-tight"
 }, " Några av våra kunder ", -1
 /* HOISTED */
 );
 
-var _hoisted_34 = {
+var _hoisted_36 = {
   "class": "relative mt-6 grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-5"
 };
-var _hoisted_35 = ["src", "alt"];
-var _hoisted_36 = {
+var _hoisted_37 = ["src", "alt"];
+var _hoisted_38 = {
   "class": "w-full mx-auto py-12 sm:py-24"
 };
 
-var _hoisted_37 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative pb-32 bg-gray-800\" data-v-0dd2ab72><div class=\"absolute inset-0\" data-v-0dd2ab72><img class=\"w-full h-full object-cover\" src=\"support2.svg\" alt=\"\" data-v-0dd2ab72><div class=\"absolute inset-0 bg-gradient-to-tr from-pink-600 via-purple-500 to-indigo-600 mix-blend-multiply\" aria-hidden=\"true\" data-v-0dd2ab72></div></div><div class=\"relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8\" data-v-0dd2ab72><h1 class=\"text-2xl uppercase font-bold tracking-tight text-white md:text-5xl lg:text-4xl\" data-v-0dd2ab72>Vi hjälper dig</h1><p class=\"mt-6 max-w-3xl text-sm sm:text-lg text-gray-300\" data-v-0dd2ab72>Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.</p></div></div>", 1);
+var _hoisted_39 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative pb-32 bg-gray-800\" data-v-0dd2ab72><div class=\"absolute inset-0\" data-v-0dd2ab72><img class=\"w-full h-full object-cover\" src=\"support2.svg\" alt=\"\" data-v-0dd2ab72><div class=\"absolute inset-0 bg-gradient-to-tr from-pink-600 via-purple-500 to-indigo-600 mix-blend-multiply\" aria-hidden=\"true\" data-v-0dd2ab72></div></div><div class=\"relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8\" data-v-0dd2ab72><h1 class=\"text-2xl uppercase font-bold tracking-tight text-white md:text-5xl lg:text-4xl\" data-v-0dd2ab72>Vi hjälper dig</h1><p class=\"mt-6 max-w-3xl text-sm sm:text-lg text-gray-300\" data-v-0dd2ab72>Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.</p></div></div>", 1);
 
-var _hoisted_38 = {
+var _hoisted_40 = {
   "class": "-mt-32 max-w-7xl mx-auto relative z-10 px-4 sm:px-6 lg:px-8",
   "aria-labelledby": "contact-heading"
 };
 
-var _hoisted_39 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+var _hoisted_41 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "sr-only",
   id: "contact-heading"
 }, "Kontakta oss", -1
 /* HOISTED */
 );
 
-var _hoisted_40 = {
+var _hoisted_42 = {
   "class": "grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8"
 };
-var _hoisted_41 = {
+var _hoisted_43 = {
   "class": "flex-1 relative pt-16 px-6 pb-8 md:px-8"
 };
-var _hoisted_42 = {
+var _hoisted_44 = {
   "class": "absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2"
 };
-var _hoisted_43 = ["innerHTML"];
-var _hoisted_44 = {
+var _hoisted_45 = ["innerHTML"];
+var _hoisted_46 = {
   "class": "text-xl font-medium text-gray-900"
 };
-var _hoisted_45 = {
+var _hoisted_47 = {
   "class": "mt-4 text-base text-gray-500"
 };
-var _hoisted_46 = {
+var _hoisted_48 = {
   "class": "p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8"
 };
-var _hoisted_47 = ["href"];
+var _hoisted_49 = ["href"];
 
-var _hoisted_48 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Kontakta");
+var _hoisted_50 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Kontakta");
 
-var _hoisted_49 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+var _hoisted_51 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "aria-hidden": "true"
 }, " →", -1
 /* HOISTED */
 );
 
-var _hoisted_50 = [_hoisted_48, _hoisted_49];
+var _hoisted_52 = [_hoisted_50, _hoisted_51];
 
-var _hoisted_51 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3\" data-v-0dd2ab72><div class=\"grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24\" data-v-0dd2ab72><div data-v-0dd2ab72><div class=\"mt-6\" data-v-0dd2ab72><h2 class=\"text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900\" data-v-0dd2ab72> PC-Kassor </h2><p class=\"mt-4 text-sm sm:text-lg text-gray-500\" data-v-0dd2ab72> Behöver du bara kunna ta betalt med kort? Eller söker du en smart mobil terminal som kan integreras med ditt affärssystem? </p></div><div class=\"py-4\" data-v-0dd2ab72><a href=\"products.pc-kassa\" class=\"text-base font-medium text-indigo-700 hover:text-indigo-600\" data-v-0dd2ab72> Gå vidare<span aria-hidden=\"true\" data-v-0dd2ab72> →</span></a></div></div><div data-v-0dd2ab72><img class=\"rounded-xl shadow-xl ring-1 ring-black ring-opacity-5\" src=\"3pckassor.png\" alt=\"Get Started\" data-v-0dd2ab72></div></div></div>", 1);
+var _hoisted_53 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3\" data-v-0dd2ab72><div class=\"grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24\" data-v-0dd2ab72><div data-v-0dd2ab72><div class=\"mt-6\" data-v-0dd2ab72><h2 class=\"text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900\" data-v-0dd2ab72> PC-Kassor </h2><p class=\"mt-4 text-sm sm:text-lg text-gray-500\" data-v-0dd2ab72> Behöver du bara kunna ta betalt med kort? Eller söker du en smart mobil terminal som kan integreras med ditt affärssystem? </p></div><div class=\"py-4\" data-v-0dd2ab72><a href=\"products.pc-kassa\" class=\"text-base font-medium text-indigo-700 hover:text-indigo-600\" data-v-0dd2ab72> Gå vidare<span aria-hidden=\"true\" data-v-0dd2ab72> →</span></a></div></div><div data-v-0dd2ab72><img class=\"rounded-xl shadow-xl ring-1 ring-black ring-opacity-5\" src=\"3pckassor.png\" alt=\"Get Started\" data-v-0dd2ab72></div></div></div>", 1);
 
-var _hoisted_52 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3\" data-v-0dd2ab72><div class=\"grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24\" data-v-0dd2ab72><div data-v-0dd2ab72><img class=\"rounded-xl shadow-xl ring-1 ring-black ring-opacity-5\" src=\"3kortterminaler.png\" alt=\"Get Started\" data-v-0dd2ab72></div><div data-v-0dd2ab72><div class=\"mt-6\" data-v-0dd2ab72><h2 class=\"text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900\" data-v-0dd2ab72> Kortterminaler </h2><p class=\"mt-4 text-sm sm:text-lg text-gray-500\" data-v-0dd2ab72> Behöver du bara kunna ta betalt med kort? Eller söker du en smart mobil terminal som kan integreras med ditt affärssystem? </p></div><div class=\"py-4\" data-v-0dd2ab72><a href=\"products.kortterminaler\" class=\"text-base font-medium text-indigo-700 hover:text-indigo-600\" data-v-0dd2ab72> Gå vidare<span aria-hidden=\"true\" data-v-0dd2ab72> →</span></a></div></div></div></div>", 1);
+var _hoisted_54 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3\" data-v-0dd2ab72><div class=\"grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24\" data-v-0dd2ab72><div data-v-0dd2ab72><img class=\"rounded-xl shadow-xl ring-1 ring-black ring-opacity-5\" src=\"3kortterminaler.png\" alt=\"Get Started\" data-v-0dd2ab72></div><div data-v-0dd2ab72><div class=\"mt-6\" data-v-0dd2ab72><h2 class=\"text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900\" data-v-0dd2ab72> Kortterminaler </h2><p class=\"mt-4 text-sm sm:text-lg text-gray-500\" data-v-0dd2ab72> Behöver du bara kunna ta betalt med kort? Eller söker du en smart mobil terminal som kan integreras med ditt affärssystem? </p></div><div class=\"py-4\" data-v-0dd2ab72><a href=\"products.kortterminaler\" class=\"text-base font-medium text-indigo-700 hover:text-indigo-600\" data-v-0dd2ab72> Gå vidare<span aria-hidden=\"true\" data-v-0dd2ab72> →</span></a></div></div></div></div>", 1);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
@@ -26625,19 +26699,25 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "leave-to-class": "opacity-0 translate-y-1"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [$setup.productDropdown ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.productOptions, function (product) {
+      return [$setup.productDropdown ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.productOptions2, function (product) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
-          key: product.category
-        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.category), 1
+          key: product.category,
+          "class": "flex flex-col"
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.category), 1
         /* TEXT */
         ), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(product.options, function (option) {
           return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
             key: option.id,
             href: _ctx.route(option.href),
-            "class": "font-normal text-gray-600"
+            "class": "pt-6 flex items-center gap-4 transition ease-in-out duration-150 hover:animate-bounce hover:text-gray-800 text-sm font-semibold text-gray-700"
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(option.name), 1
+              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+                "class": "h-7 w-7",
+                src: option.image
+              }, null, 8
+              /* PROPS */
+              , _hoisted_15), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(option.name), 1
               /* TEXT */
               )];
             }),
@@ -26649,10 +26729,41 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           , ["href"]);
         }), 128
         /* KEYED_FRAGMENT */
-        ))])]);
+        ))]);
       }), 128
       /* KEYED_FRAGMENT */
-      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8\">\r\n                                            <Link v-for=\"item in productOptions\" :key=\"item.category\" :href=\"route(item.href)\" :class=\"['-m-3 p-3 flex items-start rounded-lg hover:bg-gray-200 transition ease-in-out duration-150']\">\r\n                                            <div class=\"ml-4\">\r\n                                                <p class=\"text-base font-medium text-gray-900\">\r\n                                                {{ item.name }}\r\n                                                </p>\r\n                                                <p class=\"mt-1 text-sm text-gray-500\">\r\n                                                {{ item.description }}\r\n                                                </p>\r\n                                            </div>\r\n                                            </Link>\r\n                                        </div>\r\n                                        <div class=\"px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8\">\r\n                                            <div v-for=\"item in callsToAction\" :key=\"item.name\" class=\"flow-root\">\r\n                                        \r\n                                            </div>\r\n                                        </div> ")])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)];
+      )), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_16, ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.productOptions, function (product) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: product.category,
+          "class": "grid grid-cols-2 gap-x-6"
+        }, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(product.options, function (option) {
+          return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
+            key: option.id,
+            href: _ctx.route(option.href),
+            "class": "pt-6 flex items-center gap-4 transition ease-in-out duration-150 hover:animate-bounce text-sm font-semibold text-gray-700"
+          }, {
+            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+                "class": "h-7 w-7",
+                src: option.image
+              }, null, 8
+              /* PROPS */
+              , _hoisted_17), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(option.name), 1
+              /* TEXT */
+              )];
+            }),
+            _: 2
+            /* DYNAMIC */
+
+          }, 1032
+          /* PROPS, DYNAMIC_SLOTS */
+          , ["href"]);
+        }), 128
+        /* KEYED_FRAGMENT */
+        ))]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)];
     }),
     _: 1
     /* STABLE */
@@ -26676,7 +26787,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     , ["href"]);
   }), 128
   /* KEYED_FRAGMENT */
-  )), _hoisted_16])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Hero Section "), _hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Wave "), _hoisted_18]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
+  )), _hoisted_18])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Hero Section "), _hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Wave "), _hoisted_20]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
     "enter-active-class": "transition ease-out duration-200",
     "enter-class": "opacity-0 scale-95",
     "enter-to-class": "opacity-100 scale-100",
@@ -26690,13 +26801,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           return $setup.dropdownMobile = false;
         }),
         "class": "absolute top-0 z-10 inset-x-0 p-2 transition transform origin-top-right md:hidden"
-      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [_hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_22, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [_hoisted_24, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
         type: "button",
         onClick: _cache[3] || (_cache[3] = function ($event) {
           return $setup.dropdownMobile = !$setup.dropdownMobile;
         }),
         "class": "dark:bg-gray-800 rounded-md p-2 inline-flex items-center bg-gray-50 justify-center text-gray-50 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-      }, _hoisted_26)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.navigationmobile, function (navmobile) {
+      }, _hoisted_28)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.navigationmobile, function (navmobile) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
           key: navmobile.id,
           href: _ctx.route(navmobile.href),
@@ -26715,17 +26826,17 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         , ["href"]);
       }), 128
       /* KEYED_FRAGMENT */
-      )), _hoisted_28])])])], 512
+      )), _hoisted_30])])])], 512
       /* NEED_PATCH */
       ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $setup.dropdownMobile]])];
     }),
     _: 1
     /* STABLE */
 
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Get started Section "), _hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Another Section (Give name later!!!!) "), _hoisted_30, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Icon, {
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Get started Section "), _hoisted_31, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Another Section (Give name later!!!!) "), _hoisted_32, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Icon, {
     name: "background4",
     "class": "absolute flex items-center w-screen justify-center mx-auto -left-32 p-16"
-  }), _hoisted_31, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Customers Section "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [_hoisted_33, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_34, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.customers, function (customer) {
+  }), _hoisted_33, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Customers Section "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_34, [_hoisted_35, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_36, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.customers, function (customer) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       key: customer.id,
       "class": "col-span-1 flex justify-center py-8 px-8"
@@ -26735,30 +26846,30 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       alt: customer.name
     }, null, 8
     /* PROPS */
-    , _hoisted_35)]);
+    , _hoisted_37)]);
   }), 128
   /* KEYED_FRAGMENT */
-  ))])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Support Section "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_36, [_hoisted_37, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_38, [_hoisted_39, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_40, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.contactUs, function (support) {
+  ))])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Support Section "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_38, [_hoisted_39, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_40, [_hoisted_41, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_42, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.contactUs, function (support) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       key: support.id,
       "class": "flex flex-col bg-white rounded-2xl shadow-lg transition duration-500 hover:shadow-2xl"
-    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_41, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_42, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_43, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_44, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
       innerHTML: support.svg
     }, null, 8
     /* PROPS */
-    , _hoisted_43)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_44, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(support.type), 1
+    , _hoisted_45)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_46, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(support.type), 1
     /* TEXT */
-    ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_45, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(support.description), 1
+    ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_47, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(support.description), 1
     /* TEXT */
-    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_46, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_48, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
       href: support.href,
       "class": "text-base font-medium text-indigo-700 hover:text-indigo-600"
-    }, _hoisted_50, 8
+    }, _hoisted_52, 8
     /* PROPS */
-    , _hoisted_47)])]);
+    , _hoisted_49)])]);
   }), 128
   /* KEYED_FRAGMENT */
-  ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Another Section (Give name later!!!!) "), _hoisted_51, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Another Section (Give name later!!!!) "), _hoisted_52, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)], 64
+  ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Another Section (Give name later!!!!) "), _hoisted_53, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Another Section (Give name later!!!!) "), _hoisted_54, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)], 64
   /* STABLE_FRAGMENT */
   );
 }

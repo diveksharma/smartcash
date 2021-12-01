@@ -32,24 +32,25 @@
                         </button>
                         <div v-show="productDropdown" class="fixed inset-0 z-10" @click="productDropdown = false" />
                         <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
-                            <div v-if="productDropdown" class="absolute z-10 top-9 left-64 transform -translate-x-1/2 mt-6 px-3 w-screen max-w-xl sm:px-0">
+                            <div v-if="productDropdown" class="absolute z-10 top-9 left-64 transform -translate-x-1/2 mt-6 px-3 w-screen max-w-4xl sm:px-0">
                                 <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                                  <div class="relative grid grid-cols-2 gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                                      <div>
-                                        <h2 class="font-semibold">VI REKOMENDERAR</h2>
+                                  <div class="relative grid grid-cols-3 bg-white sm:p-8">
+                                      
                                         <div v-for="product in productOptions2" :key="product.category" class="flex flex-col">
                                           <div class="text-sm font-medium text-gray-400 pt-4">
                                             {{ product.category }}
                                           </div>
-                                          <Link v-for="option in product.options" :key="option.id" :href="route(option.href)" class="pt-4 hover:text-gray-800 transition ease-in-out duration-150 text-sm font-semibold text-gray-500">
+                                          <Link v-for="option in product.options" :key="option.id" :href="route(option.href)" class="pt-6 flex items-center gap-4 transition ease-in-out duration-150 hover:animate-bounce hover:text-gray-800 text-sm font-semibold text-gray-700">
+                                            <img class="h-7 w-7" :src="option.image"/>
                                             {{ option.name }}
                                           </Link>
                                         </div> 
-                                      </div>  
+                                        
                                     <div>
-                                      <h2 class="font-semibold">ALLA PRODUKTER</h2>  
-                                        <div v-for="product in productOptions" :key="product.category" class="grid grid-cols-2 pt-9">
-                                          <Link v-for="option in product.options" :key="option.id" :href="route(option.href)" class="pt-4 hover:text-gray-800 transition ease-in-out duration-150 text-sm font-semibold text-gray-500">
+                                      <h2 class="text-sm font-medium text-gray-400 pt-4">ALLA PRODUKTER</h2>  
+                                        <div v-for="product in productOptions" :key="product.category" class="grid grid-cols-2 gap-x-6">
+                                          <Link v-for="option in product.options" :key="option.id" :href="route(option.href)" class="pt-6 flex items-center gap-4 transition ease-in-out duration-150 hover:animate-bounce text-sm font-semibold text-gray-700">
+                                            <img class="h-7 w-7" :src="option.image"/>
                                             {{ option.name }}
                                           </Link>
                                         </div>
@@ -139,17 +140,17 @@ import Footer from '@/Components/Footer';
 
             { 
               options:[ 
-                  {id: 1, name: 'PC-Kassa', href:'products.pc-kassa'},
-                  {id: 2, name: 'Kassaregister', href:'products.kassaregister'},
-                  {id: 3, name: 'Enox-kassa', href:'products.enox-kassa'},
-                  {id: 1, name: 'Kortterminal', href:'products.card-terminal'},
-                  {id: 2, name: 'Orderplatta', href:'products.orderplatta'},
-                  {id: 3, name: 'Skanner', href:'products.skanner'},
-                  {id: 4, name: 'Vågar', href:'products.vagar'},
-                  {id: 5, name: 'Skrivare', href:'products.skrivare'},
-                  {id: 6, name: 'Kontrollenheter', href:'products.kontrollenheter'},
-                  {id: 7, name: 'Kvittorullar', href:'products.kvittorullar'},
-                  {id: 8, name: 'Tillbehör', href:'products.tillbehor'}
+                  {id: 1, name: 'PC-Kassa', href:'products.pc-kassa', image:'/droppic4.svg'},
+                  {id: 2, name: 'Kassaregister', href:'products.kassaregister', image:'/droppic1.svg'},
+                  {id: 3, name: 'Enox-kassa', href:'products.enox-kassa', image:'/droppic2.svg'},
+                  {id: 1, name: 'Kortterminal', href:'products.card-terminal', image:'/droppic3.svg'},
+                  {id: 2, name: 'Orderplatta', href:'products.orderplatta', image:'/droppic5.svg'},
+                  {id: 3, name: 'Skanner', href:'products.skanner', image:'/droppic6.svg'},
+                  {id: 4, name: 'Vågar', href:'products.vagar', image:'/droppic2.svg'},
+                  {id: 5, name: 'Skrivare', href:'products.skrivare', image:'/droppic1.svg'},
+                  {id: 6, name: 'Kontrollenheter', href:'products.kontrollenheter', image:'/droppic5.svg'},
+                  {id: 7, name: 'Kvittorullar', href:'products.kvittorullar', image:'/droppic4.svg'},
+                  {id: 8, name: 'Tillbehör', href:'products.tillbehor', image:'/droppic3.svg'}
                 ]
             }, 
       ]
@@ -159,18 +160,18 @@ import Footer from '@/Components/Footer';
                 { 
           category: 'RESTAURANG & CAFÉ',
           options:[
-              {id: 1, name: 'PC-Kassa', href:'products.pc-kassa'},
-              {id: 2, name: 'Kassaregister', href:'products.kassaregister'},
-              {id: 3, name: 'Enox-kassa', href:'products.enox-kassa'},
+              {id: 1, name: 'PC-Kassa', href:'products.pc-kassa', image:'/droppic4.svg'},
+              {id: 2, name: 'Kassaregister', href:'products.kassaregister', image:'/droppic1.svg'},
+              {id: 3, name: 'Enox-kassa', href:'products.enox-kassa', image:'/droppic5.svg'},
             ]
         },
 
                 { 
           category: 'SKÖNHET & HÄLSA',
           options:[
-                {id: 1, name: 'PC-Kassa', href:'products.pc-kassa'},
-                {id: 2, name: 'Kassaregister', href:'products.kassaregister'},
-                {id: 3, name: 'Enox-kassa', href:'products.enox-kassa'},
+                {id: 1, name: 'PC-Kassa', href:'products.pc-kassa', image:'/droppic3.svg'},
+                {id: 2, name: 'Kassaregister', href:'products.kassaregister', image:'/droppic6.svg'},
+                {id: 3, name: 'Enox-kassa', href:'products.enox-kassa', image:'/droppic2.svg'},
               ]
         },       
       ]

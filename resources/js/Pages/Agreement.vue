@@ -2,7 +2,7 @@
   <Head title="Inlösenavtal" />
  <homepage-layout>
   
-  <div class="relative bg-gray-50 py-12 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24">
+  <div class="relative bg-white py-12 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24">
      <Icon name="background" class="absolute py-1 pb-96 right-1 mb-24" ></Icon>
      <Icon name="background" class="absolute py-40 pb-72 left-1" ></Icon> 
       <div class="relative py-6 px-6 rounded-2xl transition duration-500 hover:shadow-2xl hover:bg-white max-w-xl mx-auto">
@@ -92,7 +92,7 @@
       </div>
     </div>
 
-    <div class="sm:relative bg-gray-50">
+    <div class="sm:relative bg-white">
       <!-- <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48"></div> -->
       <div class="sm:relative">
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense">
