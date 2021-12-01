@@ -2,7 +2,7 @@
     <Head title="Produkter - PC-kassa" />
     <product-layout :cart="cart">
         <div class="grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-          <Icon name="background2" class="absolute py-28 flex items-center justify-center"></Icon>
+          <Icon name="background2" class="absolute py-28 items-center justify-center hidden sm:block"></Icon>
             <Link
                 v-for="product in productsPcKassa"
                 :key="product.id"

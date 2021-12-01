@@ -3,7 +3,7 @@
 <product-layout :cart="cart">
 
         <div class="grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-          <Icon name="background2" class="absolute flex justify-center items-center"></Icon>  
+          <Icon name="background2" class="absolute hidden sm:block justify-center items-center"></Icon>  
             <Link
                 v-for="product in productsKortterminal "
                 :key="product.id"
@@ -51,14 +51,7 @@
                         <img
                             :src="product.image"
                             alt="Product"
-                            class="
-                                w-full
-                                h-full
-                                object-center object-cover
-                                transition
-                                duration-500
-                                group-hover:opacity-80
-                            "
+                            class="w-full h-full object-center object-cover transition duration-500 group-hover:opacity-80"
                         />
                     </div>
                     <div class="mt-2">

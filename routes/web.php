@@ -30,9 +30,9 @@ Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/test', function () {
-    return Inertia::render('Test');
-})->name('test');
+Route::get('/bokademo', function () {
+    return Inertia::render('Bokademo');
+})->name('bokademo');
 
 Route::get('/omoss', function () {
     return Inertia::render('Aboutus');
