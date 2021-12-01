@@ -23785,7 +23785,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Icon, {
         name: "background4",
-        "class": "absolute flex items-center justify-center mx-auto -left-32 p-24"
+        "class": "absolute items-center justify-center mx-auto -left-32 p-24 sm:block hidden"
       }), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsPackage, function (product) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
           key: product.id,
@@ -23908,13 +23908,13 @@ var _hoisted_10 = {
 };
 var _hoisted_11 = {
   key: 0,
-  "class": "absolute z-10 top-9 left-64 transform -translate-x-1/2 mt-6 px-3 w-screen max-w-4xl sm:px-0"
+  "class": "absolute z-10 top-9 right-24 mt-6 w-screen max-w-6xl"
 };
 var _hoisted_12 = {
   "class": "rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden"
 };
 var _hoisted_13 = {
-  "class": "relative grid grid-cols-3 bg-white sm:p-8"
+  "class": "relative grid grid-flow-col-dense bg-white sm:p-6"
 };
 var _hoisted_14 = {
   "class": "text-sm font-medium text-gray-400 pt-4"
@@ -24045,18 +24045,19 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.category), 1
         /* TEXT */
         ), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(product.options, function (option) {
-          return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
+          return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
             key: option.id,
-            href: _ctx.route(option.href),
-            "class": "pt-6 flex items-center gap-4 transition ease-in-out duration-150 hover:animate-bounce hover:text-gray-800 text-sm font-semibold text-gray-700"
+            "class": "pt-6 flex items-center gap-4 max-w-sm transition ease-in-out duration-150 hover:text-gray-900 text-sm font-semibold text-gray-700"
+          }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+            "class": "h-7 w-7",
+            src: option.image
+          }, null, 8
+          /* PROPS */
+          , _hoisted_15), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+            href: _ctx.route(option.href)
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-                "class": "h-7 w-7",
-                src: option.image
-              }, null, 8
-              /* PROPS */
-              , _hoisted_15), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(option.name), 1
+              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(option.name), 1
               /* TEXT */
               )];
             }),
@@ -24065,7 +24066,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
           }, 1032
           /* PROPS, DYNAMIC_SLOTS */
-          , ["href"]);
+          , ["href"])]);
         }), 128
         /* KEYED_FRAGMENT */
         ))]);
@@ -24074,7 +24075,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       )), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_16, ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.productOptions, function (product) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
           key: product.category,
-          "class": "grid grid-cols-2 gap-x-6"
+          "class": "grid grid-cols-4 gap-x-6"
         }, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(product.options, function (option) {
           return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
             key: option.id,
@@ -24298,7 +24299,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Icon, {
         name: "background4",
-        "class": "absolute flex items-center justify-center mx-auto -left-32 p-24"
+        "class": "absolute items-center justify-center mx-auto -left-32 p-24 sm:block hidden"
       }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
         "class": "flex justify-start transform duration-500 hover:scale-105"
       }, {

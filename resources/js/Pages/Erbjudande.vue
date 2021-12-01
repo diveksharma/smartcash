@@ -2,7 +2,7 @@
         <product-layout :cart="cart">
     <div class="bg-white">
             <div class="max-w-7xl mx-auto grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 bg-white">
-            <Icon name="background4" class="absolute flex items-center justify-center mx-auto -left-32 p-24"></Icon>
+            <Icon name="background4" class="absolute items-center justify-center mx-auto -left-32 p-24 sm:block hidden"></Icon>
                 <Link
                     v-for="product in productsPackage"
                     :key="product.id"

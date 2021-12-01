@@ -32,23 +32,25 @@
                         </button>
                         <div v-show="productDropdown" class="fixed inset-0 z-10" @click="productDropdown = false" />
                         <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
-                            <div v-if="productDropdown" class="absolute z-10 top-9 left-64 transform -translate-x-1/2 mt-6 px-3 w-screen max-w-4xl sm:px-0">
+                            <div v-if="productDropdown" class="absolute z-10 top-9 right-24 mt-6 w-screen max-w-6xl">
                                 <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                                  <div class="relative grid grid-cols-3 bg-white sm:p-8">
+                                  <div class="relative grid grid-flow-col-dense bg-white sm:p-6">
                                       
-                                        <div v-for="product in productOptions2" :key="product.category" class="flex flex-col">
-                                          <div class="text-sm font-medium text-gray-400 pt-4">
-                                            {{ product.category }}
-                                          </div>
-                                          <Link v-for="option in product.options" :key="option.id" :href="route(option.href)" class="pt-6 flex items-center gap-4 transition ease-in-out duration-150 hover:animate-bounce hover:text-gray-800 text-sm font-semibold text-gray-700">
-                                            <img class="h-7 w-7" :src="option.image"/>
-                                            {{ option.name }}
-                                          </Link>
-                                        </div> 
+                                    <div v-for="product in productOptions2" :key="product.category" class="flex flex-col">
+                                      <div class="text-sm font-medium text-gray-400 pt-4">
+                                        {{ product.category }}
+                                      </div>
+                                      <div v-for="option in product.options" :key="option.id" class="pt-6 flex items-center gap-4 max-w-sm transition ease-in-out duration-150 hover:text-gray-900 text-sm font-semibold text-gray-700">
+                                        <img class="h-7 w-7" :src="option.image"/>
+                                        <Link :href="route(option.href)">
+                                          {{ option.name }}
+                                        </Link>
+                                      </div>
+                                   </div> 
                                         
                                     <div>
                                       <h2 class="text-sm font-medium text-gray-400 pt-4">ALLA PRODUKTER</h2>  
-                                        <div v-for="product in productOptions" :key="product.category" class="grid grid-cols-2 gap-x-6">
+                                        <div v-for="product in productOptions" :key="product.category" class="grid grid-cols-4 gap-x-6">
                                           <Link v-for="option in product.options" :key="option.id" :href="route(option.href)" class="pt-6 flex items-center gap-4 transition ease-in-out duration-150 hover:animate-bounce text-sm font-semibold text-gray-700">
                                             <img class="h-7 w-7" :src="option.image"/>
                                             {{ option.name }}
