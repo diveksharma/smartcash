@@ -53,7 +53,7 @@ Route::get('/kontakt', function () {
 
 Route::get('/erbjudande', function () {
     return Inertia::render('Erbjudande', [
-        'products-package' => Product::where('category', 'package')->get(),
+        'products-package' => Product::where('category', 'Package')->get(),
         'cart' => session()->get('cart') ? session()->get('cart') : [],
     ]);
 })->name('erbjudande');
@@ -245,7 +245,7 @@ Route::group(['prefix' => 'produkter', 'as' => 'products.'], function () {
 
     Route::get('/vagar', function () {
         return Inertia::render('Produkter/Vågar',[
-            'products-vagar' => Product::where('category', 'våg')->get(),
+            'products-vagar' => Product::where('category', 'Våg')->get(),
             'cart' => session()->get('cart') ? session()->get('cart') : [],
 
         ]);
