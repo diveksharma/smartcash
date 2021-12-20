@@ -1,7 +1,7 @@
 <template>
     <Head title="Välkommen" />      
     <!-- Navbar and Hero Section -->
-    <nav class="relative coloranim">
+    <nav class="relative coloranim">    
             <!-- Navbar -->
             <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-3">
                 <div class="relative flex items-center justify-between h-16">     
@@ -39,7 +39,6 @@
                             <div v-if="productDropdown" class="absolute z-10 top-9 left-64 transform -translate-x-1/2 mt-6 px-3 w-screen max-w-4xl sm:px-0">
                                 <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                                   <div class="relative grid grid-cols-3 bg-white sm:p-8">
-                                      
                                         <div v-for="product in productOptions2" :key="product.category" class="flex flex-col">
                                           <div class="text-sm font-medium text-gray-400 pt-4">
                                             {{ product.category }}
@@ -49,7 +48,6 @@
                                             {{ option.name }}
                                           </Link>
                                         </div> 
-                                        
                                     <div>
                                       <h2 class="text-sm font-medium text-gray-400 pt-4">ALLA PRODUKTER</h2>  
                                         <div v-for="product in productOptions" :key="product.category" class="grid grid-cols-2 gap-x-6">
@@ -69,9 +67,9 @@
                             </Link>
 
                             <div class="py-1 rounded-full shadow-xl px-2 sm:px-6 lg:px-3 sm:block">
-                                <div class="flex justify-between items-center gap-x-3">
-                                    <img class="sm:block h-6 w-16 sm:h-8 sm:w-auto" src="/gasell-logo.png" alt="Gasell">
-                                    <img class="sm:block h-6 w-auto sm:h-12 sm:w-auto" src="/uc-logo.png" alt="UC">
+                                <div class="flex justify-between items-center gap-x-3">     
+                                    <img href="https://gasell.di.se/gasellistan/" class="sm:block h-6 w-16 sm:h-8 sm:w-auto" src="/gasell-logo.png" alt="Gasell"/>
+                                    <img href="https://www.uc.se/" class="sm:block h-6 w-auto sm:h-12 sm:w-auto" src="/uc-logo.png" alt="UC"/>
                                 </div>
                             </div>
 
@@ -168,6 +166,53 @@
     </div>
 
 
+        <!-- Products -->
+        <div class="w-full mx-auto py-12 sm:py-24">
+            <div class="relative pb-32 bg-gray-800">
+                <div class="absolute inset-0">
+                    <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1556745750-68295fefafc5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="">
+                    <div class="absolute inset-0 aspect-w-1 aspect-h-1 bg-gradient-to-tr from-pink-700 via-purple-400 to-gray-800 mix-blend-multiply" aria-hidden="true"></div>
+                </div>
+                <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+                    <h1 class="text-2xl uppercase font-bold tracking-tight text-white md:text-5xl lg:text-4xl"></h1>
+                    <p class="mt-6 max-w-3xl text-sm sm:text-lg text-gray-300">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.</p>
+                </div>
+            </div>
+    
+            <section class="-mt-52 max-w-7xl mx-auto relative z-10 px-4 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
+                <h2 class="sr-only" id="contact-heading">Kontakta oss</h2>
+                <div class="grid grid-cols-1 gap-y-32 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+    
+                    <div v-for="productfeature in featuredproducts" :key="productfeature.id" class="flex flex-col bg-white rounded-2xl shadow-lg transition duration-500 hover:shadow-2xl">
+                        <div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
+                            <div class="absolute top-0 p-2 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
+                            <!--     <div v-html="productfeature.svg"></div> -->
+                                <h3 class="text-xl text-white">{{ productfeature.name }}</h3>
+                            </div>
+                            <div class="rounded-md overflow-hidden bg-white aspect-w-1 aspect-h-1 group-hover:opacity-75">
+                                <img :src="productfeature.img" alt="Gold Multi." class="w-full h-full object-center object-cover">
+                            </div>
+<!--                             <div class="">
+                                <img :src="productfeature.img" class="h-full mx-auto rounded-lg" >
+                            </div> -->
+<!--                             <p class="mt-4 text-base text-gray-500">
+                                {{ productfeature.description }}
+                            </p> -->
+                        </div>
+
+
+                        <div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
+                            <Link :href="productfeature.href" class="text-base font-medium text-indigo-700 hover:text-indigo-600">
+                                Läs mer<span aria-hidden="true"> &rarr;</span>
+                            </Link>
+                        </div>
+                    </div>
+    
+                </div>
+            </section>
+        </div>
+
+
     <!-- Another Section (Give name later!!!!) -->
     <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24">
@@ -193,67 +238,47 @@
             </div>
         </div>
     </div>
-    <Icon name="background4" class="absolute flex items-center w-screen justify-center mx-auto -left-32 p-16"></Icon>
-    <div class="relative max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
-        <div class="sm:flex sm:justify-between sm:items-center">
-            <img class="sm:block h-auto w-auto" src="/gasell-smartcash.png" alt="Gasell">
-            <img class="sm:block h-auto w-auto" src="/UC-dark.png" alt="UC">
-        </div>
-    </div>
+
     <!-- Customers Section -->
-    <div class="max-w-7xl mx-auto py-8 sm:py-24 px-2 sm:px-6 lg:px-3 shadow-xl">
+    <div class="max-w-7xl mx-auto py-8 sm:py-24 px-2 sm:px-6 lg:px-3">
         <h2 class="relative text-center text-lg sm:text-4xl uppercase font-extrabold text-gray-900 tracking-tight">
             Några av våra kunder
         </h2>
-        <div class="relative mt-6 grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-5">
-            <div v-for="customer in customers" :key="customer.id" class="col-span-1 flex justify-center py-8 px-8">
-                <img class="max-h-24" :src="customer.logo" :alt="customer.name">
-            </div>
-        </div>
-    </div>
-
-    <!-- Support Section -->
-    <div class="w-full mx-auto py-12 sm:py-24">
-        <div class="relative pb-32 bg-gray-800">
-            <div class="absolute inset-0">
-                <img class="w-full h-full object-cover" src="support2.svg" alt="">
-                <div class="absolute inset-0 bg-gradient-to-tr from-pink-600 via-purple-500 to-indigo-600 mix-blend-multiply" aria-hidden="true"></div>
-            </div>
-            <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-                <h1 class="text-2xl uppercase font-bold tracking-tight text-white md:text-5xl lg:text-4xl">Vi hjälper dig</h1>
-                <p class="mt-6 max-w-3xl text-sm sm:text-lg text-gray-300">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.</p>
-            </div>
-        </div>
-
-        <section class="-mt-32 max-w-7xl mx-auto relative z-10 px-4 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
-            <h2 class="sr-only" id="contact-heading">Kontakta oss</h2>
-            <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
-
-                <div v-for="support in contactUs" :key="support.id" class="flex flex-col bg-white rounded-2xl shadow-lg transition duration-500 hover:shadow-2xl">
-                    <div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
-                        <div class="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
-                            <div v-html="support.svg"></div>
-                        </div>
-                        <h3 class="text-xl font-medium text-gray-900">{{ support.type }}</h3>
-                        <p class="mt-4 text-base text-gray-500">
-                            {{ support.description }}
-                        </p>
-                    </div>
-                    <div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-                        <a :href="support.href" class="text-base font-medium text-indigo-700 hover:text-indigo-600">
-                            Kontakta<span aria-hidden="true"> &rarr;</span>
-                        </a>
-                    </div>
+        <div class="mt-6">
+            <div class="relative grid grid-rows-1 grid-flow-col gap-4">
+                <div v-for="customer in customers" :key="customer.id" class="col-span-1 flex justify-center">
+                    <img class="max-h-24" :src="customer.logo" :alt="customer.name">
                 </div>
-
             </div>
-        </section>
+        </div>
     </div>
 
+    <div class="h-auto bg-gray-200">
+        <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+
+        </div>
+    </div>
+
+
+<!--     <div class="bg-white">
+        <div class="max-w-2xl mx-auto py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
+        <div class="grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 lg:gap-x-8">
+            <div v-for="product in featuredproducts" :key="product.name">
+            <img :src="product.imageSrc" alt="" class="h-32 w-auto lg:mx-auto" />
+            <h3 class="mt-6 text-sm font-medium text-gray-900">
+                {{ product.name }}
+            </h3>
+            <p class="mt-2 text-sm text-gray-500">
+                {{ product.description }}
+            </p>
+            </div>
+        </div>
+        </div>
+    </div> -->
 
         <!-- Another Section (Give name later!!!!) -->
-    <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24">
+<!--     <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24 flex-col-reverse">
             <div>
                 <div class="mt-6">
                     <h2 class="text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900">
@@ -270,17 +295,17 @@
                 </div>
             </div>
             <div>
-                <img class="rounded-xl shadow-xl ring-1 ring-black ring-opacity-5" src="3pckassor.png" alt="Get Started">
+                <img class="h-72 w-auto mx-auto" src="droppic4.svg" alt="Get Started">
             </div>
         </div>
     </div>
 
-    <!-- Another Section (Give name later!!!!) -->
-    <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
+    Another Section (Give name later!!!!) -->
+<!--     <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24">
-            <div>
-                <img class="rounded-xl shadow-xl ring-1 ring-black ring-opacity-5" src="3kortterminaler.png" alt="Get Started">
-            </div>
+                    <div>
+                        <img class="h-72 w-auto mx-auto" src="droppic3.svg" alt="Get Started">
+                    </div>
             <div>
                 <div class="mt-6">
                     <h2 class="text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900">
@@ -297,8 +322,52 @@
                 </div>
             </div>
         </div>
+    </div> -->
+
+    <div class="relative max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
+        <div class="sm:flex sm:justify-between sm:items-center">
+            <img class="sm:block h-auto w-auto" src="/gasell-smartcash.png" alt="Gasell">
+            <img class="sm:block h-auto w-auto" src="/UC-dark.png" alt="UC">
+        </div>
     </div>
 
+    <!-- Support Section -->
+        <div class="w-full mx-auto py-12 sm:py-24">
+            <div class="relative pb-32 bg-gray-800">
+                <div class="absolute inset-0">
+                    <img class="w-full h-full object-cover" src="support2.svg" alt="">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-pink-600 via-purple-500 to-indigo-600 mix-blend-multiply" aria-hidden="true"></div>
+                </div>
+                <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+                    <h1 class="text-2xl uppercase font-bold tracking-tight text-white md:text-5xl lg:text-4xl">Vi hjälper dig</h1>
+                    <p class="mt-6 max-w-3xl text-sm sm:text-lg text-gray-300">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.</p>
+                </div>
+            </div>
+    
+            <section class="-mt-32 max-w-7xl mx-auto relative z-10 px-4 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
+                <h2 class="sr-only" id="contact-heading">Kontakta oss</h2>
+                <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+    
+                    <div v-for="support in contactUs" :key="support.id" class="flex flex-col bg-white rounded-2xl shadow-lg transition duration-500 hover:shadow-2xl">
+                        <div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
+                            <div class="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
+                                <div v-html="support.svg"></div>
+                            </div>
+                            <h3 class="text-xl font-medium text-gray-900">{{ support.type }}</h3>
+                            <p class="mt-4 text-base text-gray-500">
+                                {{ support.description }}
+                            </p>
+                        </div>
+                        <div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
+                            <a :href="support.href" class="text-base font-medium text-indigo-700 hover:text-indigo-600">
+                                Kontakta<span aria-hidden="true"> &rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+    
+                </div>
+            </section>
+        </div>
     
   <Footer />
 </template>
@@ -347,7 +416,7 @@ import Icon from '@/Components/Icon.vue';
         {id: 11, name: 'Tillbehör', href:'products.tillbehor'}
     ];
 
-          const productOptions = [
+    const productOptions = [
 
             { 
               options:[ 
@@ -364,9 +433,9 @@ import Icon from '@/Components/Icon.vue';
                   {id: 8, name: 'Tillbehör', href:'products.tillbehor', image:'/droppic3.svg'}
                 ]
             }, 
-      ]
+    ];
 
-      const productOptions2 = [
+    const productOptions2 = [
 
                 { 
           category: 'RESTAURANG & CAFÉ',
@@ -385,7 +454,7 @@ import Icon from '@/Components/Icon.vue';
                 {id: 3, name: 'Enox-kassa', href:'products.enox-kassa', image:'/droppic2.svg'},
               ]
         },       
-      ]
+    ];
 
     const customers = [
         {id: 1, name: 'Panfresco', logo: '/Picture1.jpg'},
@@ -397,7 +466,7 @@ import Icon from '@/Components/Icon.vue';
         {id: 1, name: 'Brooklyn Bar', logo: '/Picture7.jpg'},
         {id: 1, name: 'Urbane Goat', logo: '/Picture8.jpg'},
 
-    ]
+    ];
 
     const contactUs = [
         {
@@ -421,7 +490,29 @@ import Icon from '@/Components/Icon.vue';
           description: 'Support Mån-Sön',
           href: '/kontakt'
         },   
+    ];
+
+    const featuredproducts = [
+    {
+        name: 'Restaurang & Cafe',
+        description: "Aenean non ultrices diam, non tempor sapien. Sed fringilla lacinia scelerisque.",
+        img: 'https://smartcash.se/wp-content/uploads/2019/08/bg3-400x400.jpg',
+        href: 'restaurang&cafe',
+    },
+    {
+        name: 'Skönhet & Hälsa',
+        description: 'Maecenas velit enim, consectetur non lacus tempus, dignissim elementum elit nunc id nibh.',
+        img: 'https://smartcash.se/wp-content/uploads/2019/08/bg1-400x400.jpg',
+        href: 'skönhet&hälsa'
+    },
+    {
+        name: 'Livsmedel & Kiosk',
+        description: "Suspendisse lacinia nunc id nibh sollicitudin, eu bibendum nisl consectetur. Morbi euismod.",
+        img: 'https://smartcash.se/wp-content/uploads/2019/08/bg2-400x400.jpg',
+        href: 'livsmedel&kiosk'
+    },
     ]
+
 
     const productDropdown = ref((false));
     const dropdownMobile = ref((false));
@@ -438,7 +529,6 @@ import Icon from '@/Components/Icon.vue';
             return {
                 navigation,
                 productDropdown,
-                products,
                 navigationmobile,
                 dropdownMobile,
                 names,
@@ -446,10 +536,12 @@ import Icon from '@/Components/Icon.vue';
                 customers,
                 contactUs,
                 productOptions2,
+                featuredproducts,
+                products,
             }
-        },
-    }
-    
+        }
+    };
+
 </script>
 
 <style scoped>

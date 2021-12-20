@@ -34,13 +34,24 @@ class PageController extends Controller
     {
         $emailToSmartCash = 'info@smartcash.se';
         $emailToCustomer = $request->email;
-   
+
+        if($request->type === 1) {
+            $type = 'Restaurang & Café';
+        } elseif($request->type === 2) {
+            $type = 'Skönthet & Hälsa';
+        } elseif($request->type === 3) {
+            $type = 'Livsmedel & Kiosk';
+        } else {
+            $type = 'Produkt förfrågan';
+        }
+
         $maildata = [
             'title' => 'Förfrågan!',
             'name' => $request->name,
             'email' => $emailToCustomer,
             'phone' => $request->phone,
             'cart' => $request->cartItems,
+            'type' => $type,
         ];
 
 

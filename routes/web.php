@@ -26,6 +26,7 @@ Route::get('/', function () {
         'phpVersion' => PHP_VERSION,
     ]);
 });
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -37,6 +38,18 @@ Route::get('/bokademo', function () {
 Route::get('/omoss', function () {
     return Inertia::render('Aboutus');
 })->name('aboutus');
+
+Route::get('/restaurang&cafe', function () {
+    return Inertia::render('Restaurang&Cafe');
+})->name('restaurang&cafe');
+
+Route::get('/skönhet&hälsa', function () {
+    return Inertia::render('Skonhet&Halsa');
+})->name('skönhet&hälsa');
+
+Route::get('/livsmedel&kiosk', function () {
+    return Inertia::render('Livsmedel&Kiosk');
+})->name('livsmedel&kiosk');
 
 Route::get('/inlosenavtal', function () {
     return Inertia::render ('Agreement');

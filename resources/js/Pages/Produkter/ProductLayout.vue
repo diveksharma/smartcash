@@ -147,6 +147,7 @@ import Button from '@/Components/Button.vue';
         dropdownMobile,
       }
     },
+    
     props: ['cart'],
     data() {
       return {

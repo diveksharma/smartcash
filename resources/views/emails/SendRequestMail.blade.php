@@ -1,10 +1,13 @@
 @component('mail::message')
 # {{ $maildata['title'] }}
 
-**Namn:** {{ $maildata['name'] }}<br>
+**Namn/Företag:** {{ $maildata['name'] }}<br>
 **Email:** {{ $maildata['email'] }}<br>
-**Telefon:**  {{ $maildata['phone'] }}<br>
+**Telefon:**  {{ $maildata['phone'] }}<br><br>
 
+**Intresserad av:**  {{ $maildata['type'] }}<br>
+
+@if ($maildata['cart'])
 @component('mail::table')
 | Produkter       | Pris         |
 |:-------------|--------:|
@@ -12,4 +15,5 @@
 | {{ $result['name'] ?? 'PRODUCT' }}      | {{ $result['price_currency'][0]['price'] ?? 'PRODUCT_PRICE' }} kr      |
 @endforeach
 @endcomponent
+@endif
 @endcomponent
