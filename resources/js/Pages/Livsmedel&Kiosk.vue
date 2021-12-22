@@ -185,7 +185,7 @@
         </div>
     </div> -->
 
-    <div class="bg-white">
+    <div class="bg-white sm:pb-32">
         <div class="max-w-2xl mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
             <div>
                 <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Är du ute efter ett kassasystem med en våg, skanner och kortterminal kopplad till kassan? Då har du kommit rätt!</h2>
@@ -198,7 +198,7 @@
                     </div>
                 </dl>
             </div>
-            <div class="bg-purple-400 absolute right-0" style="width: 50%; height: 40%;"/>
+            <div class="bg-purple-400 absolute sm:block hidden right-0" style="width: 50%; height: 40%;"/>
                 <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-16 relative">
 <!--                     <ImagePopup 
                         class="image" 
@@ -316,13 +316,22 @@ import ImagePopup from '@/Components/ImagePopup.vue';
 
     const features = [
   {
-    name: 'Integer placerat', description: 'Phasellus et dui leo. Sed ut ultricies odio. Aenean accumsan faucibus vehicula. Ut eget sapien.', image: '/pc3.png',
+    name: 'Fördelar med att använda Enox som sitt kassasystem:', description: 'Godkänt av Skatteverket', image: '/pc3.png',
   },
-  { name: 'Phasellus et', description: ' Morbi euismod varius enim, eu efficitur est lacinia eu. Proin quis urna non nunc convallis.' , image: '/kortterminal8.png'},
+  { name: '', description: 'Fri support & kostnadsfria uppdateringar' , image: '/kortterminal8.png'},
   {
-    name: 'Suspendisse lacinia', description: 'Ut ac risus faucibus, pulvinar tellus a, quis mauris varius, sit amet.' , image: '/enoxkassa.jpg',
+    name: '', description: 'Inga dolda avgifter' , image: '/enoxkassa.jpg',
   },
-  { name: 'Quisque ult', description: "Integer placerat scelerisque tortor, ut bibendum nibh pharetra vitae.", image: ''},
+  { name: '', description: "Snabb & stabil prestanda i alla våra kassor", image: ''},
+
+    {
+    name: '', description: 'Enkelt att använda kassan i försäljningsläge samt admin', image: '/pc3.png',
+  },
+  { name: '', description: 'Rapporter görs per automatik, du kan fokusera på att sälja' , image: '/kortterminal8.png'},
+  {
+    name: '', description: 'Integrationer mot program som swish, fortnox, personalkollen, caspeco och mycket mer.' , image: '/enoxkassa.jpg',
+  },
+  { name: '', description: "Kompatibelt med Sveriges största leverantörer av kortterminaler", image: ''},
     ];
 
     const productOptions = [

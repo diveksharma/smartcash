@@ -13,24 +13,24 @@
                     
                     <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
                         <!-- Mobile menu button-->
-                        <button @click="dropdownMobile = !dropdownMobile" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu"> 
-                            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                            </svg>
-                        </button>
+                            <button @click="dropdownMobile = !dropdownMobile" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu"> 
+                                <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                                </svg>
+                            </button>
 
-                        <button>
-                            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                            </svg>
-                        </button>
+                            <button>
+                                <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
                         </div>
                     <!-- Main menu Desktop -->
                     <div class="flex-1 hidden sm:block">
                         <div class="flex justify-center space-x-12">
                             <button 
                             @click="productDropdown = !productDropdown" 
-                                class="text-white font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm uppercase"
+                                class="text-white font-semibold transition duration-500 ease-in-out hover:text-gray-400 px-3 py-2 rounded-md text-sm uppercase"
                             >
                                 Produkter
                             </button>
@@ -62,7 +62,7 @@
                                 </div>
                             </div>
                         </transition>
-                            <Link v-for="nav in navigation" :key="nav.id" :href="route(nav.href)" class="text-white flex items-center font-semibold transition duration-500 ease-in-out hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-sm">
+                            <Link v-for="nav in navigation" :key="nav.id" :href="route(nav.href)" class="text-white flex items-center font-semibold transition duration-500 ease-in-out hover:text-gray-400 px-3 py-2 rounded-md text-sm">
                                 {{ nav.name }}
                             </Link>
 
@@ -140,30 +140,6 @@
     
 
     <!-- Get started Section -->
-    <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24">
-            <div>
-                <div>
-                    <span class="h-8 sm:h-12 w-8 sm:w-12 rounded-md flex items-center justify-center bg-gradient-to-t from-indigo-600 to-pink-600">
-                        <svg class="h-4 sm:h-6 w-4 sm:w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
-                        </svg>
-                    </span>
-                </div>
-                <div class="mt-6">
-                    <h2 class="text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900">
-                        Smart Cash
-                    </h2>
-                    <p class="mt-4 text-sm sm:text-lg text-gray-500">
-                        Smart Cash är ett väletablerat bolag i kassabranschen och erbjuder de absolut senaste funktionerna som marknaden efterfrågar. Vi strävar alltid efter att ge våra kunder en unik kundupplevelse med förstklassig service, oavsett företagsstorlek.
-                    </p>
-                </div>
-            </div>
-            <div>
-                <img class="rounded-xl shadow-xl ring-1 ring-black ring-opacity-5" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="Get Started">
-            </div>
-        </div>
-    </div>
 
 
         <!-- Products -->
@@ -213,6 +189,52 @@
         </div>
 
 
+    <!-- Customers Section -->
+    <div class="max-w-7xl mx-auto py-8 sm:py-24 px-2 sm:px-6 lg:px-3">
+        <h2 class="relative text-center text-lg sm:text-4xl uppercase font-extrabold text-gray-900 tracking-tight">
+            Några av våra kunder
+        </h2>
+        <div class="mt-6">
+            <div class="relative grid grid-rows-1 grid-flow-col gap-4">
+                <div v-for="customer in customers" :key="customer.id" class="col-span-1 flex justify-center">
+                    <img class="max-h-24" :src="customer.logo" :alt="customer.name">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="h-auto bg-gray-200">
+        <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24">
+            <div>
+                <div>
+                    <span class="h-8 sm:h-12 w-8 sm:w-12 rounded-md flex items-center justify-center bg-gradient-to-t from-indigo-600 to-pink-600">
+                        <svg class="h-4 sm:h-6 w-4 sm:w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
+                        </svg>
+                    </span>
+                </div>
+                <div class="mt-6">
+                    <h2 class="text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900">
+                        Smart Cash
+                    </h2>
+                    <p class="mt-4 text-sm sm:text-lg text-gray-500">
+                        Smart Cash är ett väletablerat bolag i kassabranschen och erbjuder de absolut senaste funktionerna som marknaden efterfrågar. Vi strävar alltid efter att ge våra kunder en unik kundupplevelse med förstklassig service, oavsett företagsstorlek.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <img class="rounded-xl shadow-xl ring-1 ring-black ring-opacity-5" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="Get Started">
+            </div>
+        </div>
+    </div>
+
     <!-- Another Section (Give name later!!!!) -->
     <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24">
@@ -239,25 +261,6 @@
         </div>
     </div>
 
-    <!-- Customers Section -->
-    <div class="max-w-7xl mx-auto py-8 sm:py-24 px-2 sm:px-6 lg:px-3">
-        <h2 class="relative text-center text-lg sm:text-4xl uppercase font-extrabold text-gray-900 tracking-tight">
-            Några av våra kunder
-        </h2>
-        <div class="mt-6">
-            <div class="relative grid grid-rows-1 grid-flow-col gap-4">
-                <div v-for="customer in customers" :key="customer.id" class="col-span-1 flex justify-center">
-                    <img class="max-h-24" :src="customer.logo" :alt="customer.name">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="h-auto bg-gray-200">
-        <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
-
-        </div>
-    </div>
 
 
 <!--     <div class="bg-white">

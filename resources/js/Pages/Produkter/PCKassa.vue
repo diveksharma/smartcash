@@ -22,9 +22,9 @@
                       </div>
                   </div>
                 </div> -->
-<!--                 <Link href="/checkout" class="relative bg-white rounded-full shadow-lg transform duration-500 hover:scale-110 sm:mt-0 mt-10 px-2 py-2"> -->
-                  <!-- <Icon name="bag" class="h-14 w-14 transform duration-500 hover:scale-110 rounded-full mx-auto pt-2"></Icon> -->
-<!--                   <div class="absolute -top-3 -right-1 flex items-center justify-center font-medium rounded-full bg-purple-500 text-white w-5 h-5" style="font-size: 10px">
+<!--                 <Link href="/checkout" class="relative bg-white rounded-full shadow-lg transform duration-500 hover:scale-110 sm:mt-0 mt-10 px-2 py-2">
+
+                  <div class="absolute -top-3 -right-1 flex items-center justify-center font-medium rounded-full bg-purple-500 text-white w-5 h-5" style="font-size: 10px">
                     {{ cart.length }}
                   </div>
                   <svg xmlns="http://www.w3.org/2000/svg" :class="[hasAddedProduct === true ? 'animate-bounce': 'h-6 w-6 text-purple-500']" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -34,7 +34,6 @@
                 </div>
                 </div>
 
-                
                     <div class="flex-1 hidden sm:block"/>
                     <div class="flex justify-center space-x-12">
 <!--                         <button 
@@ -160,26 +159,29 @@ import Button from '@/Components/Button.vue';
     {id: 11, name: 'Tillbehör', href:'products.tillbehor', url: productUrl+'/tillbehor'}
   ];
 
-  const productOptions = [
-          { 
-        options:[ 
-            {id: 1, name: 'PC-Kassa', href:'products.pc-kassa', image:'/droppic4.svg'},
-            {id: 2, name: 'Kassaregister', href:'products.kassaregister', image:'/droppic1.svg'},
-            {id: 3, name: 'Enox-kassa', href:'products.enox-kassa', image:'/droppic2.svg'},
-            {id: 1, name: 'Kortterminal', href:'products.card-terminal', image:'/droppic3.svg'},
-            {id: 2, name: 'Orderplatta', href:'products.orderplatta', image:'/droppic5.svg'},
-            {id: 3, name: 'Skanner', href:'products.skanner', image:'/droppic6.svg'},
-            {id: 4, name: 'Vågar', href:'products.vagar', image:'/droppic2.svg'},
-            {id: 5, name: 'Skrivare', href:'products.skrivare', image:'/droppic1.svg'},
-            {id: 6, name: 'Kontrollenheter', href:'products.kontrollenheter', image:'/droppic5.svg'},
-            {id: 7, name: 'Kvittorullar', href:'products.kvittorullar', image:'/droppic4.svg'},
-            {id: 8, name: 'Tillbehör', href:'products.tillbehor', image:'/droppic3.svg'}
-            ]
-          }, 
+
+                const productOptions = [
+
+            { 
+              options:[ 
+                  {id: 1, name: 'PC-Kassa', href:'products.pc-kassa', image:'/droppic4.svg'},
+                  {id: 2, name: 'Kassaregister', href:'products.kassaregister', image:'/droppic1.svg'},
+                  {id: 3, name: 'Enox-kassa', href:'products.enox-kassa', image:'/droppic2.svg'},
+                  {id: 1, name: 'Kortterminal', href:'products.card-terminal', image:'/droppic3.svg'},
+                  {id: 2, name: 'Orderplatta', href:'products.orderplatta', image:'/droppic5.svg'},
+                  {id: 3, name: 'Skanner', href:'products.skanner', image:'/droppic6.svg'},
+                  {id: 4, name: 'Vågar', href:'products.vagar', image:'/droppic2.svg'},
+                  {id: 5, name: 'Skrivare', href:'products.skrivare', image:'/droppic1.svg'},
+                  {id: 6, name: 'Kontrollenheter', href:'products.kontrollenheter', image:'/droppic5.svg'},
+                  {id: 7, name: 'Kvittorullar', href:'products.kvittorullar', image:'/droppic4.svg'},
+                  {id: 8, name: 'Tillbehör', href:'products.tillbehor', image:'/droppic3.svg'}
+                ]
+            }, 
       ];
 
   const dropdownMobile = ref((false))
-  const productDropdown = ref((true))
+  const productDropdown = ref((true))  
+  
   export default {
     components:  {
         HomepageLayout,

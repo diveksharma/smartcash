@@ -1,14 +1,12 @@
 <template>
     <div
         class="expandable-image"
-        :class="{
-        expanded: expanded
-        }"
+        :class="{expanded: expanded}"
         @click="expanded = true"
     >
             <i
-            v-if="expanded"
-            class="close-button"
+                v-if="expanded"
+                class="close-button"
             >
                 <svg style="width:24px;height:24px" viewBox="0 0 24 24">
                     <path fill="#666666" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
@@ -17,7 +15,7 @@
             <i
                 v-if="!expanded"
                 class="expand-button"
-                >
+             >
                 <svg style="width:24px;height:24px" viewBox="0 0 24 24">
                     <path fill="#000000" d="M10,21V19H6.41L10.91,14.5L9.5,13.09L5,17.59V14H3V21H10M14.5,10.91L19,6.41V10H21V3H14V5H17.59L13.09,9.5L14.5,10.91Z" />
                 </svg>

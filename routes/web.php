@@ -51,6 +51,10 @@ Route::get('/livsmedel&kiosk', function () {
     return Inertia::render('Livsmedel&Kiosk');
 })->name('livsmedel&kiosk');
 
+Route::get('/lösningar', function () {
+    return Inertia::render('Losningar');
+})->name('lösningar');
+
 Route::get('/inlosenavtal', function () {
     return Inertia::render ('Agreement');
 })->name('agreement');
@@ -125,6 +129,34 @@ Route::group(['prefix' => 'produkter', 'as' => 'products.'], function () {
             'cart' => session()->get('cart') ? session()->get('cart') : [],
         ]);
     });
+    
+    /* TEST */
+    Route::get('/pckassa', function () {
+        return Inertia::render('Produkter/PCKassa', [
+            'products-pckassa' => Product::where('category', 'PC-kassa')->get(),
+            'cart' => session()->get('cart') ? session()->get('cart') : [],
+
+        ]);
+    }) ->name('pckassa');
+    Route::get('/pc-kassa/{product:slug}', function (Product $product) {
+        return Inertia::render('ProductInfo', [
+            'product-info' => [
+                'id' => $product->id,
+                'category' => $product->category,
+                'name' => $product->name,
+                'slug' => $product->slug,
+                'description' => $product->description,
+                'price_currency' => $product->price_currency,
+                'image' => $product->image,
+                'tag' => $product->tag,
+                'recommendation' => $product->recommendation,
+                'status' => $product->status,
+                'buyable' => $product->buyable,
+            ],
+            'cart' => session()->get('cart') ? session()->get('cart') : [],
+        ]);
+    });
+    /* TEST */
 
     Route::get('/kortterminal', function () {
         return Inertia::render('Produkter/Kortterminal', [
