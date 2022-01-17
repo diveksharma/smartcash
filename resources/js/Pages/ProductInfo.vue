@@ -1,13 +1,13 @@
 <template>
-    <product-layout :cart="cart">    
+    <homepage-layout :cart="cart">    
             <div class="max-w-7xl mx-auto sm:pt-16 sm:px-6 lg:px-8">
             <Icon name="background4" class="absolute items-center justify-center mx-auto -left-32 p-24 sm:block hidden"></Icon>
-                <Link class="flex justify-start transform duration-500 hover:scale-105">
+                <button onclick="history.back()" class="flex justify-start transform duration-500 hover:scale-105">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                     </svg>
-                    <h2 class="">Tillbaka</h2>
-                </Link>
+                    <h2 class="">Tillbaka </h2>
+                </button>
            
                 <div class="max-w-2xl mx-auto lg:max-w-none">
                 <!-- Product Info-->
@@ -58,20 +58,20 @@
                 </div>
             </div> 
         </div> 
-    </product-layout> 
+    </homepage-layout> 
 </template>
 
 <script>
-import ProductLayout from './Produkter/ProductLayout.vue';
 import { Link } from '@inertiajs/inertia-vue3';
 import Icon from '@/Components/Icon.vue'
+import HomepageLayout from './HomepageLayout.vue';
 
     export default {
         props: ['product-info', 'cart'],
         components:{
-            ProductLayout,
             Link,
             Icon,
+            HomepageLayout,
         },
         data() {
             return {

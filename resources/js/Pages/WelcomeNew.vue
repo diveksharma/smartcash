@@ -143,8 +143,8 @@
 
 
         <!-- Products -->
-        <div class="w-full mx-auto py-12 sm:py-24">
-            <div class="relative pb-32 bg-gray-800">
+        <div class="w-full mx-auto py-12 pt-16 sm:pt-24">
+<!--             <div class="relative pb-32 bg-gray-800">
                 <div class="absolute inset-0">
                     <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1556745750-68295fefafc5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="">
                     <div class="absolute inset-0 aspect-w-1 aspect-h-1 bg-gradient-to-tr from-pink-700 via-purple-400 to-gray-800 mix-blend-multiply" aria-hidden="true"></div>
@@ -153,15 +153,15 @@
                     <h1 class="text-2xl uppercase font-bold tracking-tight text-white md:text-5xl lg:text-4xl"></h1>
                     <p class="mt-6 max-w-3xl text-sm sm:text-lg text-gray-300">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.</p>
                 </div>
-            </div>
+            </div> -->
     
-            <section class="-mt-52 max-w-7xl mx-auto relative z-10 px-4 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
-                <h2 class="sr-only" id="contact-heading">Kontakta oss</h2>
+            <section class="max-w-7xl mx-auto relative z-10 px-4 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
+              <h2 class="sr-only" id="contact-heading">Kontakta oss</h2>
                 <div class="grid grid-cols-1 gap-y-32 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
     
-                    <div v-for="productfeature in featuredproducts" :key="productfeature.id" class="flex flex-col bg-white rounded-2xl shadow-lg transition duration-500 hover:shadow-2xl">
+                    <div v-for="productfeature in featuredproducts" :key="productfeature.id" class="flex flex-col bg-white shadow-md rounded-2xl">
                         <div class="flex-1 relative pt-16 px-6 pb-8 md:px-8">
-                            <div class="absolute top-0 p-2 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
+                            <div class="absolute top-0 p-2 inline-block bg-indigo-600 rounded-xl transform -translate-y-1/2">
                             <!--     <div v-html="productfeature.svg"></div> -->
                                 <h3 class="text-xl text-white">{{ productfeature.name }}</h3>
                             </div>
@@ -177,8 +177,8 @@
                         </div>
 
 
-                        <div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-                            <Link :href="productfeature.href" class="text-base font-medium text-indigo-700 hover:text-indigo-600">
+                        <div class="p-6 rounded-bl-2xl rounded-br-2xl md:px-8">
+                            <Link :href="productfeature.href" class="text-base bg-indigo-500 p-3 rounded-lg font-medium text-white  hover:bg-indigo-600">
                                 Läs mer<span aria-hidden="true"> &rarr;</span>
                             </Link>
                         </div>
@@ -188,6 +188,54 @@
             </section>
         </div>
 
+    <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24">
+            <div>
+<!--                 <div>
+                    <span class="h-8 sm:h-12 w-8 sm:w-12 rounded-md flex items-center justify-center bg-gradient-to-t from-indigo-600 to-pink-600">
+                        <svg class="h-4 sm:h-6 w-4 sm:w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
+                        </svg>
+                    </span>
+                </div> -->
+                <div class="mt-6">
+                    <h2 class="text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900">
+                        Smart Cash
+                    </h2>
+                    <p class="mt-4 text-sm sm:text-lg text-gray-500">
+                        Smart Cash är ett väletablerat bolag i kassabranschen och erbjuder de absolut senaste funktionerna som marknaden efterfrågar. Vi strävar alltid efter att ge våra kunder en unik kundupplevelse med förstklassig service, oavsett företagsstorlek.
+                    </p>
+                    <div class="flex py-4">
+                        <img class="sm:block h-12 w-auto" src="/gasell-smartcash.png" alt="Gasell">
+                        <img class="sm:block h-12 w-auto" src="/UC-dark.png" alt="UC">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class="rounded-xl shadow-xl ring-1 ring-black ring-opacity-5" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="Get Started">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg-white">
+    <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl">
+        <div class="relative rounded-lg overflow-hidden lg:h-96">
+        <div class="absolute inset-0">
+            <img src="bg-2.svg" alt="" class="w-full h-full object-center object-cover">
+        </div>
+        <div aria-hidden="true" class="relative w-full h-96 lg:hidden"></div>
+        <div aria-hidden="true" class="relative w-full h-32 lg:hidden"></div>
+        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-b from-pink-300 via-purple-400 to-indigo-400 bg-opacity-75 p-6 rounded-bl-lg rounded-br-lg backdrop-filter backdrop-blur sm:flex sm:items-center sm:justify-between lg:inset-y-0 lg:inset-x-auto lg:w-96 lg:rounded-tl-lg lg:rounded-br-none lg:flex-col lg:items-start">
+            <div>
+                <h2 class="text-xl font-bold text-white">Workspace Collection</h2>
+                <p class="mt-1 text-sm text-gray-300">Upgrade your desk with objects that keep you organized and clear-minded.</p>
+            </div>
+            <a href="#" class="mt-6 flex-shrink-0 flex bg-white bg-opacity-0 py-3 px-4 border border-white border-opacity-25 rounded-md items-center justify-center text-base font-medium text-white hover:bg-opacity-10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full">Erbjudande</a>
+        </div>
+        </div>
+    </div>
+    </div>  
 
     <!-- Customers Section -->
     <div class="max-w-7xl mx-auto py-8 sm:py-24 px-2 sm:px-6 lg:px-3">
@@ -210,30 +258,6 @@
         </div>
     </div>
 
-    <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24">
-            <div>
-                <div>
-                    <span class="h-8 sm:h-12 w-8 sm:w-12 rounded-md flex items-center justify-center bg-gradient-to-t from-indigo-600 to-pink-600">
-                        <svg class="h-4 sm:h-6 w-4 sm:w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
-                        </svg>
-                    </span>
-                </div>
-                <div class="mt-6">
-                    <h2 class="text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900">
-                        Smart Cash
-                    </h2>
-                    <p class="mt-4 text-sm sm:text-lg text-gray-500">
-                        Smart Cash är ett väletablerat bolag i kassabranschen och erbjuder de absolut senaste funktionerna som marknaden efterfrågar. Vi strävar alltid efter att ge våra kunder en unik kundupplevelse med förstklassig service, oavsett företagsstorlek.
-                    </p>
-                </div>
-            </div>
-            <div>
-                <img class="rounded-xl shadow-xl ring-1 ring-black ring-opacity-5" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="Get Started">
-            </div>
-        </div>
-    </div>
 
     <!-- Another Section (Give name later!!!!) -->
     <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
@@ -327,7 +351,7 @@
         </div>
     </div> -->
 
-    <div class="relative max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
+    <div class="relative max-w-2xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
         <div class="sm:flex sm:justify-between sm:items-center">
             <img class="sm:block h-auto w-auto" src="/gasell-smartcash.png" alt="Gasell">
             <img class="sm:block h-auto w-auto" src="/UC-dark.png" alt="UC">
@@ -343,7 +367,7 @@
                 </div>
                 <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
                     <h1 class="text-2xl uppercase font-bold tracking-tight text-white md:text-5xl lg:text-4xl">Vi hjälper dig</h1>
-                    <p class="mt-6 max-w-3xl text-sm sm:text-lg text-gray-300">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.</p>
+                    <p class="mt-6 max-w-3xl text-sm sm:text-lg text-gray-200">Vi är inte omöjliga! När våra kunder har önskemål på funktioner så lyssnar vi och tar till oss det och i mån av tid så brukar vi framställa dom inom 1-3 månader.</p>
                 </div>
             </div>
     
@@ -363,7 +387,7 @@
                         </div>
                         <div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
                             <a :href="support.href" class="text-base font-medium text-indigo-700 hover:text-indigo-600">
-                                Kontakta<span aria-hidden="true"> &rarr;</span>
+                                Läs mer<span aria-hidden="true"> &rarr;</span>
                             </a>
                         </div>
                     </div>

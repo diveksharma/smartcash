@@ -26,7 +26,7 @@
                     <div class="flex justify-center space-x-12">
                         <button 
                           @click="productDropdown = !productDropdown" 
-                          :class="[ '/'+$page.url.split('/')[1] === '/produkter' ? 'bg-pink-400 text-white' : 'text-black hover:bg-pink-400 hover:text-white transition duration-500 ease-in-out', 'font-semibold text-sm px-3 py-2 rounded-md flex items-center']"
+                          :class="[ '/'+$page.url.split('/')[1] === '/produkter' ? 'text-gray-500' : 'text-black hover:text-white transition duration-500 ease-in-out', 'font-semibold text-sm px-3 py-2 rounded-md flex items-center']"
                         >
                             PRODUKTER
                         </button>
@@ -62,7 +62,7 @@
                                 </div>
                             </div>
                         </transition>
-                        <Link v-for="nav in navigation" :key="nav.id" :href="route(nav.href)" :class="[ $page.url === nav.url ? 'bg-pink-400 text-white' : 'text-black hover:bg-pink-400 hover:text-white transition duration-500 ease-in-out', 'font-semibold text-sm px-3 py-2 rounded-md flex items-center']">
+                        <Link v-for="nav in navigation" :key="nav.id" :href="route(nav.href)" :class="[ $page.url === nav.url ? 'text-gray-500' : 'text-black hover:text-gray-500 transition duration-200 ease-in-out', 'font-semibold text-sm px-3 py-2 rounded-md flex items-center']">
                             {{ nav.name }}
                         </Link>
 

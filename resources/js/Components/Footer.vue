@@ -1,18 +1,19 @@
 <template>
 <div class="bg-white w-full relative overflow-hidden border-t border-gray-200 py-5 mt-28">
   <div class="absolute top-0 right-0">
-    <Icon name="group3" class="h-full transform -rotate-45" />
+<Icon name="group3" class="h-full transform -rotate-45" />
   </div>
   <div class="max-w-7xl mx-auto relative">
     <div class="max-w-2xl lg:grid lg:grid-cols-2 lg:gap-y-5 px-5 sm:px-0">
       <div v-for="info in footer" :key="info.id" class="text-left">
         <h2 class="text-sm font-extrabold tracking-tight text-gray-900 uppercase">{{ info.title }}</h2>
-        <p v-for="(detail, Idx) in info.details" :key="Idx" class="mt-1 font-medium text-sm text-gray-500">
+        <p v-for="(detail, Idx) in info.details" :key="Idx" class="mt-1 font-medium text-sm text-gray-700">
           {{ detail.text }}
         </p>
       </div>
     </div>
   </div>
+
   <footer class="overflow-hidden relative bg-warm-gray-900" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="max-w-7xl mx-auto sm:mx-0 sm:ml-auto">
@@ -56,7 +57,7 @@ const footer = [
       {text: '011-470 90 00'},
     ]
   }
-]
+] 
 export default {
   components:{
     Icon,

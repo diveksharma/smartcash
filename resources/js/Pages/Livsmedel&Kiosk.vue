@@ -187,17 +187,23 @@
 
     <div class="bg-white sm:pb-32">
         <div class="max-w-2xl mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
-            <div>
-                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Är du ute efter ett kassasystem med en våg, skanner och kortterminal kopplad till kassan? Då har du kommit rätt!</h2>
-                <p class="mt-4 text-gray-500">Enox kassasystem är anpassat för alla livsmedelsbutiker och kiosker som har ett behov av de funktioner marknaden efterfrågar. Med Enox kassasystem kan du sammankoppla en våg eller varför inte en skanner för att underlätta din försäljning. För att få reda på exakt vad du behöver så tveka inte att kontakta oss för en Demo helt kostnadsfritt.</p>
-
-                <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
-                    <div v-for="feature in features" :key="feature.name" class="border-t border-gray-200 pt-4">
-                        <dt class="font-medium text-gray-900">{{ feature.name }}</dt>
-                        <dd class="mt-2 text-sm text-gray-500">{{ feature.description }}</dd>
+                <div>
+                    <div class="border-b border-gray-200 pb-10">
+                        <p class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Ett kassasystem framtaget för butiker inom skönhet & salong!</p>
+                        <br>
+                        <h2 class="font-medium text-gray-500">I vårt kassasystem har vi inte bara tänkt på alla viktiga funktioner våra kunder efterfrågar utan har även jobbat på designen av kassorna då vi anser att det behöver se snyggt och prydligt ut för att matcha er butik. Med Enox kassasystem kan du enkelt hålla koll på ditt lager samt sköta era bokningar på ett enkelt & smidigt sätt. Här kan ni erbjuda era kunder e-postbekräftelser efter varje bokning. För att få reda på exakt vad du behöver så tveka inte att kontakta oss för en Demo helt kostnadsfritt.</h2>
                     </div>
-                </dl>
-            </div>
+
+                    <dl class="mt-10 space-y-10">
+                       <div v-for="feature in features" :key="feature.name">
+                                <dt class="text-lg -ml-1 font-bold tracking-tight text-gray-900">{{ feature.name }}</dt>
+                                <dd class="mt-4 text-md font-semibold sm:whitespace-nowrap text-gray-500">{{ feature.description }}</dd>
+<!--                             <div>
+                                <img :src="feature.image" class="h-24 w-auto rounded-md">
+                            </div> -->
+                        </div>
+                    </dl>
+                </div>
             <div class="bg-purple-400 absolute sm:block hidden right-0" style="width: 50%; height: 40%;"/>
                 <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-16 relative">
 <!--                     <ImagePopup 
@@ -214,10 +220,43 @@
         </div>
     </div>
 
+        <div class="bg-purple-400 absolute sm:block hidden left-0" style="width: 55%; height:  55%;"/>
+        <div class="relative py-12">
+            <div class="overflow-hidden">
+                <div class="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
+                    <div class="text-base max-w-prose mx-auto lg:max-w-none -mb-6">
+                        <h2 class="text-base text-indigo-600 font-semibold uppercase">Funktioner:</h2>
+                    </div>
+                    <div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
+                        <div class="relative z-10">
+                            <div v-for="text in descriptions" :key="text.id" class="prose prose-indigo sm:text-white text-gray-500 mx-auto font-semibold lg:max-w-none sm:whitespace-nowrap">
+
+                                <li> {{ text.description }} </li>
+
+                            </div>
+                        </div>
+                    <div class="mt-12 relative text-base max-w-prose mx-auto lg:mt-0 lg:max-w-none">
+                        <svg class="absolute top-0 right-0 -mt-20 -mr-20 lg:top-auto lg:right-auto lg:bottom-1/2 lg:left-1/2 lg:mt-0 lg:mr-0 xl:top-0 xl:right-0 xl:-mt-20 xl:-mr-20" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
+                                <defs>
+                                    <pattern id="bedc54bc-7371-44a2-a2bc-dc68d819ae60" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                                        <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                                    </pattern>
+                                </defs>
+                            <rect width="404" height="384" fill="url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)" />
+                        </svg>
+                        <div>
+                            <img class="relative rounded-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8" src="https://images.unsplash.com/photo-1593014290067-93bac771f1c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="cafe"/>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
     <!-- MESSAGE -->
-    <div class="mx-auto">
+    <div class="mx-auto pt-24">
         <div class="relative py-44 px-4 sm:px-6 lg:px-8 lg:py-24">
-        <div class="absolute top-0 left-0 bg-purple-400" style="width: 50%; height: 100%;" />
+        <div class="absolute top-0 right-0 bg-purple-400" style="width: 50%; height: 100%;" />
         <!--      <Icon name="background" class="absolute py-1 pb-96 right-1 mb-24" ></Icon>
         <Icon name="background" class="absolute py-40 pb-72 left-1" ></Icon> --> 
             <div class="relative py-6 px-6 rounded-2xl transition duration-500 hover:shadow-2xl bg-white group-hover:bg-white max-w-xl mx-auto">
@@ -381,6 +420,54 @@ import ImagePopup from '@/Components/ImagePopup.vue';
         {id: 6, name: 'KONTAKT', href:'contact'},
     ];
 
+    const descriptions = [
+        {
+            description: 'Sökfält inbyggt i kassan för att snabbt kunna söka upp kvitton, kunder & artiklar',
+        },
+                {
+            description: 'Presentkort/Rabattkort (pappersform eller plastkort)',
+        },
+                {
+            description: 'Artiklar kopplade till meddelanden',
+        },
+                {
+            description: 'Spara recept under rätt kund',
+        },
+                {
+            description: 'Rapporter i pdf format skickat direkt till din mejladress & er ekonomiansvarig/revisor',
+        },
+                {
+            description: 'Rabatthantering',
+        },
+                {
+            description: 'Statistik och där man enkelt ser vilka timmar det går bäst under dygnet',
+        },
+                {
+            description: 'Personalliggare',
+        },
+                {
+            description: 'Kortterminal kopplad till kassan',
+        },
+                {
+            description: 'Kunddisplay där du kan lägga upp företagsreklam eller tillbehör för merförsäljning',
+        },
+                {
+            description: 'Inbyggt fakturasystem',
+       },
+                       {
+            description: 'Backoffice',
+       },
+                       {
+            description: 'Elektroniskt kvitto (välj att antingen mejla kvittot eller arkivera med ett knapptryck)',
+       },
+                       {
+            description: 'Lagerhantering',
+       },
+                       {
+            description: 'Bokningskalender med e-post bekräftelse',
+       }, 
+    ];
+
     const productDropdown = ref((false));
     const dropdownMobile = ref((false));
 
@@ -419,6 +506,7 @@ import ImagePopup from '@/Components/ImagePopup.vue';
                 errors,
                 success,
                 loaded,
+                descriptions,
 
             }
         },

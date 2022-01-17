@@ -1,9 +1,10 @@
 <template>
-    <homepage-layout>
+    <homepage-layout :cart="cart">
 
-        <nav class="bg-white">
+        <nav class="">
+          <div>
             <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-            <div class="relative flex items-center justify-between h-0 sm:h-16">
+            <div>
                 <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 <!-- Mobile menu button-->
                 <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-white hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
@@ -22,49 +23,53 @@
                       </div>
                   </div>
                 </div> -->
-<!--                 <Link href="/checkout" class="relative bg-white rounded-full shadow-lg transform duration-500 hover:scale-110 sm:mt-0 mt-10 px-2 py-2"> -->
-                  <!-- <Icon name="bag" class="h-14 w-14 transform duration-500 hover:scale-110 rounded-full mx-auto pt-2"></Icon> -->
-<!--                   <div class="absolute -top-3 -right-1 flex items-center justify-center font-medium rounded-full bg-purple-500 text-white w-5 h-5" style="font-size: 10px">
+
+
+                </div>
+                </div>
+                <div class="pl-96 top-44 hidden sm:block absolute">
+                <Link href="/checkout" class="relative rounded-full shadow-lg transform duration-500 hover:scale-110 left-72 sm:top-56 mt-10 px-2 py-2"> 
+                  <!--<Icon name="bag" class="h-14 w-14 transform duration-500 hover:scale-110 rounded-full mx-auto pt-2"></Icon>-->
+                  <div class="absolute top-3 -right-1 flex items-center justify-center font-medium rounded-full bg-purple-500 text-white w-5 h-5" style="font-size: 10px">
                     {{ cart.length }}
                   </div>
-                  <svg xmlns="http://www.w3.org/2000/svg" :class="[hasAddedProduct === true ? 'animate-bounce': 'h-6 w-6 text-purple-500']" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" :class="[hasAddedProduct === true ? 'animate-bounce': 'h-6 w-6 text-purple-500 hover:shadow-xl']" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
-                </Link> -->
+                </Link>
+                  <section aria-labelledby="sale-heading" class="relative max-w-7xl mx-auto pt-32 px-4 flex flex-col items-center text-center sm:px-6 lg:px-8">
+                      <div class="max-w-2xl mx-auto lg:max-w-none">
+                        <button @click="productDropdown = !productDropdown" class="mt-6 inline-block w-full bg-gray-900 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-gray-800 sm:w-auto">Fler produkter</button>
+                      </div>
+                  </section>
                 </div>
-                </div>
-
-                
                     <div class="flex-1 hidden sm:block"/>
-                    <div class="flex justify-center space-x-12">
-<!--                         <button 
-                          @click="productDropdown = !productDropdown" 
-                          :class="[ '/'+$page.url.split('/')[1] === '/produkter' ? 'bg-indigo-400 text-white hover:bg-indigo-500' : 'hover:bg-pink-400 hover:text-white transition duration-500 ease-in-out', 'font-semibold text-sm px-3 py-2 rounded-md flex']"
-                        >
-                            Fler 
-                        </button> -->
-                        <div v-show="productDropdown" class="fixed inset-0 z-10" @click="productDropdown = false" />
-                        <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
-                            <div v-if="productDropdown" class="absolute z-10 flex jsutify-center top-24 w-screen max-w-6xl">
-                                <div class="rounded-lg shadow-xl overflow-hidden">
-                                  <div class="relative grid grid-flow-col-dense bg-white sm:p-6">
-                                    <div>
-                                      <h2 class="text-sm font-medium text-gray-400"></h2>  
-                                        <div v-for="product in productOptions" :key="product.category" class="grid grid-cols-6 gap-x-8">
-                                          <Link v-for="option in product.options" :key="option.id" :href="route(option.href)" class="pt-6 flex items-center gap-4 transition ease-in-out duration-150 hover:animate-bounce text-sm font-semibold text-gray-700">
-                                            <img class="h-7 w-7" :src="option.image"/>
-                                            {{ option.name }}
-                                          </Link>
-                                        </div>
-                                      </div>     
+                      <div class="flex justify-center space-x-12">
+                          <div v-show="productDropdown" class="fixed inset-20 z-10" @click="productDropdown = false" />
+                          <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
+                              <div v-if="productDropdown" class="absolute z-10 top-1/2 flex jsutify-center w-screen max-w-6xl bg-white">
+                                  <div class="rounded-lg shadow-xl overflow-hidden">
+                                    <div class="relative grid grid-flow-col-dense sm:p-3">
+                                      <div>
+                                        <h2 class="text-sm font-medium text-gray-400"></h2>  
+                                          <div v-for="product in productOptions" :key="product.category" class="grid grid-cols-6 gap-x-8">
+                                            <Link v-for="option in product.options" :key="option.id" :href="route(option.href)" class="pt-6 flex items-center gap-4 transition ease-in-out duration-150 hover:animate-bounce text-sm font-semibold text-gray-700">
+                                              <img class="h-7 w-7" :src="option.image"/>
+                                              {{ option.name }}
+                                            </Link>
+                                          </div>
+                                        </div>     
+                                    </div>
+
                                   </div>
-
-                                </div>
-                            </div>
-                        </transition>
+                              </div>
+                          </transition>
                     </div>
-
-
+          </div>
+<!-- 
+                          @click="productDropdown = !productDropdown" 
+                          :class="[ '/'+$page.url.split('/')[1] === '/produkter' ? 'bg-indigo-400 text-white hover:bg-indigo-500' : 'hover:bg-pink-400 hover:text-white transition duration-500 ease-in-out', 'font-semibold text-sm px-3 py-2 rounded-md flex']">
+                         -->
 
             <!-- Mobile menu, show/hide based on menu state. -->
  
@@ -179,7 +184,7 @@ import Button from '@/Components/Button.vue';
       ];
 
   const dropdownMobile = ref((false))
-  const productDropdown = ref((true))
+  const productDropdown = ref((false))
   export default {
     components:  {
         HomepageLayout,
@@ -214,7 +219,9 @@ import Button from '@/Components/Button.vue';
        this.hasAddedProduct = true,
         setTimeout(() => {this.hasAddedProduct = false}, 2000);
        
-      }
+      },
+
+      
 
     },
   }

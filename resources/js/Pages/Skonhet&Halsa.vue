@@ -152,7 +152,7 @@
                     <dl class="mt-10 space-y-10">
                        <div v-for="feature in features" :key="feature.name">
                                 <dt class="text-lg -ml-1 font-bold tracking-tight text-gray-900">{{ feature.name }}</dt>
-                                <dd class="mt-4 text-md text-gray-500">{{ feature.description }}</dd>
+                                <dd class="mt-4 text-md text-gray-500 sm:whitespace-nowrap">{{ feature.description }}</dd>
 <!--                             <div>
                                 <img :src="feature.image" class="h-24 w-auto rounded-md">
                             </div> -->
@@ -177,7 +177,7 @@
         </div>
     </div>
 
-        <div class="bg-purple-400 absolute sm:block hidden left-0" style="width: 55%; height:  60%;"/>
+        <div class="bg-purple-400 absolute sm:block hidden left-0" style="width: 55%; height:  55%;"/>
         <div class="relative py-12">
             <div class="overflow-hidden">
                 <div class="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
@@ -202,7 +202,7 @@
                             <rect width="404" height="384" fill="url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)" />
                         </svg>
                         <div>
-                            <img class="relative rounded-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8" src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="cafe"/>
+                            <img class="relative rounded-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8" src="https://images.unsplash.com/photo-1626383137804-ff908d2753a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHNhbG9uJTIwaW50ZXJpb3J8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="cafe"/>
                         </div>
                     </div>
                 </div>
@@ -377,7 +377,7 @@ import ImagePopup from '@/Components/ImagePopup.vue';
         {id: 6, name: 'KONTAKT', href:'contact'},
     ];
 
-        const descriptions = [
+    const descriptions = [
         {
             description: 'Sökfält inbyggt i kassan för att snabbt kunna söka upp kvitton, kunder & artiklar',
         },
