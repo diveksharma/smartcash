@@ -202,7 +202,24 @@
                 </div>
               </div>
             </div>
+            <div class="flex justify-center pt-12">  
+              <div class="grid grid-cols-2 gap-1">
+                <div>
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2078.1395660765024!2d16.170951016171575!3d58.60999667552918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46593a3cb5f1a50b%3A0x4ec67d7ba176cddb!2sKiselgatan%2019%2C%20602%2023%20Norrk%C3%B6ping!5e0!3m2!1sen!2sse!4v1637132856445!5m2!1sen!2sse"
+                      class="sm:w-auto sm:h-56 lg:w-auto lg:h-64 w-full flex justify-center items-center"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                    >
+                    </iframe>
+                </div>
 
+                <div>
+                  <img class="sm:w-auto sm:h-64 lg:w-auto lg:h-64 w-full flex justify-center items-center" src="https://smartcash.se/wp-content/uploads/2019/10/smart-cash-local.jpg" alt="Smart Cash">
+                </div>
+              </div>
+            </div>
           <!-- Contact section -->
 <!--           <section class="relative bg-white" aria-labelledby="contact-heading">
             <div

@@ -142,7 +142,7 @@
                     </div>
                 </section>
             </div>  
-
+<!-- 
                 <div class="">
                 <div class="max-w-2xl mx-auto py-16 px-4 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8">
                     <h2 class="sr-only">Products</h2>
@@ -163,12 +163,36 @@
                     </div>
                 </div>
                 </div>
+ -->
+            <div class="">
+                <div class="max-w-2xl mx-auto py-16 px-4 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8">
+                    <h2 class="sr-only">Products</h2>
+
+                    <div class="grid grid-cols-2 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+                        <a  v-for="product in productsPackage" :key="product.id" :href="'/erbjudande/' + product.slug" class="group hover:shadow-lg">
+                            <div class="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+                            <img :src="product.image" alt="Pack" class="w-full h-full object-center object-cover group-hover:opacity-75">
+                            </div>
+
+                            <div class="rounded-sm">
+                                <h3 class="mt-4 pl-2 text-sm text-gray-700">
+                                    {{ product.name }}
+                                </h3>
+                                <p class="mt-1 pl-2 text-lg font-medium text-gray-900">
+                                    {{ product.price_currency[0].price }}
+                                    {{ product.price_currency[0].currency }}
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
 
 <!-- Alternating Feature Sections -->
-    <div class="relative pt-16 pb-32 overflow-hidden">
+<!--     <div class="relative pt-16 pb-32 overflow-hidden">
       <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48"></div>
-      <div class="relative bg-gray-100">
+      <div class="relative bg-white">
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
@@ -185,13 +209,13 @@
                     </p>
                 <h3 class="text-2xl font-bold tracking-tight text-gray-900">
                     249:-
-                </h3>
-                <div class="mt-6">
+                </h3> -->
+<!--                 <div class="mt-6">
                   <a href="#" class="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">
                     Lägg till   
                   </a>
-                </div>
-              </div>
+                </div> -->
+<!--               </div>
             </div>
             <div class="mt-8 border-t border-gray-200 pt-6">
               <blockquote>
@@ -227,12 +251,20 @@
                 </p>
                 <h3 class="text-2xl font-bold tracking-tight text-gray-900">
                     579:-
-                </h3>
-                <div class="mt-6">
+                </h3> -->
+<!--                 <div class="mt-6">
                   <a href="#" class="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">
                     Lägg till
                   </a>
-                </div>
+                </div> -->
+<!--             <div class="mt-8 border-t border-gray-200 pt-6">
+                <blockquote>
+                    <div>
+
+                    </div>
+
+                </blockquote>
+            </div>
               </div>
             </div>
           </div>
@@ -243,7 +275,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 <!--     </product-layout> -->
     </homepage-layout>
 </template>

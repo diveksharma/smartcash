@@ -1,7 +1,27 @@
 <template>
 <Head title="Produkter - Kvittorullar"/>
   <product-layout :cart="cart">
-        <div class="grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+                  <div class="relative overflow-hidden">
+                <!-- Decorative background image and gradient -->
+                <div aria-hidden="true" class="absolute inset-0">
+                    <div class="absolute inset-0 max-w-7xl mx-auto overflow-hidden xl:px-8">
+                    <img src="/bg-2.svg" alt="" class="w-full h-full object-center object-cover">
+                    </div>
+                    <div class="absolute inset-0 bg-white bg-opacity-75"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t  via-white"></div>
+                </div>
+
+                <!-- Callout -->
+                <section aria-labelledby="sale-heading" class="relative max-w-7xl mx-auto pt-32 px-4 flex flex-col items-center text-center sm:px-6 lg:px-8">
+                    <div class="max-w-2xl mx-auto lg:max-w-none">
+                    <h2 id="sale-heading" class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
+                        Kvittorullar
+                    </h2>
+                    <p class="mt-4 max-w-xl mx-auto text-xl text-gray-600">In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra..</p>
+                    </div>
+                </section>
+            </div>  
+        <div class="grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 sm:pt-36">
             <Link
                 v-for="product in productsKvittorullar"
                 :key="product.id"
@@ -69,7 +89,7 @@
                             </h3>
                         </div>
                         <div class="flex p-2 lg:items-center justify-between bottom-0">
-                            <div
+<!--                             <div
                                 @click="addToShoppingCart(product)"
                                 class="rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg"
                             >
@@ -87,7 +107,7 @@
                                         d="M12 6v6m0 0v6m0-6h6m-6 0H6"
                                     />
                                 </svg>
-                            </div>
+                            </div> -->
                             <div class="rounded-lg h-7 w-24 flex items-center justify-center">
                                 <p class="text-right text-sm sm:text-md font-bold text-black">
                                     {{ product.price_currency[0].price }}

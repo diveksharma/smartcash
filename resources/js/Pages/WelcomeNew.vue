@@ -88,7 +88,7 @@
                         <div class="relative max-w-7xl mx-auto px-4 sm:py-16 -py-24 sm:px-6 lg:py-32 lg:px-auto">
                             <h1 class="lg:text-7xl text-5xl pt-16 sm:pt-0 sm:text-left font-bold text-white">
                                 <span class="block leading-tight">Smarta Betallösningar</span>
-                                <span class="block leading-tight ml-1 lg:text-3xl text-3xl font-semibold">Hör av er till oss så hjälper vi till med de absolut bästa priserna för just er verksamhet!</span>  <span class="block leading-tight ml-1 lg:text-3xl text-3xl font-semibold"></span>
+                                <span class="block sm:hidden leading-tight ml-1 lg:text-3xl text-3xl font-semibold">Hör av er till oss så hjälper vi till med de absolut bästa priserna för just er verksamhet!</span>  <span class="block leading-tight ml-1 lg:text-3xl text-3xl font-semibold"></span>
                             </h1>
                         </div>
                     </div>
@@ -143,6 +143,9 @@
 
 
         <!-- Products -->
+<!--         <div class="flex justify-center">
+            <h1 class="text-gray-700 text-6xl font-bold">Rubrik?</h1>
+        </div> -->
         <div class="w-full mx-auto py-12 pt-16 sm:pt-24">
 <!--             <div class="relative pb-32 bg-gray-800">
                 <div class="absolute inset-0">
@@ -154,7 +157,6 @@
                     <p class="mt-6 max-w-3xl text-sm sm:text-lg text-gray-300">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.</p>
                 </div>
             </div> -->
-    
             <section class="max-w-7xl mx-auto relative z-10 px-4 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
               <h2 class="sr-only" id="contact-heading">Kontakta oss</h2>
                 <div class="grid grid-cols-1 gap-y-32 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
@@ -216,26 +218,7 @@
             </div>
         </div>
     </div>
-
-
-    <div class="bg-white">
-    <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl">
-        <div class="relative rounded-lg overflow-hidden lg:h-96">
-        <div class="absolute inset-0">
-            <img src="bg-2.svg" alt="" class="w-full h-full object-center object-cover">
-        </div>
-        <div aria-hidden="true" class="relative w-full h-96 lg:hidden"></div>
-        <div aria-hidden="true" class="relative w-full h-32 lg:hidden"></div>
-        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-b from-pink-300 via-purple-400 to-indigo-400 bg-opacity-75 p-6 rounded-bl-lg rounded-br-lg backdrop-filter backdrop-blur sm:flex sm:items-center sm:justify-between lg:inset-y-0 lg:inset-x-auto lg:w-96 lg:rounded-tl-lg lg:rounded-br-none lg:flex-col lg:items-start">
-            <div>
-                <h2 class="text-xl font-bold text-white">Workspace Collection</h2>
-                <p class="mt-1 text-sm text-gray-300">Upgrade your desk with objects that keep you organized and clear-minded.</p>
-            </div>
-            <a href="#" class="mt-6 flex-shrink-0 flex bg-white bg-opacity-0 py-3 px-4 border border-white border-opacity-25 rounded-md items-center justify-center text-base font-medium text-white hover:bg-opacity-10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full">Erbjudande</a>
-        </div>
-        </div>
-    </div>
-    </div>  
+ 
 
     <!-- Customers Section -->
     <div class="max-w-7xl mx-auto py-8 sm:py-24 px-2 sm:px-6 lg:px-3">
@@ -260,7 +243,7 @@
 
 
     <!-- Another Section (Give name later!!!!) -->
-    <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
+<!--     <div class="max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24">
             <div>
                 <img class="rounded-xl shadow-xl ring-1 ring-black ring-opacity-5" src="sc-logo-bg.png" alt="Get Started">
@@ -283,8 +266,138 @@
                 </div>
             </div>
         </div>
+    </div> -->
+
+    <div class="relative top-32 sm:top-24 bg-gray-50">
+      <div class="absolute inset-0" aria-hidden="true">
+        <div class="absolute inset-y-0 right-0 w-full bg-gradient-to-tr from-pink-400 via-purple-400 to-indigo-500"></div>
+      </div>
+      <div class="relative max-w-7xl mx-auto lg:px-8 lg:grid lg:grid-cols-2">
+        <div class="py-16 px-4 sm:py-12 sm:px-6 lg:px-0 lg:pr-8">
+          <div class="max-w-lg mx-auto lg:mx-0">
+            <p class="mt-2 text-2xl font-extrabold text-white sm:text-3xl">BRINTO</p>
+            <h2 class="text-base font-semibold tracking-wide text-indigo-600 uppercase">
+              Bokningssystemet för ditt företag!
+            </h2>
+            <dl class="mt-12 space-y-10">
+              <div class="relative">
+                <dt>
+                  <div class="absolute h-12 w-12 flex items-center justify-center bg-indigo-500 rounded-md">
+                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+                    </svg>
+                  </div>
+                  <p class="ml-16 text-lg leading-6 font-medium text-gray-50">Optimering</p>
+                </dt>
+                <dd class="ml-20 text-base text-gray-50">
+                  <div class="mt-2 prose prose-white prose-base text-white mx-auto">
+                    <ul role="list">
+                      <li>Inga dubbelbokningar</li>
+                      <li>Tar emot bokningar 24/7</li>
+                      <li>Kundregister, förbered dig innan din kund har anlänt</li>
+                    </ul>
+                  </div>
+                </dd>
+              </div>
+
+              <div class="relative">
+                <dt>
+                  <div class="absolute h-12 w-12 flex items-center justify-center bg-indigo-500 rounded-md">
+                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2" />
+                    </svg>
+                  </div>
+                  <p class="ml-16 text-lg leading-6 font-medium text-gray-50">Statistik</p>
+                </dt>
+                <dd class="ml-20 text-base text-gray-50">
+                  <div class="mt-2 prose prose-white prose-base text-white mx-auto">
+                    <ul role="list">
+                      <li>Inga Spåra din tillväxt med realtidsrapportering</li>
+                      <li>Se dina senaste bokningar i detalj</li>
+                      <li>Översikt på dina mest bokade tider så du kan planera din personal där det behövs</li>
+                    </ul>
+                  </div>
+                </dd>
+              </div>
+
+              <div class="relative">
+                <dt>
+                  <div class="absolute h-12 w-12 flex items-center justify-center bg-indigo-500 rounded-md">
+                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <p class="ml-16 text-lg leading-6 font-medium text-gray-50">Kalender</p>
+                </dt>
+                <dd class="ml-20 text-base text-gray-50">
+                  <div class="mt-2 prose prose-white prose-base text-white mx-auto">
+                    <ul role="list">
+                      <li>Drag and Drop, flytta dina bokningar mellan dagar eller personal</li>
+                      <li>Möjligheter att öppna och stänga tider för specifika tider/dagar</li>
+                    </ul>
+                  </div>
+                </dd>
+              </div>
+
+              <div class="relative">
+                <dt>
+                  <div class="absolute h-12 w-12 flex items-center justify-center bg-indigo-500 rounded-md">
+                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h 6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                    </svg>
+                  </div>
+                  <p class="ml-16 text-lg leading-6 font-medium text-gray-50">Anställda (kommer inom kort)</p>
+                </dt>
+                <dd class="ml-20 text-base text-gray-50">
+                  <div class="mt-2 prose prose-white prose-base text-white mx-auto">
+                    <ul role="list">
+                      <li>Löneunderlag</li>
+                      <li>Provision anpassat efter behandlingar pch produkter</li>
+                      <li>Stämpel klocka</li>
+                    </ul>
+                  </div>
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+        <div class="bg-gradient-to-r from-pink-300 via-purple-400 to-indigo-500 py-16 px-4 sm:py-24 sm:px-6 lg:bg-none lg:px-0 lg:pl-8 lg:flex lg:items-center lg:justify-end">
+          <div class="max-w-lg mx-auto w-full space-y-8 lg:mx-0">
+            <ul role="list" class="rounded overflow-hidden grid gap-px sm:grid-cols-2">
+            </ul>
+          </div>
+            <div class="mt-12 sm:mt-16 lg:mt-0">
+            <div class="flex justify-center items-center sm:pl-6 md:mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                <img class="mt-36 ml-4" src="brinto_gradient.png" alt="Brinto on Android">
+            </div>
+            <div class="flex justify-center items-center pt-16">
+                <Link href="https://brinto.se/" class="py-3 px-5 rounded-lg transition duration-500 ease-in-out bg-gradient-to-r from-purple-600 to-indigo-700 hover:from-pink-500 transform hover:-translate-y-1 hover:scale-110 text-gray-200">Kom igång med brinto!</Link>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
+
+    
+    <div class="bg-white pt-40">
+    <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl">
+        <div class="relative rounded-lg overflow-hidden lg:h-96">
+        <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1556740714-a8395b3bf30f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" class="w-full h-full object-center object-cover">
+        </div>
+        <div aria-hidden="true" class="relative w-full h-96 lg:hidden"></div>
+        <div aria-hidden="true" class="relative w-full h-32 lg:hidden"></div>
+        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-b from-pink-300 via-purple-400 to-indigo-400 bg-opacity-75 p-6 rounded-bl-lg rounded-br-lg backdrop-filter backdrop-blur sm:flex sm:items-center sm:justify-between lg:inset-y-0 lg:inset-x-auto lg:w-96 lg:rounded-tl-lg lg:rounded-br-none lg:flex-col lg:items-start">
+            <div>
+                <h2 class="text-xl font-bold text-white">Kolla igenom vad vi har att erbjuda!</h2>
+                <p class="mt-1 text-sm text-gray-200">Vi har 6st paket som du kan välja mellan! Varje Paket innehåller olika produkter för att det ska vara enklare för dig att hitta det du behöver för ditt företag.</p>
+            </div>
+            <Link href="erbjudande" class="mt-6 flex-shrink-0 flex bg-white bg-opacity-0 py-3 px-4 border border-white border-opacity-25 rounded-md items-center justify-center text-base font-medium text-white hover:bg-opacity-10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full">Erbjudande</Link>
+        </div>
+        </div>
+    </div>
+    </div> 
 
 
 <!--     <div class="bg-white">
@@ -351,18 +464,18 @@
         </div>
     </div> -->
 
-    <div class="relative max-w-2xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
+<!--     <div class="relative max-w-2xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3">
         <div class="sm:flex sm:justify-between sm:items-center">
             <img class="sm:block h-auto w-auto" src="/gasell-smartcash.png" alt="Gasell">
             <img class="sm:block h-auto w-auto" src="/UC-dark.png" alt="UC">
         </div>
-    </div>
+    </div> -->
 
     <!-- Support Section -->
         <div class="w-full mx-auto py-12 sm:py-24">
             <div class="relative pb-32 bg-gray-800">
                 <div class="absolute inset-0">
-                    <img class="w-full h-full object-cover" src="support2.svg" alt="">
+                    <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
                     <div class="absolute inset-0 bg-gradient-to-tr from-pink-600 via-purple-500 to-indigo-600 mix-blend-multiply" aria-hidden="true"></div>
                 </div>
                 <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">

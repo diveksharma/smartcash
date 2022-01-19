@@ -19726,11 +19726,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
     HomepageLayout: _HomepageLayout_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
     Head: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_1__.Head,
-    Icon: _Components_Icon_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
+    Icon: _Components_Icon_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    Link: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_1__.Link
   },
   data: function data() {
     return {
@@ -24175,13 +24177,17 @@ var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_34 = {
   "class": "bg-white pt-16 lg:py-24"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+};
+var _hoisted_35 = {
   "class": "pb-16 bg-gradient-to-r from-pink-300 via-purple-400 to-indigo-400 lg:pb-0 lg:z-10 lg:relative"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+};
+var _hoisted_36 = {
   "class": "lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+};
+
+var _hoisted_37 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "relative lg:-my-8"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "aria-hidden": "true",
@@ -24194,11 +24200,18 @@ var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
   "class": "object-cover lg:h-full lg:w-full",
   src: "https://images.unsplash.com/photo-1565728744382-61accd4aa148?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fG1lZXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
   alt: ""
-})])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+})])])], -1
+/* HOISTED */
+);
+
+var _hoisted_38 = {
   "class": "mt-12 lg:m-0 lg:col-span-2 lg:pl-8"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+};
+var _hoisted_39 = {
   "class": "mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:px-0 lg:py-20 lg:max-w-none"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("blockquote", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+};
+
+var _hoisted_40 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
   "class": "h-12 w-12 text-white opacity-25",
   fill: "currentColor",
   viewBox: "0 0 32 32",
@@ -24207,20 +24220,28 @@ var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
   d: "M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "mt-6 text-2xl font-medium text-white"
-}, " Skicka ett meddelande till oss idag! Kontakt informationen finns nedan. Vi hjälper dig gärna med dina frågor. Vi kommer att svara så snart som möjligt. ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("footer", {
-  "class": "mt-6"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-base font-medium text-white"
-}, "Georg Massi"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-base font-medium text-indigo-100"
-}, "Smart Cash")])])])])])])], -1
+}, " Skicka ett meddelande till oss idag! Kontakt informationen finns nedan. Vi hjälper dig gärna med dina frågor. Vi kommer att svara så snart som möjligt. ")], -1
 /* HOISTED */
 );
+
+var _hoisted_41 = {
+  "class": "mt-6 flex justify-between"
+};
+
+var _hoisted_42 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-base font-medium text-white"
+}, "Georg Massi", -1
+/* HOISTED */
+);
+
+var _hoisted_43 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Kontakt ->");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
 
   var _component_Icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Icon");
+
+  var _component_Link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Link");
 
   var _component_homepage_layout = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("homepage-layout");
 
@@ -24350,7 +24371,17 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       /* NEED_PATCH */
       ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.fields.accountNumber]])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [_hoisted_31, $data.success ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_32, " Skickat! ")) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])], 32
       /* HYDRATE_EVENTS */
-      )])])]), _hoisted_33, _hoisted_34, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("       <div class=\"mt-24\">\r\n        <div class=\"lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-36\">\r\n          <div class=\"px-4 text-center max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2\">\r\n            <div>\r\n              <div class=\"mt-6\">\r\n                <h2 class=\"text-3xl font-extrabold tracking-tight text-gray-900\">\r\n                    Så här fungerar det!\r\n                </h2>\r\n                <p class=\"mt-4 list-decimal text-md text-gray-500\">\r\n                    Vi börjar med att samla in uppgifter om dig och ditt företag.\r\n                    Vår kompetenta avdelning för inlösenavtal lägger upp en ansökan efter att vi mottagit alla era uppgifter.\r\n                </p>   \r\n                <p class=\"mt-4 list-decimal text-md text-gray-500\">   \r\n                    Ansökan granskas och behöver godkännas av våra samarbetspartners samt er bank\r\n                    Ni som kund blir tilldelad ett redovisningsnummer som vi sedan kopplar samman med er kortterminal.\r\n                    Nu är ni igång!\r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"mt-12 sm:mt-16 lg:mt-0 lg:col-start-1\">\r\n            <div class=\"sm:pl-0 md:-mr-auto lg:px-0 lg:m-0 lg:relative lg:h-full\">\r\n              <img class=\"mx-auto ml-18 md:ml-7 mt-16 transform scale-75\" src=\"mastercard1.svg\" alt=\"Mastercard\">\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div> ")];
+      )])])]), _hoisted_33, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_34, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_35, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_36, [_hoisted_37, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_38, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_39, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("blockquote", null, [_hoisted_40, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("footer", _hoisted_41, [_hoisted_42, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <p class=\"text-base font-medium text-indigo-100\">Smart Cash</p> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+        "class": "font-semibold text-gray-200 bg-gradient-to-tr from-purple-500 to-indigo-500 hover:from-purple-600 px-2 py-2 rounded-lg",
+        href: "kontakt"
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_43];
+        }),
+        _: 1
+        /* STABLE */
+
+      })])])])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("       <div class=\"mt-24\">\r\n        <div class=\"lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-36\">\r\n          <div class=\"px-4 text-center max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2\">\r\n            <div>\r\n              <div class=\"mt-6\">\r\n                <h2 class=\"text-3xl font-extrabold tracking-tight text-gray-900\">\r\n                    Så här fungerar det!\r\n                </h2>\r\n                <p class=\"mt-4 list-decimal text-md text-gray-500\">\r\n                    Vi börjar med att samla in uppgifter om dig och ditt företag.\r\n                    Vår kompetenta avdelning för inlösenavtal lägger upp en ansökan efter att vi mottagit alla era uppgifter.\r\n                </p>   \r\n                <p class=\"mt-4 list-decimal text-md text-gray-500\">   \r\n                    Ansökan granskas och behöver godkännas av våra samarbetspartners samt er bank\r\n                    Ni som kund blir tilldelad ett redovisningsnummer som vi sedan kopplar samman med er kortterminal.\r\n                    Nu är ni igång!\r\n                </p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"mt-12 sm:mt-16 lg:mt-0 lg:col-start-1\">\r\n            <div class=\"sm:pl-0 md:-mr-auto lg:px-0 lg:m-0 lg:relative lg:h-full\">\r\n              <img class=\"mx-auto ml-18 md:ml-7 mt-16 transform scale-75\" src=\"mastercard1.svg\" alt=\"Mastercard\">\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div> ")];
     }),
     _: 1
     /* STABLE */
@@ -25682,6 +25713,27 @@ var _hoisted_34 = {
 var _hoisted_35 = {
   "class": "bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-indigo-500"
 };
+
+var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center pt-12"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "grid grid-cols-2 gap-1"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("iframe", {
+  src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2078.1395660765024!2d16.170951016171575!3d58.60999667552918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46593a3cb5f1a50b%3A0x4ec67d7ba176cddb!2sKiselgatan%2019%2C%20602%2023%20Norrk%C3%B6ping!5e0!3m2!1sen!2sse!4v1637132856445!5m2!1sen!2sse",
+  "class": "sm:w-auto sm:h-56 lg:w-auto lg:h-64 w-full flex justify-center items-center",
+  style: {
+    "border": "0"
+  },
+  allowfullscreen: "",
+  loading: "lazy"
+}, "\r\n                    ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "sm:w-auto sm:h-64 lg:w-auto lg:h-64 w-full flex justify-center items-center",
+  src: "https://smartcash.se/wp-content/uploads/2019/10/smart-cash-local.jpg",
+  alt: "Smart Cash"
+})])])], -1
+/* HOISTED */
+);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_homepage_layout = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("homepage-layout");
 
@@ -25774,7 +25826,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                           <ul role=\"list\" class=\"flex justify-center space-x-5\">\r\n                            <li>\r\n                              <a :href=\"person.linkedinUrl\" class=\"text-indigo-200 hover:text-indigo-100\" href=\"#\">\r\n                                <span class=\"sr-only\">Instagram</span>\r\n                                <svg class=\"h-7 w-7\" fill=\"currentColor\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\r\n                                  <path fill-rule=\"evenodd\" d=\"M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z\" clip-rule=\"evenodd\" />\r\n                                </svg>\r\n                              </a>\r\n                            </li>\r\n                            <li>\r\n                              <a :href=\"person.linkedinUrl\" class=\"text-gray-400 hover:text-gray-500\">\r\n                                <span class=\"sr-only\">LinkedIn</span>\r\n                                <svg class=\"w-5 h-5\" aria-hidden=\"true\" fill=\"currentColor\" viewBox=\"0 0 20 20\">\r\n                                  <path fill-rule=\"evenodd\" d=\"M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z\" clip-rule=\"evenodd\" />\r\n                                </svg>\r\n                              </a>\r\n                            </li>\r\n                          </ul> ")])])]);
       }), 128
       /* KEYED_FRAGMENT */
-      ))])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Contact section "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("           <section class=\"relative bg-white\" aria-labelledby=\"contact-heading\">\r\n            <div\r\n              class=\"absolute w-full h-1/2 bg-warm-gray-50\"\r\n              aria-hidden=\"true\"\r\n            ></div>\r\n\r\n            <div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\r\n              <div\r\n                class=\"\r\n                  relative\r\n                  mb-20\r\n                  bg-white\r\n                  transition\r\n                  duration-500\r\n                  hover:shadow-2xl\r\n                \"\r\n              >\r\n\r\n                <div class=\"sm:grid sm:grid-cols-3 \">\r\n\r\n                  <div\r\n                    class=\"\r\n                      relative\r\n                      overflow-hidden\r\n                      py-10\r\n                      px-6\r\n                      bg-gradient-to-b\r\n                      from-teal-500\r\n                      to-teal-600\r\n                      sm:px-10\r\n                      xl:p-12\r\n                    \"\r\n                  >\r\n\r\n                    <div\r\n                      class=\"absolute inset-0 pointer-events-none sm:hidden\"\r\n                      aria-hidden=\"true\"\r\n                    >\r\n                      <svg\r\n                        class=\"absolute inset-0 w-full h-full\"\r\n                        width=\"343\"\r\n                        height=\"388\"\r\n                        viewBox=\"0 0 343 388\"\r\n                        fill=\"none\"\r\n                        preserveAspectRatio=\"xMidYMid slice\"\r\n                        xmlns=\"http://www.w3.org/2000/svg\"\r\n                      >\r\n                        <path\r\n                          d=\"M-99 461.107L608.107-246l707.103 707.107-707.103 707.103L-99 461.107z\"\r\n                          fill=\"url(#linear1)\"\r\n                          fill-opacity=\".1\"\r\n                        />\r\n                        <defs>\r\n                          <linearGradient\r\n                            id=\"linear1\"\r\n                            x1=\"254.553\"\r\n                            y1=\"107.554\"\r\n                            x2=\"961.66\"\r\n                            y2=\"814.66\"\r\n                            gradientUnits=\"userSpaceOnUse\"\r\n                          >\r\n                            <stop stop-color=\"#fff\"></stop>\r\n                            <stop\r\n                              offset=\"1\"\r\n                              stop-color=\"#fff\"\r\n                              stop-opacity=\"0\"\r\n                            ></stop>\r\n                          </linearGradient>\r\n                        </defs>\r\n                      </svg>\r\n                    </div>\r\n                    <div\r\n                      class=\"\r\n                        hidden\r\n                        absolute\r\n                        top-0\r\n                        right-0\r\n                        bottom-0\r\n                        w-1/2\r\n                        pointer-events-none\r\n                        sm:block\r\n                        lg:hidden\r\n                      \"\r\n                      aria-hidden=\"true\"\r\n                    >\r\n                      <svg\r\n                        class=\"absolute inset-0 w-full h-full\"\r\n                        width=\"359\"\r\n                        height=\"339\"\r\n                        viewBox=\"0 0 359 339\"\r\n                        fill=\"none\"\r\n                        preserveAspectRatio=\"xMidYMid slice\"\r\n                        xmlns=\"http://www.w3.org/2000/svg\"\r\n                      >\r\n                        <path\r\n                          d=\"M-161 382.107L546.107-325l707.103 707.107-707.103 707.103L-161 382.107z\"\r\n                          fill=\"url(#linear2)\"\r\n                          fill-opacity=\".1\"\r\n                        />\r\n                        <defs>\r\n                          <linearGradient\r\n                            id=\"linear2\"\r\n                            x1=\"192.553\"\r\n                            y1=\"28.553\"\r\n                            x2=\"899.66\"\r\n                            y2=\"735.66\"\r\n                            gradientUnits=\"userSpaceOnUse\"\r\n                          >\r\n                            <stop stop-color=\"#fff\"></stop>\r\n                            <stop\r\n                              offset=\"1\"\r\n                              stop-color=\"#fff\"\r\n                              stop-opacity=\"0\"\r\n                            ></stop>\r\n                          </linearGradient>\r\n                        </defs>\r\n                      </svg>\r\n                    </div>\r\n                    <div\r\n                      class=\"\r\n                        hidden\r\n                        absolute\r\n                        top-0\r\n                        right-0\r\n                        bottom-0\r\n                        w-1/2\r\n                        pointer-events-none\r\n                      \"\r\n                      aria-hidden=\"true\"\r\n                    >\r\n                      <svg\r\n                        class=\"absolute inset-0 w-full h-full\"\r\n                        width=\"160\"\r\n                        height=\"678\"\r\n                        viewBox=\"0 0 160 678\"\r\n                        fill=\"none\"\r\n                        preserveAspectRatio=\"xMidYMid slice\"\r\n                        xmlns=\"http://www.w3.org/2000/svg\"\r\n                      >\r\n                        <path\r\n                          d=\"M-161 679.107L546.107-28l707.103 707.107-707.103 707.103L-161 679.107z\"\r\n                          fill=\"url(#linear3)\"\r\n                          fill-opacity=\".1\"\r\n                        />\r\n                        <defs>\r\n                          <linearGradient\r\n                            id=\"linear3\"\r\n                            x1=\"192.553\"\r\n                            y1=\"325.553\"\r\n                            x2=\"899.66\"\r\n                            y2=\"1032.66\"\r\n                            gradientUnits=\"userSpaceOnUse\"\r\n                          >\r\n                            <stop stop-color=\"#fff\"></stop>\r\n                            <stop\r\n                              offset=\"1\"\r\n                              stop-color=\"#fff\"\r\n                              stop-opacity=\"0\"\r\n                            ></stop>\r\n                          </linearGradient>\r\n                        </defs>\r\n                      </svg>\r\n                    </div>\r\n                    <h3 class=\"text-lg font-medium text-teal-50\">\r\n                      Kontakt information\r\n                    </h3>\r\n                    <p class=\"mt-6 text-base text-teal-50 max-w-3xl\">\r\n                      Kiselgatan 19 Norrköping, 60223 Sverige\r\n                    </p>\r\n                    <dl class=\"mt-8 space-y-6\">\r\n                      <dt>\r\n                        <span class=\"sr-only\">Phone number</span>\r\n                      </dt>\r\n                      <dd class=\"flex text-base text-teal-50\">\r\n\r\n                        <svg\r\n                          class=\"flex-shrink-0 w-6 h-6 text-teal-200\"\r\n                          xmlns=\"http://www.w3.org/2000/svg\"\r\n                          fill=\"none\"\r\n                          viewBox=\"0 0 24 24\"\r\n                          stroke=\"currentColor\"\r\n                          aria-hidden=\"true\"\r\n                        >\r\n                          <path\r\n                            stroke-linecap=\"round\"\r\n                            stroke-linejoin=\"round\"\r\n                            stroke-width=\"2\"\r\n                            d=\"M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z\"\r\n                          />\r\n                        </svg>\r\n                        <span class=\"ml-3\">011 – 470 90 00</span>\r\n                      </dd>\r\n                      <dt>\r\n                        <span class=\"sr-only\">Email</span>\r\n                      </dt>\r\n                      <dd class=\"flex text-base text-teal-50\">\r\n\r\n                        <svg\r\n                          class=\"flex-shrink-0 w-6 h-6 text-teal-200\"\r\n                          xmlns=\"http://www.w3.org/2000/svg\"\r\n                          fill=\"none\"\r\n                          viewBox=\"0 0 24 24\"\r\n                          stroke=\"currentColor\"\r\n                          aria-hidden=\"true\"\r\n                        >\r\n                          <path\r\n                            stroke-linecap=\"round\"\r\n                            stroke-linejoin=\"round\"\r\n                            stroke-width=\"2\"\r\n                            d=\"M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z\"\r\n                          />\r\n                        </svg>\r\n                        <span class=\"ml-3\">info@smartcash.se</span>\r\n                      </dd>\r\n                    </dl>\r\n                    <ul role=\"list\" class=\"mt-7 flex space-x-12\">\r\n                      <li>\r\n                        <div class=\"flex gap-4\">\r\n                          <a\r\n                            href=\"#\"\r\n                            class=\"text-warm-gray-400 hover:text-warm-gray-300\"\r\n                          >\r\n                            <span class=\"sr-only\">Facebook</span>\r\n                            <svg\r\n                              class=\"h-6 w-6\"\r\n                              fill=\"currentColor\"\r\n                              viewBox=\"0 0 24 24\"\r\n                              aria-hidden=\"true\"\r\n                            >\r\n                              <path\r\n                                fill-rule=\"evenodd\"\r\n                                d=\"M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z\"\r\n                                clip-rule=\"evenodd\"\r\n                              />\r\n                            </svg>\r\n                          </a>\r\n\r\n                          <a\r\n                            href=\"#\"\r\n                            class=\"text-warm-gray-400 hover:text-warm-gray-300\"\r\n                          >\r\n                            <span class=\"sr-only\">Instagram</span>\r\n                            <svg\r\n                              class=\"h-6 w-6\"\r\n                              fill=\"currentColor\"\r\n                              viewBox=\"0 0 24 24\"\r\n                              aria-hidden=\"true\"\r\n                            >\r\n                              <path\r\n                                fill-rule=\"evenodd\"\r\n                                d=\"M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z\"\r\n                                clip-rule=\"evenodd\"\r\n                              />\r\n                            </svg>\r\n                          </a>\r\n                        </div>\r\n                        <div class=\"sm:pr-3 pt-3\">\r\n                          <iframe\r\n                            src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2078.1395660765024!2d16.170951016171575!3d58.60999667552918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46593a3cb5f1a50b%3A0x4ec67d7ba176cddb!2sKiselgatan%2019%2C%20602%2023%20Norrk%C3%B6ping!5e0!3m2!1sen!2sse!4v1637132856445!5m2!1sen!2sse\"\r\n                            width=\"400\"\r\n                            height=\"200\"\r\n                            style=\"border: 0\"\r\n                            allowfullscreen=\"\"\r\n                            loading=\"lazy\"\r\n                          >\r\n                          </iframe>\r\n                        </div>\r\n                      </li>\r\n                    </ul>\r\n                  </div>\r\n\r\n\r\n                  <div class=\"py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12\">\r\n                    <h3 class=\"text-lg font-medium text-warm-gray-900\">\r\n                      Skicka ett meddelande!\r\n                    </h3>\r\n                    <form\r\n                      \r\n                      @submit.prevent=\"submitContactForm()\"\r\n                      class=\"\r\n                        mt-6\r\n                        grid grid-cols-1\r\n                        gap-y-6\r\n                        sm:grid-cols-2 sm:gap-x-8\r\n                      \"\r\n                    >\r\n                      <div>\r\n                        <label\r\n                          for=\"first-name\"\r\n                          class=\"block text-sm font-medium text-warm-gray-900\"\r\n                          >Namn</label\r\n                        >\r\n                        <div class=\"mt-1\">\r\n                          <input\r\n                            required\r\n                            v-model=\"fields.name\"\r\n                            type=\"text\"\r\n                            name=\"first-name\"\r\n                            id=\"first-name\"\r\n                            autocomplete=\"given-name\"\r\n                            class=\"\r\n                              py-1\r\n                              px-4\r\n                              block\r\n                              w-full\r\n                              shadow-sm\r\n                              text-warm-gray-900\r\n                              focus:ring-teal-500 focus:border-teal-500\r\n                              border-warm-gray-300\r\n                              rounded-md\r\n                            \"\r\n                          />\r\n                        </div>\r\n                      </div>\r\n                      <div>\r\n                        <label\r\n                          for=\"last-name\"\r\n                          class=\"block text-sm font-medium text-warm-gray-900\"\r\n                          >Efternamn</label\r\n                        >\r\n                        <div class=\"mt-1\">\r\n                          <input\r\n                            required\r\n                            v-model=\"fields.lastname\"\r\n                            type=\"text\"\r\n                            name=\"lastname\"\r\n                            id=\"lastname\"\r\n                            autocomplete=\"family-name\"\r\n                            class=\"\r\n                              py-1\r\n                              px-4\r\n                              block\r\n                              w-full\r\n                              shadow-sm\r\n                              text-warm-gray-900\r\n                              focus:ring-teal-500 focus:border-teal-500\r\n                              border-warm-gray-300\r\n                              rounded-md\r\n                            \"\r\n                          />\r\n                        </div>\r\n                      </div>\r\n                      <div>\r\n                        <label\r\n                          for=\"email\"\r\n                          class=\"block text-sm font-medium text-gray-900\"\r\n                          >Email</label\r\n                        >\r\n                        <div class=\"mt-1\">\r\n                          <input\r\n                            required\r\n                            v-model=\"fields.email\"\r\n                            id=\"email\"\r\n                            name=\"email\"\r\n                            type=\"email\"\r\n                            autocomplete=\"email\"\r\n                            class=\"\r\n                              py-1\r\n                              px-4\r\n                              block\r\n                              w-full\r\n                              shadow-sm\r\n                              text-warm-gray-900\r\n                              focus:ring-teal-500 focus:border-teal-500\r\n                              border-warm-gray-300\r\n                              rounded-md\r\n                            \"\r\n                          />\r\n                        </div>\r\n                      </div>\r\n                      <div>\r\n                        <div class=\"flex justify-between\">\r\n                          <label\r\n                            for=\"phone\"\r\n                            class=\"block text-sm font-medium text-warm-gray-900\"\r\n                            >Telefon</label\r\n                          >\r\n                        </div>\r\n                        <div class=\"mt-1\">\r\n                          <input\r\n                            required\r\n                            v-model=\"fields.phone\"\r\n                            type=\"text\"\r\n                            name=\"phone\"\r\n                            id=\"phone\"\r\n                            autocomplete=\"tel\"\r\n                            class=\"\r\n                              py-1\r\n                              px-4\r\n                              block\r\n                              w-full\r\n                              shadow-sm\r\n                              text-warm-gray-900\r\n                              focus:ring-teal-500 focus:border-teal-500\r\n                              border-warm-gray-300\r\n                              rounded-md\r\n                            \"\r\n                            aria-describedby=\"phone-optional\"\r\n                          />\r\n                        </div>\r\n                      </div>\r\n\r\n                      <div class=\"sm:col-span-2\">\r\n                        <div class=\"flex justify-between\">\r\n                          <label\r\n                            for=\"message\"\r\n                            class=\"block text-sm font-medium text-warm-gray-900\"\r\n                            >Meddelande</label\r\n                          >\r\n                          <span id=\"message-max\" class=\"text-sm text-gray-500\"\r\n                            >Max. 500 ord</span\r\n                          >\r\n                        </div>\r\n                        <div class=\"mt-1\">\r\n                          <textarea\r\n                            required\r\n                            v-model=\"fields.message\"\r\n                            id=\"message\"\r\n                            name=\"message\"\r\n                            rows=\"4\"\r\n                            class=\"\r\n                              py-3\r\n                              px-4\r\n                              block\r\n                              w-full\r\n                              shadow-sm\r\n                              text-warm-gray-900\r\n                              focus:ring-teal-500 focus:border-teal-500\r\n                              border border-warm-gray-300\r\n                              rounded-md\r\n                            \"\r\n                            aria-describedby=\"message-max\"\r\n                          ></textarea>\r\n                        </div>\r\n                      </div>\r\n                      <div class=\"sm:col-span-2 sm:flex items-center sm:justify-start\">\r\n                        <button\r\n                          type=\"submit\"\r\n                          class=\"\r\n                            mt-2\r\n                            w-full\r\n                            inline-flex\r\n                            items-center\r\n                            justify-center\r\n                            px-11\r\n                            py-2\r\n                            border border-transparent\r\n                            text-base\r\n                            font-medium\r\n                            text-white\r\n                            rounded-xl\r\n                            shadow-md\r\n                            bg-indigo-400\r\n                            transition\r\n                            duration-300\r\n                            ease-in-out\r\n                            hover:bg-indigo-500\r\n                            sm:w-auto\r\n                          \"\r\n                        >\r\n                          Skicka\r\n                        </button>\r\n                        <div v-if=\"success\" class=\"text-green-500 ml-3\">\r\n                            Skickat!\r\n                        </div>\r\n                      </div>\r\n                    </form>\r\n                  </div>\r\n                  <div class=\"col-start-3\">\r\n                    <img class=\"static transform sm:scale-150\" src=\"contact.svg\" />\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </section> ")])])])];
+      ))])])])]), _hoisted_36, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Contact section "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("           <section class=\"relative bg-white\" aria-labelledby=\"contact-heading\">\r\n            <div\r\n              class=\"absolute w-full h-1/2 bg-warm-gray-50\"\r\n              aria-hidden=\"true\"\r\n            ></div>\r\n\r\n            <div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\r\n              <div\r\n                class=\"\r\n                  relative\r\n                  mb-20\r\n                  bg-white\r\n                  transition\r\n                  duration-500\r\n                  hover:shadow-2xl\r\n                \"\r\n              >\r\n\r\n                <div class=\"sm:grid sm:grid-cols-3 \">\r\n\r\n                  <div\r\n                    class=\"\r\n                      relative\r\n                      overflow-hidden\r\n                      py-10\r\n                      px-6\r\n                      bg-gradient-to-b\r\n                      from-teal-500\r\n                      to-teal-600\r\n                      sm:px-10\r\n                      xl:p-12\r\n                    \"\r\n                  >\r\n\r\n                    <div\r\n                      class=\"absolute inset-0 pointer-events-none sm:hidden\"\r\n                      aria-hidden=\"true\"\r\n                    >\r\n                      <svg\r\n                        class=\"absolute inset-0 w-full h-full\"\r\n                        width=\"343\"\r\n                        height=\"388\"\r\n                        viewBox=\"0 0 343 388\"\r\n                        fill=\"none\"\r\n                        preserveAspectRatio=\"xMidYMid slice\"\r\n                        xmlns=\"http://www.w3.org/2000/svg\"\r\n                      >\r\n                        <path\r\n                          d=\"M-99 461.107L608.107-246l707.103 707.107-707.103 707.103L-99 461.107z\"\r\n                          fill=\"url(#linear1)\"\r\n                          fill-opacity=\".1\"\r\n                        />\r\n                        <defs>\r\n                          <linearGradient\r\n                            id=\"linear1\"\r\n                            x1=\"254.553\"\r\n                            y1=\"107.554\"\r\n                            x2=\"961.66\"\r\n                            y2=\"814.66\"\r\n                            gradientUnits=\"userSpaceOnUse\"\r\n                          >\r\n                            <stop stop-color=\"#fff\"></stop>\r\n                            <stop\r\n                              offset=\"1\"\r\n                              stop-color=\"#fff\"\r\n                              stop-opacity=\"0\"\r\n                            ></stop>\r\n                          </linearGradient>\r\n                        </defs>\r\n                      </svg>\r\n                    </div>\r\n                    <div\r\n                      class=\"\r\n                        hidden\r\n                        absolute\r\n                        top-0\r\n                        right-0\r\n                        bottom-0\r\n                        w-1/2\r\n                        pointer-events-none\r\n                        sm:block\r\n                        lg:hidden\r\n                      \"\r\n                      aria-hidden=\"true\"\r\n                    >\r\n                      <svg\r\n                        class=\"absolute inset-0 w-full h-full\"\r\n                        width=\"359\"\r\n                        height=\"339\"\r\n                        viewBox=\"0 0 359 339\"\r\n                        fill=\"none\"\r\n                        preserveAspectRatio=\"xMidYMid slice\"\r\n                        xmlns=\"http://www.w3.org/2000/svg\"\r\n                      >\r\n                        <path\r\n                          d=\"M-161 382.107L546.107-325l707.103 707.107-707.103 707.103L-161 382.107z\"\r\n                          fill=\"url(#linear2)\"\r\n                          fill-opacity=\".1\"\r\n                        />\r\n                        <defs>\r\n                          <linearGradient\r\n                            id=\"linear2\"\r\n                            x1=\"192.553\"\r\n                            y1=\"28.553\"\r\n                            x2=\"899.66\"\r\n                            y2=\"735.66\"\r\n                            gradientUnits=\"userSpaceOnUse\"\r\n                          >\r\n                            <stop stop-color=\"#fff\"></stop>\r\n                            <stop\r\n                              offset=\"1\"\r\n                              stop-color=\"#fff\"\r\n                              stop-opacity=\"0\"\r\n                            ></stop>\r\n                          </linearGradient>\r\n                        </defs>\r\n                      </svg>\r\n                    </div>\r\n                    <div\r\n                      class=\"\r\n                        hidden\r\n                        absolute\r\n                        top-0\r\n                        right-0\r\n                        bottom-0\r\n                        w-1/2\r\n                        pointer-events-none\r\n                      \"\r\n                      aria-hidden=\"true\"\r\n                    >\r\n                      <svg\r\n                        class=\"absolute inset-0 w-full h-full\"\r\n                        width=\"160\"\r\n                        height=\"678\"\r\n                        viewBox=\"0 0 160 678\"\r\n                        fill=\"none\"\r\n                        preserveAspectRatio=\"xMidYMid slice\"\r\n                        xmlns=\"http://www.w3.org/2000/svg\"\r\n                      >\r\n                        <path\r\n                          d=\"M-161 679.107L546.107-28l707.103 707.107-707.103 707.103L-161 679.107z\"\r\n                          fill=\"url(#linear3)\"\r\n                          fill-opacity=\".1\"\r\n                        />\r\n                        <defs>\r\n                          <linearGradient\r\n                            id=\"linear3\"\r\n                            x1=\"192.553\"\r\n                            y1=\"325.553\"\r\n                            x2=\"899.66\"\r\n                            y2=\"1032.66\"\r\n                            gradientUnits=\"userSpaceOnUse\"\r\n                          >\r\n                            <stop stop-color=\"#fff\"></stop>\r\n                            <stop\r\n                              offset=\"1\"\r\n                              stop-color=\"#fff\"\r\n                              stop-opacity=\"0\"\r\n                            ></stop>\r\n                          </linearGradient>\r\n                        </defs>\r\n                      </svg>\r\n                    </div>\r\n                    <h3 class=\"text-lg font-medium text-teal-50\">\r\n                      Kontakt information\r\n                    </h3>\r\n                    <p class=\"mt-6 text-base text-teal-50 max-w-3xl\">\r\n                      Kiselgatan 19 Norrköping, 60223 Sverige\r\n                    </p>\r\n                    <dl class=\"mt-8 space-y-6\">\r\n                      <dt>\r\n                        <span class=\"sr-only\">Phone number</span>\r\n                      </dt>\r\n                      <dd class=\"flex text-base text-teal-50\">\r\n\r\n                        <svg\r\n                          class=\"flex-shrink-0 w-6 h-6 text-teal-200\"\r\n                          xmlns=\"http://www.w3.org/2000/svg\"\r\n                          fill=\"none\"\r\n                          viewBox=\"0 0 24 24\"\r\n                          stroke=\"currentColor\"\r\n                          aria-hidden=\"true\"\r\n                        >\r\n                          <path\r\n                            stroke-linecap=\"round\"\r\n                            stroke-linejoin=\"round\"\r\n                            stroke-width=\"2\"\r\n                            d=\"M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z\"\r\n                          />\r\n                        </svg>\r\n                        <span class=\"ml-3\">011 – 470 90 00</span>\r\n                      </dd>\r\n                      <dt>\r\n                        <span class=\"sr-only\">Email</span>\r\n                      </dt>\r\n                      <dd class=\"flex text-base text-teal-50\">\r\n\r\n                        <svg\r\n                          class=\"flex-shrink-0 w-6 h-6 text-teal-200\"\r\n                          xmlns=\"http://www.w3.org/2000/svg\"\r\n                          fill=\"none\"\r\n                          viewBox=\"0 0 24 24\"\r\n                          stroke=\"currentColor\"\r\n                          aria-hidden=\"true\"\r\n                        >\r\n                          <path\r\n                            stroke-linecap=\"round\"\r\n                            stroke-linejoin=\"round\"\r\n                            stroke-width=\"2\"\r\n                            d=\"M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z\"\r\n                          />\r\n                        </svg>\r\n                        <span class=\"ml-3\">info@smartcash.se</span>\r\n                      </dd>\r\n                    </dl>\r\n                    <ul role=\"list\" class=\"mt-7 flex space-x-12\">\r\n                      <li>\r\n                        <div class=\"flex gap-4\">\r\n                          <a\r\n                            href=\"#\"\r\n                            class=\"text-warm-gray-400 hover:text-warm-gray-300\"\r\n                          >\r\n                            <span class=\"sr-only\">Facebook</span>\r\n                            <svg\r\n                              class=\"h-6 w-6\"\r\n                              fill=\"currentColor\"\r\n                              viewBox=\"0 0 24 24\"\r\n                              aria-hidden=\"true\"\r\n                            >\r\n                              <path\r\n                                fill-rule=\"evenodd\"\r\n                                d=\"M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z\"\r\n                                clip-rule=\"evenodd\"\r\n                              />\r\n                            </svg>\r\n                          </a>\r\n\r\n                          <a\r\n                            href=\"#\"\r\n                            class=\"text-warm-gray-400 hover:text-warm-gray-300\"\r\n                          >\r\n                            <span class=\"sr-only\">Instagram</span>\r\n                            <svg\r\n                              class=\"h-6 w-6\"\r\n                              fill=\"currentColor\"\r\n                              viewBox=\"0 0 24 24\"\r\n                              aria-hidden=\"true\"\r\n                            >\r\n                              <path\r\n                                fill-rule=\"evenodd\"\r\n                                d=\"M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z\"\r\n                                clip-rule=\"evenodd\"\r\n                              />\r\n                            </svg>\r\n                          </a>\r\n                        </div>\r\n                        <div class=\"sm:pr-3 pt-3\">\r\n                          <iframe\r\n                            src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2078.1395660765024!2d16.170951016171575!3d58.60999667552918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46593a3cb5f1a50b%3A0x4ec67d7ba176cddb!2sKiselgatan%2019%2C%20602%2023%20Norrk%C3%B6ping!5e0!3m2!1sen!2sse!4v1637132856445!5m2!1sen!2sse\"\r\n                            width=\"400\"\r\n                            height=\"200\"\r\n                            style=\"border: 0\"\r\n                            allowfullscreen=\"\"\r\n                            loading=\"lazy\"\r\n                          >\r\n                          </iframe>\r\n                        </div>\r\n                      </li>\r\n                    </ul>\r\n                  </div>\r\n\r\n\r\n                  <div class=\"py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12\">\r\n                    <h3 class=\"text-lg font-medium text-warm-gray-900\">\r\n                      Skicka ett meddelande!\r\n                    </h3>\r\n                    <form\r\n                      \r\n                      @submit.prevent=\"submitContactForm()\"\r\n                      class=\"\r\n                        mt-6\r\n                        grid grid-cols-1\r\n                        gap-y-6\r\n                        sm:grid-cols-2 sm:gap-x-8\r\n                      \"\r\n                    >\r\n                      <div>\r\n                        <label\r\n                          for=\"first-name\"\r\n                          class=\"block text-sm font-medium text-warm-gray-900\"\r\n                          >Namn</label\r\n                        >\r\n                        <div class=\"mt-1\">\r\n                          <input\r\n                            required\r\n                            v-model=\"fields.name\"\r\n                            type=\"text\"\r\n                            name=\"first-name\"\r\n                            id=\"first-name\"\r\n                            autocomplete=\"given-name\"\r\n                            class=\"\r\n                              py-1\r\n                              px-4\r\n                              block\r\n                              w-full\r\n                              shadow-sm\r\n                              text-warm-gray-900\r\n                              focus:ring-teal-500 focus:border-teal-500\r\n                              border-warm-gray-300\r\n                              rounded-md\r\n                            \"\r\n                          />\r\n                        </div>\r\n                      </div>\r\n                      <div>\r\n                        <label\r\n                          for=\"last-name\"\r\n                          class=\"block text-sm font-medium text-warm-gray-900\"\r\n                          >Efternamn</label\r\n                        >\r\n                        <div class=\"mt-1\">\r\n                          <input\r\n                            required\r\n                            v-model=\"fields.lastname\"\r\n                            type=\"text\"\r\n                            name=\"lastname\"\r\n                            id=\"lastname\"\r\n                            autocomplete=\"family-name\"\r\n                            class=\"\r\n                              py-1\r\n                              px-4\r\n                              block\r\n                              w-full\r\n                              shadow-sm\r\n                              text-warm-gray-900\r\n                              focus:ring-teal-500 focus:border-teal-500\r\n                              border-warm-gray-300\r\n                              rounded-md\r\n                            \"\r\n                          />\r\n                        </div>\r\n                      </div>\r\n                      <div>\r\n                        <label\r\n                          for=\"email\"\r\n                          class=\"block text-sm font-medium text-gray-900\"\r\n                          >Email</label\r\n                        >\r\n                        <div class=\"mt-1\">\r\n                          <input\r\n                            required\r\n                            v-model=\"fields.email\"\r\n                            id=\"email\"\r\n                            name=\"email\"\r\n                            type=\"email\"\r\n                            autocomplete=\"email\"\r\n                            class=\"\r\n                              py-1\r\n                              px-4\r\n                              block\r\n                              w-full\r\n                              shadow-sm\r\n                              text-warm-gray-900\r\n                              focus:ring-teal-500 focus:border-teal-500\r\n                              border-warm-gray-300\r\n                              rounded-md\r\n                            \"\r\n                          />\r\n                        </div>\r\n                      </div>\r\n                      <div>\r\n                        <div class=\"flex justify-between\">\r\n                          <label\r\n                            for=\"phone\"\r\n                            class=\"block text-sm font-medium text-warm-gray-900\"\r\n                            >Telefon</label\r\n                          >\r\n                        </div>\r\n                        <div class=\"mt-1\">\r\n                          <input\r\n                            required\r\n                            v-model=\"fields.phone\"\r\n                            type=\"text\"\r\n                            name=\"phone\"\r\n                            id=\"phone\"\r\n                            autocomplete=\"tel\"\r\n                            class=\"\r\n                              py-1\r\n                              px-4\r\n                              block\r\n                              w-full\r\n                              shadow-sm\r\n                              text-warm-gray-900\r\n                              focus:ring-teal-500 focus:border-teal-500\r\n                              border-warm-gray-300\r\n                              rounded-md\r\n                            \"\r\n                            aria-describedby=\"phone-optional\"\r\n                          />\r\n                        </div>\r\n                      </div>\r\n\r\n                      <div class=\"sm:col-span-2\">\r\n                        <div class=\"flex justify-between\">\r\n                          <label\r\n                            for=\"message\"\r\n                            class=\"block text-sm font-medium text-warm-gray-900\"\r\n                            >Meddelande</label\r\n                          >\r\n                          <span id=\"message-max\" class=\"text-sm text-gray-500\"\r\n                            >Max. 500 ord</span\r\n                          >\r\n                        </div>\r\n                        <div class=\"mt-1\">\r\n                          <textarea\r\n                            required\r\n                            v-model=\"fields.message\"\r\n                            id=\"message\"\r\n                            name=\"message\"\r\n                            rows=\"4\"\r\n                            class=\"\r\n                              py-3\r\n                              px-4\r\n                              block\r\n                              w-full\r\n                              shadow-sm\r\n                              text-warm-gray-900\r\n                              focus:ring-teal-500 focus:border-teal-500\r\n                              border border-warm-gray-300\r\n                              rounded-md\r\n                            \"\r\n                            aria-describedby=\"message-max\"\r\n                          ></textarea>\r\n                        </div>\r\n                      </div>\r\n                      <div class=\"sm:col-span-2 sm:flex items-center sm:justify-start\">\r\n                        <button\r\n                          type=\"submit\"\r\n                          class=\"\r\n                            mt-2\r\n                            w-full\r\n                            inline-flex\r\n                            items-center\r\n                            justify-center\r\n                            px-11\r\n                            py-2\r\n                            border border-transparent\r\n                            text-base\r\n                            font-medium\r\n                            text-white\r\n                            rounded-xl\r\n                            shadow-md\r\n                            bg-indigo-400\r\n                            transition\r\n                            duration-300\r\n                            ease-in-out\r\n                            hover:bg-indigo-500\r\n                            sm:w-auto\r\n                          \"\r\n                        >\r\n                          Skicka\r\n                        </button>\r\n                        <div v-if=\"success\" class=\"text-green-500 ml-3\">\r\n                            Skickat!\r\n                        </div>\r\n                      </div>\r\n                    </form>\r\n                  </div>\r\n                  <div class=\"col-start-3\">\r\n                    <img class=\"static transform sm:scale-150\" src=\"contact.svg\" />\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </section> ")])])])];
     }),
     _: 1
     /* STABLE */
@@ -25869,85 +25921,22 @@ var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_6 = {
-  "class": "grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
+  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
 };
 var _hoisted_7 = ["href"];
 var _hoisted_8 = {
-  "class": "w-full aspect-w-1 aspect-h-1 bg-gray-200 shadow rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+  "class": "w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
 };
 var _hoisted_9 = ["src"];
 var _hoisted_10 = {
-  "class": "mt-4 text-sm text-gray-700"
+  "class": "rounded-sm"
 };
 var _hoisted_11 = {
-  "class": "mt-1 text-lg font-medium text-gray-900"
+  "class": "mt-4 pl-2 text-sm text-gray-700"
 };
-
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "relative pt-16 pb-32 overflow-hidden"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "aria-hidden": "true",
-  "class": "absolute inset-x-0 top-0 h-48"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "relative bg-gray-100"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "mt-6"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "text-3xl font-extrabold tracking-tight text-gray-900"
-}, " Paket 1 "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "mt-4 text-lg text-gray-500 list-disc"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Kassaregister Sam4s ER-260"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Kontrollenhet"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Kassalåda")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
-  "class": "text-2xl font-bold tracking-tight text-gray-900"
-}, " 249:- "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "mt-6"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "#",
-  "class": "inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
-}, " Lägg till ")])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "mt-8 border-t border-gray-200 pt-6"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("blockquote", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div")])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "mt-12 sm:mt-16 lg:mt-0"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  "class": "w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none",
-  src: "paket1.png",
-  alt: "Paket 1"
-})])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "mt-24"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "mt-6"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "text-3xl font-extrabold tracking-tight text-gray-900"
-}, " Paket 2 "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "mt-4 text-lg text-gray-500"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Kassaregister Sam4s ER-260"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Kortterminal Smart c-10"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Kontrollenhet"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Kassalåda")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
-  "class": "text-2xl font-bold tracking-tight text-gray-900"
-}, " 579:- "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "mt-6"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "#",
-  "class": "inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
-}, " Lägg till ")])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "mt-12 sm:mt-16 lg:mt-0 lg:col-start-1"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  "class": "w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none",
-  src: "paket2.png",
-  alt: "Paket 2"
-})])])])])], -1
-/* HOISTED */
-);
-
+var _hoisted_12 = {
+  "class": "mt-1 pl-2 text-lg font-medium text-gray-900"
+};
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_homepage_layout = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("homepage-layout");
 
@@ -25955,27 +25944,27 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     cart: $props.cart
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <product-layout :cart=\"cart\"> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("     <div class=\"bg-white\">\r\n            <div class=\"max-w-7xl mx-auto grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 bg-white\"> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("             <Icon name=\"background4\" class=\"absolute items-center justify-center mx-auto -left-32 p-24 sm:block hidden\"></Icon> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                 <Link v-for=\"product in productsPackage\" :key=\"product.id\" :href=\"'/erbjudande/' + product.slug\" class=\"relative bg-white\">\r\n                    <div class=\"rounded-md relative\" />\r\n                    <div class=\"mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8\">\r\n                        <div\r\n                            v-if=\"product.recommendation\"\r\n                            class=\"\r\n                                absolute\r\n                                flex\r\n                                items-center\r\n                                justify-end\r\n                                -top-12\r\n                                -left-12\r\n                                smartcash-bg-color-banner\r\n                                rounded-full\r\n                                shadow-md\r\n                                h-32\r\n                                w-32\r\n                            \"\r\n                        >\r\n                            <span class=\"text-white mt-8 mr-3 text-xs font-medium\"\r\n                                >{{ product.recommendation }}\r\n                            </span>\r\n                        </div>\r\n                        <div\r\n                            v-if=\"product.tag\"\r\n                            class=\"\r\n                                absolute\r\n                                flex\r\n                                items-center\r\n                                justify-center\r\n                                top-3\r\n                                right-2\r\n                                smartcash-bg-color-banner\r\n                                rounded-full\r\n                                shadow-md\r\n                                px-4\r\n                                py-1\r\n                            \"\r\n                        >\r\n                            <span class=\"text-white text-xs\"\r\n                                >{{ product.tag }}\r\n                            </span>\r\n                        </div>\r\n                        <div class=\"mt-6\">\r\n                            <img\r\n                                :src=\"product.image\"\r\n                                alt=\"Product\"\r\n                                class=\"w-full h-full object-center object-cover transition duration-500 group-hover:opacity-80\"/>\r\n                        </div>\r\n                        <div class=\"rounded-md shadow-lg px-2 py-2 space-y-0\">\r\n                            <div class=\"flex justify-center py-1\">\r\n                                <div\r\n                                    class=\"\r\n                                        text-sm text-center\r\n                                        break-words\r\n                                        font-bold\r\n                                    \"\r\n                                >\r\n                                    {{ product.name }}\r\n                                </div>\r\n                            </div>\r\n                            <h3\r\n                                class=\"\r\n                                    text-center text-xs\r\n                                    sm:text-sm\r\n                                    py-4\r\n                                    text-gray-700\r\n                                \"\r\n                            >\r\n                                {{ product.name }}\r\n                            </h3>\r\n                            <div\r\n                                class=\"\r\n                                    flex\r\n                                    items-center\r\n                                    justify-between\r\n                                    -gap-x-7\r\n                                    bottom-0\r\n                                    mb-6\r\n                                \"\r\n                            > "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    <div\r\n                                @click=\"addToShoppingCart(product)\"\r\n                                class=\"rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg\"\r\n                            >\r\n                                <svg\r\n                                    xmlns=\"http://www.w3.org/2000/svg\"\r\n                                    class=\"h-5 w-5\"\r\n                                    fill=\"none\"\r\n                                    viewBox=\"0 0 24 24\"\r\n                                    stroke=\"currentColor\"\r\n                                >\r\n                                    <path\r\n                                        stroke-linecap=\"round\"\r\n                                        stroke-linejoin=\"round\"\r\n                                        stroke-width=\"2\"\r\n                                        d=\"M12 6v6m0 0v6m0-6h6m-6 0H6\"\r\n                                    />\r\n                                </svg>\r\n                            </div>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                                 <div class=\"h-11 w-28 flex items-center justify-center\">\r\n                                    <p\r\n                                        class=\"\r\n                                            text-right text-lg\r\n                                            sm:text-md\r\n                                            font-medium\r\n                                            smartcash-text-color-pink\r\n                                        \"\r\n                                    >\r\n                                        {{ product.price_currency[0].price }}\r\n                                        {{ product.price_currency[0].currency }}\r\n                                    </p>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </Link> "), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsPackage, function (product) {
+      return [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <product-layout :cart=\"cart\"> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("     <div class=\"bg-white\">\r\n            <div class=\"max-w-7xl mx-auto grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 bg-white\"> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("             <Icon name=\"background4\" class=\"absolute items-center justify-center mx-auto -left-32 p-24 sm:block hidden\"></Icon> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                 <Link v-for=\"product in productsPackage\" :key=\"product.id\" :href=\"'/erbjudande/' + product.slug\" class=\"relative bg-white\">\r\n                    <div class=\"rounded-md relative\" />\r\n                    <div class=\"mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8\">\r\n                        <div\r\n                            v-if=\"product.recommendation\"\r\n                            class=\"\r\n                                absolute\r\n                                flex\r\n                                items-center\r\n                                justify-end\r\n                                -top-12\r\n                                -left-12\r\n                                smartcash-bg-color-banner\r\n                                rounded-full\r\n                                shadow-md\r\n                                h-32\r\n                                w-32\r\n                            \"\r\n                        >\r\n                            <span class=\"text-white mt-8 mr-3 text-xs font-medium\"\r\n                                >{{ product.recommendation }}\r\n                            </span>\r\n                        </div>\r\n                        <div\r\n                            v-if=\"product.tag\"\r\n                            class=\"\r\n                                absolute\r\n                                flex\r\n                                items-center\r\n                                justify-center\r\n                                top-3\r\n                                right-2\r\n                                smartcash-bg-color-banner\r\n                                rounded-full\r\n                                shadow-md\r\n                                px-4\r\n                                py-1\r\n                            \"\r\n                        >\r\n                            <span class=\"text-white text-xs\"\r\n                                >{{ product.tag }}\r\n                            </span>\r\n                        </div>\r\n                        <div class=\"mt-6\">\r\n                            <img\r\n                                :src=\"product.image\"\r\n                                alt=\"Product\"\r\n                                class=\"w-full h-full object-center object-cover transition duration-500 group-hover:opacity-80\"/>\r\n                        </div>\r\n                        <div class=\"rounded-md shadow-lg px-2 py-2 space-y-0\">\r\n                            <div class=\"flex justify-center py-1\">\r\n                                <div\r\n                                    class=\"\r\n                                        text-sm text-center\r\n                                        break-words\r\n                                        font-bold\r\n                                    \"\r\n                                >\r\n                                    {{ product.name }}\r\n                                </div>\r\n                            </div>\r\n                            <h3\r\n                                class=\"\r\n                                    text-center text-xs\r\n                                    sm:text-sm\r\n                                    py-4\r\n                                    text-gray-700\r\n                                \"\r\n                            >\r\n                                {{ product.name }}\r\n                            </h3>\r\n                            <div\r\n                                class=\"\r\n                                    flex\r\n                                    items-center\r\n                                    justify-between\r\n                                    -gap-x-7\r\n                                    bottom-0\r\n                                    mb-6\r\n                                \"\r\n                            > "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    <div\r\n                                @click=\"addToShoppingCart(product)\"\r\n                                class=\"rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg\"\r\n                            >\r\n                                <svg\r\n                                    xmlns=\"http://www.w3.org/2000/svg\"\r\n                                    class=\"h-5 w-5\"\r\n                                    fill=\"none\"\r\n                                    viewBox=\"0 0 24 24\"\r\n                                    stroke=\"currentColor\"\r\n                                >\r\n                                    <path\r\n                                        stroke-linecap=\"round\"\r\n                                        stroke-linejoin=\"round\"\r\n                                        stroke-width=\"2\"\r\n                                        d=\"M12 6v6m0 0v6m0-6h6m-6 0H6\"\r\n                                    />\r\n                                </svg>\r\n                            </div>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                                 <div class=\"h-11 w-28 flex items-center justify-center\">\r\n                                    <p\r\n                                        class=\"\r\n                                            text-right text-lg\r\n                                            sm:text-md\r\n                                            font-medium\r\n                                            smartcash-text-color-pink\r\n                                        \"\r\n                                    >\r\n                                        {{ product.price_currency[0].price }}\r\n                                        {{ product.price_currency[0].currency }}\r\n                                    </p>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </Link> "), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" \r\n                <div class=\"\">\r\n                <div class=\"max-w-2xl mx-auto py-16 px-4 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8\">\r\n                    <h2 class=\"sr-only\">Products</h2>\r\n\r\n                    <div class=\"grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8\">\r\n                        <a v-for=\"product in productsPackage\" :key=\"product.id\" :href=\"'/erbjudande/' + product.slug\" class=\"group\">\r\n                            <div class=\"w-full aspect-w-1 aspect-h-1 bg-gray-200 shadow rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8\">\r\n                            <img :src=\"product.image\" alt=\"Pack\" class=\"w-full h-full object-center object-cover group-hover:opacity-75\">\r\n                            </div>\r\n                            <h3 class=\"mt-4 text-sm text-gray-700\">\r\n                            {{ product.name }}\r\n                            </h3>\r\n                            <p class=\"mt-1 text-lg font-medium text-gray-900\">\r\n                                {{ product.price_currency[0].price }}\r\n                                {{ product.price_currency[0].currency }}\r\n                            </p>\r\n                        </a>\r\n                    </div>\r\n                </div>\r\n                </div>\r\n "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsPackage, function (product) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("a", {
           key: product.id,
           href: '/erbjudande/' + product.slug,
-          "class": "group"
+          "class": "group hover:shadow-lg"
         }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
           src: product.image,
           alt: "Pack",
           "class": "w-full h-full object-center object-cover group-hover:opacity-75"
         }, null, 8
         /* PROPS */
-        , _hoisted_9)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
+        , _hoisted_9)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
         /* TEXT */
-        ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
+        ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
         /* TEXT */
-        )], 8
+        )])], 8
         /* PROPS */
         , _hoisted_7);
       }), 128
       /* KEYED_FRAGMENT */
-      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Alternating Feature Sections "), _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("     </product-layout> ")];
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Alternating Feature Sections "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("     <div class=\"relative pt-16 pb-32 overflow-hidden\">\r\n      <div aria-hidden=\"true\" class=\"absolute inset-x-0 top-0 h-48\"></div>\r\n      <div class=\"relative bg-white\">\r\n        <div class=\"lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24\">\r\n          <div class=\"px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0\">\r\n            <div>\r\n              <div>\r\n              </div>\r\n              <div class=\"mt-6\">\r\n                <h2 class=\"text-3xl font-extrabold tracking-tight text-gray-900\">\r\n                    Paket 1\r\n                </h2>\r\n                    <p class=\"mt-4 text-lg text-gray-500 list-disc\">\r\n                        <li>Kassaregister Sam4s ER-260</li>\r\n                        <li>Kontrollenhet</li>\r\n                        <li>Kassalåda</li>\r\n                    </p>\r\n                <h3 class=\"text-2xl font-bold tracking-tight text-gray-900\">\r\n                    249:-\r\n                </h3> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                 <div class=\"mt-6\">\r\n                  <a href=\"#\" class=\"inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700\">\r\n                    Lägg till   \r\n                  </a>\r\n                </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("               </div>\r\n            </div>\r\n            <div class=\"mt-8 border-t border-gray-200 pt-6\">\r\n              <blockquote>\r\n                <div>\r\n\r\n                </div>\r\n\r\n              </blockquote>\r\n            </div>\r\n          </div>\r\n          <div class=\"mt-12 sm:mt-16 lg:mt-0\">\r\n            <div class=\"pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full\">\r\n              <img class=\"w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none\" src=\"paket1.png\" alt=\"Paket 1\">\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"mt-24\">\r\n        <div class=\"lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24\">\r\n          <div class=\"px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2\">\r\n            <div>\r\n              <div>\r\n              </div>\r\n              <div class=\"mt-6\">\r\n                <h2 class=\"text-3xl font-extrabold tracking-tight text-gray-900\">\r\n                  Paket 2\r\n                </h2>\r\n                <p class=\"mt-4 text-lg text-gray-500\">\r\n                    <li>Kassaregister Sam4s ER-260</li>\r\n                    <li>Kortterminal Smart c-10</li>\r\n                    <li>Kontrollenhet</li>\r\n                    <li>Kassalåda</li>\r\n                </p>\r\n                <h3 class=\"text-2xl font-bold tracking-tight text-gray-900\">\r\n                    579:-\r\n                </h3> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                 <div class=\"mt-6\">\r\n                  <a href=\"#\" class=\"inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700\">\r\n                    Lägg till\r\n                  </a>\r\n                </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("             <div class=\"mt-8 border-t border-gray-200 pt-6\">\r\n                <blockquote>\r\n                    <div>\r\n\r\n                    </div>\r\n\r\n                </blockquote>\r\n            </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"mt-12 sm:mt-16 lg:mt-0 lg:col-start-1\">\r\n            <div class=\"pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full\">\r\n              <img class=\"w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none\" src=\"paket2.png\" alt=\"Paket 2\">\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("     </product-layout> ")];
     }),
     _: 1
     /* STABLE */
@@ -27296,18 +27285,13 @@ var _hoisted_19 = {
   "class": "mt-10"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  var _component_Icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Icon");
-
   var _component_homepage_layout = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("homepage-layout");
 
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_homepage_layout, {
     cart: $props.cart
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Icon, {
-        name: "background4",
-        "class": "absolute items-center justify-center mx-auto -left-32 p-24 sm:block hidden"
-      }), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Product Info"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Image gallery (maybe) "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Image selector (maybe) "), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Product image. "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("  <Icon name=\"background4\" class=\"absolute items-center justify-center mx-auto -left-32 p-24 sm:block hidden\"></Icon> "), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Product Info"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Image gallery (maybe) "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Image selector (maybe) "), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Product image. "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
         src: _ctx.productInfo.image,
         alt: "Smart Enox 1 utan kunddisplay",
         "class": "w-full h-full object-center object-cover"
@@ -27350,60 +27334,72 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-var _hoisted_1 = {
-  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
-};
-var _hoisted_2 = {
-  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
-};
-var _hoisted_3 = {
-  key: 0,
-  "class": "absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1"
-};
-var _hoisted_4 = {
-  "class": "text-white text-xs"
-};
-var _hoisted_5 = {
-  "class": "p-8"
-};
-var _hoisted_6 = ["src"];
-var _hoisted_7 = {
-  "class": "mt-2"
-};
-var _hoisted_8 = {
-  "class": "flex p-8 flex-col justify-center py-1"
-};
-var _hoisted_9 = {
-  "class": "text-sm text-center break-words font-bold"
-};
-var _hoisted_10 = {
-  "class": "py-4 text-center text-xs sm:text-sm text-gray-700 truncate"
-};
-var _hoisted_11 = {
-  "class": "flex p-2 lg:items-center justify-between bottom-0"
-};
-var _hoisted_12 = ["onClick"];
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
-  xmlns: "http://www.w3.org/2000/svg",
-  "class": "h-5 w-5",
-  fill: "none",
-  viewBox: "0 0 24 24",
-  stroke: "currentColor"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "2",
-  d: "M12 6v6m0 0v6m0-6h6m-6 0H6"
-})], -1
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "relative overflow-hidden"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Decorative background image and gradient "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "aria-hidden": "true",
+  "class": "absolute inset-0"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 max-w-7xl mx-auto overflow-hidden xl:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/bg-2.svg",
+  alt: "",
+  "class": "w-full h-full object-center object-cover"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-white bg-opacity-75"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-gradient-to-t via-white"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Callout "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
+  "aria-labelledby": "sale-heading",
+  "class": "relative max-w-7xl mx-auto pt-32 px-4 flex flex-col items-center text-center sm:px-6 lg:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "max-w-2xl mx-auto lg:max-w-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  id: "sale-heading",
+  "class": "text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
+}, " Enox-kassa "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "mt-4 max-w-xl mx-auto text-xl text-gray-600"
+}, "In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra..")])])], -1
 /* HOISTED */
 );
 
-var _hoisted_14 = [_hoisted_13];
-var _hoisted_15 = {
+var _hoisted_2 = {
+  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 sm:pt-36"
+};
+var _hoisted_3 = {
+  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+};
+var _hoisted_4 = {
+  key: 0,
+  "class": "absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1"
+};
+var _hoisted_5 = {
+  "class": "text-white text-xs"
+};
+var _hoisted_6 = {
+  "class": "p-8"
+};
+var _hoisted_7 = ["src"];
+var _hoisted_8 = {
+  "class": "mt-2"
+};
+var _hoisted_9 = {
+  "class": "flex p-8 flex-col justify-center py-1"
+};
+var _hoisted_10 = {
+  "class": "text-sm text-center break-words font-bold"
+};
+var _hoisted_11 = {
+  "class": "py-4 text-center text-xs sm:text-sm text-gray-700 truncate"
+};
+var _hoisted_12 = {
+  "class": "flex p-2 lg:items-center justify-between bottom-0"
+};
+var _hoisted_13 = {
   "class": "rounded-lg h-7 w-24 flex items-center justify-center"
 };
-var _hoisted_16 = {
+var _hoisted_14 = {
   "class": "text-right text-sm sm:text-md font-bold text-black"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -27419,33 +27415,26 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     cart: $props.cart
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsEnoxKassa, function (product) {
+      return [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsEnoxKassa, function (product) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
           key: product.id,
           href: '/produkter/enox-kassa/' + product.slug,
           "class": ""
         }, {
           "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
+            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
             /* TEXT */
-            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
               src: product.image,
               alt: "Product",
               "class": "w-full h-full object-center object-cover transition duration-500 group-hover:opacity-80"
             }, null, 8
             /* PROPS */
-            , _hoisted_6)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
+            , _hoisted_7)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
             /* TEXT */
-            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
+            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
             /* TEXT */
-            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-              onClick: function onClick($event) {
-                return $options.addToShoppingCart(product);
-              },
-              "class": "rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg"
-            }, _hoisted_14, 8
-            /* PROPS */
-            , _hoisted_12), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
+            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
             /* TEXT */
             )])])])])];
           }),
@@ -27484,42 +27473,72 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-var _hoisted_1 = {
-  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
-};
+
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "relative overflow-hidden"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Decorative background image and gradient "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "aria-hidden": "true",
+  "class": "absolute inset-0"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 max-w-7xl mx-auto overflow-hidden xl:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/bg-2.svg",
+  alt: "",
+  "class": "w-full h-full object-center object-cover"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-white bg-opacity-75"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-gradient-to-t via-white"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Callout "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
+  "aria-labelledby": "sale-heading",
+  "class": "relative max-w-7xl mx-auto pt-32 px-4 flex flex-col items-center text-center sm:px-6 lg:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "max-w-2xl mx-auto lg:max-w-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  id: "sale-heading",
+  "class": "text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
+}, " Kassaregister "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "mt-4 max-w-xl mx-auto text-xl text-gray-600"
+}, "In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra..")])])], -1
+/* HOISTED */
+);
+
 var _hoisted_2 = {
-  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 sm:pt-36"
 };
 var _hoisted_3 = {
+  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+};
+var _hoisted_4 = {
   key: 0,
   "class": "absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1"
 };
-var _hoisted_4 = {
+var _hoisted_5 = {
   "class": "text-white text-xs"
 };
-var _hoisted_5 = {
+var _hoisted_6 = {
   "class": "p-8"
 };
-var _hoisted_6 = ["src"];
-var _hoisted_7 = {
+var _hoisted_7 = ["src"];
+var _hoisted_8 = {
   "class": "mt-2"
 };
-var _hoisted_8 = {
+var _hoisted_9 = {
   "class": "flex p-8 flex-col justify-center py-1"
 };
-var _hoisted_9 = {
+var _hoisted_10 = {
   "class": "text-sm text-center break-words font-bold"
 };
-var _hoisted_10 = {
+var _hoisted_11 = {
   "class": "py-4 text-center text-xs sm:text-sm text-gray-700 truncate"
 };
-var _hoisted_11 = {
+var _hoisted_12 = {
   "class": "flex p-2 lg:items-center justify-between bottom-0"
 };
-var _hoisted_12 = {
+var _hoisted_13 = {
   "class": "rounded-lg h-7 w-24 flex items-center justify-center"
 };
-var _hoisted_13 = {
+var _hoisted_14 = {
   "class": "text-right text-sm sm:text-md font-bold text-black"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -27535,26 +27554,26 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     cart: $props.cart
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsKassaregister, function (product) {
+      return [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsKassaregister, function (product) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
           key: product.id,
           href: '/produkter/kassaregister/' + product.slug,
           "class": ""
         }, {
           "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
+            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
             /* TEXT */
-            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
               src: product.image,
               alt: "Product",
               "class": "w-full h-full object-center object-cover transition duration-500 group-hover:opacity-80"
             }, null, 8
             /* PROPS */
-            , _hoisted_6)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
+            , _hoisted_7)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
             /* TEXT */
-            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
+            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
             /* TEXT */
-            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    <div\r\n                                @click=\"addToShoppingCart(product)\"\r\n                                class=\"rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg\"\r\n                            >\r\n                                <svg\r\n                                    xmlns=\"http://www.w3.org/2000/svg\"\r\n                                    class=\"h-5 w-5\"\r\n                                    fill=\"none\"\r\n                                    viewBox=\"0 0 24 24\"\r\n                                    stroke=\"currentColor\"\r\n                                >\r\n                                    <path\r\n                                        stroke-linecap=\"round\"\r\n                                        stroke-linejoin=\"round\"\r\n                                        stroke-width=\"2\"\r\n                                        d=\"M12 6v6m0 0v6m0-6h6m-6 0H6\"\r\n                                    />\r\n                                </svg>\r\n                            </div>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
+            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    <div\r\n                                @click=\"addToShoppingCart(product)\"\r\n                                class=\"rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg\"\r\n                            >\r\n                                <svg\r\n                                    xmlns=\"http://www.w3.org/2000/svg\"\r\n                                    class=\"h-5 w-5\"\r\n                                    fill=\"none\"\r\n                                    viewBox=\"0 0 24 24\"\r\n                                    stroke=\"currentColor\"\r\n                                >\r\n                                    <path\r\n                                        stroke-linecap=\"round\"\r\n                                        stroke-linejoin=\"round\"\r\n                                        stroke-width=\"2\"\r\n                                        d=\"M12 6v6m0 0v6m0-6h6m-6 0H6\"\r\n                                    />\r\n                                </svg>\r\n                            </div>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
             /* TEXT */
             )])])])])];
           }),
@@ -27593,60 +27612,72 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-var _hoisted_1 = {
-  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
-};
-var _hoisted_2 = {
-  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
-};
-var _hoisted_3 = {
-  key: 0,
-  "class": "absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1"
-};
-var _hoisted_4 = {
-  "class": "text-white text-xs"
-};
-var _hoisted_5 = {
-  "class": "p-8"
-};
-var _hoisted_6 = ["src"];
-var _hoisted_7 = {
-  "class": "mt-2"
-};
-var _hoisted_8 = {
-  "class": "flex p-8 flex-col justify-center py-1"
-};
-var _hoisted_9 = {
-  "class": "text-sm text-center break-words font-bold"
-};
-var _hoisted_10 = {
-  "class": "py-4 text-center text-xs sm:text-sm text-gray-700 truncate"
-};
-var _hoisted_11 = {
-  "class": "flex p-2 lg:items-center justify-between bottom-0"
-};
-var _hoisted_12 = ["onClick"];
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
-  xmlns: "http://www.w3.org/2000/svg",
-  "class": "h-5 w-5",
-  fill: "none",
-  viewBox: "0 0 24 24",
-  stroke: "currentColor"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "2",
-  d: "M12 6v6m0 0v6m0-6h6m-6 0H6"
-})], -1
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "relative overflow-hidden"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Decorative background image and gradient "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "aria-hidden": "true",
+  "class": "absolute inset-0"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 max-w-7xl mx-auto overflow-hidden xl:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/bg-2.svg",
+  alt: "",
+  "class": "w-full h-full object-center object-cover"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-white bg-opacity-75"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-gradient-to-t via-white"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Callout "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
+  "aria-labelledby": "sale-heading",
+  "class": "relative max-w-7xl mx-auto pt-32 px-4 flex flex-col items-center text-center sm:px-6 lg:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "max-w-2xl mx-auto lg:max-w-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  id: "sale-heading",
+  "class": "text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
+}, " Kontrollenheter "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "mt-4 max-w-xl mx-auto text-xl text-gray-600"
+}, "In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra..")])])], -1
 /* HOISTED */
 );
 
-var _hoisted_14 = [_hoisted_13];
-var _hoisted_15 = {
+var _hoisted_2 = {
+  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 sm:pt-36"
+};
+var _hoisted_3 = {
+  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+};
+var _hoisted_4 = {
+  key: 0,
+  "class": "absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1"
+};
+var _hoisted_5 = {
+  "class": "text-white text-xs"
+};
+var _hoisted_6 = {
+  "class": "p-8"
+};
+var _hoisted_7 = ["src"];
+var _hoisted_8 = {
+  "class": "mt-2"
+};
+var _hoisted_9 = {
+  "class": "flex p-8 flex-col justify-center py-1"
+};
+var _hoisted_10 = {
+  "class": "text-sm text-center break-words font-bold"
+};
+var _hoisted_11 = {
+  "class": "py-4 text-center text-xs sm:text-sm text-gray-700 truncate"
+};
+var _hoisted_12 = {
+  "class": "flex p-2 lg:items-center justify-between bottom-0"
+};
+var _hoisted_13 = {
   "class": "rounded-lg h-7 w-24 flex items-center justify-center"
 };
-var _hoisted_16 = {
+var _hoisted_14 = {
   "class": "text-right text-sm sm:text-md font-bold text-black"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -27664,7 +27695,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     cart: $props.cart
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Icon, {
+      return [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Icon, {
         name: "background2",
         "class": "absolute flex justify-center items-center"
       }), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsKontrollenheter, function (product) {
@@ -27674,26 +27705,19 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           "class": "relative bg-white"
         }, {
           "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
+            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
             /* TEXT */
-            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
               src: product.image,
               alt: "Product",
               "class": "w-full h-full object-center object-cover transition duration-500 group-hover:opacity-80"
             }, null, 8
             /* PROPS */
-            , _hoisted_6)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
+            , _hoisted_7)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
             /* TEXT */
-            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
+            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
             /* TEXT */
-            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-              onClick: function onClick($event) {
-                return $options.addToShoppingCart(product);
-              },
-              "class": "rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg"
-            }, _hoisted_14, 8
-            /* PROPS */
-            , _hoisted_12), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
+            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                             <div\r\n                                @click=\"addToShoppingCart(product)\"\r\n                                class=\"rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg\"\r\n                            >\r\n                                <svg\r\n                                    xmlns=\"http://www.w3.org/2000/svg\"\r\n                                    class=\"h-5 w-5\"\r\n                                    fill=\"none\"\r\n                                    viewBox=\"0 0 24 24\"\r\n                                    stroke=\"currentColor\"\r\n                                >\r\n                                    <path\r\n                                        stroke-linecap=\"round\"\r\n                                        stroke-linejoin=\"round\"\r\n                                        stroke-width=\"2\"\r\n                                        d=\"M12 6v6m0 0v6m0-6h6m-6 0H6\"\r\n                                    />\r\n                                </svg>\r\n                            </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
             /* TEXT */
             )])])])])];
           }),
@@ -27732,42 +27756,72 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-var _hoisted_1 = {
-  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
-};
+
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "relative overflow-hidden"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Decorative background image and gradient "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "aria-hidden": "true",
+  "class": "absolute inset-0"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 max-w-7xl mx-auto overflow-hidden xl:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/bg-2.svg",
+  alt: "",
+  "class": "w-full h-full object-center object-cover"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-white bg-opacity-75"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-gradient-to-t via-white"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Callout "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
+  "aria-labelledby": "sale-heading",
+  "class": "relative max-w-7xl mx-auto pt-32 px-4 flex flex-col items-center text-center sm:px-6 lg:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "max-w-2xl mx-auto lg:max-w-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  id: "sale-heading",
+  "class": "text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
+}, " Kortterminal "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "mt-4 max-w-xl mx-auto text-xl text-gray-600"
+}, "In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra..")])])], -1
+/* HOISTED */
+);
+
 var _hoisted_2 = {
-  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 sm:pt-36"
 };
 var _hoisted_3 = {
+  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+};
+var _hoisted_4 = {
   key: 0,
   "class": "absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1"
 };
-var _hoisted_4 = {
+var _hoisted_5 = {
   "class": "text-white text-xs"
 };
-var _hoisted_5 = {
+var _hoisted_6 = {
   "class": "p-8"
 };
-var _hoisted_6 = ["src"];
-var _hoisted_7 = {
+var _hoisted_7 = ["src"];
+var _hoisted_8 = {
   "class": "mt-2"
 };
-var _hoisted_8 = {
+var _hoisted_9 = {
   "class": "flex p-8 flex-col justify-center py-1"
 };
-var _hoisted_9 = {
+var _hoisted_10 = {
   "class": "text-sm text-center break-words font-bold"
 };
-var _hoisted_10 = {
+var _hoisted_11 = {
   "class": "py-4 text-center text-xs sm:text-sm text-gray-700 truncate"
 };
-var _hoisted_11 = {
+var _hoisted_12 = {
   "class": "flex p-2 lg:items-center justify-between bottom-0"
 };
-var _hoisted_12 = {
+var _hoisted_13 = {
   "class": "rounded-lg h-7 w-24 flex items-center justify-center"
 };
-var _hoisted_13 = {
+var _hoisted_14 = {
   "class": "text-right text-sm sm:text-md font-bold text-black"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -27785,7 +27839,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     cart: $props.cart
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Icon, {
+      return [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Icon, {
         name: "background2",
         "class": "absolute hidden sm:block justify-center items-center"
       }), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsKortterminal, function (product) {
@@ -27795,19 +27849,19 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           "class": "relative bg-white"
         }, {
           "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
+            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
             /* TEXT */
-            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
               src: product.image,
               alt: "Product",
               "class": "w-full h-full object-center object-cover transition duration-500 group-hover:opacity-80"
             }, null, 8
             /* PROPS */
-            , _hoisted_6)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
+            , _hoisted_7)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
             /* TEXT */
-            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
+            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
             /* TEXT */
-            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    <div\r\n                                @click=\"addToShoppingCart(product)\"\r\n                                class=\"rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg\"\r\n                            >\r\n                                <svg\r\n                                    xmlns=\"http://www.w3.org/2000/svg\"\r\n                                    class=\"h-5 w-5\"\r\n                                    fill=\"none\"\r\n                                    viewBox=\"0 0 24 24\"\r\n                                    stroke=\"currentColor\"\r\n                                >\r\n                                    <path\r\n                                        stroke-linecap=\"round\"\r\n                                        stroke-linejoin=\"round\"\r\n                                        stroke-width=\"2\"\r\n                                        d=\"M12 6v6m0 0v6m0-6h6m-6 0H6\"\r\n                                    />\r\n                                </svg>\r\n                            </div>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
+            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    <div\r\n                                @click=\"addToShoppingCart(product)\"\r\n                                class=\"rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg\"\r\n                            >\r\n                                <svg\r\n                                    xmlns=\"http://www.w3.org/2000/svg\"\r\n                                    class=\"h-5 w-5\"\r\n                                    fill=\"none\"\r\n                                    viewBox=\"0 0 24 24\"\r\n                                    stroke=\"currentColor\"\r\n                                >\r\n                                    <path\r\n                                        stroke-linecap=\"round\"\r\n                                        stroke-linejoin=\"round\"\r\n                                        stroke-width=\"2\"\r\n                                        d=\"M12 6v6m0 0v6m0-6h6m-6 0H6\"\r\n                                    />\r\n                                </svg>\r\n                            </div>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
             /* TEXT */
             )])])])])];
           }),
@@ -27846,60 +27900,72 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-var _hoisted_1 = {
-  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
-};
-var _hoisted_2 = {
-  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
-};
-var _hoisted_3 = {
-  key: 0,
-  "class": "absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1"
-};
-var _hoisted_4 = {
-  "class": "text-white text-xs"
-};
-var _hoisted_5 = {
-  "class": "p-8"
-};
-var _hoisted_6 = ["src"];
-var _hoisted_7 = {
-  "class": "mt-2"
-};
-var _hoisted_8 = {
-  "class": "flex p-8 flex-col justify-center py-1"
-};
-var _hoisted_9 = {
-  "class": "text-sm text-center break-words font-bold"
-};
-var _hoisted_10 = {
-  "class": "py-4 text-center text-xs sm:text-sm text-gray-700 truncate"
-};
-var _hoisted_11 = {
-  "class": "flex p-2 lg:items-center justify-between bottom-0"
-};
-var _hoisted_12 = ["onClick"];
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
-  xmlns: "http://www.w3.org/2000/svg",
-  "class": "h-5 w-5",
-  fill: "none",
-  viewBox: "0 0 24 24",
-  stroke: "currentColor"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "2",
-  d: "M12 6v6m0 0v6m0-6h6m-6 0H6"
-})], -1
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "relative overflow-hidden"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Decorative background image and gradient "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "aria-hidden": "true",
+  "class": "absolute inset-0"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 max-w-7xl mx-auto overflow-hidden xl:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/bg-2.svg",
+  alt: "",
+  "class": "w-full h-full object-center object-cover"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-white bg-opacity-75"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-gradient-to-t via-white"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Callout "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
+  "aria-labelledby": "sale-heading",
+  "class": "relative max-w-7xl mx-auto pt-32 px-4 flex flex-col items-center text-center sm:px-6 lg:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "max-w-2xl mx-auto lg:max-w-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  id: "sale-heading",
+  "class": "text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
+}, " Kvittorullar "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "mt-4 max-w-xl mx-auto text-xl text-gray-600"
+}, "In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra..")])])], -1
 /* HOISTED */
 );
 
-var _hoisted_14 = [_hoisted_13];
-var _hoisted_15 = {
+var _hoisted_2 = {
+  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 sm:pt-36"
+};
+var _hoisted_3 = {
+  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+};
+var _hoisted_4 = {
+  key: 0,
+  "class": "absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1"
+};
+var _hoisted_5 = {
+  "class": "text-white text-xs"
+};
+var _hoisted_6 = {
+  "class": "p-8"
+};
+var _hoisted_7 = ["src"];
+var _hoisted_8 = {
+  "class": "mt-2"
+};
+var _hoisted_9 = {
+  "class": "flex p-8 flex-col justify-center py-1"
+};
+var _hoisted_10 = {
+  "class": "text-sm text-center break-words font-bold"
+};
+var _hoisted_11 = {
+  "class": "py-4 text-center text-xs sm:text-sm text-gray-700 truncate"
+};
+var _hoisted_12 = {
+  "class": "flex p-2 lg:items-center justify-between bottom-0"
+};
+var _hoisted_13 = {
   "class": "rounded-lg h-7 w-24 flex items-center justify-center"
 };
-var _hoisted_16 = {
+var _hoisted_14 = {
   "class": "text-right text-sm sm:text-md font-bold text-black"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -27915,33 +27981,26 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     cart: $props.cart
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsKvittorullar, function (product) {
+      return [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsKvittorullar, function (product) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
           key: product.id,
           href: '/produkter/kvittorullar/' + product.slug,
           "class": ""
         }, {
           "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
+            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
             /* TEXT */
-            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
               src: product.image,
               alt: "Product",
               "class": "w-full h-full object-center object-cover transition duration-500 group-hover:opacity-80"
             }, null, 8
             /* PROPS */
-            , _hoisted_6)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
+            , _hoisted_7)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
             /* TEXT */
-            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
+            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
             /* TEXT */
-            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-              onClick: function onClick($event) {
-                return $options.addToShoppingCart(product);
-              },
-              "class": "rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg"
-            }, _hoisted_14, 8
-            /* PROPS */
-            , _hoisted_12), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
+            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                             <div\r\n                                @click=\"addToShoppingCart(product)\"\r\n                                class=\"rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg\"\r\n                            >\r\n                                <svg\r\n                                    xmlns=\"http://www.w3.org/2000/svg\"\r\n                                    class=\"h-5 w-5\"\r\n                                    fill=\"none\"\r\n                                    viewBox=\"0 0 24 24\"\r\n                                    stroke=\"currentColor\"\r\n                                >\r\n                                    <path\r\n                                        stroke-linecap=\"round\"\r\n                                        stroke-linejoin=\"round\"\r\n                                        stroke-width=\"2\"\r\n                                        d=\"M12 6v6m0 0v6m0-6h6m-6 0H6\"\r\n                                    />\r\n                                </svg>\r\n                            </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
             /* TEXT */
             )])])])])];
           }),
@@ -27980,60 +28039,72 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-var _hoisted_1 = {
-  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
-};
-var _hoisted_2 = {
-  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
-};
-var _hoisted_3 = {
-  key: 0,
-  "class": "absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1"
-};
-var _hoisted_4 = {
-  "class": "text-white text-xs"
-};
-var _hoisted_5 = {
-  "class": "p-8"
-};
-var _hoisted_6 = ["src"];
-var _hoisted_7 = {
-  "class": "mt-2"
-};
-var _hoisted_8 = {
-  "class": "flex p-8 flex-col justify-center py-1"
-};
-var _hoisted_9 = {
-  "class": "text-sm text-center break-words font-bold"
-};
-var _hoisted_10 = {
-  "class": "py-4 text-center text-xs sm:text-sm text-gray-700 truncate"
-};
-var _hoisted_11 = {
-  "class": "flex p-2 lg:items-center justify-between bottom-0"
-};
-var _hoisted_12 = ["onClick"];
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
-  xmlns: "http://www.w3.org/2000/svg",
-  "class": "h-5 w-5",
-  fill: "none",
-  viewBox: "0 0 24 24",
-  stroke: "currentColor"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "2",
-  d: "M12 6v6m0 0v6m0-6h6m-6 0H6"
-})], -1
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "relative overflow-hidden"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Decorative background image and gradient "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "aria-hidden": "true",
+  "class": "absolute inset-0"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 max-w-7xl mx-auto overflow-hidden xl:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/bg-2.svg",
+  alt: "",
+  "class": "w-full h-full object-center object-cover"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-white bg-opacity-75"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-gradient-to-t via-white"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Callout "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
+  "aria-labelledby": "sale-heading",
+  "class": "relative max-w-7xl mx-auto pt-32 px-4 flex flex-col items-center text-center sm:px-6 lg:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "max-w-2xl mx-auto lg:max-w-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  id: "sale-heading",
+  "class": "text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
+}, " Orderplatta "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "mt-4 max-w-xl mx-auto text-xl text-gray-600"
+}, "In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra..")])])], -1
 /* HOISTED */
 );
 
-var _hoisted_14 = [_hoisted_13];
-var _hoisted_15 = {
+var _hoisted_2 = {
+  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 sm:pt-36"
+};
+var _hoisted_3 = {
+  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+};
+var _hoisted_4 = {
+  key: 0,
+  "class": "absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1"
+};
+var _hoisted_5 = {
+  "class": "text-white text-xs"
+};
+var _hoisted_6 = {
+  "class": "p-8"
+};
+var _hoisted_7 = ["src"];
+var _hoisted_8 = {
+  "class": "mt-2"
+};
+var _hoisted_9 = {
+  "class": "flex p-8 flex-col justify-center py-1"
+};
+var _hoisted_10 = {
+  "class": "text-sm text-center break-words font-bold"
+};
+var _hoisted_11 = {
+  "class": "py-4 text-center text-xs sm:text-sm text-gray-700 truncate"
+};
+var _hoisted_12 = {
+  "class": "flex p-2 lg:items-center justify-between bottom-0"
+};
+var _hoisted_13 = {
   "class": "rounded-lg h-7 w-24 flex items-center justify-center"
 };
-var _hoisted_16 = {
+var _hoisted_14 = {
   "class": "text-right text-sm sm:text-md font-bold text-black"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -28049,33 +28120,26 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     cart: $props.cart
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsOrderplatta, function (product) {
+      return [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsOrderplatta, function (product) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
           key: product.id,
           href: '/produkter/orderplatta/' + product.slug,
           "class": ""
         }, {
           "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
+            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
             /* TEXT */
-            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
               src: product.image,
               alt: "Product",
               "class": "w-full h-full object-center object-cover transition duration-500 group-hover:opacity-80"
             }, null, 8
             /* PROPS */
-            , _hoisted_6)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
+            , _hoisted_7)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
             /* TEXT */
-            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
+            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
             /* TEXT */
-            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-              onClick: function onClick($event) {
-                return $options.addToShoppingCart(product);
-              },
-              "class": "rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg"
-            }, _hoisted_14, 8
-            /* PROPS */
-            , _hoisted_12), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
+            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                             <div\r\n                                @click=\"addToShoppingCart(product)\"\r\n                                class=\"rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg\"\r\n                            >\r\n                                <svg\r\n                                    xmlns=\"http://www.w3.org/2000/svg\"\r\n                                    class=\"h-5 w-5\"\r\n                                    fill=\"none\"\r\n                                    viewBox=\"0 0 24 24\"\r\n                                    stroke=\"currentColor\"\r\n                                >\r\n                                    <path\r\n                                        stroke-linecap=\"round\"\r\n                                        stroke-linejoin=\"round\"\r\n                                        stroke-width=\"2\"\r\n                                        d=\"M12 6v6m0 0v6m0-6h6m-6 0H6\"\r\n                                    />\r\n                                </svg>\r\n                            </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
             /* TEXT */
             )])])])])];
           }),
@@ -28187,6 +28251,36 @@ var _hoisted_14 = {
 var _hoisted_15 = {
   "class": "text-right text-sm sm:text-md font-bold text-black"
 };
+var _hoisted_16 = {
+  "class": ""
+};
+var _hoisted_17 = {
+  "class": "max-w-2xl mx-auto py-16 px-4 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8"
+};
+
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "sr-only"
+}, "Products", -1
+/* HOISTED */
+);
+
+var _hoisted_19 = {
+  "class": "grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
+};
+var _hoisted_20 = ["href"];
+var _hoisted_21 = {
+  "class": "w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+};
+var _hoisted_22 = ["src"];
+var _hoisted_23 = {
+  "class": ""
+};
+var _hoisted_24 = {
+  "class": "mt-4 pl-2 text-sm text-gray-700"
+};
+var _hoisted_25 = {
+  "class": "mt-1 pl-2 text-lg font-medium text-gray-900"
+};
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
 
@@ -28231,7 +28325,27 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         , ["href"]);
       }), 128
       /* KEYED_FRAGMENT */
-      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"bg-white\">\r\n        <div class=\"max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8\">\r\n            <h2 class=\"sr-only\">Products</h2>\r\n\r\n            <div class=\"grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8\">\r\n                <div v-for=\"product in productsPcKassa\" :key=\"product.id\" :href=\"'/produkter/pc-kassa/' + product.slug\" class=\"group relative bg-white border border-gray-200 shadow-md rounded-lg transform duration-500 ease-in-out hover:shadow-xl flex flex-col overflow-hidden\">\r\n                    <div class=\"aspect-w-3 aspect-h-4 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-96\">\r\n                        <img :src=\"product.image\" alt=\"PC-Kassa\" class=\"w-full h-full object-center object-cover sm:w-full sm:h-full\">\r\n                    </div>\r\n                    <div class=\"flex-1 p-4 space-y-2 flex flex-col\">\r\n                        <h3 class=\"text-sm font-medium text-gray-900\">\r\n                            <a href=\"#\">\r\n                                <span aria-hidden=\"true\" class=\"absolute inset-0\"></span>\r\n                                {{ product.name }}\r\n                            </a>\r\n                        </h3>\r\n                        <p class=\"text-sm text-gray-500 truncate\">{{ product.description.information }}</p>\r\n                        <div class=\"flex-1 flex flex-col justify-end\"> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <p class=\"text-sm italic text-gray-500\">8 colors</p> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                             <p class=\"text-base font-medium text-gray-900\">                                    \r\n                                {{ product.price_currency[0].price }}\r\n                                {{ product.price_currency[0].currency }}</p>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        </div>\r\n "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"bg-white\">\r\n        <div class=\"max-w-7xl mx-auto py-16 px-4 overflow-hidden sm:py-24 sm:px-6 lg:px-8\">\r\n            <div class=\"grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-8\">\r\n                <a v-for=\"product in productsPcKassa\" :key=\"product.id\" :href=\"'/produkter/pc-kassa/' + product.slug\" class=\"group text-sm\">\r\n                    <div class=\"w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden bg-gray-100 shadow-md transform duration-500 ease-in-out hover:shadow  group-hover:opacity-75\">\r\n                        <img :src=\"product.image\" alt=\"PC-Kassa\" class=\"w-full h-full object-center object-cover\">\r\n                    </div>\r\n                    <h3 class=\"mt-4 font-medium text-gray-900\">\r\n                        {{ product.name }}\r\n                    </h3>\r\n                    <p class=\"text-gray-500 italic truncate\">\r\n                        {{ product.description.information }}\r\n                    </p>\r\n                    <p class=\"mt-2 font-medium text-gray-900\">\r\n                        {{ product.price_currency[0].price }}\r\n                        {{ product.price_currency[0].currency }}\r\n                    </p>\r\n                </a>\r\n            </div>\r\n        </div>\r\n        </div> ")];
+      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [_hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsPcKassa, function (product) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("a", {
+          key: product.id,
+          href: '/produkter/pc-kassa/' + product.slug,
+          "class": "group hover:shadow-lg rounded-b-lg"
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+          src: product.image,
+          alt: "Pack",
+          "class": "w-full h-full object-center object-cover group-hover:opacity-75"
+        }, null, 8
+        /* PROPS */
+        , _hoisted_22)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_24, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
+        /* TEXT */
+        ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_25, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
+        /* TEXT */
+        )])], 8
+        /* PROPS */
+        , _hoisted_20);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"bg-white\">\r\n        <div class=\"max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8\">\r\n            <h2 class=\"sr-only\">Products</h2>\r\n\r\n            <div class=\"grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8\">\r\n                <div v-for=\"product in productsPcKassa\" :key=\"product.id\" :href=\"'/produkter/pc-kassa/' + product.slug\" class=\"group relative bg-white border border-gray-200 shadow-md rounded-lg transform duration-500 ease-in-out hover:shadow-xl flex flex-col overflow-hidden\">\r\n                    <div class=\"aspect-w-3 aspect-h-4 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-96\">\r\n                        <img :src=\"product.image\" alt=\"PC-Kassa\" class=\"w-full h-full object-center object-cover sm:w-full sm:h-full\">\r\n                    </div>\r\n                    <div class=\"flex-1 p-4 space-y-2 flex flex-col\">\r\n                        <h3 class=\"text-sm font-medium text-gray-900\">\r\n                            <a href=\"#\">\r\n                                <span aria-hidden=\"true\" class=\"absolute inset-0\"></span>\r\n                                {{ product.name }}\r\n                            </a>\r\n                        </h3>\r\n                        <p class=\"text-sm text-gray-500 truncate\">{{ product.description.information }}</p>\r\n                        <div class=\"flex-1 flex flex-col justify-end\"> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <p class=\"text-sm italic text-gray-500\">8 colors</p> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                             <p class=\"text-base font-medium text-gray-900\">                                    \r\n                                {{ product.price_currency[0].price }}\r\n                                {{ product.price_currency[0].currency }}</p>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        </div>\r\n "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"bg-white\">\r\n        <div class=\"max-w-7xl mx-auto py-16 px-4 overflow-hidden sm:py-24 sm:px-6 lg:px-8\">\r\n            <div class=\"grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-8\">\r\n                <a v-for=\"product in productsPcKassa\" :key=\"product.id\" :href=\"'/produkter/pc-kassa/' + product.slug\" class=\"group text-sm\">\r\n                    <div class=\"w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden bg-gray-100 shadow-md transform duration-500 ease-in-out hover:shadow  group-hover:opacity-75\">\r\n                        <img :src=\"product.image\" alt=\"PC-Kassa\" class=\"w-full h-full object-center object-cover\">\r\n                    </div>\r\n                    <h3 class=\"mt-4 font-medium text-gray-900\">\r\n                        {{ product.name }}\r\n                    </h3>\r\n                    <p class=\"text-gray-500 italic truncate\">\r\n                        {{ product.description.information }}\r\n                    </p>\r\n                    <p class=\"mt-2 font-medium text-gray-900\">\r\n                        {{ product.price_currency[0].price }}\r\n                        {{ product.price_currency[0].currency }}\r\n                    </p>\r\n                </a>\r\n            </div>\r\n        </div>\r\n        </div> ")];
     }),
     _: 1
     /* STABLE */
@@ -28631,7 +28745,7 @@ var _hoisted_20 = {
   "class": "ring-1 ring-white ring-opacity-75 bg-white dark:bg-black divide-y-2 divide-gray-50 rounded-lg shadow-lg"
 };
 var _hoisted_21 = {
-  "class": "pb-6 px-5 bg-gray-50"
+  "class": "pb-6 px-5 bg-white"
 };
 var _hoisted_22 = {
   "class": "flex items-center justify-between"
@@ -28667,10 +28781,10 @@ var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 
 var _hoisted_26 = [_hoisted_24, _hoisted_25];
 var _hoisted_27 = {
-  "class": "grid grid-flow-col grid-cols-3 grid-rows-4 gap-x-5 sm:px-2 sm:pt-2 sm:pb-3 sm:space-y-1 break-normal"
+  "class": "grid grid-cols-3 gap-2 place-content-start"
 };
 var _hoisted_28 = {
-  "class": "max-w-2xl mx-auto py-5 px-4 sm:py-12 sm:px-6 lg:max-w-6xl lg:px-8"
+  "class": "max-w-2xl mx-auto py-5 px-4 sm:px-6 lg:max-w-6xl lg:px-8"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Link");
@@ -28683,7 +28797,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
         href: "/checkout",
-        "class": "relative rounded-full shadow-lg transform duration-500 hover:scale-110 left-72 sm:top-56 mt-10 px-2 py-2"
+        "class": "relative rounded-full transform duration-500 hover:scale-110 left-72 sm:top-56 mt-10 px-2 py-2"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("<Icon name=\"bag\" class=\"h-14 w-14 transform duration-500 hover:scale-110 rounded-full mx-auto pt-2\"></Icon>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.cart.length), 1
@@ -28766,7 +28880,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         "class": "pl-4 inline-flex items-center justify-center p-2 rounded-md text-gray-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white",
         "aria-controls": "mobile-menu"
       }, _hoisted_19), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Current: \"bg-gray-900 text-white\", Default: \"text-gray-300 hover:bg-gray-700 hover:text-white\" ")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-        "class": "fixed inset-0 z-10",
+        "class": "inset-0 z-10",
         onClick: _cache[3] || (_cache[3] = function ($event) {
           return $setup.dropdownMobile = false;
         })
@@ -28782,7 +28896,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-            onClick: _cache[6] || (_cache[6] = function ($event) {
+            onClick: _cache[5] || (_cache[5] = function ($event) {
               return $setup.dropdownMobile = false;
             }),
             "class": "top-18 z-10 inset-x-0 p-2 transition transform origin-top-right md:hidden"
@@ -28791,18 +28905,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             onClick: _cache[4] || (_cache[4] = function ($event) {
               return $setup.dropdownMobile = !$setup.dropdownMobile;
             }),
-            "class": "dark:bg-gray-800 rounded-md p-2 inline-flex items-center bg-gray-50 justify-center text-gray-50 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+            "class": "dark:bg-gray-800 rounded-md p-2 inline-flex items-center justify-center text-gray-50 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
           }, _hoisted_26)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.names, function (name) {
             return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
               key: name.id,
               href: _ctx.route(name.href),
-              onMouseover: function onMouseover($event) {
-                return $options.textHover(name.name);
-              },
-              onMouseleave: _cache[5] || (_cache[5] = function ($event) {
-                return $options.textHover('');
-              }),
-              "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([$data.hoverText === name.name ? 'transition duration-500 ease-in-out bg-clip-text text-transparent bg-gradient-to-tl from-indigo-600 via-purple-500 to-pink-600' : 'text-gray-600', _ctx.$page.url === name.url ? 'bg-clip-text text-transparent bg-gradient-to-tl from-indigo-600 via-purple-500 to-pink-600' : '', 'px-3 py-2 rounded-md text-sm font-medium'])
+              "class": "flex items-center justify-center bg-gray-100 px-1 py-1 text-gray-600 rounded-md text-sm font-semibold"
             }, {
               "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
                 return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(name.name), 1
@@ -28814,7 +28922,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
             }, 1032
             /* PROPS, DYNAMIC_SLOTS */
-            , ["href", "onMouseover", "class"]);
+            , ["href"]);
           }), 128
           /* KEYED_FRAGMENT */
           ))])])])], 512
@@ -28849,60 +28957,72 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-var _hoisted_1 = {
-  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
-};
-var _hoisted_2 = {
-  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
-};
-var _hoisted_3 = {
-  key: 0,
-  "class": "absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1"
-};
-var _hoisted_4 = {
-  "class": "text-white text-xs"
-};
-var _hoisted_5 = {
-  "class": "p-8"
-};
-var _hoisted_6 = ["src"];
-var _hoisted_7 = {
-  "class": "mt-2"
-};
-var _hoisted_8 = {
-  "class": "flex p-8 flex-col justify-center py-1"
-};
-var _hoisted_9 = {
-  "class": "text-sm text-center break-words font-bold"
-};
-var _hoisted_10 = {
-  "class": "py-4 text-center text-xs sm:text-sm text-gray-700 truncate"
-};
-var _hoisted_11 = {
-  "class": "flex p-2 lg:items-center justify-between bottom-0"
-};
-var _hoisted_12 = ["onClick"];
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
-  xmlns: "http://www.w3.org/2000/svg",
-  "class": "h-5 w-5",
-  fill: "none",
-  viewBox: "0 0 24 24",
-  stroke: "currentColor"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "2",
-  d: "M12 6v6m0 0v6m0-6h6m-6 0H6"
-})], -1
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "relative overflow-hidden"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Decorative background image and gradient "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "aria-hidden": "true",
+  "class": "absolute inset-0"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 max-w-7xl mx-auto overflow-hidden xl:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/bg-2.svg",
+  alt: "",
+  "class": "w-full h-full object-center object-cover"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-white bg-opacity-75"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-gradient-to-t via-white"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Callout "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
+  "aria-labelledby": "sale-heading",
+  "class": "relative max-w-7xl mx-auto pt-32 px-4 flex flex-col items-center text-center sm:px-6 lg:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "max-w-2xl mx-auto lg:max-w-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  id: "sale-heading",
+  "class": "text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
+}, " Skanner "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "mt-4 max-w-xl mx-auto text-xl text-gray-600"
+}, "In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra..")])])], -1
 /* HOISTED */
 );
 
-var _hoisted_14 = [_hoisted_13];
-var _hoisted_15 = {
+var _hoisted_2 = {
+  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 sm:pt-36"
+};
+var _hoisted_3 = {
+  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+};
+var _hoisted_4 = {
+  key: 0,
+  "class": "absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1"
+};
+var _hoisted_5 = {
+  "class": "text-white text-xs"
+};
+var _hoisted_6 = {
+  "class": "p-8"
+};
+var _hoisted_7 = ["src"];
+var _hoisted_8 = {
+  "class": "mt-2"
+};
+var _hoisted_9 = {
+  "class": "flex p-8 flex-col justify-center py-1"
+};
+var _hoisted_10 = {
+  "class": "text-sm text-center break-words font-bold"
+};
+var _hoisted_11 = {
+  "class": "py-4 text-center text-xs sm:text-sm text-gray-700 truncate"
+};
+var _hoisted_12 = {
+  "class": "flex p-2 lg:items-center justify-between bottom-0"
+};
+var _hoisted_13 = {
   "class": "rounded-lg h-7 w-24 flex items-center justify-center"
 };
-var _hoisted_16 = {
+var _hoisted_14 = {
   "class": "text-right text-sm sm:text-md font-bold text-black"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -28918,33 +29038,26 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     cart: $props.cart
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsSkanner, function (product) {
+      return [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsSkanner, function (product) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
           key: product.id,
           href: '/produkter/skanner/' + product.slug,
           "class": ""
         }, {
           "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
+            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
             /* TEXT */
-            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
               src: product.image,
               alt: "Product",
               "class": "w-full h-full object-center object-cover transition duration-500 group-hover:opacity-80"
             }, null, 8
             /* PROPS */
-            , _hoisted_6)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
+            , _hoisted_7)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
             /* TEXT */
-            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
+            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
             /* TEXT */
-            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-              onClick: function onClick($event) {
-                return $options.addToShoppingCart(product);
-              },
-              "class": "rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg"
-            }, _hoisted_14, 8
-            /* PROPS */
-            , _hoisted_12), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
+            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                             <div\r\n                                @click=\"addToShoppingCart(product)\"\r\n                                class=\"rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg\"\r\n                            >\r\n                                <svg\r\n                                    xmlns=\"http://www.w3.org/2000/svg\"\r\n                                    class=\"h-5 w-5\"\r\n                                    fill=\"none\"\r\n                                    viewBox=\"0 0 24 24\"\r\n                                    stroke=\"currentColor\"\r\n                                >\r\n                                    <path\r\n                                        stroke-linecap=\"round\"\r\n                                        stroke-linejoin=\"round\"\r\n                                        stroke-width=\"2\"\r\n                                        d=\"M12 6v6m0 0v6m0-6h6m-6 0H6\"\r\n                                    />\r\n                                </svg>\r\n                            </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
             /* TEXT */
             )])])])])];
           }),
@@ -28983,60 +29096,72 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-var _hoisted_1 = {
-  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
-};
-var _hoisted_2 = {
-  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
-};
-var _hoisted_3 = {
-  key: 0,
-  "class": "absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1"
-};
-var _hoisted_4 = {
-  "class": "text-white text-xs"
-};
-var _hoisted_5 = {
-  "class": "p-8"
-};
-var _hoisted_6 = ["src"];
-var _hoisted_7 = {
-  "class": "mt-2"
-};
-var _hoisted_8 = {
-  "class": "flex p-8 flex-col justify-center py-1"
-};
-var _hoisted_9 = {
-  "class": "text-sm text-center break-words font-bold"
-};
-var _hoisted_10 = {
-  "class": "py-4 text-center text-xs sm:text-sm text-gray-700 truncate"
-};
-var _hoisted_11 = {
-  "class": "flex p-2 lg:items-center justify-between bottom-0"
-};
-var _hoisted_12 = ["onClick"];
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
-  xmlns: "http://www.w3.org/2000/svg",
-  "class": "h-5 w-5",
-  fill: "none",
-  viewBox: "0 0 24 24",
-  stroke: "currentColor"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "2",
-  d: "M12 6v6m0 0v6m0-6h6m-6 0H6"
-})], -1
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "relative overflow-hidden"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Decorative background image and gradient "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "aria-hidden": "true",
+  "class": "absolute inset-0"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 max-w-7xl mx-auto overflow-hidden xl:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/bg-2.svg",
+  alt: "",
+  "class": "w-full h-full object-center object-cover"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-white bg-opacity-75"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-gradient-to-t via-white"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Callout "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
+  "aria-labelledby": "sale-heading",
+  "class": "relative max-w-7xl mx-auto pt-32 px-4 flex flex-col items-center text-center sm:px-6 lg:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "max-w-2xl mx-auto lg:max-w-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  id: "sale-heading",
+  "class": "text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
+}, " Skrivare "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "mt-4 max-w-xl mx-auto text-xl text-gray-600"
+}, "In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra..")])])], -1
 /* HOISTED */
 );
 
-var _hoisted_14 = [_hoisted_13];
-var _hoisted_15 = {
+var _hoisted_2 = {
+  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 sm:pt-36"
+};
+var _hoisted_3 = {
+  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+};
+var _hoisted_4 = {
+  key: 0,
+  "class": "absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1"
+};
+var _hoisted_5 = {
+  "class": "text-white text-xs"
+};
+var _hoisted_6 = {
+  "class": "p-8"
+};
+var _hoisted_7 = ["src"];
+var _hoisted_8 = {
+  "class": "mt-2"
+};
+var _hoisted_9 = {
+  "class": "flex p-8 flex-col justify-center py-1"
+};
+var _hoisted_10 = {
+  "class": "text-sm text-center break-words font-bold"
+};
+var _hoisted_11 = {
+  "class": "py-4 text-center text-xs sm:text-sm text-gray-700 truncate"
+};
+var _hoisted_12 = {
+  "class": "flex p-2 lg:items-center justify-between bottom-0"
+};
+var _hoisted_13 = {
   "class": "rounded-lg h-7 w-24 flex items-center justify-center"
 };
-var _hoisted_16 = {
+var _hoisted_14 = {
   "class": "text-right text-sm sm:text-md font-bold text-black"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -29052,33 +29177,26 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     cart: $props.cart
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsSkrivare, function (product) {
+      return [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsSkrivare, function (product) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
           key: product.id,
           href: '/produkter/skrivare/' + product.slug,
           "class": ""
         }, {
           "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
+            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
             /* TEXT */
-            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
               src: product.image,
               alt: "Product",
               "class": "w-full h-full object-center object-cover transition duration-500 group-hover:opacity-80"
             }, null, 8
             /* PROPS */
-            , _hoisted_6)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
+            , _hoisted_7)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
             /* TEXT */
-            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
+            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
             /* TEXT */
-            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-              onClick: function onClick($event) {
-                return $options.addToShoppingCart(product);
-              },
-              "class": "rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg"
-            }, _hoisted_14, 8
-            /* PROPS */
-            , _hoisted_12), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
+            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                             <div\r\n                                @click=\"addToShoppingCart(product)\"\r\n                                class=\"rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg\"\r\n                            >\r\n                                <svg\r\n                                    xmlns=\"http://www.w3.org/2000/svg\"\r\n                                    class=\"h-5 w-5\"\r\n                                    fill=\"none\"\r\n                                    viewBox=\"0 0 24 24\"\r\n                                    stroke=\"currentColor\"\r\n                                >\r\n                                    <path\r\n                                        stroke-linecap=\"round\"\r\n                                        stroke-linejoin=\"round\"\r\n                                        stroke-width=\"2\"\r\n                                        d=\"M12 6v6m0 0v6m0-6h6m-6 0H6\"\r\n                                    />\r\n                                </svg>\r\n                            </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
             /* TEXT */
             )])])])])];
           }),
@@ -29117,60 +29235,72 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-var _hoisted_1 = {
-  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
-};
-var _hoisted_2 = {
-  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
-};
-var _hoisted_3 = {
-  key: 0,
-  "class": "absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1"
-};
-var _hoisted_4 = {
-  "class": "text-white text-xs"
-};
-var _hoisted_5 = {
-  "class": "p-8"
-};
-var _hoisted_6 = ["src"];
-var _hoisted_7 = {
-  "class": "mt-2"
-};
-var _hoisted_8 = {
-  "class": "flex p-8 flex-col justify-center py-1"
-};
-var _hoisted_9 = {
-  "class": "text-sm text-center break-words font-bold"
-};
-var _hoisted_10 = {
-  "class": "py-4 text-center text-xs sm:text-sm text-gray-700 truncate"
-};
-var _hoisted_11 = {
-  "class": "flex p-2 lg:items-center justify-between bottom-0"
-};
-var _hoisted_12 = ["onClick"];
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
-  xmlns: "http://www.w3.org/2000/svg",
-  "class": "h-5 w-5",
-  fill: "none",
-  viewBox: "0 0 24 24",
-  stroke: "currentColor"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  "stroke-width": "2",
-  d: "M12 6v6m0 0v6m0-6h6m-6 0H6"
-})], -1
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "relative overflow-hidden"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Decorative background image and gradient "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "aria-hidden": "true",
+  "class": "absolute inset-0"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 max-w-7xl mx-auto overflow-hidden xl:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/bg-2.svg",
+  alt: "",
+  "class": "w-full h-full object-center object-cover"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-white bg-opacity-75"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-gradient-to-t via-white"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Callout "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
+  "aria-labelledby": "sale-heading",
+  "class": "relative max-w-7xl mx-auto pt-32 px-4 flex flex-col items-center text-center sm:px-6 lg:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "max-w-2xl mx-auto lg:max-w-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  id: "sale-heading",
+  "class": "text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
+}, " Tillbehör "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "mt-4 max-w-xl mx-auto text-xl text-gray-600"
+}, "In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra..")])])], -1
 /* HOISTED */
 );
 
-var _hoisted_14 = [_hoisted_13];
-var _hoisted_15 = {
+var _hoisted_2 = {
+  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 sm:pt-36"
+};
+var _hoisted_3 = {
+  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+};
+var _hoisted_4 = {
+  key: 0,
+  "class": "absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1"
+};
+var _hoisted_5 = {
+  "class": "text-white text-xs"
+};
+var _hoisted_6 = {
+  "class": "p-8"
+};
+var _hoisted_7 = ["src"];
+var _hoisted_8 = {
+  "class": "mt-2"
+};
+var _hoisted_9 = {
+  "class": "flex p-8 flex-col justify-center py-1"
+};
+var _hoisted_10 = {
+  "class": "text-sm text-center break-words font-bold"
+};
+var _hoisted_11 = {
+  "class": "py-4 text-center text-xs sm:text-sm text-gray-700 truncate"
+};
+var _hoisted_12 = {
+  "class": "flex p-2 lg:items-center justify-between bottom-0"
+};
+var _hoisted_13 = {
   "class": "rounded-lg h-7 w-24 flex items-center justify-center"
 };
-var _hoisted_16 = {
+var _hoisted_14 = {
   "class": "text-right text-sm sm:text-md font-bold text-black"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -29186,33 +29316,26 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     cart: $props.cart
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsTillbehor, function (product) {
+      return [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsTillbehor, function (product) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
           key: product.id,
           href: '/produkter/tillbehor/' + product.slug,
           "class": ""
         }, {
           "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
+            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
             /* TEXT */
-            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
               src: product.image,
               alt: "Product",
               "class": "w-full h-full object-center object-cover transition duration-500 group-hover:opacity-80"
             }, null, 8
             /* PROPS */
-            , _hoisted_6)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
+            , _hoisted_7)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
             /* TEXT */
-            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
+            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
             /* TEXT */
-            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-              onClick: function onClick($event) {
-                return $options.addToShoppingCart(product);
-              },
-              "class": "rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg"
-            }, _hoisted_14, 8
-            /* PROPS */
-            , _hoisted_12), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
+            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("                             <div\r\n                                @click=\"addToShoppingCart(product)\"\r\n                                class=\"rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg\"\r\n                            >\r\n                                <svg\r\n                                    xmlns=\"http://www.w3.org/2000/svg\"\r\n                                    class=\"h-5 w-5\"\r\n                                    fill=\"none\"\r\n                                    viewBox=\"0 0 24 24\"\r\n                                    stroke=\"currentColor\"\r\n                                >\r\n                                    <path\r\n                                        stroke-linecap=\"round\"\r\n                                        stroke-linejoin=\"round\"\r\n                                        stroke-width=\"2\"\r\n                                        d=\"M12 6v6m0 0v6m0-6h6m-6 0H6\"\r\n                                    />\r\n                                </svg>\r\n                            </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
             /* TEXT */
             )])])])])];
           }),
@@ -29251,42 +29374,72 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-var _hoisted_1 = {
-  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
-};
+
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "relative overflow-hidden"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Decorative background image and gradient "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "aria-hidden": "true",
+  "class": "absolute inset-0"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 max-w-7xl mx-auto overflow-hidden xl:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/bg-2.svg",
+  alt: "",
+  "class": "w-full h-full object-center object-cover"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-white bg-opacity-75"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0 bg-gradient-to-t via-white"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Callout "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
+  "aria-labelledby": "sale-heading",
+  "class": "relative max-w-7xl mx-auto pt-32 px-4 flex flex-col items-center text-center sm:px-6 lg:px-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "max-w-2xl mx-auto lg:max-w-none"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  id: "sale-heading",
+  "class": "text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
+}, " Vågar "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "mt-4 max-w-xl mx-auto text-xl text-gray-600"
+}, "In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra..")])])], -1
+/* HOISTED */
+);
+
 var _hoisted_2 = {
-  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+  "class": "grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 sm:pt-36"
 };
 var _hoisted_3 = {
+  "class": "mt-0 w-full relative aspect-w-1 aspect-h-1 rounded-lg transform duration-500 ease-in-out hover:shadow-xl shadow-md overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+};
+var _hoisted_4 = {
   key: 0,
   "class": "absolute flex items-center justify-center top-3 right-2 bg-pink-400 rounded-full shadow-md px-4 py-1"
 };
-var _hoisted_4 = {
+var _hoisted_5 = {
   "class": "text-white text-xs"
 };
-var _hoisted_5 = {
+var _hoisted_6 = {
   "class": "p-8"
 };
-var _hoisted_6 = ["src"];
-var _hoisted_7 = {
+var _hoisted_7 = ["src"];
+var _hoisted_8 = {
   "class": "mt-2"
 };
-var _hoisted_8 = {
+var _hoisted_9 = {
   "class": "flex p-3 flex-col justify-center py-1"
 };
-var _hoisted_9 = {
+var _hoisted_10 = {
   "class": "text-sm text-center break-words font-bold"
 };
-var _hoisted_10 = {
+var _hoisted_11 = {
   "class": "py-2 text-center text-xs sm:text-sm text-gray-700 truncate"
 };
-var _hoisted_11 = {
+var _hoisted_12 = {
   "class": "flex p-2 lg:items-center justify-between bottom-0"
 };
-var _hoisted_12 = {
+var _hoisted_13 = {
   "class": "rounded-lg h-7 w-24 flex items-center justify-center"
 };
-var _hoisted_13 = {
+var _hoisted_14 = {
   "class": "text-right text-sm sm:text-md font-bold text-black"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -29302,26 +29455,26 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     cart: $props.cart
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsVagar, function (product) {
+      return [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.productsVagar, function (product) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_Link, {
           key: product.id,
           href: '/produkter/vagar/' + product.slug,
           "class": ""
         }, {
           "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
+            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"rounded-md relative left-0 h-10\" /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [product.tag ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.tag), 1
             /* TEXT */
-            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+            )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
               src: product.image,
               alt: "Product",
               "class": "w-full h-full object-center object-cover transition duration-500 group-hover:opacity-80"
             }, null, 8
             /* PROPS */
-            , _hoisted_6)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
+            , _hoisted_7)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.name), 1
             /* TEXT */
-            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
+            ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.description.information), 1
             /* TEXT */
-            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    <div\r\n                                @click=\"addToShoppingCart(product)\"\r\n                                class=\"rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg\"\r\n                            >\r\n                                <svg\r\n                                    xmlns=\"http://www.w3.org/2000/svg\"\r\n                                    class=\"h-5 w-5\"\r\n                                    fill=\"none\"\r\n                                    viewBox=\"0 0 24 24\"\r\n                                    stroke=\"currentColor\"\r\n                                >\r\n                                    <path\r\n                                        stroke-linecap=\"round\"\r\n                                        stroke-linejoin=\"round\"\r\n                                        stroke-width=\"2\"\r\n                                        d=\"M12 6v6m0 0v6m0-6h6m-6 0H6\"\r\n                                    />\r\n                                </svg>\r\n                            </div>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
+            )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("    <div\r\n                                @click=\"addToShoppingCart(product)\"\r\n                                class=\"rounded-full shadow-md h-8 w-8 flex items-center justify-center transform duration-500 ease-in-out hover:scale-110 hover:shadow-lg\"\r\n                            >\r\n                                <svg\r\n                                    xmlns=\"http://www.w3.org/2000/svg\"\r\n                                    class=\"h-5 w-5\"\r\n                                    fill=\"none\"\r\n                                    viewBox=\"0 0 24 24\"\r\n                                    stroke=\"currentColor\"\r\n                                >\r\n                                    <path\r\n                                        stroke-linecap=\"round\"\r\n                                        stroke-linejoin=\"round\"\r\n                                        stroke-width=\"2\"\r\n                                        d=\"M12 6v6m0 0v6m0-6h6m-6 0H6\"\r\n                                    />\r\n                                </svg>\r\n                            </div>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].price) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(product.price_currency[0].currency), 1
             /* TEXT */
             )])])])])];
           }),
@@ -31108,7 +31261,7 @@ var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative\" data-v-0dd2ab72><div class=\"absolute inset-x-0 bottom-0 h-1/2\" data-v-0dd2ab72></div><div class=\"mx-auto\" data-v-0dd2ab72><div class=\"relative py-2 sm:overflow-hidden\" data-v-0dd2ab72><div class=\"relative max-w-7xl mx-auto px-4 sm:py-16 -py-24 sm:px-6 lg:py-32 lg:px-auto\" data-v-0dd2ab72><h1 class=\"lg:text-7xl text-5xl pt-16 sm:pt-0 sm:text-left font-bold text-white\" data-v-0dd2ab72><span class=\"block leading-tight\" data-v-0dd2ab72>Smarta Betallösningar</span><span class=\"block leading-tight ml-1 lg:text-3xl text-3xl font-semibold\" data-v-0dd2ab72>Hör av er till oss så hjälper vi till med de absolut bästa priserna för just er verksamhet!</span> <span class=\"block leading-tight ml-1 lg:text-3xl text-3xl font-semibold\" data-v-0dd2ab72></span></h1></div></div></div></div>", 1);
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative\" data-v-0dd2ab72><div class=\"absolute inset-x-0 bottom-0 h-1/2\" data-v-0dd2ab72></div><div class=\"mx-auto\" data-v-0dd2ab72><div class=\"relative py-2 sm:overflow-hidden\" data-v-0dd2ab72><div class=\"relative max-w-7xl mx-auto px-4 sm:py-16 -py-24 sm:px-6 lg:py-32 lg:px-auto\" data-v-0dd2ab72><h1 class=\"lg:text-7xl text-5xl pt-16 sm:pt-0 sm:text-left font-bold text-white\" data-v-0dd2ab72><span class=\"block leading-tight\" data-v-0dd2ab72>Smarta Betallösningar</span><span class=\"block sm:hidden leading-tight ml-1 lg:text-3xl text-3xl font-semibold\" data-v-0dd2ab72>Hör av er till oss så hjälper vi till med de absolut bästa priserna för just er verksamhet!</span> <span class=\"block leading-tight ml-1 lg:text-3xl text-3xl font-semibold\" data-v-0dd2ab72></span></h1></div></div></div></div>", 1);
 
 var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   "class": "absolute -bottom-1 transform rotate-180",
@@ -31226,27 +31379,27 @@ var _hoisted_42 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_43 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3\" data-v-0dd2ab72><div class=\"grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24\" data-v-0dd2ab72><div data-v-0dd2ab72><!--                 &lt;div&gt;\r\n                    &lt;span class=&quot;h-8 sm:h-12 w-8 sm:w-12 rounded-md flex items-center justify-center bg-gradient-to-t from-indigo-600 to-pink-600&quot;&gt;\r\n                        &lt;svg class=&quot;h-4 sm:h-6 w-4 sm:w-6 text-white&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; fill=&quot;none&quot; viewBox=&quot;0 0 24 24&quot; stroke=&quot;currentColor&quot; aria-hidden=&quot;true&quot;&gt;\r\n                            &lt;path stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot; d=&quot;M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4&quot; /&gt;\r\n                        &lt;/svg&gt;\r\n                    &lt;/span&gt;\r\n                &lt;/div&gt; --><div class=\"mt-6\" data-v-0dd2ab72><h2 class=\"text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900\" data-v-0dd2ab72> Smart Cash </h2><p class=\"mt-4 text-sm sm:text-lg text-gray-500\" data-v-0dd2ab72> Smart Cash är ett väletablerat bolag i kassabranschen och erbjuder de absolut senaste funktionerna som marknaden efterfrågar. Vi strävar alltid efter att ge våra kunder en unik kundupplevelse med förstklassig service, oavsett företagsstorlek. </p><div class=\"flex py-4\" data-v-0dd2ab72><img class=\"sm:block h-12 w-auto\" src=\"/gasell-smartcash.png\" alt=\"Gasell\" data-v-0dd2ab72><img class=\"sm:block h-12 w-auto\" src=\"/UC-dark.png\" alt=\"UC\" data-v-0dd2ab72></div></div></div><div data-v-0dd2ab72><img class=\"rounded-xl shadow-xl ring-1 ring-black ring-opacity-5\" src=\"https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80\" alt=\"Get Started\" data-v-0dd2ab72></div></div></div><div class=\"bg-white\" data-v-0dd2ab72><div class=\"max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl\" data-v-0dd2ab72><div class=\"relative rounded-lg overflow-hidden lg:h-96\" data-v-0dd2ab72><div class=\"absolute inset-0\" data-v-0dd2ab72><img src=\"bg-2.svg\" alt=\"\" class=\"w-full h-full object-center object-cover\" data-v-0dd2ab72></div><div aria-hidden=\"true\" class=\"relative w-full h-96 lg:hidden\" data-v-0dd2ab72></div><div aria-hidden=\"true\" class=\"relative w-full h-32 lg:hidden\" data-v-0dd2ab72></div><div class=\"absolute inset-x-0 bottom-0 bg-gradient-to-b from-pink-300 via-purple-400 to-indigo-400 bg-opacity-75 p-6 rounded-bl-lg rounded-br-lg backdrop-filter backdrop-blur sm:flex sm:items-center sm:justify-between lg:inset-y-0 lg:inset-x-auto lg:w-96 lg:rounded-tl-lg lg:rounded-br-none lg:flex-col lg:items-start\" data-v-0dd2ab72><div data-v-0dd2ab72><h2 class=\"text-xl font-bold text-white\" data-v-0dd2ab72>Workspace Collection</h2><p class=\"mt-1 text-sm text-gray-300\" data-v-0dd2ab72>Upgrade your desk with objects that keep you organized and clear-minded.</p></div><a href=\"#\" class=\"mt-6 flex-shrink-0 flex bg-white bg-opacity-0 py-3 px-4 border border-white border-opacity-25 rounded-md items-center justify-center text-base font-medium text-white hover:bg-opacity-10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full\" data-v-0dd2ab72>Erbjudande</a></div></div></div></div>", 2);
+var _hoisted_43 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3\" data-v-0dd2ab72><div class=\"grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24\" data-v-0dd2ab72><div data-v-0dd2ab72><!--                 &lt;div&gt;\r\n                    &lt;span class=&quot;h-8 sm:h-12 w-8 sm:w-12 rounded-md flex items-center justify-center bg-gradient-to-t from-indigo-600 to-pink-600&quot;&gt;\r\n                        &lt;svg class=&quot;h-4 sm:h-6 w-4 sm:w-6 text-white&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; fill=&quot;none&quot; viewBox=&quot;0 0 24 24&quot; stroke=&quot;currentColor&quot; aria-hidden=&quot;true&quot;&gt;\r\n                            &lt;path stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot; d=&quot;M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4&quot; /&gt;\r\n                        &lt;/svg&gt;\r\n                    &lt;/span&gt;\r\n                &lt;/div&gt; --><div class=\"mt-6\" data-v-0dd2ab72><h2 class=\"text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900\" data-v-0dd2ab72> Smart Cash </h2><p class=\"mt-4 text-sm sm:text-lg text-gray-500\" data-v-0dd2ab72> Smart Cash är ett väletablerat bolag i kassabranschen och erbjuder de absolut senaste funktionerna som marknaden efterfrågar. Vi strävar alltid efter att ge våra kunder en unik kundupplevelse med förstklassig service, oavsett företagsstorlek. </p><div class=\"flex py-4\" data-v-0dd2ab72><img class=\"sm:block h-12 w-auto\" src=\"/gasell-smartcash.png\" alt=\"Gasell\" data-v-0dd2ab72><img class=\"sm:block h-12 w-auto\" src=\"/UC-dark.png\" alt=\"UC\" data-v-0dd2ab72></div></div></div><div data-v-0dd2ab72><img class=\"rounded-xl shadow-xl ring-1 ring-black ring-opacity-5\" src=\"https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80\" alt=\"Get Started\" data-v-0dd2ab72></div></div></div>", 1);
 
-var _hoisted_45 = {
+var _hoisted_44 = {
   "class": "max-w-7xl mx-auto py-8 sm:py-24 px-2 sm:px-6 lg:px-3"
 };
 
-var _hoisted_46 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+var _hoisted_45 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "relative text-center text-lg sm:text-4xl uppercase font-extrabold text-gray-900 tracking-tight"
 }, " Några av våra kunder ", -1
 /* HOISTED */
 );
 
-var _hoisted_47 = {
+var _hoisted_46 = {
   "class": "mt-6"
 };
-var _hoisted_48 = {
+var _hoisted_47 = {
   "class": "relative grid grid-rows-1 grid-flow-col gap-4"
 };
-var _hoisted_49 = ["src", "alt"];
+var _hoisted_48 = ["src", "alt"];
 
-var _hoisted_50 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_49 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "h-auto bg-gray-200"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8"
@@ -31254,72 +31407,262 @@ var _hoisted_50 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_51 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3\" data-v-0dd2ab72><div class=\"grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24\" data-v-0dd2ab72><div data-v-0dd2ab72><img class=\"rounded-xl shadow-xl ring-1 ring-black ring-opacity-5\" src=\"sc-logo-bg.png\" alt=\"Get Started\" data-v-0dd2ab72></div><div data-v-0dd2ab72><div data-v-0dd2ab72><span class=\"h-8 sm:h-12 w-8 sm:w-12 rounded-md flex items-center justify-center bg-gradient-to-t from-indigo-600 to-pink-600\" data-v-0dd2ab72><svg class=\"h-4 sm:h-6 w-4 sm:w-6 text-white\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" aria-hidden=\"true\" data-v-0dd2ab72><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4\" data-v-0dd2ab72></path></svg></span></div><div class=\"mt-6\" data-v-0dd2ab72><h2 class=\"text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900\" data-v-0dd2ab72> Kom igång samma dag! </h2><p class=\"mt-4 text-sm sm:text-lg text-gray-500\" data-v-0dd2ab72> Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra. </p></div></div></div></div>", 1);
+var _hoisted_50 = {
+  "class": "relative top-32 sm:top-24 bg-gray-50"
+};
 
-var _hoisted_52 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "relative max-w-2xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3"
+var _hoisted_51 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0",
+  "aria-hidden": "true"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "sm:flex sm:justify-between sm:items-center"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  "class": "sm:block h-auto w-auto",
-  src: "/gasell-smartcash.png",
-  alt: "Gasell"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  "class": "sm:block h-auto w-auto",
-  src: "/UC-dark.png",
-  alt: "UC"
-})])], -1
+  "class": "absolute inset-y-0 right-0 w-full bg-gradient-to-tr from-pink-400 via-purple-400 to-indigo-500"
+})], -1
 /* HOISTED */
 );
 
-var _hoisted_53 = {
+var _hoisted_52 = {
+  "class": "relative max-w-7xl mx-auto lg:px-8 lg:grid lg:grid-cols-2"
+};
+
+var _hoisted_53 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-16 px-4 sm:py-12 sm:px-6 lg:px-0 lg:pr-8"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "max-w-lg mx-auto lg:mx-0"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "mt-2 text-2xl font-extrabold text-white sm:text-3xl"
+}, "BRINTO"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "text-base font-semibold tracking-wide text-indigo-600 uppercase"
+}, " Bokningssystemet för ditt företag! "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("dl", {
+  "class": "mt-12 space-y-10"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "relative"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("dt", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute h-12 w-12 flex items-center justify-center bg-indigo-500 rounded-md"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "h-6 w-6 text-white",
+  xmlns: "http://www.w3.org/2000/svg",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  stroke: "currentColor",
+  "aria-hidden": "true"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "2",
+  d: "M4 6h16M4 10h16M4 14h16M4 18h16"
+})])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "ml-16 text-lg leading-6 font-medium text-gray-50"
+}, "Optimering")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("dd", {
+  "class": "ml-20 text-base text-gray-50"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "mt-2 prose prose-white prose-base text-white mx-auto"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", {
+  role: "list"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Inga dubbelbokningar"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Tar emot bokningar 24/7"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Kundregister, förbered dig innan din kund har anlänt")])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "relative"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("dt", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute h-12 w-12 flex items-center justify-center bg-indigo-500 rounded-md"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "h-6 w-6 text-white",
+  xmlns: "http://www.w3.org/2000/svg",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  stroke: "currentColor",
+  "aria-hidden": "true"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "2",
+  d: "M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"
+})])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "ml-16 text-lg leading-6 font-medium text-gray-50"
+}, "Statistik")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("dd", {
+  "class": "ml-20 text-base text-gray-50"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "mt-2 prose prose-white prose-base text-white mx-auto"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", {
+  role: "list"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Inga Spåra din tillväxt med realtidsrapportering"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Se dina senaste bokningar i detalj"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Översikt på dina mest bokade tider så du kan planera din personal där det behövs")])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "relative"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("dt", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute h-12 w-12 flex items-center justify-center bg-indigo-500 rounded-md"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "h-6 w-6 text-white",
+  xmlns: "http://www.w3.org/2000/svg",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  stroke: "currentColor",
+  "aria-hidden": "true"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "2",
+  d: "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+})])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "ml-16 text-lg leading-6 font-medium text-gray-50"
+}, "Kalender")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("dd", {
+  "class": "ml-20 text-base text-gray-50"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "mt-2 prose prose-white prose-base text-white mx-auto"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", {
+  role: "list"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Drag and Drop, flytta dina bokningar mellan dagar eller personal"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Möjligheter att öppna och stänga tider för specifika tider/dagar")])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "relative"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("dt", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute h-12 w-12 flex items-center justify-center bg-indigo-500 rounded-md"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "h-6 w-6 text-white",
+  xmlns: "http://www.w3.org/2000/svg",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  stroke: "currentColor",
+  "aria-hidden": "true"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  "stroke-linecap": "round",
+  "stroke-linejoin": "round",
+  "stroke-width": "2",
+  d: "M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h 6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+})])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "ml-16 text-lg leading-6 font-medium text-gray-50"
+}, "Anställda (kommer inom kort)")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("dd", {
+  "class": "ml-20 text-base text-gray-50"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "mt-2 prose prose-white prose-base text-white mx-auto"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", {
+  role: "list"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Löneunderlag"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Provision anpassat efter behandlingar pch produkter"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, "Stämpel klocka")])])])])])])], -1
+/* HOISTED */
+);
+
+var _hoisted_54 = {
+  "class": "bg-gradient-to-r from-pink-300 via-purple-400 to-indigo-500 py-16 px-4 sm:py-24 sm:px-6 lg:bg-none lg:px-0 lg:pl-8 lg:flex lg:items-center lg:justify-end"
+};
+
+var _hoisted_55 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "max-w-lg mx-auto w-full space-y-8 lg:mx-0"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", {
+  role: "list",
+  "class": "rounded overflow-hidden grid gap-px sm:grid-cols-2"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_56 = {
+  "class": "mt-12 sm:mt-16 lg:mt-0"
+};
+
+var _hoisted_57 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex justify-center items-center sm:pl-6 md:mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  "class": "mt-36 ml-4",
+  src: "brinto_gradient.png",
+  alt: "Brinto on Android"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_58 = {
+  "class": "flex justify-center items-center pt-16"
+};
+
+var _hoisted_59 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Kom igång med brinto!");
+
+var _hoisted_60 = {
+  "class": "bg-white pt-40"
+};
+var _hoisted_61 = {
+  "class": "max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl"
+};
+var _hoisted_62 = {
+  "class": "relative rounded-lg overflow-hidden lg:h-96"
+};
+
+var _hoisted_63 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "absolute inset-0"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "https://images.unsplash.com/photo-1556740714-a8395b3bf30f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+  alt: "",
+  "class": "w-full h-full object-center object-cover"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_64 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "aria-hidden": "true",
+  "class": "relative w-full h-96 lg:hidden"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_65 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "aria-hidden": "true",
+  "class": "relative w-full h-32 lg:hidden"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_66 = {
+  "class": "absolute inset-x-0 bottom-0 bg-gradient-to-b from-pink-300 via-purple-400 to-indigo-400 bg-opacity-75 p-6 rounded-bl-lg rounded-br-lg backdrop-filter backdrop-blur sm:flex sm:items-center sm:justify-between lg:inset-y-0 lg:inset-x-auto lg:w-96 lg:rounded-tl-lg lg:rounded-br-none lg:flex-col lg:items-start"
+};
+
+var _hoisted_67 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "text-xl font-bold text-white"
+}, "Kolla igenom vad vi har att erbjuda!"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "mt-1 text-sm text-gray-200"
+}, "Vi har 6st paket som du kan välja mellan! Varje Paket innehåller olika produkter för att det ska vara enklare för dig att hitta det du behöver för ditt företag.")], -1
+/* HOISTED */
+);
+
+var _hoisted_68 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Erbjudande");
+
+var _hoisted_69 = {
   "class": "w-full mx-auto py-12 sm:py-24"
 };
 
-var _hoisted_54 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative pb-32 bg-gray-800\" data-v-0dd2ab72><div class=\"absolute inset-0\" data-v-0dd2ab72><img class=\"w-full h-full object-cover\" src=\"support2.svg\" alt=\"\" data-v-0dd2ab72><div class=\"absolute inset-0 bg-gradient-to-tr from-pink-600 via-purple-500 to-indigo-600 mix-blend-multiply\" aria-hidden=\"true\" data-v-0dd2ab72></div></div><div class=\"relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8\" data-v-0dd2ab72><h1 class=\"text-2xl uppercase font-bold tracking-tight text-white md:text-5xl lg:text-4xl\" data-v-0dd2ab72>Vi hjälper dig</h1><p class=\"mt-6 max-w-3xl text-sm sm:text-lg text-gray-200\" data-v-0dd2ab72>Vi är inte omöjliga! När våra kunder har önskemål på funktioner så lyssnar vi och tar till oss det och i mån av tid så brukar vi framställa dom inom 1-3 månader.</p></div></div>", 1);
+var _hoisted_70 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative pb-32 bg-gray-800\" data-v-0dd2ab72><div class=\"absolute inset-0\" data-v-0dd2ab72><img class=\"w-full h-full object-cover\" src=\"https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80\" alt=\"\" data-v-0dd2ab72><div class=\"absolute inset-0 bg-gradient-to-tr from-pink-600 via-purple-500 to-indigo-600 mix-blend-multiply\" aria-hidden=\"true\" data-v-0dd2ab72></div></div><div class=\"relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8\" data-v-0dd2ab72><h1 class=\"text-2xl uppercase font-bold tracking-tight text-white md:text-5xl lg:text-4xl\" data-v-0dd2ab72>Vi hjälper dig</h1><p class=\"mt-6 max-w-3xl text-sm sm:text-lg text-gray-200\" data-v-0dd2ab72>Vi är inte omöjliga! När våra kunder har önskemål på funktioner så lyssnar vi och tar till oss det och i mån av tid så brukar vi framställa dom inom 1-3 månader.</p></div></div>", 1);
 
-var _hoisted_55 = {
+var _hoisted_71 = {
   "class": "-mt-32 max-w-7xl mx-auto relative z-10 px-4 sm:px-6 lg:px-8",
   "aria-labelledby": "contact-heading"
 };
 
-var _hoisted_56 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+var _hoisted_72 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "sr-only",
   id: "contact-heading"
 }, "Kontakta oss", -1
 /* HOISTED */
 );
 
-var _hoisted_57 = {
+var _hoisted_73 = {
   "class": "grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8"
 };
-var _hoisted_58 = {
+var _hoisted_74 = {
   "class": "flex-1 relative pt-16 px-6 pb-8 md:px-8"
 };
-var _hoisted_59 = {
+var _hoisted_75 = {
   "class": "absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2"
 };
-var _hoisted_60 = ["innerHTML"];
-var _hoisted_61 = {
+var _hoisted_76 = ["innerHTML"];
+var _hoisted_77 = {
   "class": "text-xl font-medium text-gray-900"
 };
-var _hoisted_62 = {
+var _hoisted_78 = {
   "class": "mt-4 text-base text-gray-500"
 };
-var _hoisted_63 = {
+var _hoisted_79 = {
   "class": "p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8"
 };
-var _hoisted_64 = ["href"];
+var _hoisted_80 = ["href"];
 
-var _hoisted_65 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Läs mer");
+var _hoisted_81 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Läs mer");
 
-var _hoisted_66 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+var _hoisted_82 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "aria-hidden": "true"
 }, " →", -1
 /* HOISTED */
 );
 
-var _hoisted_67 = [_hoisted_65, _hoisted_66];
+var _hoisted_83 = [_hoisted_81, _hoisted_82];
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
@@ -31504,7 +31847,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Get started Section "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Products "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_31, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("             <div class=\"relative pb-32 bg-gray-800\">\r\n                <div class=\"absolute inset-0\">\r\n                    <img class=\"w-full h-full object-cover\" src=\"https://images.unsplash.com/photo-1556745750-68295fefafc5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80\" alt=\"\">\r\n                    <div class=\"absolute inset-0 aspect-w-1 aspect-h-1 bg-gradient-to-tr from-pink-700 via-purple-400 to-gray-800 mix-blend-multiply\" aria-hidden=\"true\"></div>\r\n                </div>\r\n                <div class=\"relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8\">\r\n                    <h1 class=\"text-2xl uppercase font-bold tracking-tight text-white md:text-5xl lg:text-4xl\"></h1>\r\n                    <p class=\"mt-6 max-w-3xl text-sm sm:text-lg text-gray-300\">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.</p>\r\n                </div>\r\n            </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_32, [_hoisted_33, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_34, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.featuredproducts, function (productfeature) {
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Get started Section "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Products "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("         <div class=\"flex justify-center\">\r\n            <h1 class=\"text-gray-700 text-6xl font-bold\">Rubrik?</h1>\r\n        </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_31, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("             <div class=\"relative pb-32 bg-gray-800\">\r\n                <div class=\"absolute inset-0\">\r\n                    <img class=\"w-full h-full object-cover\" src=\"https://images.unsplash.com/photo-1556745750-68295fefafc5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80\" alt=\"\">\r\n                    <div class=\"absolute inset-0 aspect-w-1 aspect-h-1 bg-gradient-to-tr from-pink-700 via-purple-400 to-gray-800 mix-blend-multiply\" aria-hidden=\"true\"></div>\r\n                </div>\r\n                <div class=\"relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8\">\r\n                    <h1 class=\"text-2xl uppercase font-bold tracking-tight text-white md:text-5xl lg:text-4xl\"></h1>\r\n                    <p class=\"mt-6 max-w-3xl text-sm sm:text-lg text-gray-300\">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.</p>\r\n                </div>\r\n            </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_32, [_hoisted_33, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_34, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.featuredproducts, function (productfeature) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       key: productfeature.id,
       "class": "flex flex-col bg-white shadow-md rounded-2xl"
@@ -31531,7 +31874,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     , ["href"])])]);
   }), 128
   /* KEYED_FRAGMENT */
-  ))])])]), _hoisted_43, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Customers Section "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_45, [_hoisted_46, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_47, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_48, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.customers, function (customer) {
+  ))])])]), _hoisted_43, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Customers Section "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_44, [_hoisted_45, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_46, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_47, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.customers, function (customer) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       key: customer.id,
       "class": "col-span-1 flex justify-center"
@@ -31541,27 +31884,47 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       alt: customer.name
     }, null, 8
     /* PROPS */
-    , _hoisted_49)]);
+    , _hoisted_48)]);
   }), 128
   /* KEYED_FRAGMENT */
-  ))])])]), _hoisted_50, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Another Section (Give name later!!!!) "), _hoisted_51, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("     <div class=\"bg-white\">\r\n        <div class=\"max-w-2xl mx-auto py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8\">\r\n        <div class=\"grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 lg:gap-x-8\">\r\n            <div v-for=\"product in featuredproducts\" :key=\"product.name\">\r\n            <img :src=\"product.imageSrc\" alt=\"\" class=\"h-32 w-auto lg:mx-auto\" />\r\n            <h3 class=\"mt-6 text-sm font-medium text-gray-900\">\r\n                {{ product.name }}\r\n            </h3>\r\n            <p class=\"mt-2 text-sm text-gray-500\">\r\n                {{ product.description }}\r\n            </p>\r\n            </div>\r\n        </div>\r\n        </div>\r\n    </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Another Section (Give name later!!!!) "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("     <div class=\"max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3\">\r\n        <div class=\"grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24 flex-col-reverse\">\r\n            <div>\r\n                <div class=\"mt-6\">\r\n                    <h2 class=\"text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900\">\r\n                        PC-Kassor\r\n                    </h2>\r\n                    <p class=\"mt-4 text-sm sm:text-lg text-gray-500\">\r\n                        Behöver du bara kunna ta betalt med kort? Eller söker du en smart mobil terminal som kan integreras med ditt affärssystem?\r\n                    </p>\r\n                </div>\r\n                <div class=\"py-4\">\r\n                    <a href=\"products.pc-kassa\" class=\"text-base font-medium text-indigo-700 hover:text-indigo-600\">\r\n                        Gå vidare<span aria-hidden=\"true\"> &rarr;</span>\r\n                    </a>\r\n                </div>\r\n            </div>\r\n            <div>\r\n                <img class=\"h-72 w-auto mx-auto\" src=\"droppic4.svg\" alt=\"Get Started\">\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    Another Section (Give name later!!!!) "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("     <div class=\"max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3\">\r\n        <div class=\"grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24\">\r\n                    <div>\r\n                        <img class=\"h-72 w-auto mx-auto\" src=\"droppic3.svg\" alt=\"Get Started\">\r\n                    </div>\r\n            <div>\r\n                <div class=\"mt-6\">\r\n                    <h2 class=\"text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900\">\r\n                        Kortterminaler\r\n                    </h2>\r\n                    <p class=\"mt-4 text-sm sm:text-lg text-gray-500\">\r\n                        Behöver du bara kunna ta betalt med kort? Eller söker du en smart mobil terminal som kan integreras med ditt affärssystem?\r\n                    </p>\r\n                </div>\r\n                <div class=\"py-4\">\r\n                    <a href=\"products.kortterminaler\" class=\"text-base font-medium text-indigo-700 hover:text-indigo-600\">\r\n                        Gå vidare<span aria-hidden=\"true\"> &rarr;</span>\r\n                    </a>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div> "), _hoisted_52, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Support Section "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_53, [_hoisted_54, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_55, [_hoisted_56, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_57, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.contactUs, function (support) {
+  ))])])]), _hoisted_49, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Another Section (Give name later!!!!) "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("     <div class=\"max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3\">\r\n        <div class=\"grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24\">\r\n            <div>\r\n                <img class=\"rounded-xl shadow-xl ring-1 ring-black ring-opacity-5\" src=\"sc-logo-bg.png\" alt=\"Get Started\">\r\n            </div>\r\n            <div>\r\n                <div>\r\n                    <span class=\"h-8 sm:h-12 w-8 sm:w-12 rounded-md flex items-center justify-center bg-gradient-to-t from-indigo-600 to-pink-600\">\r\n                        <svg class=\"h-4 sm:h-6 w-4 sm:w-6 text-white\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" aria-hidden=\"true\">\r\n                            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4\" />\r\n                        </svg>\r\n                    </span>\r\n                </div>\r\n                <div class=\"mt-6\">\r\n                    <h2 class=\"text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900\">\r\n                        Kom igång samma dag!\r\n                    </h2>\r\n                    <p class=\"mt-4 text-sm sm:text-lg text-gray-500\">\r\n                        Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_50, [_hoisted_51, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_52, [_hoisted_53, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_54, [_hoisted_55, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_56, [_hoisted_57, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_58, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    href: "https://brinto.se/",
+    "class": "py-3 px-5 rounded-lg transition duration-500 ease-in-out bg-gradient-to-r from-purple-600 to-indigo-700 hover:from-pink-500 transform hover:-translate-y-1 hover:scale-110 text-gray-200"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_59];
+    }),
+    _: 1
+    /* STABLE */
+
+  })])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_60, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_61, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_62, [_hoisted_63, _hoisted_64, _hoisted_65, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_66, [_hoisted_67, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    href: "erbjudande",
+    "class": "mt-6 flex-shrink-0 flex bg-white bg-opacity-0 py-3 px-4 border border-white border-opacity-25 rounded-md items-center justify-center text-base font-medium text-white hover:bg-opacity-10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_68];
+    }),
+    _: 1
+    /* STABLE */
+
+  })])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("     <div class=\"bg-white\">\r\n        <div class=\"max-w-2xl mx-auto py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8\">\r\n        <div class=\"grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 lg:gap-x-8\">\r\n            <div v-for=\"product in featuredproducts\" :key=\"product.name\">\r\n            <img :src=\"product.imageSrc\" alt=\"\" class=\"h-32 w-auto lg:mx-auto\" />\r\n            <h3 class=\"mt-6 text-sm font-medium text-gray-900\">\r\n                {{ product.name }}\r\n            </h3>\r\n            <p class=\"mt-2 text-sm text-gray-500\">\r\n                {{ product.description }}\r\n            </p>\r\n            </div>\r\n        </div>\r\n        </div>\r\n    </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Another Section (Give name later!!!!) "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("     <div class=\"max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3\">\r\n        <div class=\"grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24 flex-col-reverse\">\r\n            <div>\r\n                <div class=\"mt-6\">\r\n                    <h2 class=\"text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900\">\r\n                        PC-Kassor\r\n                    </h2>\r\n                    <p class=\"mt-4 text-sm sm:text-lg text-gray-500\">\r\n                        Behöver du bara kunna ta betalt med kort? Eller söker du en smart mobil terminal som kan integreras med ditt affärssystem?\r\n                    </p>\r\n                </div>\r\n                <div class=\"py-4\">\r\n                    <a href=\"products.pc-kassa\" class=\"text-base font-medium text-indigo-700 hover:text-indigo-600\">\r\n                        Gå vidare<span aria-hidden=\"true\"> &rarr;</span>\r\n                    </a>\r\n                </div>\r\n            </div>\r\n            <div>\r\n                <img class=\"h-72 w-auto mx-auto\" src=\"droppic4.svg\" alt=\"Get Started\">\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    Another Section (Give name later!!!!) "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("     <div class=\"max-w-7xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3\">\r\n        <div class=\"grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-24\">\r\n                    <div>\r\n                        <img class=\"h-72 w-auto mx-auto\" src=\"droppic3.svg\" alt=\"Get Started\">\r\n                    </div>\r\n            <div>\r\n                <div class=\"mt-6\">\r\n                    <h2 class=\"text-lg sm:text-4xl font-extrabold tracking-tight text-gray-900\">\r\n                        Kortterminaler\r\n                    </h2>\r\n                    <p class=\"mt-4 text-sm sm:text-lg text-gray-500\">\r\n                        Behöver du bara kunna ta betalt med kort? Eller söker du en smart mobil terminal som kan integreras med ditt affärssystem?\r\n                    </p>\r\n                </div>\r\n                <div class=\"py-4\">\r\n                    <a href=\"products.kortterminaler\" class=\"text-base font-medium text-indigo-700 hover:text-indigo-600\">\r\n                        Gå vidare<span aria-hidden=\"true\"> &rarr;</span>\r\n                    </a>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("     <div class=\"relative max-w-2xl mx-auto py-12 sm:py-24 px-2 sm:px-6 lg:px-3\">\r\n        <div class=\"sm:flex sm:justify-between sm:items-center\">\r\n            <img class=\"sm:block h-auto w-auto\" src=\"/gasell-smartcash.png\" alt=\"Gasell\">\r\n            <img class=\"sm:block h-auto w-auto\" src=\"/UC-dark.png\" alt=\"UC\">\r\n        </div>\r\n    </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Support Section "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_69, [_hoisted_70, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_71, [_hoisted_72, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_73, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.contactUs, function (support) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       key: support.id,
       "class": "flex flex-col bg-white rounded-2xl shadow-lg transition duration-500 hover:shadow-2xl"
-    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_58, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_59, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_74, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_75, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
       innerHTML: support.svg
     }, null, 8
     /* PROPS */
-    , _hoisted_60)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_61, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(support.type), 1
+    , _hoisted_76)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_77, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(support.type), 1
     /* TEXT */
-    ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_62, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(support.description), 1
+    ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_78, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(support.description), 1
     /* TEXT */
-    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_63, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_79, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
       href: support.href,
       "class": "text-base font-medium text-indigo-700 hover:text-indigo-600"
-    }, _hoisted_67, 8
+    }, _hoisted_83, 8
     /* PROPS */
-    , _hoisted_64)])]);
+    , _hoisted_80)])]);
   }), 128
   /* KEYED_FRAGMENT */
   ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)], 64

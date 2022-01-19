@@ -28,7 +28,7 @@
                 </div>
                 </div>
                 <div class="pl-96 top-44 hidden sm:block absolute">
-                <Link href="/checkout" class="relative rounded-full shadow-lg transform duration-500 hover:scale-110 left-72 sm:top-56 mt-10 px-2 py-2"> 
+                <Link href="/checkout" class="relative rounded-full transform duration-500 hover:scale-110 left-72 sm:top-56 mt-10 px-2 py-2"> 
                   <!--<Icon name="bag" class="h-14 w-14 transform duration-500 hover:scale-110 rounded-full mx-auto pt-2"></Icon>-->
                   <div class="absolute top-3 -right-1 flex items-center justify-center font-medium rounded-full bg-purple-500 text-white w-5 h-5" style="font-size: 10px">
                     {{ cart.length }}
@@ -82,7 +82,7 @@
               </button>
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             </div>
-            <div v-show="dropdownMobile" class="fixed inset-0 z-10" @click="dropdownMobile = false" />
+            <div v-show="dropdownMobile" class="inset-0 z-10" @click="dropdownMobile = false" />
   
         </nav>
 
@@ -96,23 +96,23 @@
 
         <div v-show="dropdownMobile" @click="dropdownMobile = false" class="top-18 z-10 inset-x-0 p-2 transition transform origin-top-right md:hidden">
             <div class="ring-1 ring-white ring-opacity-75 bg-white dark:bg-black divide-y-2 divide-gray-50 rounded-lg shadow-lg">
-                <div class="pb-6 px-5 bg-gray-50">
-                    <div class="flex items-center justify-between">
+                <div class="pb-6 px-5 bg-white">
+                     <div class="flex items-center justify-between">
                         <div>
                             <img class="h-4 w-auto">
                         </div>
                         <div>
                             <button type="button" @click="dropdownMobile = !dropdownMobile"
-                                    class=" dark:bg-gray-800 rounded-md p-2 inline-flex items-center bg-gray-50 justify-center text-gray-50  hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                                    class=" dark:bg-gray-800 rounded-md p-2 inline-flex items-center justify-center text-gray-50  hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                                 <span class="sr-only">Close menu</span>
                                 <svg class="h-5 w-5 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                                 </svg>
                             </button>
-                        </div>
+                        </div>  
                     </div>
-                  <div class="grid grid-flow-col grid-cols-3 grid-rows-4 gap-x-5 sm:px-2 sm:pt-2 sm:pb-3 sm:space-y-1 break-normal">
-                    <Link v-for="name in names" :key="name.id" :href="route(name.href)" @mouseover="textHover(name.name)" @mouseleave="textHover('')" :class="[hoverText === name.name ? 'transition duration-500 ease-in-out bg-clip-text text-transparent bg-gradient-to-tl from-indigo-600 via-purple-500 to-pink-600' : 'text-gray-600', $page.url === name.url ? 'bg-clip-text text-transparent bg-gradient-to-tl from-indigo-600 via-purple-500 to-pink-600' : '', 'px-3 py-2 rounded-md text-sm font-medium']">
+                  <div class="grid grid-cols-3 gap-2 place-content-start">
+                    <Link v-for="name in names" :key="name.id" :href="route(name.href)" class="flex items-center justify-center bg-gray-100 px-1 py-1 text-gray-600 rounded-md text-sm font-semibold">
                         {{ name.name }}
                     </Link>
                   </div>  
@@ -124,7 +124,7 @@
         
 
       
-        <main class="max-w-2xl mx-auto py-5 px-4 sm:py-12  sm:px-6 lg:max-w-6xl lg:px-8">
+        <main class="max-w-2xl mx-auto py-5 px-4 sm:px-6 lg:max-w-6xl lg:px-8">
             <slot></slot>
         </main>
     

@@ -1,8 +1,28 @@
 <template>
 <Head title="Produkter - Kortterminal"/>
 <product-layout :cart="cart">
+                <div class="relative overflow-hidden">
+                <!-- Decorative background image and gradient -->
+                <div aria-hidden="true" class="absolute inset-0">
+                    <div class="absolute inset-0 max-w-7xl mx-auto overflow-hidden xl:px-8">
+                    <img src="/bg-2.svg" alt="" class="w-full h-full object-center object-cover">
+                    </div>
+                    <div class="absolute inset-0 bg-white bg-opacity-75"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t  via-white"></div>
+                </div>
 
-        <div class="grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+                <!-- Callout -->
+                <section aria-labelledby="sale-heading" class="relative max-w-7xl mx-auto pt-32 px-4 flex flex-col items-center text-center sm:px-6 lg:px-8">
+                    <div class="max-w-2xl mx-auto lg:max-w-none">
+                    <h2 id="sale-heading" class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
+                        Kortterminal
+                    </h2>
+                    <p class="mt-4 max-w-xl mx-auto text-xl text-gray-600">In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra..</p>
+                    </div>
+                </section>
+            </div>  
+
+        <div class="grid grid-cols-2 gap-y-10 sm:grid-cols-4 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 sm:pt-36">
           <Icon name="background2" class="absolute hidden sm:block justify-center items-center"></Icon>  
             <Link
                 v-for="product in productsKortterminal "

@@ -169,9 +169,12 @@
                       Skicka ett meddelande till oss idag! Kontakt informationen finns nedan. Vi hjälper dig gärna med dina frågor. Vi kommer att svara så snart som möjligt.
                     </p>
                   </div>
-                  <footer class="mt-6">
+                  <footer class="mt-6 flex justify-between">
                     <p class="text-base font-medium text-white">Georg Massi</p>
-                    <p class="text-base font-medium text-indigo-100">Smart Cash</p>
+                    <!-- <p class="text-base font-medium text-indigo-100">Smart Cash</p> -->
+ 
+                    <Link class="font-semibold text-gray-200 bg-gradient-to-tr from-purple-500 to-indigo-500 hover:from-purple-600 px-2 py-2 rounded-lg" href="kontakt">Kontakt -></Link>
+
                   </footer>
                 </blockquote>
               </div>
@@ -216,12 +219,14 @@
 import HomepageLayout from './HomepageLayout.vue'
 import {Head} from '@inertiajs/inertia-vue3'
 import Icon from '@/Components/Icon.vue'
+import { Link } from '@inertiajs/inertia-vue3';
 
 export default {
   components :{
     HomepageLayout,
     Head,
     Icon,
+    Link,
   },
 
     data() {
